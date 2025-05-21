@@ -1,0 +1,376 @@
+{% extends "base.html" %}
+
+{% block title %}League Record Book - Full Service Fantasy League{% endblock %}
+
+{% block content %}
+<div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200 mb-8">
+    <h1 class="text-3xl font-bold mb-6 text-primary-dark border-b pb-2">League Record Book</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div class="bg-gray-50 p-4 rounded-lg border border-gray-200 shadow-sm">
+            <h2 class="text-xl font-semibold mb-3 text-indigo-700">Single Week Records</h2>
+            <ul class="space-y-3 text-sm">
+                <li>
+                    <span class="font-medium text-gray-600 block">Highest Score (Reg Season):</span>
+                    {% if records.high_score_reg and (records.high_score_reg.score != 0.0 or records.high_score_reg.player_name != 'N/A') %}
+                        <span class="text-lg font-semibold text-green-700">{{ records.high_score_reg.score|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.high_score_reg.player_name }} (vs {{ records.high_score_reg.opponent_name }}, Week {{ records.high_score_reg.week }}, {{ records.high_score_reg.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+
+                <li>
+                    <span class="font-medium text-gray-600 block">Highest Score (Playoffs - Single Week):</span>
+                    {% if records.high_score_playoff and (records.high_score_playoff.score != 0.0 or records.high_score_playoff.player_name != 'N/A') %}
+                        <span class="text-lg font-semibold text-green-700">{{ records.high_score_playoff.score|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.high_score_playoff.player_name }} (vs {{ records.high_score_playoff.opponent_name }}, {{ records.high_score_playoff.game_type|replace('_', ' ')|capitalize }}, {{ records.high_score_playoff.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+
+                <li>
+                    <span class="font-medium text-gray-600 block">Lowest Score (Single Week):</span>
+                    {% if records.low_score and records.low_score.score != float('inf') %}
+                        <span class="text-lg font-semibold text-red-700">{{ records.low_score.score|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.low_score.player_name }} (vs {{ records.low_score.opponent_name }}, Week {{ records.low_score.week }}, {{ records.low_score.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Lowest Combined Score (Single Week):</span>
+                    {% if records.low_combined_score and records.low_combined_score.combined_score != float('inf') %}
+                        {% set lc_p1s_numeric = records.low_combined_score.player1_score | float(default=None) %}
+                        {% set lc_p2s_numeric = records.low_combined_score.player2_score | float(default=None) %}
+                        <span class="text-lg font-semibold text-rose-700">{{ records.low_combined_score.combined_score|float|round(2) }}</span>
+                        <span class="text-gray-800">
+                            ({{ records.low_combined_score.p1_name }} {% if lc_p1s_numeric is not none %}{{ lc_p1s_numeric|round(2) }}{% else %}N/A{% endif %} vs
+                             {{ records.low_combined_score.p2_name }} {% if lc_p2s_numeric is not none %}{{ lc_p2s_numeric|round(2) }}{% else %}N/A{% endif %},
+                             Week {{ records.low_combined_score.week_start }}, {{ records.low_combined_score.year }})
+                        </span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+
+                <li>
+                    <span class="font-medium text-gray-600 block">Largest Margin of Victory (Single Week):</span>
+                    {% if records.largest_mov and (records.largest_mov.margin != 0.0 or records.largest_mov.p1_name != 'N/A') %}
+                        {% set lm_p1s_numeric = records.largest_mov.player1_score | float(default=None) %}
+                        {% set lm_p2s_numeric = records.largest_mov.player2_score | float(default=None) %}
+                        {% set lm_winner_name = "N/A" %}
+                        {% set lm_loser_name = "N/A" %}
+
+                        {% if lm_p1s_numeric is not none and lm_p2s_numeric is not none %}
+                            {% if lm_p1s_numeric > lm_p2s_numeric %}
+                                {% set lm_winner_name = records.largest_mov.p1_name %}
+                                {% set lm_loser_name = records.largest_mov.p2_name %}
+                            {% elif lm_p2s_numeric > lm_p1s_numeric %}
+                                {% set lm_winner_name = records.largest_mov.p2_name %}
+                                {% set lm_loser_name = records.largest_mov.p1_name %}
+                            {% else %} {# Scores are equal #}
+                                {% set lm_winner_name = records.largest_mov.p1_name %} {# Or indicate tie if margin is 0 #}
+                                {% set lm_loser_name = records.largest_mov.p2_name %}
+                            {% endif %}
+                        {% elif lm_p1s_numeric is not none %} {# Only p1 has a score #}
+                            {% set lm_winner_name = records.largest_mov.p1_name %}
+                            {% set lm_loser_name = records.largest_mov.p2_name %}
+                        {% elif lm_p2s_numeric is not none %} {# Only p2 has a score #}
+                            {% set lm_winner_name = records.largest_mov.p2_name %}
+                            {% set lm_loser_name = records.largest_mov.p1_name %}
+                        {% endif %}
+
+                        <span class="text-lg font-semibold text-blue-700">{{ records.largest_mov.margin|float|round(2) }} points</span>
+                        <span class="text-gray-800">
+                            by {{ lm_winner_name }} over {{ lm_loser_name }}
+                            ({% if lm_p1s_numeric is not none %}{{ lm_p1s_numeric|round(2) }}{% else %}N/A{% endif %} -
+                             {% if lm_p2s_numeric is not none %}{{ lm_p2s_numeric|round(2) }}{% else %}N/A{% endif %},
+                             Week {{ records.largest_mov.week_start }}, {{ records.largest_mov.year }})
+                        </span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Largest Playoff MOV (Single Week):</span>
+                    {% if records.largest_playoff_mov and (records.largest_playoff_mov.margin != 0.0 or records.largest_playoff_mov.p1_name != 'N/A') %}
+                        {# This is the block causing the error, applying robust score handling #}
+                        {% set lpm_p1s_numeric = records.largest_playoff_mov.player1_score | float(default=None) %}
+                        {% set lpm_p2s_numeric = records.largest_playoff_mov.player2_score | float(default=None) %}
+                        {% set lpm_winner_name = "N/A" %}
+                        {% set lpm_loser_name = "N/A" %}
+
+                        {% if lpm_p1s_numeric is not none and lpm_p2s_numeric is not none %}
+                            {% if lpm_p1s_numeric > lpm_p2s_numeric %}
+                                {% set lpm_winner_name = records.largest_playoff_mov.p1_name %}
+                                {% set lpm_loser_name = records.largest_playoff_mov.p2_name %}
+                            {% elif lpm_p2s_numeric > lpm_p1s_numeric %}
+                                {% set lpm_winner_name = records.largest_playoff_mov.p2_name %}
+                                {% set lpm_loser_name = records.largest_playoff_mov.p1_name %}
+                            {% else %} {# Scores are equal #}
+                                {% set lpm_winner_name = records.largest_playoff_mov.p1_name %}
+                                {% set lpm_loser_name = records.largest_playoff_mov.p2_name %}
+                            {% endif %}
+                        {% elif lpm_p1s_numeric is not none %} {# Only p1 has a score #}
+                            {% set lpm_winner_name = records.largest_playoff_mov.p1_name %}
+                            {% set lpm_loser_name = records.largest_playoff_mov.p2_name %}
+                        {% elif lpm_p2s_numeric is not none %} {# Only p2 has a score #}
+                            {% set lpm_winner_name = records.largest_playoff_mov.p2_name %}
+                            {% set lpm_loser_name = records.largest_playoff_mov.p1_name %}
+                        {% endif %}
+
+                        <span class="text-lg font-semibold text-indigo-700">{{ records.largest_playoff_mov.margin|float|round(2) }} points</span>
+                        <span class="text-gray-800">
+                            by {{ lpm_winner_name }} over {{ lpm_loser_name }}
+                            ({% if lpm_p1s_numeric is not none %}{{ lpm_p1s_numeric|round(2) }}{% else %}N/A{% endif %} -
+                             {% if lpm_p2s_numeric is not none %}{{ lpm_p2s_numeric|round(2) }}{% else %}N/A{% endif %},
+                             {{ records.largest_playoff_mov.game_type|replace('_', ' ')|capitalize }}, {{ records.largest_playoff_mov.year }})
+                        </span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+
+                 <li>
+                    <span class="font-medium text-gray-600 block">Smallest Margin of Victory (Single Week):</span>
+                     {% if records.smallest_mov and records.smallest_mov.margin != float('inf') %}
+                        {% set sm_p1s_numeric = records.smallest_mov.player1_score | float(default=None) %}
+                        {% set sm_p2s_numeric = records.smallest_mov.player2_score | float(default=None) %}
+                        {% set sm_winner_name = "N/A" %}
+                        {% set sm_loser_name = "N/A" %}
+
+                        {% if sm_p1s_numeric is not none and sm_p2s_numeric is not none %}
+                            {% if sm_p1s_numeric > sm_p2s_numeric %}
+                                {% set sm_winner_name = records.smallest_mov.p1_name %}
+                                {% set sm_loser_name = records.smallest_mov.p2_name %}
+                            {% elif sm_p2s_numeric > sm_p1s_numeric %}
+                                {% set sm_winner_name = records.smallest_mov.p2_name %}
+                                {% set sm_loser_name = records.smallest_mov.p1_name %}
+                            {% else %}
+                                {% set sm_winner_name = records.smallest_mov.p1_name %}
+                                {% set sm_loser_name = records.smallest_mov.p2_name %}
+                            {% endif %}
+                        {% elif sm_p1s_numeric is not none %}
+                            {% set sm_winner_name = records.smallest_mov.p1_name %}
+                            {% set sm_loser_name = records.smallest_mov.p2_name %}
+                        {% elif sm_p2s_numeric is not none %}
+                            {% set sm_winner_name = records.smallest_mov.p2_name %}
+                            {% set sm_loser_name = records.smallest_mov.p1_name %}
+                        {% endif %}
+                        <span class="text-lg font-semibold text-orange-700">{{ records.smallest_mov.margin|float|round(2) }} points</span>
+                         <span class="text-gray-800">
+                            by {{ sm_winner_name }} over {{ sm_loser_name }}
+                            ({% if sm_p1s_numeric is not none %}{{ sm_p1s_numeric|round(2) }}{% else %}N/A{% endif %} -
+                             {% if sm_p2s_numeric is not none %}{{ sm_p2s_numeric|round(2) }}{% else %}N/A{% endif %},
+                             Week {{ records.smallest_mov.week_start }}, {{ records.smallest_mov.year }})
+                        </span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+
+                 <li>
+                    <span class="font-medium text-gray-600 block">Closest Playoff Game (Single Week):</span>
+                    {% if records.closest_playoff_game and records.closest_playoff_game.margin != float('inf') %}
+                        {% set cpg_p1s_numeric = records.closest_playoff_game.player1_score | float(default=None) %}
+                        {% set cpg_p2s_numeric = records.closest_playoff_game.player2_score | float(default=None) %}
+                        {% set cpg_winner_name = "N/A" %}
+                        {% set cpg_loser_name = "N/A" %}
+
+                        {% if cpg_p1s_numeric is not none and cpg_p2s_numeric is not none %}
+                            {% if cpg_p1s_numeric > cpg_p2s_numeric %}
+                                {% set cpg_winner_name = records.closest_playoff_game.p1_name %}
+                                {% set cpg_loser_name = records.closest_playoff_game.p2_name %}
+                            {% elif cpg_p2s_numeric > cpg_p1s_numeric %}
+                                {% set cpg_winner_name = records.closest_playoff_game.p2_name %}
+                                {% set cpg_loser_name = records.closest_playoff_game.p1_name %}
+                            {% else %}
+                                {% set cpg_winner_name = records.closest_playoff_game.p1_name %}
+                                {% set cpg_loser_name = records.closest_playoff_game.p2_name %}
+                            {% endif %}
+                        {% elif cpg_p1s_numeric is not none %}
+                            {% set cpg_winner_name = records.closest_playoff_game.p1_name %}
+                            {% set cpg_loser_name = records.closest_playoff_game.p2_name %}
+                        {% elif cpg_p2s_numeric is not none %}
+                            {% set cpg_winner_name = records.closest_playoff_game.p2_name %}
+                            {% set cpg_loser_name = records.closest_playoff_game.p1_name %}
+                        {% endif %}
+                        <span class="text-lg font-semibold text-purple-700">{{ records.closest_playoff_game.margin|float|round(2) }} points</span>
+                         <span class="text-gray-800">
+                            by {{ cpg_winner_name }} over {{ cpg_loser_name }}
+                            ({% if cpg_p1s_numeric is not none %}{{ cpg_p1s_numeric|round(2) }}{% else %}N/A{% endif %} -
+                             {% if cpg_p2s_numeric is not none %}{{ cpg_p2s_numeric|round(2) }}{% else %}N/A{% endif %},
+                             {{ records.closest_playoff_game.game_type|replace('_', ' ')|capitalize }}, {{ records.closest_playoff_game.year }})
+                        </span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+
+        <div class="bg-gray-50 p-4 rounded-lg border border-gray-200 shadow-sm">
+            <h2 class="text-xl font-semibold mb-3 text-indigo-700">Season & Career Records</h2>
+             <ul class="space-y-3 text-sm">
+                 <li>
+                    <span class="font-medium text-gray-600 block">Most Points For (Single Season):</span>
+                    {% if records.high_pf_season and (records.high_pf_season.value != 0.0 or records.high_pf_season.player_name != 'N/A') %}
+                        <span class="text-lg font-semibold text-green-700">{{ records.high_pf_season.value|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.high_pf_season.player_name }} ({{ records.high_pf_season.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Lowest Points For (Single Season):</span>
+                    {% if records.lowest_pf_season and records.lowest_pf_season.value != float('inf') %}
+                        <span class="text-lg font-semibold text-red-700">{{ records.lowest_pf_season.value|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.lowest_pf_season.player_name }} ({{ records.lowest_pf_season.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Most Points Against (Single Season):</span>
+                    {% if records.most_pa_season and (records.most_pa_season.value != 0.0 or records.most_pa_season.player_name != 'N/A') %}
+                        <span class="text-lg font-semibold text-orange-700">{{ records.most_pa_season.value|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.most_pa_season.player_name }} ({{ records.most_pa_season.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Highest Points Per Game Avg (Single Season):</span>
+                    {% if records.high_ppg_season and (records.high_ppg_season.value != 0.0 or records.high_ppg_season.player_name != 'N/A') %}
+                        <span class="text-lg font-semibold text-green-700">{{ records.high_ppg_season.value|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.high_ppg_season.player_name }} ({{ records.high_ppg_season.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Lowest Points Per Game Avg (Single Season):</span>
+                    {% if records.lowest_ppg_season and records.lowest_ppg_season.value != float('inf') %}
+                        <span class="text-lg font-semibold text-red-700">{{ records.lowest_ppg_season.value|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.lowest_ppg_season.player_name }} ({{ records.lowest_ppg_season.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Best Regular Season Record:</span>
+                    {% if records.best_season_rec and records.best_season_rec.player_name != 'N/A' %}
+                        <span class="text-lg font-semibold text-blue-700">{{ records.best_season_rec.regular_season_record or "{w}-{l}-{t}".format(w=records.best_season_rec.wins, l=records.best_season_rec.losses, t=records.best_season_rec.ties) }}</span>
+                        <span class="text-gray-800">by {{ records.best_season_rec.player_name }} ({{ records.best_season_rec.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Worst Regular Season Record:</span>
+                    {% if records.worst_season_rec and records.worst_season_rec.player_name != 'N/A' %}
+                        <span class="text-lg font-semibold text-red-700">{{ records.worst_season_rec.regular_season_record or "{w}-{l}-{t}".format(w=records.worst_season_rec.wins, l=records.worst_season_rec.losses, t=records.worst_season_rec.ties) }}</span>
+                        <span class="text-gray-800">by {{ records.worst_season_rec.player_name }} ({{ records.worst_season_rec.year }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Longest Winning Streak (Single Season):</span>
+                    {% if records.longest_win_streak and records.longest_win_streak.streak > 0 %}
+                        <span class="text-lg font-semibold text-emerald-700">{{ records.longest_win_streak.streak }} games</span>
+                        <span class="text-gray-800">by {{ records.longest_win_streak.player_name }} ({{ records.longest_win_streak.details }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Longest Losing Streak (Single Season):</span>
+                    {% if records.longest_loss_streak and records.longest_loss_streak.streak > 0 %}
+                        <span class="text-lg font-semibold text-rose-700">{{ records.longest_loss_streak.streak }} games</span>
+                        <span class="text-gray-800">by {{ records.longest_loss_streak.player_name }} ({{ records.longest_loss_streak.details }})</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Most Points For (Career):</span>
+                    {% if records.most_career_pf %} {# Check if list is not empty #}
+                        <span class="text-lg font-semibold text-emerald-700">{{ '{:,.2f}'.format(records.most_career_pf[0].count|float) }}</span>
+                        <span class="text-gray-800">by {{ records.most_career_pf|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Highest PPG Avg (Career):</span>
+                    {% if records.highest_career_ppg %} {# Check if list is not empty #}
+                        <span class="text-lg font-semibold text-emerald-700">{{ records.highest_career_ppg[0].count|float|round(2) }}</span>
+                        <span class="text-gray-800">by {{ records.highest_career_ppg|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Most Championships (Career):</span>
+                    {% if records.most_championships %}
+                        <span class="text-lg font-semibold text-amber-700">{{ records.most_championships[0].count }}</span>
+                        <span class="text-gray-800">by {{ records.most_championships|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Most Championship Appearances (Career):</span>
+                    {% if records.most_champ_appearances %}
+                        <span class="text-lg font-semibold text-amber-600">{{ records.most_champ_appearances[0].count }}</span>
+                        <span class="text-gray-800">by {{ records.most_champ_appearances|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <span class="font-medium text-gray-600 block">Most Playoff Appearances (Career):</span>
+                    {% if records.most_playoffs %}
+                        <span class="text-lg font-semibold text-cyan-700">{{ records.most_playoffs[0].count }}</span>
+                        <span class="text-gray-800">by {{ records.most_playoffs|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Most Toilet Bowl Wins (Career):</span>
+                    {% if records.most_toilet_wins %}
+                        <span class="text-lg font-semibold text-lime-700">{{ records.most_toilet_wins[0].count }} 🚽</span>
+                        <span class="text-gray-800">by {{ records.most_toilet_wins|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Most Toilet Bowl Losses (Career):</span>
+                    {% if records.most_toilet_losses %}
+                        <span class="text-lg font-semibold text-rose-700">{{ records.most_toilet_losses[0].count }} 💩</span>
+                        <span class="text-gray-800">by {{ records.most_toilet_losses|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+                 <li>
+                    <span class="font-medium text-gray-600 block">Most Toilet Bowl Appearances (Career):</span>
+                    {% if records.most_toilet_appearances %}
+                        <span class="text-lg font-semibold text-gray-600">{{ records.most_toilet_appearances[0].count }}</span>
+                        <span class="text-gray-800">by {{ records.most_toilet_appearances|map(attribute='player_name')|join(', ') }}</span>
+                    {% else %}
+                        <span class="text-gray-500">N/A</span>
+                    {% endif %}
+                </li>
+
+             </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "wsgi.py", // Or "app.py" if you don't use a wsgi.py
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "45mb", "runtime": "python3.9" } // Adjust python version if needed
+      }
+    ],
+    "routes": [
+      {
+        "src": "/static/(.*)", // Route for your static files
+        "dest": "/static/$1"
+      },
+      {
+        "src": "/(.*)",        // Route all other requests to your Flask app
+        "dest": "wsgi.py"     // Or "app.py" if not using wsgi.py
+      }
+    ]
+  }
+  

@@ -1,0 +1,193 @@
+{% extends "base.html" %}
+
+{% block title %}League Home - Full Service Fantasy League{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <style>
+        .hero-text-shadow {
+            text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .hero-section {
+            min-height: 50vh;
+            max-height: 650px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card-hover-effect {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-hover-effect:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.08);
+        }
+        .champion-card, .shame-card { /* Shared base style */
+            position: relative;
+            overflow: hidden;
+        }
+        .champion-image, .shame-image { /* Shared base style */
+            width: 100%;
+            max-height: 240px;
+            object-fit: contain; /* Keep this for Hall of Champions/Shame for full image */
+            object-position: center center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .champion-image {
+            background-color: #334155; /* neutral-700, for letterbox area */
+        }
+        .shame-image {
+            background-color: #4b5563; /* gray-600 or a darker neutral for shame */
+        }
+        .champion-card:hover .champion-image, .shame-card:hover .shame-image {
+            transform: scale(1.05);
+        }
+        .champion-overlay, .shame-overlay { /* Shared base style */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 60%, transparent 100%);
+            padding: 0.75rem; /* p-3 */
+            color: white;
+        }
+        .champion-crown, .shame-indicator { /* Shared base style */
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            font-size: 1.875rem; /* text-3xl */
+            text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+        }
+        .champion-crown {
+            color: #f59e0b; /* amber-DEFAULT */
+        }
+        .shame-indicator {
+            color: #7f1d1d; /* A dark red, or choose another "shameful" color/icon */
+            /* If using an emoji like 💩, color might not apply directly, but shadow does */
+        }
+        .current-champion-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover; /* Changed back to 'cover' for cropped circle */
+            object-position: center top; /* Prioritize face */
+            border-radius: 50%; /* Circular image */
+            border: 3px solid {{ tailwind.config.theme.extend.colors.amber.DEFAULT if tailwind else '#f59e0b' }};
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            /* background-color: #e2e8f0; Removed, not needed for 'cover' */
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+{# --- Hero Section --- #}
+<div class="hero-section relative rounded-xl shadow-2xl overflow-hidden mb-12 bg-neutral-800">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-in-out hover:scale-105"
+         style="background-image: url('{{ url_for('static', filename='images/hero-background.jpg') }}');">
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral-900/80 via-neutral-900/60 to-transparent/30"></div>
+
+    <div class="relative z-10 h-full flex flex-col justify-center items-center text-center p-6 md:p-12">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading text-white hero-text-shadow mb-4 leading-tight">
+            Welcome to the <span class="text-primary-light">Full Service</span> Fantasy Hub!
+        </h1>
+        <p class="text-lg sm:text-xl text-neutral-200 hero-text-shadow max-w-3xl mb-8">
+            Your ultimate destination for league history, player stats, intense rivalries, and the eternal quest for the championship trophy.
+        </p>
+        <div>
+            <a href="{{ url_for('seasons_list') }}"
+               class="bg-primary hover:bg-primary-dark focus:bg-primary-dark active:bg-primary-darker text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105 text-lg focus:outline-none focus:ring-4 focus:ring-primary-medium/50">
+                Explore Seasons &rarr;
+            </a>
+        </div>
+    </div>
+</div>
+
+{# --- Current Champion Section --- #}
+<div class="bg-white p-6 sm:p-8 rounded-xl shadow-xl border border-neutral-200/80 mb-10 text-center card-hover-effect">
+    <h2 class="text-3xl font-bold font-heading text-primary-dark mb-4">League Overview</h2>
+    {% if latest_champion %}
+        <div class="flex flex-col items-center mb-4">
+            <img src="{{ url_for('static', filename='images/players/' + latest_champion.winner_id|string + '.png') }}"
+                 alt="{{ latest_champion.winner_name }}"
+                 class="current-champion-image mb-3"
+                 onerror="this.onerror=null; this.src='https://placehold.co/100x100/e2e8f0/94a3b8?text={{ latest_champion.winner_name[0]|upper if latest_champion.winner_name else 'P' }}&font=lexend'; this.classList.add('bg-neutral-300');">
+            <p class="text-xl font-semibold text-amber-600">
+                Current Reigning Champion ({{ latest_champion.year }}):
+                <a href="{{ url_for('player_detail', player_id=latest_champion.winner_id) }}" class="hover:underline decoration-amber-600/70 decoration-2 underline-offset-2 font-bold">
+                     {{ latest_champion.winner_name }}
+                </a>
+                 <span class="inline-block ml-1 animate-pulse">👑</span>
+            </p>
+        </div>
+    {% else %}
+        <p class="text-xl text-neutral-600 mb-4">The battle for the next championship is on!</p>
+    {% endif %}
+    <p class="text-neutral-700 text-base">Dive into player profiles, season recaps, and the all-time record book.</p>
+</div>
+
+{# --- Hall of Champions Section --- #}
+{% if all_champions %}
+<div class="bg-white p-6 sm:p-8 rounded-xl shadow-xl border border-neutral-200/80 mb-10 card-hover-effect">
+    <h2 class="text-3xl font-bold font-heading text-primary-dark mb-6 text-center border-b border-neutral-300 pb-4">Hall of Champions</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {% for champion in all_champions %}
+            <div class="champion-card bg-neutral-800 rounded-lg shadow-lg card-hover-effect">
+                <a href="{{ url_for('player_detail', player_id=champion.winner_id) }}" class="block">
+                    <img src="{{ url_for('static', filename='images/players/' + champion.winner_id|string + '.png') }}"
+                         alt="Champion: {{ champion.winner_name }}"
+                         class="champion-image rounded-t-lg"
+                         onerror="this.onerror=null; this.src='https://placehold.co/300x240/334155/e2e8f0?text={{ champion.winner_name[0]|upper if champion.winner_name else 'C' }}&font=lexend'; this.classList.add('bg-neutral-700');">
+                    <div class="champion-overlay">
+                        <h3 class="text-lg font-semibold font-heading truncate">{{ champion.winner_name }}</h3>
+                        <p class="text-sm text-amber-300">{{ champion.year }} Champion</p>
+                    </div>
+                    <span class="champion-crown" title="{{champion.year}} Champion">🏆</span>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{# --- Hall of Shame Section (Toilet Bowl Losers) --- #}
+{% if all_toilet_losers %}
+<div class="bg-white p-6 sm:p-8 rounded-xl shadow-xl border border-neutral-200/80 mb-10 card-hover-effect">
+    <h2 class="text-3xl font-bold font-heading text-rose-700 mb-6 text-center border-b border-neutral-300 pb-4">Hall of Shame</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {% for loser in all_toilet_losers %}
+            <div class="shame-card bg-neutral-700 rounded-lg shadow-lg card-hover-effect"> {# Slightly different bg for shame card #}
+                <a href="{{ url_for('player_detail', player_id=loser.loser_id) }}" class="block">
+                    <img src="{{ url_for('static', filename='images/players/' + loser.loser_id|string + '.png') }}"
+                         alt="Toilet Bowl Loser: {{ loser.loser_name }}"
+                         class="shame-image rounded-t-lg"
+                         onerror="this.onerror=null; this.src='https://placehold.co/300x240/4b5563/e2e8f0?text={{ loser.loser_name[0]|upper if loser.loser_name else 'S' }}&font=lexend'; this.classList.add('bg-neutral-600');">
+                    <div class="shame-overlay">
+                        <h3 class="text-lg font-semibold font-heading truncate">{{ loser.loser_name }}</h3>
+                        <p class="text-sm text-rose-300">{{ loser.year }} Toilet Bowl Loser</p>
+                    </div>
+                    <span class="shame-indicator" title="{{loser.year}} Toilet Bowl Loser">💩</span> {# Poop Emoji for shame #}
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+
+<div class="bg-white p-6 sm:p-8 rounded-xl shadow-xl border border-neutral-200/80 card-hover-effect">
+    <h2 class="text-2xl font-semibold font-heading mb-6 text-neutral-800 border-b border-neutral-300 pb-3">League Members</h2>
+    {% if players %}
+        <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {% for player in players %}
+                <li class="bg-neutral-50 hover:bg-primary-light/30 border border-transparent hover:border-primary-medium/50 p-3 rounded-lg shadow-sm hover:shadow-md transition duration-200 text-center transform hover:scale-105">
+                    <a href="{{ url_for('player_detail', player_id=player.player_id) }}" class="font-medium text-primary-medium hover:text-primary-dark block py-2">
+                        {{ player.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-neutral-500">No players found in the database.</p>
+    {% endif %}
+</div>
+{% endblock %}
