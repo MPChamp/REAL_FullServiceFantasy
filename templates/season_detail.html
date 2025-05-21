@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+
+{% block title %}{{ year }} Season Details - Fantasy League{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <style>
+        .season-image-clickable {
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .season-image-clickable:hover {
+            transform: scale(1.05);
+        }
+        /* Re-using table-player-image style from standings.html for consistency */
+        .table-player-image {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 0.25rem; /* rounded-sm */
+            border: 1px solid {{ tailwind.config.theme.extend.colors.neutral[300] if tailwind else '#cbd5e1' }};
+            box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+            margin-right: 0.75rem; /* mr-3 */
+            flex-shrink: 0;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<div class="bg-white p-6 rounded-xl shadow-xl border border-neutral-200/80 mb-8 card-hover-effect">
+     <div class="flex flex-col sm:flex-row items-center sm:items-end mb-6 border-b border-neutral-300 pb-6">
+         <img
+            src="{{ url_for('static', filename='images/seasons/' + year|string + '.png') }}"
+            alt="{{ year }} Season Image"
+            class="w-24 h-16 object-contain mb-3 sm:mb-0 sm:mr-4 rounded-md season-image-clickable"
+            onerror="this.onerror=null; this.src='https://placehold.co/96x64/e2e8f0/94a3b8?text={{ year }}'; this.classList.add('bg-neutral-300');"
+            onclick="openModal(this)"
+          >
+        <h1 class="text-3xl font-bold font-heading text-primary-dark text-center sm:text-left">{{ year }} Season Standings</h1>
+    </div>
+
+    {% if championship %}
+    <div class="mb-8 text-center bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 text-white p-4 rounded-lg shadow-lg">
+        <p class="text-xl font-semibold"><span class="text-2xl inline-block -mt-1 mr-1">🏆</span> Champion:
+            <a href="{{ url_for('player_detail', player_id=championship.winner_id) }}" class="hover:underline font-bold">{{ championship.winner_name }}</a>
+        </p>
+        <p class="text-lg"><span class="text-xl inline-block -mt-1 mr-1">🥈</span> Runner-up:
+            <a href="{{ url_for('player_detail', player_id=championship.runner_up_id) }}" class="hover:underline">{{ championship.runner_up_name }}</a>
+        </p>
+    </div>
+    {% endif %}
+
+    {% if results %}
+        <div class="overflow-x-auto mb-8 shadow-md rounded-lg border border-neutral-200/80">
+            <table class="min-w-full divide-y divide-neutral-200">
+                <thead class="bg-neutral-100">
+                    <tr>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Rank</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Player</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Record (W-L-T)</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">PF</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">PA</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Playoffs?</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-neutral-200">
+                    {% for result in results %}
+                        <tr class="hover:bg-primary-light/20 transition duration-150">
+                            <td class="px-4 py-3 whitespace-nowrap text-sm font-medium {% if result.rank == 1 %}text-amber-600{% elif result.rank == 2 %}text-neutral-500{% elif result.rank == 3 %}text-orange-600{% else %}text-neutral-700{% endif %}">
+                                {{ result.rank }}
+                                {% if result.rank == 1 %} <span title="Champion">🏆</span>
+                                {% elif result.rank == 2 %} <span title="Runner-up">🥈</span>
+                                {% elif result.rank == 3 %} <span title="3rd Place">🥉</span>
+                                {% elif result.player_id == toilet_bowl_winner_id %} <span title="Toilet Bowl Winner">🚽</span>
+                                {% elif result.player_id == toilet_bowl_loser_id %} <span title="Toilet Bowl Loser">💩</span>
+                                {% endif %}
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm font-medium text-primary-medium">
+                                <a href="{{ url_for('player_detail', player_id=result.player_id) }}" class="flex items-center hover:text-primary-dark hover:underline">
+                                    <img src="{{ url_for('static', filename='images/players/' + result.player_id|string + '.png') }}"
+                                         alt="{{ result.name }}"
+                                         class="table-player-image"
+                                         onerror="this.onerror=null; this.src='https://placehold.co/32x32/e2e8f0/94a3b8?text={{ result.name[0]|upper if result.name else 'P' }}'; this.classList.add('bg-neutral-300');">
+                                    <span>{{ result.name }}</span>
+                                </a>
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                {{ result.regular_season_record or "{wins}-{losses}-{ties}"|format(wins=result.wins|default(0,true), losses=result.losses|default(0,true), ties=result.ties|default(0,true)) }}
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                {{ result.points_for|default('N/A', true)|round(2) }}
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                {{ result.points_against|default('N/A', true)|round(2) }}
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm">
+                                {% if result.made_playoffs == 1 %}
+                                    <span class="px-2.5 py-0.5 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Yes</span>
+                                {% elif result.made_playoffs == 0 %}
+                                     <span class="px-2.5 py-0.5 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">No</span>
+                                {% else %}
+                                     <span class="px-2.5 py-0.5 inline-flex text-xs leading-5 font-semibold rounded-full bg-neutral-100 text-neutral-700">N/A</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="text-neutral-500 mt-4 mb-8">No results found for the {{ year }} season.</p>
+    {% endif %}
+
+    <div class="border-t border-neutral-300 pt-6">
+        <h2 class="text-2xl font-semibold font-heading mb-4 text-neutral-700">Weekly Results</h2>
+        {% if weeks %}
+            <div class="flex flex-wrap gap-2">
+                {% for week_info in weeks %}
+                    {% set week_num = week_info.week_start %}
+                    <a href="{{ url_for('weekly_results', year=year, week_num=week_num) }}"
+                       class="bg-primary-light hover:bg-teal-200 text-primary-darker font-medium py-1.5 px-3.5 rounded-full text-sm transition duration-150 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-medium focus:ring-offset-1">
+                       Week {{ week_num }} {% if week_info.is_playoff %}<span class="text-xs opacity-75">(P)</span>{% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="text-neutral-500">No weekly matchup data found for this season.</p>
+        {% endif %}
+    </div>
+
+    <div class="mt-10">
+        <a href="{{ url_for('seasons_list') }}" class="text-sm text-primary-medium hover:text-primary-dark hover:underline">&larr; Back to Seasons List</a>
+    </div>
+</div>
+{% endblock %}

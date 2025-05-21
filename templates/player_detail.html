@@ -1,0 +1,357 @@
+{% extends "base.html" %}
+
+{% block title %}{{ player_name }} - Player Details - Full Service Fantasy League{% endblock %}
+
+{% block head %}
+    {{ super() }} {# This will now include Chart.js from the updated base.html #}
+    <style>
+        .chart-container {
+            position: relative;
+            height: 280px; /* Slightly increased height */
+            width: 100%;
+            max-width: 700px; /* Slightly increased max-width */
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0.5rem; /* Added padding inside container */
+        }
+        .player-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 0.375rem; /* rounded-md */
+            /* Referencing primary.medium color directly as an example if needed elsewhere, but JS will use hex */
+            border: 3px solid #0d9488; /* primary-medium from your config */
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); /* shadow-md */
+            cursor: pointer;
+        }
+        /* Style for the placeholder text if chart doesn't load */
+        .chart-placeholder-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #64748b; /* neutral-500 from your config */
+            font-size: 0.875rem; /* text-sm */
+        }
+    </style>
+{% endblock %}
+
+
+{% block content %}
+<div class="bg-white p-6 rounded-xl shadow-xl border border-neutral-200/80 mb-8 card-hover-effect">
+    <div class="flex flex-col sm:flex-row items-center sm:items-end mb-6 border-b border-neutral-300 pb-6">
+         <img
+            src="{{ url_for('static', filename='images/players/' + player_id|string + '.png') }}"
+            alt="{{ player_name }}'s profile picture"
+            class="player-image mb-4 sm:mb-0 sm:mr-6"
+            onerror="this.onerror=null; this.src='https://placehold.co/100x100/e2e8f0/94a3b8?text={{ player_name[0]|upper if player_name else 'P' }}'; this.classList.add('bg-neutral-300');"
+            onclick="openModal(this)"
+          >
+        <h1 class="text-3xl lg:text-4xl font-bold font-heading text-primary-dark text-center sm:text-left">{{ player_name }}</h1>
+    </div>
+
+    <div class="mb-8 flex flex-wrap gap-3 items-center">
+        {% if championship_wins %}
+            <div class="bg-amber-100 text-amber-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm flex items-center" title="{{ championship_wins|map(attribute='year')|join(', ') }}">
+                <span class="mr-1.5">🏆</span> Championships: {{ championship_wins|length }}
+            </div>
+        {% endif %}
+        {% if runner_up_finishes %}
+             <div class="bg-neutral-200 text-neutral-700 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm flex items-center" title="{{ runner_up_finishes|map(attribute='year')|join(', ') }}">
+                <span class="mr-1.5">🥈</span> Runner-up: {{ runner_up_finishes|length }}
+            </div>
+        {% endif %}
+        {% if third_place_finishes %}
+             <div class="bg-orange-100 text-orange-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm flex items-center" title="{{ third_place_finishes|map(attribute='year')|join(', ') }}">
+                <span class="mr-1.5">🥉</span> 3rd Place: {{ third_place_finishes|length }}
+            </div>
+        {% endif %}
+        {% if toilet_bowl_wins is defined and toilet_bowl_wins > 0 %}
+             <div class="bg-lime-100 text-lime-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm flex items-center">
+                <span class="mr-1.5">🚽</span> Toilet Wins: {{ toilet_bowl_wins }}
+            </div>
+        {% endif %}
+         {% if toilet_bowl_losses is defined and toilet_bowl_losses > 0 %}
+             <div class="bg-rose-100 text-rose-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm flex items-center">
+                <span class="mr-1.5">💩</span> Toilet Losses: {{ toilet_bowl_losses }}
+            </div>
+        {% endif %}
+        {% if career_stats and career_stats.playoff_appearances %}
+         <div class="bg-green-100 text-green-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm">
+            Playoff Apps: {{ career_stats.playoff_appearances }}
+         </div>
+        {% endif %}
+        {% if career_stats and career_stats.seasons_played %}
+         <div class="bg-blue-100 text-blue-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm">
+            Seasons: {{ career_stats.seasons_played }}
+         </div>
+        {% endif %}
+         {% if player_records %}
+            {% if player_records.best_rank and player_records.best_rank.value %}
+                <div class="bg-sky-100 text-sky-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm">
+                    Best Rank: {{ player_records.best_rank.value }} ({{ player_records.best_rank.year }})
+                </div>
+            {% endif %}
+             {% if player_records.worst_rank and player_records.worst_rank.value %}
+                <div class="bg-red-100 text-red-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm">
+                    Worst Rank: {{ player_records.worst_rank.value }} ({{ player_records.worst_rank.year }})
+                </div>
+            {% endif %}
+             {% if player_records.highest_pf and player_records.highest_pf.value %}
+                <div class="bg-emerald-100 text-emerald-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm">
+                    Top Season PF: {{ player_records.highest_pf.value|round(2) }} ({{ player_records.highest_pf.year }})
+                </div>
+            {% endif %}
+             {% if player_records.highest_ppg and player_records.highest_ppg.value %}
+                 <div class="bg-teal-100 text-teal-800 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm">
+                    Top Season PPG: {{ player_records.highest_ppg.value|round(2) }} ({{ player_records.highest_ppg.year }})
+                </div>
+             {% endif %}
+         {% endif %}
+    </div>
+
+    {% if career_stats %}
+    <div class="mb-10 bg-neutral-50 p-4 sm:p-6 rounded-lg border border-neutral-200/70 shadow-md">
+        <h2 class="text-xl font-semibold font-heading mb-4 text-neutral-700">Career Summary (Regular Season)</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-5 text-sm">
+            <div>
+                <span class="font-medium text-neutral-600 block">Record (W-L-T):</span>
+                <span class="text-lg font-semibold text-neutral-800">{{ career_stats.total_wins|default(0, true) }}-{{ career_stats.total_losses|default(0, true) }}-{{ career_stats.total_ties|default(0, true) }}</span>
+                 <span class="text-xs text-neutral-500 block">({{ career_stats.win_percentage|default(0, true)|round(1) }}% Win Rate)</span>
+            </div>
+            <div>
+                <span class="font-medium text-neutral-600 block">Total Points For:</span>
+                <span class="text-lg font-semibold text-green-700">{{ '{:,.2f}'.format(career_stats.total_pf|default(0.0, true)) }}</span>
+            </div>
+             <div>
+                <span class="font-medium text-neutral-600 block">Total Points Against:</span>
+                <span class="text-lg font-semibold text-red-700">{{ '{:,.2f}'.format(career_stats.total_pa|default(0.0, true)) }}</span>
+            </div>
+            <div>
+                <span class="font-medium text-neutral-600 block">Avg PF / Season:</span>
+                <span class="text-lg font-semibold text-neutral-800">{{ career_stats.avg_pf_per_season|default(0.0, true)|round(2) }}</span>
+            </div>
+             <div>
+                <span class="font-medium text-neutral-600 block">Avg PA / Season:</span>
+                <span class="text-lg font-semibold text-neutral-800">{{ career_stats.avg_pa_per_season|default(0.0, true)|round(2) }}</span>
+            </div>
+             <div>
+                <span class="font-medium text-neutral-600 block">Average Rank:</span>
+                <span class="text-lg font-semibold text-neutral-800">{{ career_stats.avg_rank|default(0, true)|round(2) }}</span>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="mb-10 border-t border-neutral-300 pt-8">
+        <h2 class="text-2xl font-semibold font-heading mb-5 text-neutral-800">Rank History</h2>
+        <div class="chart-container bg-white p-3 sm:p-4 rounded-lg shadow-lg border border-neutral-200/80">
+            <canvas id="rankChart">
+                {# Fallback text for browsers that don't support canvas or if JS fails #}
+                <p class="chart-placeholder-text">Rank history chart will be displayed here.</p>
+            </canvas>
+        </div>
+    </div>
+
+    <div class="border-t border-neutral-300 pt-8">
+        <h2 class="text-2xl font-semibold font-heading mb-5 text-neutral-800">Season History</h2>
+        {% if history %}
+            <div class="overflow-x-auto shadow-md rounded-lg border border-neutral-200/80">
+                <table class="min-w-full divide-y divide-neutral-200">
+                    <thead class="bg-neutral-100">
+                        <tr>
+                            <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Year</th>
+                            <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Rank</th>
+                            <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Record (W-L-T)</th>
+                            <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">PF</th>
+                            <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">PA</th>
+                            <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Playoffs?</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-neutral-200">
+                        {% for season in history %}
+                            <tr class="hover:bg-primary-light/20 transition duration-150">
+                                <td class="px-4 py-3 whitespace-nowrap text-sm font-medium text-primary-medium hover:text-primary-dark hover:underline">
+                                    <a href="{{ url_for('season_detail', year=season.year) }}">{{ season.year }}</a>
+                                </td>
+                                <td class="px-4 py-3 whitespace-nowrap text-sm font-medium {% if season.rank == 1 %}text-amber-600{% elif season.rank == 2 %}text-neutral-500{% elif season.rank == 3 %}text-orange-600{% else %}text-neutral-700{% endif %}">
+                                    {{ season.rank|default('N/A', true) }}
+                                    {% if season.rank == 1 %} <span title="Champion">🏆</span>
+                                    {% elif season.rank == 2 %} <span title="Runner-up">🥈</span>
+                                    {% elif season.rank == 3 %} <span title="3rd Place">🥉</span>
+                                    {% elif toilet_bowl_history and season.year in toilet_bowl_history %}
+                                        {% if toilet_bowl_history[season.year] == 'win' %} <span title="Toilet Bowl Winner">🚽</span>
+                                        {% elif toilet_bowl_history[season.year] == 'loss' %} <span title="Toilet Bowl Loser">💩</span>
+                                        {% endif %}
+                                    {% endif %}
+                                </td>
+                                <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">{{ season.regular_season_record or "{w}-{l}-{t}".format(w=season.wins|default(0,true), l=season.losses|default(0,true), t=season.ties|default(0,true)) }}</td>
+                                <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                    {{ season.points_for|default('N/A', true)|round(2) }}
+                                </td>
+                                <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                    {{ season.points_against|default('N/A', true)|round(2) }}
+                                </td>
+                                <td class="px-4 py-3 whitespace-nowrap text-sm">
+                                    {% if season.made_playoffs == 1 %}
+                                        <span class="px-2.5 py-0.5 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Yes</span>
+                                    {% elif season.made_playoffs == 0 %}
+                                         <span class="px-2.5 py-0.5 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">No</span>
+                                    {% else %}
+                                        <span class="px-2.5 py-0.5 inline-flex text-xs leading-5 font-semibold rounded-full bg-neutral-100 text-neutral-800">N/A</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <p class="text-neutral-500 mt-4">No season history found for this player.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const ctx = document.getElementById('rankChart');
+        if (!ctx) {
+            console.error("Chart canvas element not found!");
+            return;
+        }
+
+        // Define fonts and colors based on your Tailwind config (hardcoded for JS context)
+        const fontFamilySans = 'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif';
+        const fontFamilyHeading = 'Lexend, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif';
+        const colorPrimaryDefault = '#14b8a6'; // primary.DEFAULT
+        const colorPrimaryDark = '#0f766e';   // primary.dark
+        const colorNeutral200 = '#e2e8f0';  // neutral.200
+        const colorNeutral500 = '#64748b';  // neutral.500
+        const colorNeutral600 = '#475569';  // neutral.600
+        const colorNeutral700 = '#334155';  // neutral.700
+        const colorNeutral800 = '#1e293b';  // neutral.800
+
+
+        const historyData = {{ history|tojson|safe }};
+        if (!historyData || historyData.length === 0) {
+            const context = ctx.getContext('2d');
+            ctx.parentElement.classList.add('chart-placeholder-text');
+            context.font = "14px " + fontFamilySans;
+            context.fillStyle = colorNeutral500;
+            context.textAlign = 'center';
+            context.fillText('No rank history data available to display.', ctx.width / 2, ctx.height / 2);
+            return;
+        }
+
+        const reversedHistory = [...historyData].reverse();
+        const labels = reversedHistory.map(season => season.year);
+        const ranks = reversedHistory.map(season => (season.rank !== null && season.rank !== undefined) ? season.rank : null);
+        const validRanks = ranks.filter(r => r !== null);
+
+        if (validRanks.length > 0) {
+            let minRank = Math.min(...validRanks);
+            let maxRank = Math.max(...validRanks);
+            minRank = Math.max(1, minRank -1); 
+            maxRank = Math.min(12, maxRank + 1); 
+            if (minRank >= maxRank) {
+                minRank = 1;
+                maxRank = Math.max(10, maxRank); 
+            }
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Season Rank',
+                        data: ranks,
+                        fill: false,
+                        borderColor: colorPrimaryDefault,
+                        backgroundColor: colorPrimaryDefault,
+                        tension: 0.1,
+                        pointRadius: 5,
+                        pointHoverRadius: 7,
+                        pointBackgroundColor: colorPrimaryDefault,
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: colorPrimaryDark,
+                        pointHoverBorderColor: '#fff',
+                        spanGaps: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            reverse: true,
+                            beginAtZero: false,
+                            min: minRank,
+                            max: maxRank,
+                            ticks: {
+                                stepSize: 1,
+                                color: colorNeutral600,
+                                font: { family: fontFamilySans }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Rank (Lower is Better)',
+                                color: colorNeutral700,
+                                font: { size: 14, family: fontFamilyHeading }
+                            },
+                            grid: { color: colorNeutral200 }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Season Year',
+                                color: colorNeutral700,
+                                font: { size: 14, family: fontFamilyHeading }
+                            },
+                            ticks: {
+                                color: colorNeutral600,
+                                font: { family: fontFamilySans }
+                            },
+                             grid: { display: false }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: colorNeutral800,
+                            titleFont: { family: fontFamilyHeading, size: 14 },
+                            bodyFont: { family: fontFamilySans, size: 12 },
+                            padding: 10,
+                            cornerRadius: 4,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) { label += ': '; }
+                                    if (context.parsed.y !== null) {
+                                        label += context.parsed.y;
+                                    } else {
+                                        label += '(No Rank Data)';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        } else if (ctx.getContext) {
+            const context = ctx.getContext('2d');
+            ctx.parentElement.classList.add('chart-placeholder-text');
+            context.font = "14px " + fontFamilySans;
+            context.fillStyle = colorNeutral500;
+            context.textAlign = 'center';
+            const textX = ctx.parentElement.clientWidth / 2;
+            const textY = ctx.parentElement.clientHeight / 2;
+            context.fillText('No rank history data available to display.', textX, textY);
+        }
+    });
+    </script>
+{% endblock %}

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}All-Time Standings - Fantasy League{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <style>
+        .table-player-image {
+            width: 32px; /* Small image for table rows */
+            height: 32px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 0.25rem; /* rounded-sm */
+            border: 1px solid {{ tailwind.config.theme.extend.colors.neutral[300] if tailwind else '#cbd5e1' }};
+            box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+            margin-right: 0.75rem; /* mr-3 */
+            flex-shrink: 0;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<div class="bg-white p-6 rounded-xl shadow-xl border border-neutral-200/80 mb-8 card-hover-effect">
+    <h1 class="text-3xl font-bold font-heading mb-6 text-primary-dark border-b border-neutral-300 pb-3">All-Time Regular Season Standings</h1>
+
+    {% if standings_data %}
+        <p class="text-sm text-neutral-600 mb-4">Ranked by career regular season win percentage.</p>
+        <div class="overflow-x-auto shadow-md rounded-lg border border-neutral-200/80">
+            <table class="min-w-full divide-y divide-neutral-200">
+                <thead class="bg-neutral-100">
+                    <tr>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Rank</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Player</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Record (W-L-T)</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Win %</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Total PF</th>
+                        <th scope="col" class="px-4 py-3 text-left text-xs font-semibold text-neutral-600 uppercase tracking-wider">Total PA</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-neutral-200">
+                    {% for player_stats in standings_data %}
+                        <tr class="hover:bg-primary-light/20 transition duration-150">
+                            <td class="px-4 py-3 whitespace-nowrap text-sm font-medium text-neutral-700">{{ loop.index }}</td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm font-medium text-primary-medium">
+                                <a href="{{ url_for('player_detail', player_id=player_stats.player_id) }}" class="flex items-center hover:text-primary-dark hover:underline">
+                                    <img src="{{ url_for('static', filename='images/players/' + player_stats.player_id|string + '.png') }}"
+                                         alt="{{ player_stats.name }}"
+                                         class="table-player-image"
+                                         onerror="this.onerror=null; this.src='https://placehold.co/32x32/e2e8f0/94a3b8?text={{ player_stats.name[0]|upper if player_stats.name else 'P' }}'; this.classList.add('bg-neutral-300');">
+                                    <span>{{ player_stats.name }}</span>
+                                </a>
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                {{ player_stats.total_wins|default(0,true) }}-{{ player_stats.total_losses|default(0,true) }}-{{ player_stats.total_ties|default(0,true) }}
+                            </td>
+                             <td class="px-4 py-3 whitespace-nowrap text-sm text-neutral-600">
+                                {{ player_stats.win_percentage|default(0.0, true)|round(1) }}%
+                            </td>
+                            <td class="px-4 py-3 whitespace-nowrap text-sm text-green-700">
+                                {{ '{:,.2f}'.format(player_stats.total_pf|default(0.0, true)) }}
+                            </td>
+                             <td class="px-4 py-3 whitespace-nowrap text-sm text-red-700">
+                                {{ '{:,.2f}'.format(player_stats.total_pa|default(0.0, true)) }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="text-neutral-500 mt-4">Could not calculate all-time standings.</p>
+    {% endif %}
+</div>
+{% endblock %}

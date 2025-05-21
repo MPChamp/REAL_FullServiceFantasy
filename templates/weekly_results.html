@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}{{ year }} Season - Week {{ week_num }} Results{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <style>
+        .matchup-player-image {
+            width: 40px; /* Or 32px, adjust as preferred */
+            height: 40px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 0.375rem; /* rounded-md */
+            border: 2px solid {{ tailwind.config.theme.extend.colors.neutral[300] if tailwind else '#cbd5e1' }};
+            flex-shrink: 0; /* Prevent shrinking */
+        }
+        .matchup-player-image.winner {
+             border-color: {{ tailwind.config.theme.extend.colors.green[500] if tailwind else '#22c55e' }};
+        }
+        .matchup-player-image.loser {
+            border-color: {{ tailwind.config.theme.extend.colors.red[500] if tailwind else '#ef4444' }};
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<div class="bg-white p-6 rounded-xl shadow-xl border border-neutral-200/80 mb-8 card-hover-effect">
+    <div class="mb-6 pb-4 border-b border-neutral-300">
+        <h1 class="text-3xl font-bold font-heading text-primary-dark text-center sm:text-left">{{ year }} Season</h1>
+        <p class="text-xl font-semibold text-neutral-700 text-center sm:text-left">Week {{ week_num }} Results</p>
+    </div>
+
+    {% if matchups and (matchups[0].week_end or matchups[0].weeks_included) %}
+        <div class="mb-6 p-3 bg-blue-50 border border-blue-200 rounded-md text-sm text-blue-700 shadow-sm">
+            <span class="font-semibold">Note:</span> Scores shown may represent combined results from multiple weeks
+            {% if matchups[0].weeks_included %}(Weeks: {{ matchups[0].weeks_included }}){% elif matchups[0].week_end %}(Weeks: {{ matchups[0].week_start }}-{{ matchups[0].week_end }}){% endif %}.
+        </div>
+    {% endif %}
+
+    {% if matchups %}
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {% for m in matchups %}
+                {% set p1_score_val = m.player1_score|float(default=None) %}
+                {% set p2_score_val = m.player2_score|float(default=None) %}
+
+                {% set p1_is_winner = p1_score_val is not none and p2_score_val is not none and p1_score_val > p2_score_val %}
+                {% set p2_is_winner = p1_score_val is not none and p2_score_val is not none and p2_score_val > p1_score_val %}
+                {% set is_tie = p1_score_val is not none and p2_score_val is not none and p1_score_val == p2_score_val %}
+
+                <div class="bg-neutral-50 border border-neutral-200/80 rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl flex flex-col">
+                    <div class="bg-gradient-to-r from-neutral-100 to-neutral-200 px-4 py-3 border-b border-neutral-300 rounded-t-lg">
+                        <h3 class="text-sm font-semibold font-heading text-neutral-700 capitalize text-center">
+                            {{ (m.game_type or 'regular')|replace('_', ' ') }} Matchup
+                        </h3>
+                    </div>
+                    <div class="p-4 space-y-3 flex-grow">
+                        {# Player 1 Row #}
+                        <div class="flex justify-between items-center gap-3">
+                            <a href="{{ url_for('player_detail', player_id=m.p1_id) }}"
+                               class="flex items-center gap-2 text-primary-dark hover:text-primary-darker hover:underline min-w-0">
+                                <img src="{{ url_for('static', filename='images/players/' + m.p1_id|string + '.png') }}"
+                                     alt="{{ m.p1_name }}"
+                                     class="matchup-player-image {{ 'winner' if p1_is_winner }} {{ 'loser' if p2_is_winner }}"
+                                     onerror="this.onerror=null; this.src='https://placehold.co/40x40/e2e8f0/94a3b8?text={{ m.p1_name[0]|upper if m.p1_name else 'P' }}'; this.classList.add('bg-neutral-300');">
+                                <span class="font-medium truncate {{ 'font-bold' if p1_is_winner }}">{{ m.p1_name }}</span>
+                            </a>
+                            <span class="text-xl font-bold whitespace-nowrap
+                                {% if p1_is_winner %}text-green-600
+                                {% elif p2_is_winner %}text-red-600
+                                {% elif is_tie %}text-neutral-600
+                                {% else %}text-neutral-700{% endif %}">
+                                {{ p1_score_val|round(2) if p1_score_val is not none else 'N/A' }}
+                            </span>
+                        </div>
+                        {# Player 2 Row #}
+                        <div class="flex justify-between items-center gap-3">
+                             <a href="{{ url_for('player_detail', player_id=m.p2_id) }}"
+                                class="flex items-center gap-2 text-primary-dark hover:text-primary-darker hover:underline min-w-0">
+                                <img src="{{ url_for('static', filename='images/players/' + m.p2_id|string + '.png') }}"
+                                     alt="{{ m.p2_name }}"
+                                     class="matchup-player-image {{ 'winner' if p2_is_winner }} {{ 'loser' if p1_is_winner }}"
+                                     onerror="this.onerror=null; this.src='https://placehold.co/40x40/e2e8f0/94a3b8?text={{ m.p2_name[0]|upper if m.p2_name else 'P' }}'; this.classList.add('bg-neutral-300');">
+                                <span class="font-medium truncate {{ 'font-bold' if p2_is_winner }}">{{ m.p2_name }}</span>
+                            </a>
+                            <span class="text-xl font-bold whitespace-nowrap
+                                {% if p2_is_winner %}text-green-600
+                                {% elif p1_is_winner %}text-red-600
+                                {% elif is_tie %}text-neutral-600
+                                {% else %}text-neutral-700{% endif %}">
+                                {{ p2_score_val|round(2) if p2_score_val is not none else 'N/A' }}
+                            </span>
+                        </div>
+                    </div>
+                     {# Optional Notes - Placed at the bottom of the card #}
+                     {% if m.notes %}
+                        <div class="px-4 pb-3 pt-2 border-t border-neutral-200 mt-auto">
+                            <p class="text-xs text-neutral-500">{{ m.notes }}</p>
+                        </div>
+                     {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-neutral-500 mt-4 text-center">No matchup data found for this week.</p>
+    {% endif %}
+
+     <div class="mt-10 text-center sm:text-left">
+        <a href="{{ url_for('season_detail', year=year) }}" class="text-sm text-primary-medium hover:text-primary-dark hover:underline">&larr; Back to {{ year }} Season Overview</a>
+    </div>
+
+</div>
+{% endblock %}
