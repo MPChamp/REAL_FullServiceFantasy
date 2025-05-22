@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-
     <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png">
 
     <script>
@@ -23,25 +22,23 @@
                 primary: { light: '#ccfbf1', DEFAULT: '#14b8a6', medium: '#0d9488', dark: '#0f766e', darker: '#134e4a' },
                 amber: { light: '#fef3c7', DEFAULT: '#f59e0b', dark: '#b45309' },
                 neutral: {
-                    50: '#f8fafc',
-                    100: '#f1f5f9',
-                    200: '#e2e8f0',
-                    300: '#cbd5e1',
-                    400: '#94a3b8',
-                    500: '#64748b',
-                    600: '#475569',
-                    700: '#334155',
-                    800: '#1e293b',
-                    900: '#0f172a'
+                    50: '#f8fafc', 100: '#f1f5f9', 200: '#e2e8f0', 300: '#cbd5e1',
+                    400: '#94a3b8', 500: '#64748b', 600: '#475569', 700: '#334155',
+                    800: '#1e293b', 900: '#0f172a'
                 }
               },
               animation: {
                 'modal-enter': 'modal-enter 0.3s ease-out forwards',
+                'slide-down': 'slide-down 0.3s ease-out forwards',
               },
               keyframes: {
                 'modal-enter': {
                   '0%': { opacity: '0', transform: 'scale(0.95) translateY(-10px)' },
                   '100%': { opacity: '1', transform: 'scale(1) translateY(0)' },
+                },
+                'slide-down': {
+                  '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                  '100%': { opacity: '1', transform: 'translateY(0)' },
                 }
               }
             }
@@ -49,82 +46,82 @@
         }
       </script>
     <title>{% block title %}Full Service Fantasy League{% endblock %}</title>
-    {# --- Modal CSS --- #}
     <style>
-        body {
-            font-family: tailwind.config.theme.extend.fontFamily.sans;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: tailwind.config.theme.extend.fontFamily.heading;
-        }
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(15, 23, 42, 0.85);
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-        }
-        .modal-content-wrapper {
-            animation: modal-enter 0.3s ease-out forwards;
-            background-color: #fff;
-            border-radius: 0.5rem;
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .modal-content {
-            display: block;
-            width: auto;
-            max-width: 90vw;
-            max-height: 90vh;
-            border-radius: 0.375rem;
-        }
-        .modal-close {
-            position: absolute;
-            top: 20px;
-            right: 25px;
-            color: #e2e8f0;
-            font-size: 2.25rem;
-            font-weight: bold;
-            transition: color 0.3s ease;
-            z-index: 1001;
-        }
-        .modal-close:hover,
-        .modal-close:focus {
-            color: #cbd5e1;
-            text-decoration: none;
-            cursor: pointer;
-        }
+        body { font-family: tailwind.config.theme.extend.fontFamily.sans; }
+        h1, h2, h3, h4, h5, h6 { font-family: tailwind.config.theme.extend.fontFamily.heading; }
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(15, 23, 42, 0.85); align-items: center; justify-content: center; padding: 1rem; }
+        .modal-content-wrapper { animation: modal-enter 0.3s ease-out forwards; background-color: #fff; border-radius: 0.5rem; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; display: flex; justify-content: center; align-items: center; }
+        .modal-content { display: block; width: auto; max-width: 90vw; max-height: 90vh; border-radius: 0.375rem; }
+        .modal-close { position: absolute; top: 20px; right: 25px; color: #e2e8f0; font-size: 2.25rem; font-weight: bold; transition: color 0.3s ease; z-index: 1001; }
+        .modal-close:hover, .modal-close:focus { color: #cbd5e1; text-decoration: none; cursor: pointer; }
         .overflow-x-auto::-webkit-scrollbar { height: 8px; }
         .overflow-x-auto::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 10px; }
         .overflow-x-auto::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
         .overflow-x-auto::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+        /* Mobile Menu Styles */
+        .mobile-menu {
+            animation: slide-down 0.3s ease-out forwards;
+        }
+        /* Scrolled Header Styles */
+        nav.scrolled {
+            padding-top: 0.5rem; /* py-2 */
+            padding-bottom: 0.5rem; /* py-2 */
+            background-color: rgba(15, 118, 110, 0.95); /* primary-dark with slight transparency */
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); /* shadow-md */
+        }
+        nav.scrolled .site-title-text {
+             /* Optionally hide or shrink text part of logo on scroll for mobile */
+            /* display: none; */ /* Example: hides text, leaves icon */
+        }
+        /* Ensure hamburger is always visible when it should be */
+        .hamburger-button {
+             z-index: 100; /* Keep hamburger above other nav content if it overlaps */
+        }
+
     </style>
     {% block head %}{% endblock %}
 </head>
 <body class="bg-neutral-100 text-neutral-800 font-sans antialiased">
 
-    <nav class="bg-gradient-to-r from-primary-medium to-primary-dark text-white shadow-lg sticky top-0 z-50 border-b border-primary-darker/30">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row sm:justify-between sm:items-center">
-            <a href="/" class="text-xl md:text-2xl font-bold hover:text-primary-light transition duration-200 mb-3 sm:mb-0 text-center sm:text-left">
-                <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="FSFL Logo" class="inline-block h-7 w-7 mr-2 -mt-1">
-                <span class="font-heading">Full Service Fantasy Hub</span>
-            </a>
-            <div class="flex flex-col sm:flex-row sm:flex-wrap items-center gap-x-2 gap-y-2 text-sm font-medium">
-                <a href="/" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150 w-full sm:w-auto text-center sm:text-left">Home</a>
-                <a href="/seasons" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150 w-full sm:w-auto text-center sm:text-left">Seasons</a>
-                <a href="/standings" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150 w-full sm:w-auto text-center sm:text-left">Standings</a>
-                <a href="/head-to-head" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150 w-full sm:w-auto text-center sm:text-left">Head-to-Head</a>
-                <a href="/record-book" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150 w-full sm:w-auto text-center sm:text-left">Record Book</a>
+    <nav id="mainNav" class="bg-gradient-to-r from-primary-medium to-primary-dark text-white shadow-lg sticky top-0 z-50 border-b border-primary-darker/30 transition-all duration-300 ease-in-out">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex items-center justify-between">
+                {# Site Title/Brand #}
+                <a href="/" class="flex items-center text-xl md:text-2xl font-bold hover:text-primary-light transition duration-200">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="FSFL Logo" class="inline-block h-7 w-7 mr-2 -mt-1">
+                    <span class="font-heading site-title-text">Full Service Fantasy Hub</span>
+                </a>
+
+                {# Mobile Menu Button (Hamburger) - visible only on small screens (sm and below) #}
+                <div class="sm:hidden">
+                    <button id="hamburgerButton" type="button" class="hamburger-button text-neutral-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white p-1 rounded-md" aria-controls="mobileNavLinks" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        {# Heroicon name: outline/menu (alternative: outline/x for close state) #}
+                        <svg class="block h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+                {# Desktop Navigation Links - hidden on small screens, flex on sm and up #}
+                <div id="desktopNavLinks" class="hidden sm:flex sm:flex-row sm:flex-wrap items-center gap-x-2 gap-y-2 text-sm font-medium">
+                    <a href="/" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Home</a>
+                    <a href="/seasons" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Seasons</a>
+                    <a href="/standings" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Standings</a>
+                    <a href="/head-to-head" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Head-to-Head</a>
+                    <a href="/record-book" class="px-3 py-2 rounded-md hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Record Book</a>
+                </div>
+            </div>
+
+            {# Mobile Navigation Links (Dropdown) - hidden by default, shown by JS #}
+            <div id="mobileNavLinks" class="hidden sm:hidden mt-3 space-y-1 mobile-menu">
+                <a href="/" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Home</a>
+                <a href="/seasons" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Seasons</a>
+                <a href="/standings" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Standings</a>
+                <a href="/head-to-head" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Head-to-Head</a>
+                <a href="/record-book" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-darker/70 focus:bg-primary-darker/70 active:bg-primary-darker transition duration-150">Record Book</a>
             </div>
         </div>
     </nav>
@@ -148,10 +145,10 @@
     </footer>
 
     <script>
+        // Modal JS (existing)
         var modal = document.getElementById("imageModal");
         var modalImg = document.getElementById("modalImage");
         var modalContentWrapper = modal.querySelector(".modal-content-wrapper");
-
         function openModal(imgElement) {
             if (modal && modalImg) {
                 modal.style.display = "flex";
@@ -167,15 +164,44 @@
             }
         }
         window.onclick = function(event) {
-            if (event.target == modal) {
-                closeModal();
-            }
+            if (event.target == modal) { closeModal(); }
         }
         document.addEventListener('keydown', function(event) {
-            if (event.key === "Escape" && modal.style.display === "flex") {
-                closeModal();
-            }
+            if (event.key === "Escape" && modal.style.display === "flex") { closeModal(); }
         });
+
+        // Mobile Menu Toggle & Scroll Behavior
+        const hamburgerButton = document.getElementById('hamburgerButton');
+        const mobileNavLinks = document.getElementById('mobileNavLinks');
+        const mainNav = document.getElementById('mainNav');
+
+        if (hamburgerButton && mobileNavLinks) {
+            hamburgerButton.addEventListener('click', function() {
+                const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+                this.setAttribute('aria-expanded', !expanded);
+                mobileNavLinks.classList.toggle('hidden');
+                // Optional: Change hamburger icon to X
+                // this.innerHTML = expanded ? '<svg class="block h-7 w-7" ...>M4 6h16M4 12h16M4 18h16</svg>' : '<svg class="block h-7 w-7" ...>M6 18L18 6M6 6l12 12</svg>';
+            });
+        }
+
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > 50) { // Add 'scrolled' class after scrolling 50px
+                mainNav.classList.add('scrolled');
+            } else {
+                mainNav.classList.remove('scrolled');
+            }
+            // Optional: Hide/show header based on scroll direction (more complex)
+            // if (scrollTop > lastScrollTop && scrollTop > 100) { // Scrolling Down
+            //     mainNav.style.top = '-100px'; // Adjust to header height
+            // } else { // Scrolling Up
+            //     mainNav.style.top = '0';
+            // }
+            // lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        }, false);
+
     </script>
     {% block scripts %}{% endblock %}
 </body>
