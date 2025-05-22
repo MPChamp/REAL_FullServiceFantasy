@@ -1,42 +1,50 @@
 import sqlite3
 import datetime
-from flask import Flask, render_template, g, abort, request, send_from_directory # Added send_from_directory just in case, but we aim not to use a custom route
+from flask import Flask, render_template, g, abort, request # Removed send_from_directory as we are not using a custom static route
 from collections import defaultdict
-import os # Make sure os is imported
+import os
 
 # Configuration
-# Define the application root and static folder path explicitly
-APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-DATABASE = os.path.join(APP_ROOT, 'REAL_Fantasy_Football_DB.db') # Also make DB path absolute
-STATIC_FOLDER = os.path.join(APP_ROOT, 'static')
+# Define the application root for robust path construction
+APP_ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATABASE = os.path.join(APP_ROOT_DIR, 'REAL_Fantasy_Football_DB.db')
 
-
-app = Flask(__name__, static_folder=STATIC_FOLDER, static_url_path='/static')
+# Rely on Flask's default static folder ('static') and URL path ('/static')
+# Flask will look for a 'static' folder in the same directory as this app.py file.
+app = Flask(__name__)
 
 # --- Database Helper Functions ---
 def get_db():
     if not hasattr(g, 'sqlite_db'):
-        # Try connecting with read-only mode for Vercel's filesystem
-        db_uri = f'file:{DATABASE}?mode=ro'
+        db_path_to_check = DATABASE # Use the absolute path defined above
+        
+        print(f"Attempting to connect to DB. Path: {db_path_to_check}")
+        if not os.path.exists(db_path_to_check):
+            print(f"!!! CRITICAL: DATABASE FILE NOT FOUND AT: {db_path_to_check} !!!")
+            # If the DB file isn't found, any connection attempt will fail.
+            # This is a primary thing to check in Vercel logs.
+            # For now, we'll let the connect attempt fail naturally to see the SQLite error.
+        
+        db_uri = f'file:{db_path_to_check}?mode=ro' # Read-only mode for Vercel
         try:
+            print(f"Connecting with URI: {db_uri}")
             g.sqlite_db = sqlite3.connect(db_uri, uri=True)
             g.sqlite_db.row_factory = sqlite3.Row
+            print(f"Successfully connected to DB in read-only mode: {db_path_to_check}")
         except sqlite3.OperationalError as e:
-            print(f"!!! SQLITE ERROR CONNECTING (read-only attempt): {e} for DB at {DATABASE}")
-            # Fallback for local development if read-only fails (e.g., if DB needs to be created)
-            # or if the file truly doesn't exist at the path.
-            # For Vercel, if this fails, the file is likely not there or path is wrong.
+            print(f"!!! SQLITE ERROR CONNECTING (read-only attempt with URI): {e} for DB at {db_path_to_check}")
+            # Fallback for local development or if read-only URI mode fails for other reasons
             try:
-                g.sqlite_db = sqlite3.connect(DATABASE)
+                print(f"Attempting fallback read-write connection to: {db_path_to_check}")
+                g.sqlite_db = sqlite3.connect(db_path_to_check)
                 g.sqlite_db.row_factory = sqlite3.Row
-                print(f"Connected to DB in read-write mode (fallback): {DATABASE}")
+                print(f"Successfully connected to DB in read-write mode (fallback): {db_path_to_check}")
             except sqlite3.OperationalError as e_fallback:
-                print(f"!!! SQLITE FALLBACK ERROR: {e_fallback} for DB at {DATABASE}")
-                raise # Re-raise the error if fallback also fails
+                print(f"!!! SQLITE FALLBACK CONNECTION ERROR: {e_fallback} for DB at {db_path_to_check}")
+                # If both attempts fail, this is a critical issue.
+                # Consider how your app should behave. For now, re-raise.
+                raise
     return g.sqlite_db
-
-# (The rest of your app.py remains the same: context_processor, fetch_record, fetch_all_records, all your routes, etc.)
-# ... (ensure all previous routes are included here) ...
 
 @app.teardown_appcontext
 def close_db(error):
@@ -62,7 +70,7 @@ def fetch_all_records(query, params=()):
 @app.route('/')
 def index():
     try:
-        db = get_db()
+        # db = get_db() # get_db() will be called by fetch_all_records/fetch_record
         players = fetch_all_records("SELECT player_id, name FROM players ORDER BY name")
         
         latest_champion_data = fetch_record("""
@@ -105,25 +113,24 @@ def index():
               AND wm.player1_score != wm.player2_score 
             ORDER BY s.year DESC
         """)
-        all_toilet_losers_history = [loser for loser in all_toilet_losers_history if loser['loser_id'] is not None]
+        all_toilet_losers_history = [loser for loser in all_toilet_losers_history if loser.get('loser_id') is not None]
 
         return render_template('index.html', 
                                players=players, 
                                latest_champion=latest_champion_data,
                                all_champions=all_champions_history,
                                all_toilet_losers=all_toilet_losers_history)
-    except sqlite3.OperationalError as e: # Catch specific DB errors
+    except sqlite3.OperationalError as e: 
         print(f"DATABASE OPERATIONAL ERROR in index route: {e}")
-        return "A database error occurred. Please try again later.", 500
+        # In a production environment, you might want to render a specific error template
+        # return render_template('database_error.html', error=str(e)), 500
+        return "A database error occurred. Please check the logs.", 500 # Simplified error for now
     except Exception as e:
         print(f"Error on index page: {e}")
         import traceback
-        traceback.print_exc()
-        return "An unexpected error occurred.", 500
+        traceback.print_exc() # This will print the full traceback to Vercel logs
+        return "An unexpected error occurred. Please check the logs.", 500
 
-
-# --- Add all your other routes here (seasons_list, season_detail, player_detail, etc.) ---
-# --- Make sure they also use the updated get_db() if they interact with the database ---
 
 @app.route('/seasons')
 def seasons_list():
@@ -132,6 +139,7 @@ def seasons_list():
         return render_template('seasons.html', seasons=all_seasons)
     except Exception as e:
         print(f"Error on seasons list page: {e}")
+        import traceback; traceback.print_exc()
         return "An unexpected error occurred.", 500
 
 @app.route('/seasons/<int:year>')
@@ -140,7 +148,7 @@ def season_detail(year):
         season = fetch_record("SELECT season_id, regular_season_end_week FROM seasons WHERE year = ?", (year,))
         if season is None: abort(404, description=f"Season {year} not found.")
         season_id = season['season_id']
-        reg_season_end = season['regular_season_end_week']
+        reg_season_end = season.get('regular_season_end_week') # Use .get for safety
         results = fetch_all_records("SELECT sr.rank, p.player_id, p.name, sr.regular_season_record, sr.wins, sr.losses, sr.ties, sr.points_for, sr.points_against, sr.made_playoffs FROM season_results sr JOIN players p ON sr.player_id = p.player_id WHERE sr.season_id = ? ORDER BY sr.rank ASC", (season_id,))
         championship_info = fetch_record("SELECT wp.player_id as winner_id, wp.name as winner_name, rp.player_id as runner_up_id, rp.name as runner_up_name FROM championships ch JOIN players wp ON ch.winner_id = wp.player_id JOIN players rp ON ch.runner_up_id = rp.player_id WHERE ch.season_id = ?", (season_id,))
         toilet_bowl_winner_id, toilet_bowl_loser_id = None, None
@@ -149,9 +157,12 @@ def season_detail(year):
             if tb_match['player1_score'] > tb_match['player2_score']: toilet_bowl_winner_id, toilet_bowl_loser_id = tb_match['player1_id'], tb_match['player2_id']
             elif tb_match['player2_score'] > tb_match['player1_score']: toilet_bowl_winner_id, toilet_bowl_loser_id = tb_match['player2_id'], tb_match['player1_id']
         weeks_data = fetch_all_records("SELECT DISTINCT week_start FROM weekly_matchups WHERE season_id = ? ORDER BY week_start ASC", (season_id,))
-        weeks_list = [{'week_start': w['week_start'], 'is_playoff': reg_season_end is not None and w['week_start'] > reg_season_end} for w in weeks_data] if weeks_data else []
+        weeks_list = [{'week_start': w['week_start'], 'is_playoff': reg_season_end is not None and w.get('week_start') > reg_season_end} for w in weeks_data] if weeks_data else []
         return render_template('season_detail.html', year=year, results=results, championship=championship_info, toilet_bowl_winner_id=toilet_bowl_winner_id, toilet_bowl_loser_id=toilet_bowl_loser_id, weeks=weeks_list)
-    except Exception as e: print(f"Error on season detail page for {year}: {e}"); return "An unexpected error occurred.", 500
+    except Exception as e: 
+        print(f"Error on season detail page for {year}: {e}")
+        import traceback; traceback.print_exc()
+        return "An unexpected error occurred.", 500
 
 @app.route('/players/<int:player_id>')
 def player_detail(player_id):
@@ -162,11 +173,14 @@ def player_detail(player_id):
         history = fetch_all_records("SELECT s.year, sr.rank, sr.regular_season_record, sr.wins, sr.losses, sr.ties, sr.points_for, sr.points_against, sr.made_playoffs FROM season_results sr JOIN seasons s ON sr.season_id = s.season_id WHERE sr.player_id = ? ORDER BY s.year DESC", (player_id,))
         total_wins, total_losses, total_ties, total_pf, total_pa, total_rank, playoff_appearances = 0,0,0,0.0,0.0,0,0
         seasons_played = len(history)
-        for s in history:
-            total_wins += s.get('wins',0) or 0; total_losses += s.get('losses',0) or 0; total_ties += s.get('ties',0) or 0
-            total_pf += s.get('points_for',0.0) or 0.0; total_pa += s.get('points_against',0.0) or 0.0
-            total_rank += s.get('rank',0) or 0
-            if s.get('made_playoffs') == 1: playoff_appearances +=1
+        for s_dict in history: # s_dict is already a dict
+            total_wins += s_dict.get('wins',0) or 0
+            total_losses += s_dict.get('losses',0) or 0
+            total_ties += s_dict.get('ties',0) or 0
+            total_pf += s_dict.get('points_for',0.0) or 0.0
+            total_pa += s_dict.get('points_against',0.0) or 0.0
+            total_rank += s_dict.get('rank',0) or 0
+            if s_dict.get('made_playoffs') == 1: playoff_appearances +=1
         total_games = total_wins + total_losses + total_ties
         win_percentage = (total_wins / total_games * 100) if total_games > 0 else 0.0
         avg_rank = (total_rank / seasons_played) if seasons_played > 0 else 0.0
@@ -195,7 +209,10 @@ def player_detail(player_id):
         player_records['lowest_ppg'] = fetch_record("SELECT MIN(points_per_game) as value, s.year FROM season_results sr JOIN seasons s ON sr.season_id = s.season_id WHERE sr.player_id = ? AND sr.points_per_game IS NOT NULL", (player_id,))
         career_stats = {'seasons_played': seasons_played, 'total_wins': total_wins, 'total_losses': total_losses, 'total_ties': total_ties, 'win_percentage': win_percentage, 'total_pf': total_pf, 'total_pa': total_pa, 'avg_rank': avg_rank, 'avg_pf_per_season': avg_pf_per_season, 'avg_pa_per_season': avg_pa_per_season, 'playoff_appearances': playoff_appearances}
         return render_template('player_detail.html', player_id=player_id, player_name=player_name, history=history, championship_wins=championship_wins, runner_up_finishes=runner_up_finishes, third_place_finishes=third_place_finishes, career_stats=career_stats, toilet_bowl_wins=toilet_bowl_wins, toilet_bowl_losses=toilet_bowl_losses, toilet_bowl_history=toilet_bowl_history, player_records=player_records)
-    except Exception as e: print(f"Error on player detail page for ID {player_id}: {e}"); return "An unexpected error occurred.", 500
+    except Exception as e: 
+        print(f"Error on player detail page for ID {player_id}: {e}")
+        import traceback; traceback.print_exc()
+        return "An unexpected error occurred.", 500
 
 @app.route('/head-to-head', methods=['GET'])
 def head_to_head():
@@ -242,7 +259,10 @@ def head_to_head():
                     h2h_stats = {'p1_wins':p1w,'p2_wins':p2w,'ties':t,'p1_total_score':p1s_tot,'p2_total_score':p2s_tot,'total_matchups':len(matchups_data)}
                     rivalry_stats = {'p1_max_score':p1max,'p1_max_score_details':p1max_d,'p2_max_score':p2max,'p2_max_score_details':p2max_d,'p1_min_score':p1min,'p1_min_score_details':p1min_d,'p2_min_score':p2min,'p2_min_score_details':p2min_d,'p1_max_mov':p1mov,'p1_max_mov_details':p1mov_d,'p2_max_mov':p2mov,'p2_max_mov_details':p2mov_d,'max_combined':max_c,'max_combined_details':max_c_d,'min_combined':min_c,'min_combined_details':min_c_d}
         except ValueError: error_message = "Invalid player ID."
-        except Exception as e: print(f"H2H Error: {e}"); error_message="Error fetching data."
+        except Exception as e: 
+            print(f"H2H Error: {e}")
+            import traceback; traceback.print_exc()
+            error_message="Error fetching data."
     return render_template('head_to_head.html', players=players,selected_p1_id=int(p1_id_str) if p1_id_str else None,selected_p2_id=int(p2_id_str) if p2_id_str else None,player1=p1_data,player2=p2_data,matchups=matchups_data,h2h_stats=h2h_stats,rivalry_stats=rivalry_stats,error_message=error_message)
 
 @app.route('/record-book')
@@ -254,19 +274,21 @@ def record_book():
         default_sgc_rec = {'combined_score':0.0,'p1_name':'N/A','p2_name':'N/A','player1_score':0.0,'player2_score':0.0,'year':'N/A','week_start':'N/A','game_type':'N/A'}
         default_ss_rec = {'value':0.0,'player_name':'N/A','year':'N/A'}
         default_swl_rec = {'wins':0,'losses':0,'ties':0,'player_name':'N/A','year':'N/A','regular_season_record':'0-0-0'}
+        
         def get_safe_rec(q,p,d,vk,is_min=False):
-            r=fetch_record(q,p)
-            if r and r.get(vk) is not None:
-                for k in ['score','margin','combined_score','value','player1_score','player2_score']:
-                    if k in r and r[k] is not None:
-                        try: r[k]=float(r[k])
-                        except: r[k]=float('inf') if is_min and k==vk else 0.0
-                return r
+            r_dict=fetch_record(q,p)
+            if r_dict and r_dict.get(vk) is not None:
+                for k_val in ['score','margin','combined_score','value','player1_score','player2_score']:
+                    if k_val in r_dict and r_dict[k_val] is not None:
+                        try: r_dict[k_val]=float(r_dict[k_val])
+                        except (ValueError, TypeError): r_dict[k_val]=float('inf') if is_min and k_val==vk else 0.0
+                return r_dict
             else:
-                sd=d.copy()
-                if is_min: sd[vk]=float('inf')
-                elif vk in sd: sd[vk]=0.0
-                return sd
+                sd_copy=d.copy()
+                if is_min: sd_copy[vk]=float('inf')
+                elif vk in sd_copy: sd_copy[vk]=0.0
+                return sd_copy
+
         records['high_score_reg'] = get_safe_rec("SELECT MAX(score) as score, player_name, opponent_name, week, year, game_type FROM (SELECT wm.player1_score as score, p1.name as player_name, p2.name as opponent_name, wm.week_start as week, s.year, wm.game_type FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id JOIN seasons s ON wm.season_id = s.season_id WHERE wm.game_type = 'regular' AND wm.player1_score IS NOT NULL UNION ALL SELECT wm.player2_score as score, p2.name as player_name, p1.name as opponent_name, wm.week_start as week, s.year, wm.game_type FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id JOIN seasons s ON wm.season_id = s.season_id WHERE wm.game_type = 'regular' AND wm.player2_score IS NOT NULL) ORDER BY score DESC LIMIT 1", (), default_sgs_rec, 'score')
         records['high_score_playoff'] = get_safe_rec("SELECT MAX(score) as score, player_name, opponent_name, week, year, game_type FROM (SELECT wm.player1_score as score, p1.name as player_name, p2.name as opponent_name, wm.week_start as week, s.year, wm.game_type FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id JOIN seasons s ON wm.season_id = s.season_id WHERE wm.game_type != 'regular' AND wm.player1_score IS NOT NULL AND wm.week_end IS NULL AND (wm.weeks_included IS NULL OR wm.weeks_included = '') UNION ALL SELECT wm.player2_score as score, p2.name as player_name, p1.name as opponent_name, wm.week_start as week, s.year, wm.game_type FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id JOIN seasons s ON wm.season_id = s.season_id WHERE wm.game_type != 'regular' AND wm.player2_score IS NOT NULL AND wm.week_end IS NULL AND (wm.weeks_included IS NULL OR wm.weeks_included = '')) ORDER BY score DESC LIMIT 1", (), default_sgs_rec, 'score')
         records['low_score'] = get_safe_rec("SELECT MIN(score) as score, player_name, opponent_name, week, year, game_type FROM (SELECT wm.player1_score as score, p1.name as player_name, p2.name as opponent_name, wm.week_start as week, s.year, wm.game_type FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id JOIN seasons s ON wm.season_id = s.season_id WHERE wm.player1_score IS NOT NULL AND wm.week_end IS NULL AND (wm.weeks_included IS NULL OR wm.weeks_included = '') UNION ALL SELECT wm.player2_score as score, p2.name as player_name, p1.name as opponent_name, wm.week_start as week, s.year, wm.game_type FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id JOIN seasons s ON wm.season_id = s.season_id WHERE wm.player2_score IS NOT NULL AND wm.week_end IS NULL AND (wm.weeks_included IS NULL OR wm.weeks_included = '')) ORDER BY score ASC LIMIT 1", (), default_sgs_rec, 'score', True)
@@ -282,23 +304,25 @@ def record_book():
         records['lowest_ppg_season'] = get_safe_rec("SELECT sr.points_per_game as value, p.name as player_name, s.year FROM season_results sr JOIN players p ON sr.player_id = p.player_id JOIN seasons s ON sr.season_id = s.season_id WHERE sr.points_per_game IS NOT NULL ORDER BY sr.points_per_game ASC LIMIT 1", (), default_ss_rec, 'value', True)
         brq=fetch_record("SELECT sr.wins, sr.losses, sr.ties, p.name as player_name, s.year, sr.regular_season_record FROM season_results sr JOIN players p ON sr.player_id = p.player_id JOIN seasons s ON sr.season_id = s.season_id WHERE sr.wins IS NOT NULL AND sr.losses IS NOT NULL ORDER BY sr.wins DESC, sr.losses ASC, sr.ties ASC LIMIT 1"); records['best_season_rec']=brq if brq else default_swl_rec.copy()
         wrq=fetch_record("SELECT sr.wins, sr.losses, sr.ties, p.name as player_name, s.year, sr.regular_season_record FROM season_results sr JOIN players p ON sr.player_id = p.player_id JOIN seasons s ON sr.season_id = s.season_id WHERE sr.wins IS NOT NULL AND sr.losses IS NOT NULL ORDER BY sr.losses DESC, sr.wins ASC, sr.ties DESC LIMIT 1"); records['worst_season_rec']=wrq if wrq else default_swl_rec.copy()
-        def get_lead_clean(acr, is_float=False):
+        
+        def get_lead_clean(acr, is_float=False): # acr is already list of dicts
             if not acr: return []
             pi=[]
-            for item_d in acr:
+            for item_d in acr: # item_d is already a dict
                 rc=item_d.get('count')
                 if rc is None: item_d['count']=0.0 if is_float else 0
                 else:
                     try: item_d['count']=float(rc) if is_float else int(rc)
-                    except: item_d['count']=0.0 if is_float else 0
+                    except (ValueError, TypeError): item_d['count']=0.0 if is_float else 0
                 pi.append(item_d)
             if not pi: return []
-            mcv=0
-            if pi: mcv=max(i['count'] for i in pi)
-            l=[i for i in pi if i['count']==mcv]
+            max_count_val=0
+            if pi: max_count_val=max(i['count'] for i in pi)
+            l=[i for i in pi if i['count']==max_count_val]
             if not l: return []
-            if mcv==0 and not is_float and not l[0].get('player_name'): return []
+            if max_count_val==0 and not is_float and not l[0].get('player_name'): return []
             return l
+
         records['most_career_pf'] = get_lead_clean(fetch_all_records("SELECT SUM(sr.points_for) as count, p.name as player_name, p.player_id FROM season_results sr JOIN players p ON sr.player_id = p.player_id WHERE sr.points_for IS NOT NULL GROUP BY p.player_id, p.name ORDER BY count DESC"),True)
         records['highest_career_ppg'] = get_lead_clean(fetch_all_records("SELECT AVG(sr.points_per_game) as count, p.name as player_name, p.player_id FROM season_results sr JOIN players p ON sr.player_id = p.player_id WHERE sr.points_per_game IS NOT NULL GROUP BY p.player_id, p.name ORDER BY count DESC"),True)
         records['most_championships'] = get_lead_clean(fetch_all_records("SELECT COUNT(c.winner_id) as count, p.name as player_name, p.player_id FROM championships c JOIN players p ON c.winner_id = p.player_id GROUP BY p.player_id, p.name ORDER BY count DESC"))
@@ -307,70 +331,90 @@ def record_book():
         records['most_toilet_wins'] = get_lead_clean(fetch_all_records("SELECT COUNT(wins.winner_id) as count, p.name as player_name, p.player_id FROM (SELECT wm.player1_id as winner_id FROM weekly_matchups wm WHERE wm.game_type = 'toilet_bowl' AND wm.player1_score IS NOT NULL AND wm.player2_score IS NOT NULL AND wm.player1_score > wm.player2_score UNION ALL SELECT wm.player2_id as winner_id FROM weekly_matchups wm WHERE wm.game_type = 'toilet_bowl' AND wm.player1_score IS NOT NULL AND wm.player2_score IS NOT NULL AND wm.player2_score > wm.player1_score) wins JOIN players p ON wins.winner_id = p.player_id GROUP BY p.player_id, p.name ORDER BY count DESC"))
         records['most_toilet_losses'] = get_lead_clean(fetch_all_records("SELECT COUNT(losses.loser_id) as count, p.name as player_name, p.player_id FROM (SELECT wm.player2_id as loser_id FROM weekly_matchups wm WHERE wm.game_type = 'toilet_bowl' AND wm.player1_score IS NOT NULL AND wm.player2_score IS NOT NULL AND wm.player1_score > wm.player2_score UNION ALL SELECT wm.player1_id as loser_id FROM weekly_matchups wm WHERE wm.game_type = 'toilet_bowl' AND wm.player1_score IS NOT NULL AND wm.player2_score IS NOT NULL AND wm.player2_score > wm.player1_score) losses JOIN players p ON losses.loser_id = p.player_id GROUP BY p.player_id, p.name ORDER BY count DESC"))
         records['most_toilet_appearances'] = get_lead_clean(fetch_all_records("SELECT COUNT(appearances.player_id) as count, p.name as player_name, p.player_id FROM (SELECT wm.player1_id as player_id FROM weekly_matchups wm WHERE wm.game_type = 'toilet_bowl' AND wm.player1_id IS NOT NULL UNION ALL SELECT wm.player2_id as player_id FROM weekly_matchups wm WHERE wm.game_type = 'toilet_bowl' AND wm.player2_id IS NOT NULL) appearances JOIN players p ON appearances.player_id = p.player_id GROUP BY p.player_id, p.name ORDER BY count DESC"))
+        
         lws,lls={'player_name':'N/A','streak':0,'details':''},{'player_name':'N/A','streak':0,'details':''}
         amfs=fetch_all_records("SELECT s.year, wm.week_start, wm.player1_id, wm.player2_id, wm.player1_score, wm.player2_score FROM weekly_matchups wm JOIN seasons s ON wm.season_id = s.season_id WHERE wm.game_type = 'regular' AND wm.week_end IS NULL AND (wm.weeks_included IS NULL OR wm.weeks_included = '') ORDER BY s.year ASC, wm.week_start ASC")
-        aplnm={p['player_id']:p['name'] for p in fetch_all_records("SELECT player_id, name FROM players")}
+        aplnm={p_dict['player_id']:p_dict['name'] for p_dict in fetch_all_records("SELECT player_id, name FROM players")} # p_dict is already a dict
         ps=defaultdict(lambda:defaultdict(lambda:{'max_win_for_season':0,'max_win_details':'','max_loss_for_season':0,'max_loss_details':''}))
         mbpy=defaultdict(lambda:defaultdict(list))
-        for md in amfs:
-            if md.get('player1_id') is not None: mbpy[md['player1_id']][md['year']].append(md)
-            if md.get('player2_id') is not None: mbpy[md['player2_id']][md['year']].append(md)
-        for pid,ym in mbpy.items():
-            for yv,sml in ym.items():
-                ssm=sorted(sml,key=lambda m:m['week_start'])
-                cws,cls,mws,mls,wd,ld,cssw=0,0,0,0,"","",0
-                for m_d in ssm:
-                    o='tie';p1s,p2s=m_d.get('player1_score'),m_d.get('player2_score')
-                    if p1s is not None and p2s is not None:
+        for md_dict in amfs: # md_dict is already a dict
+            if md_dict.get('player1_id') is not None: mbpy[md_dict['player1_id']][md_dict['year']].append(md_dict)
+            if md_dict.get('player2_id') is not None: mbpy[md_dict['player2_id']][md_dict['year']].append(md_dict)
+        
+        for pid_val,ym_dict in mbpy.items():
+            for yv_val,sml_list in ym_dict.items():
+                ssm_list=sorted(sml_list,key=lambda m_item:m_item['week_start'])
+                cws_val,cls_val,mws_val,mls_val,wd_val,ld_val,cssw_val=0,0,0,0,"","",0
+                for m_data_dict in ssm_list: # m_data_dict is already a dict
+                    o_val='tie';p1s_val,p2s_val=m_data_dict.get('player1_score'),m_data_dict.get('player2_score')
+                    if p1s_val is not None and p2s_val is not None:
                         try:
-                            n_p1s,n_p2s=float(p1s),float(p2s)
-                            if m_d['player1_id']==pid: o='win' if n_p1s > n_p2s else ('loss' if n_p2s > n_p1s else 'tie')
-                            elif m_d['player2_id']==pid: o='win' if n_p2s > n_p1s else ('loss' if n_p1s > n_p2s else 'tie')
-                        except: o='tie'
-                    wv=m_d['week_start']
-                    if o=='win': cws+=1;cls=0;cssw=wv if cws==1 else cssw; mws,wd=(cws,f"{yv} Wk {cssw}-{wv}" if cws>1 else f"{yv} Wk {cssw}") if cws>mws else (mws,wd)
-                    elif o=='loss': cls+=1;cws=0;cssw=wv if cls==1 else cssw; mls,ld=(cls,f"{yv} Wk {cssw}-{wv}" if cls>1 else f"{yv} Wk {cssw}") if cls>mls else (mls,ld)
-                    else: cws,cls=0,0
-                sfy=ps[pid][yv];sfy['max_win_for_season']=mws;sfy['max_win_details']=wd;sfy['max_loss_for_season']=mls;sfy['max_loss_details']=ld
-        mowsv,molsv=0,0
-        for pidk,ydm in ps.items():
-            pn=aplnm.get(pidk,f"Player ID {pidk}")
-            for yv,d in ydm.items():
-                if d['max_win_for_season']>mowsv: mowsv=d['max_win_for_season'];lws={'player_name':pn,'streak':d['max_win_for_season'],'details':d['max_win_details']}
-                if d['max_loss_for_season']>molsv: molsv=d['max_loss_for_season'];lls={'player_name':pn,'streak':d['max_loss_for_season'],'details':d['max_loss_details']}
+                            n_p1s_val,n_p2s_val=float(p1s_val),float(p2s_val)
+                            if m_data_dict['player1_id']==pid_val: o_val='win' if n_p1s_val > n_p2s_val else ('loss' if n_p2s_val > n_p1s_val else 'tie')
+                            elif m_data_dict['player2_id']==pid_val: o_val='win' if n_p2s_val > n_p1s_val else ('loss' if n_p1s_val > n_p2s_val else 'tie')
+                        except (ValueError, TypeError): o_val='tie'
+                    wv_val=m_data_dict['week_start']
+                    if o_val=='win': cws_val+=1;cls_val=0;cssw_val=wv_val if cws_val==1 else cssw_val; mws_val,wd_val=(cws_val,f"{yv_val} Wk {cssw_val}-{wv_val}" if cws_val>1 else f"{yv_val} Wk {cssw_val}") if cws_val>mws_val else (mws_val,wd_val)
+                    elif o_val=='loss': cls_val+=1;cws_val=0;cssw_val=wv_val if cls_val==1 else cssw_val; mls_val,ld_val=(cls_val,f"{yv_val} Wk {cssw_val}-{wv_val}" if cls_val>1 else f"{yv_val} Wk {cssw_val}") if cls_val>mls_val else (mls_val,ld_val)
+                    else: cws_val,cls_val=0,0
+                sfy_dict=ps[pid_val][yv_val];sfy_dict['max_win_for_season']=mws_val;sfy_dict['max_win_details']=wd_val;sfy_dict['max_loss_for_season']=mls_val;sfy_dict['max_loss_details']=ld_val
+        
+        mowsv_val,molsv_val=0,0
+        for pidk_val,ydm_dict in ps.items():
+            pn_val=aplnm.get(pidk_val,f"Player ID {pidk_val}")
+            for yv_val,data_dict in ydm_dict.items():
+                if data_dict['max_win_for_season']>mowsv_val: mowsv_val=data_dict['max_win_for_season'];lws={'player_name':pn_val,'streak':data_dict['max_win_for_season'],'details':data_dict['max_win_details']}
+                if data_dict['max_loss_for_season']>molsv_val: molsv_val=data_dict['max_loss_for_season'];lls={'player_name':pn_val,'streak':data_dict['max_loss_for_season'],'details':data_dict['max_loss_details']}
         records['longest_win_streak']=lws;records['longest_loss_streak']=lls
         return render_template('record_book.html', records=records)
-    except Exception as e: print(f"Record Book Error: {e}"); import traceback; traceback.print_exc(); return "Error fetching records.",500
+    except Exception as e: 
+        print(f"Record Book Error: {e}")
+        import traceback; traceback.print_exc()
+        return "Error fetching records.",500
 
 @app.route('/standings')
 def standings():
     try:
-        psl = fetch_all_records("SELECT p.player_id, p.name, SUM(CASE WHEN sr.wins IS NULL THEN 0 ELSE sr.wins END) as total_wins, SUM(CASE WHEN sr.losses IS NULL THEN 0 ELSE sr.losses END) as total_losses, SUM(CASE WHEN sr.ties IS NULL THEN 0 ELSE sr.ties END) as total_ties, SUM(CASE WHEN sr.points_for IS NULL THEN 0.0 ELSE sr.points_for END) as total_pf, SUM(CASE WHEN sr.points_against IS NULL THEN 0.0 ELSE sr.points_against END) as total_pa FROM players p LEFT JOIN season_results sr ON p.player_id = sr.player_id GROUP BY p.player_id, p.name")
-        sd=[]
-        for s_d in psl:
-            w,l,t=s_d.get('total_wins',0),s_d.get('total_losses',0),s_d.get('total_ties',0)
-            tg=w+l+t;s_d['win_percentage']=(w/tg*100) if tg>0 else 0.0;s_d['total_pf']=s_d.get('total_pf',0.0)
-            sd.append(s_d)
-        sd.sort(key=lambda x:(x['win_percentage'],x['total_pf']),reverse=True)
-        return render_template('standings.html',standings_data=sd)
-    except Exception as e: print(f"Standings Error: {e}"); return "Error fetching standings.",500
+        psl_list = fetch_all_records("SELECT p.player_id, p.name, SUM(CASE WHEN sr.wins IS NULL THEN 0 ELSE sr.wins END) as total_wins, SUM(CASE WHEN sr.losses IS NULL THEN 0 ELSE sr.losses END) as total_losses, SUM(CASE WHEN sr.ties IS NULL THEN 0 ELSE sr.ties END) as total_ties, SUM(CASE WHEN sr.points_for IS NULL THEN 0.0 ELSE sr.points_for END) as total_pf, SUM(CASE WHEN sr.points_against IS NULL THEN 0.0 ELSE sr.points_against END) as total_pa FROM players p LEFT JOIN season_results sr ON p.player_id = sr.player_id GROUP BY p.player_id, p.name")
+        sd_list=[]
+        for s_dict_item in psl_list:
+            w_val,l_val,t_val=s_dict_item.get('total_wins',0),s_dict_item.get('total_losses',0),s_dict_item.get('total_ties',0)
+            tg_val=w_val+l_val+t_val;s_dict_item['win_percentage']=(w_val/tg_val*100) if tg_val>0 else 0.0;s_dict_item['total_pf']=s_dict_item.get('total_pf',0.0)
+            sd_list.append(s_dict_item)
+        sd_list.sort(key=lambda x_item:(x_item['win_percentage'],x_item['total_pf']),reverse=True)
+        return render_template('standings.html',standings_data=sd_list)
+    except Exception as e: 
+        print(f"Standings Error: {e}")
+        import traceback; traceback.print_exc()
+        return "Error fetching standings.",500
 
 @app.route('/seasons/<int:year>/week/<int:week_num>')
 def weekly_results(year, week_num):
     try:
-        s = fetch_record("SELECT season_id FROM seasons WHERE year = ?", (year,))
-        if s is None: abort(404)
-        sid = s['season_id']
-        m = fetch_all_records("SELECT wm.matchup_id, wm.week_start, wm.week_end, wm.weeks_included, p1.player_id as p1_id, p1.name as p1_name, p2.player_id as p2_id, p2.name as p2_name, wm.player1_score, wm.player2_score, wm.game_type, wm.notes FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id WHERE wm.season_id = ? AND wm.week_start = ? ORDER BY wm.matchup_id ASC", (sid, week_num))
-        if not m: abort(404)
-        return render_template('weekly_results.html', year=year, week_num=week_num, matchups=m)
-    except Exception as e: print(f"Weekly Results Error for {year} Wk {week_num}: {e}"); return "Error fetching weekly results.",500
+        s_data = fetch_record("SELECT season_id FROM seasons WHERE year = ?", (year,))
+        if s_data is None: abort(404, description=f"Season {year} not found for week {week_num}") # Added more desc
+        sid_val = s_data['season_id']
+        m_data = fetch_all_records("SELECT wm.matchup_id, wm.week_start, wm.week_end, wm.weeks_included, p1.player_id as p1_id, p1.name as p1_name, p2.player_id as p2_id, p2.name as p2_name, wm.player1_score, wm.player2_score, wm.game_type, wm.notes FROM weekly_matchups wm JOIN players p1 ON wm.player1_id = p1.player_id JOIN players p2 ON wm.player2_id = p2.player_id WHERE wm.season_id = ? AND wm.week_start = ? ORDER BY wm.matchup_id ASC", (sid_val, week_num))
+        if not m_data: abort(404, description=f"No matchups for {year} Week {week_num}") # Added more desc
+        return render_template('weekly_results.html', year=year, week_num=week_num, matchups=m_data)
+    except Exception as e: 
+        print(f"Weekly Results Error for {year} Wk {week_num}: {e}")
+        import traceback; traceback.print_exc()
+        return "Error fetching weekly results.",500
+
 
 @app.errorhandler(404)
 def page_not_found(e):
     error_desc = getattr(e, 'description', 'The requested URL was not found on the server.')
+    # Ensure we handle the case where e might not have description
+    if not isinstance(error_desc, str): # Basic check
+        error_desc = "The requested resource was not found."
+    print(f"404 Error: {error_desc} for URL {request.path}") # Log the 404
     return render_template('404.html', error_description=error_desc), 404
 
 if __name__ == '__main__':
+    # This part is for local development only.
+    # Vercel uses the 'app' instance imported via wsgi.py.
+    print("Running Flask app locally...")
     app.run(host='0.0.0.0', port=5000, debug=True)
 
