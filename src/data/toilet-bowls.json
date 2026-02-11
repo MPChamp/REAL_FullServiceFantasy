@@ -1,0 +1,82 @@
+[
+  {
+    "season_id": 2016,
+    "year": 2016,
+    "winner_id": 9,
+    "loser_id": 10,
+    "winner_score": 225,
+    "loser_score": 182
+  },
+  {
+    "season_id": 2017,
+    "year": 2017,
+    "winner_id": 4,
+    "loser_id": 9,
+    "winner_score": 97,
+    "loser_score": 95
+  },
+  {
+    "season_id": 2018,
+    "year": 2018,
+    "winner_id": 7,
+    "loser_id": 6,
+    "winner_score": 111,
+    "loser_score": 99
+  },
+  {
+    "season_id": 2019,
+    "year": 2019,
+    "winner_id": 3,
+    "loser_id": 7,
+    "winner_score": 108,
+    "loser_score": 78
+  },
+  {
+    "season_id": 2020,
+    "year": 2020,
+    "winner_id": 9,
+    "loser_id": 7,
+    "winner_score": 121,
+    "loser_score": 86
+  },
+  {
+    "season_id": 2021,
+    "year": 2021,
+    "winner_id": 7,
+    "loser_id": 4,
+    "winner_score": 118.78,
+    "loser_score": 93.82
+  },
+  {
+    "season_id": 2022,
+    "year": 2022,
+    "winner_id": 5,
+    "loser_id": 9,
+    "winner_score": 147.5,
+    "loser_score": 92.02
+  },
+  {
+    "season_id": 2023,
+    "year": 2023,
+    "winner_id": 9,
+    "loser_id": 7,
+    "winner_score": 100.32,
+    "loser_score": 97.06
+  },
+  {
+    "season_id": 2024,
+    "year": 2024,
+    "winner_id": 7,
+    "loser_id": 2,
+    "winner_score": 113.86,
+    "loser_score": 82.64
+  },
+  {
+    "season_id": 2025,
+    "year": 2025,
+    "winner_id": 6,
+    "loser_id": 10,
+    "winner_score": 128.38,
+    "loser_score": 122.1
+  }
+]

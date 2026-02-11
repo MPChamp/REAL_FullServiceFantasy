@@ -1,0 +1,330 @@
+@import "tailwindcss";
+
+/* ============================================
+   Fantasy Football History — Theme & Base Styles
+   Tailwind CSS v4 (no tailwind.config needed)
+   ============================================ */
+
+@theme {
+  /* Static accent colors (same in both themes) */
+  --color-gold: #f59e0b;
+  --color-gold-light: #fbbf24;
+  --color-win: #22c55e;
+  --color-loss: #ef4444;
+  --color-playoff: #8b5cf6;
+  --color-toilet-shame: #92400e;
+  --color-toilet-glory: #d97706;
+
+  /* Semantic surface colors (swapped by :root / .dark) */
+  --color-surface: var(--_surface);
+  --color-surface-card: var(--_surface-card);
+  --color-surface-inset: var(--_surface-inset);
+
+  /* Semantic text colors */
+  --color-on-surface: var(--_on-surface);
+  --color-on-surface-muted: var(--_on-surface-muted);
+  --color-on-surface-faint: var(--_on-surface-faint);
+
+  /* Semantic border */
+  --color-border-default: var(--_border);
+
+  /* Fonts */
+  --font-heading: "Oswald", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-display: "Bebas Neue", sans-serif;
+  --font-score: "JetBrains Mono", monospace;
+}
+
+/* ============================================
+   Theme Variables — Light / Dark
+   ============================================ */
+
+:root {
+  --_surface: #f8fafc;
+  --_surface-card: #ffffff;
+  --_surface-inset: #e5e7eb;
+  --_on-surface: #111827;
+  --_on-surface-muted: #6b7280;
+  --_on-surface-faint: #9ca3af;
+  --_border: rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+  --_surface: #0a0e17;
+  --_surface-card: #111827;
+  --_surface-inset: #1a2332;
+  --_on-surface: #f9fafb;
+  --_on-surface-muted: #9ca3af;
+  --_on-surface-faint: #6b7280;
+  --_border: rgba(255, 255, 255, 0.06);
+}
+
+/* ============================================
+   Base Styles
+   ============================================ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--_on-surface-muted);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--_on-surface);
+}
+
+/* ============================================
+   Focus Styles
+   ============================================ */
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   Scrollbar Styling
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--_surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--_surface-inset);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--_on-surface-faint);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--_surface-inset) var(--_surface);
+}
+
+/* ============================================
+   Glass Card Utility
+   ============================================ */
+
+.glass-card {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--_border);
+  border-radius: 12px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dark .glass-card {
+  background: linear-gradient(
+    135deg,
+    rgba(17, 24, 39, 0.8) 0%,
+    rgba(26, 35, 50, 0.6) 100%
+  );
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.3),
+    0 2px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+:root:not(.dark) .glass-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(249, 250, 251, 0.85) 100%
+  );
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.glass-card:hover {
+  border-color: rgba(245, 158, 11, 0.25);
+}
+
+.dark .glass-card:hover {
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.4),
+    0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
+
+:root:not(.dark) .glass-card:hover {
+  box-shadow:
+    0 4px 12px -2px rgba(0, 0, 0, 0.12),
+    0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-score {
+  font-family: var(--font-score);
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.text-gold-light {
+  color: var(--color-gold-light);
+}
+
+.text-win {
+  color: var(--color-win);
+}
+
+.text-loss {
+  color: var(--color-loss);
+}
+
+.text-playoff {
+  color: var(--color-playoff);
+}
+
+.border-gold {
+  border-color: var(--color-gold);
+}
+
+/* Gold gradient text */
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effects */
+.glow-gold {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.15);
+}
+
+.glow-gold-strong {
+  box-shadow: 0 0 30px rgba(245, 158, 11, 0.25);
+}
+
+.glow-shame {
+  box-shadow: 0 0 20px rgba(146, 64, 14, 0.2);
+}
+
+/* Shame card — brown-tinted variant of glass-card for toilet bowl losers */
+.shame-card {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dark .shame-card {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 20, 10, 0.8) 0%,
+    rgba(50, 30, 15, 0.6) 100%
+  );
+  border: 1px solid rgba(146, 64, 14, 0.2);
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.3),
+    0 2px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+:root:not(.dark) .shame-card {
+  background: linear-gradient(
+    135deg,
+    rgba(217, 119, 6, 0.08) 0%,
+    rgba(180, 83, 9, 0.05) 100%
+  );
+  border: 1px solid rgba(146, 64, 14, 0.15);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.06),
+    0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.shame-card:hover {
+  border-color: rgba(146, 64, 14, 0.4);
+}
+
+.dark .shame-card:hover {
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.4),
+    0 0 15px rgba(146, 64, 14, 0.15);
+}
+
+:root:not(.dark) .shame-card:hover {
+  box-shadow:
+    0 4px 12px -2px rgba(146, 64, 14, 0.15),
+    0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Stat card — a lighter variant of glass-card for data display */
+.stat-card {
+  border: 1px solid var(--_border);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.dark .stat-card {
+  background: rgba(17, 24, 39, 0.6);
+}
+
+:root:not(.dark) .stat-card {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Page section divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(245, 158, 11, 0.3) 50%,
+    transparent 100%
+  );
+}
+
+/* Animated shimmer for loading states */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--_surface-card) 25%,
+    var(--_surface-inset) 50%,
+    var(--_surface-card) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}

@@ -1,0 +1,1162 @@
+{
+  "highest_regular_score": [
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 202.48,
+      "season_id": 2024,
+      "week": 11,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 195,
+      "season_id": 2019,
+      "week": 5,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 192.06,
+      "season_id": 2023,
+      "week": 8,
+      "opponent": "TJ"
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 189,
+      "season_id": 2018,
+      "week": 11,
+      "opponent": "Sean"
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 187.26,
+      "season_id": 2023,
+      "week": 13,
+      "opponent": "TJ"
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 186.02,
+      "season_id": 2024,
+      "week": 4,
+      "opponent": "Beef"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 185.38,
+      "season_id": 2021,
+      "week": 13,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 184,
+      "season_id": 2019,
+      "week": 5,
+      "opponent": "Beef"
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 183,
+      "season_id": 2018,
+      "week": 7,
+      "opponent": "Danny"
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 181.98,
+      "season_id": 2024,
+      "week": 14,
+      "opponent": "Spirk"
+    }
+  ],
+  "lowest_regular_score": [
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 40,
+      "season_id": 2016,
+      "week": 13,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 46,
+      "season_id": 2019,
+      "week": 6,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 48,
+      "season_id": 2020,
+      "week": 8,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 54.92,
+      "season_id": 2025,
+      "week": 3,
+      "opponent": "Danny"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 58,
+      "season_id": 2018,
+      "week": 13,
+      "opponent": "Ryan"
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 59.72,
+      "season_id": 2021,
+      "week": 12,
+      "opponent": "Bob"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 62.6,
+      "season_id": 2022,
+      "week": 13,
+      "opponent": "Drew"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 62.78,
+      "season_id": 2022,
+      "week": 14,
+      "opponent": "Spirk"
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 63.66,
+      "season_id": 2022,
+      "week": 7,
+      "opponent": "TJ"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 64.76,
+      "season_id": 2025,
+      "week": 12,
+      "opponent": "Danny"
+    }
+  ],
+  "highest_playoff_score": [
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 225,
+      "season_id": 2016,
+      "week": 14,
+      "opponent": "Bob",
+      "game_type": "toilet_bowl"
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 182,
+      "season_id": 2016,
+      "week": 14,
+      "opponent": "Beef",
+      "game_type": "toilet_bowl"
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 179,
+      "season_id": 2017,
+      "week": 15,
+      "opponent": "Ryan",
+      "game_type": "championship"
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 176.38,
+      "season_id": 2023,
+      "week": 15,
+      "opponent": "Santos",
+      "game_type": "semifinal"
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 171.7,
+      "season_id": 2024,
+      "week": 15,
+      "opponent": "Jake",
+      "game_type": "semifinal"
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 165.3,
+      "season_id": 2022,
+      "week": 15,
+      "opponent": "Drew",
+      "game_type": "semifinal"
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 164,
+      "season_id": 2019,
+      "week": 15,
+      "opponent": "Beef",
+      "game_type": "3rd_place"
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 163.68,
+      "season_id": 2021,
+      "week": 16,
+      "opponent": "TJ",
+      "game_type": "championship"
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 163,
+      "season_id": 2017,
+      "week": 14,
+      "opponent": "TJ",
+      "game_type": "semifinal"
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 159.36,
+      "season_id": 2023,
+      "week": 16,
+      "opponent": "Danny",
+      "game_type": "championship"
+    }
+  ],
+  "biggest_blowouts": [
+    {
+      "margin": 114.54,
+      "winner_id": 8,
+      "loser_id": 4,
+      "winner_score": 202.48,
+      "loser_score": 87.94,
+      "season_id": 2024,
+      "week": 11,
+      "game_type": "regular",
+      "winner_name": "Jake",
+      "loser_name": "Drew"
+    },
+    {
+      "margin": 113.76,
+      "winner_id": 10,
+      "loser_id": 2,
+      "winner_score": 173.48,
+      "loser_score": 59.72,
+      "season_id": 2021,
+      "week": 12,
+      "game_type": "regular",
+      "winner_name": "Bob",
+      "loser_name": "Danny"
+    },
+    {
+      "margin": 107,
+      "winner_id": 3,
+      "loser_id": 2,
+      "winner_score": 183,
+      "loser_score": 76,
+      "season_id": 2018,
+      "week": 7,
+      "game_type": "regular",
+      "winner_name": "Spirk",
+      "loser_name": "Danny"
+    },
+    {
+      "margin": 99.06,
+      "winner_id": 3,
+      "loser_id": 1,
+      "winner_score": 187.26,
+      "loser_score": 88.2,
+      "season_id": 2023,
+      "week": 13,
+      "game_type": "regular",
+      "winner_name": "Spirk",
+      "loser_name": "TJ"
+    },
+    {
+      "margin": 96,
+      "winner_id": 2,
+      "loser_id": 4,
+      "winner_score": 179,
+      "loser_score": 83,
+      "season_id": 2017,
+      "week": 7,
+      "game_type": "regular",
+      "winner_name": "Danny",
+      "loser_name": "Drew"
+    },
+    {
+      "margin": 94,
+      "winner_id": 10,
+      "loser_id": 4,
+      "winner_score": 173,
+      "loser_score": 79,
+      "season_id": 2020,
+      "week": 3,
+      "game_type": "regular",
+      "winner_name": "Bob",
+      "loser_name": "Drew"
+    },
+    {
+      "margin": 93,
+      "winner_id": 1,
+      "loser_id": 7,
+      "winner_score": 176,
+      "loser_score": 83,
+      "season_id": 2020,
+      "week": 8,
+      "game_type": "regular",
+      "winner_name": "TJ",
+      "loser_name": "Sean"
+    },
+    {
+      "margin": 89.88,
+      "winner_id": 9,
+      "loser_id": 4,
+      "winner_score": 185.38,
+      "loser_score": 95.5,
+      "season_id": 2021,
+      "week": 13,
+      "game_type": "regular",
+      "winner_name": "Beef",
+      "loser_name": "Drew"
+    },
+    {
+      "margin": 86.26,
+      "winner_id": 8,
+      "loser_id": 2,
+      "winner_score": 157,
+      "loser_score": 70.74,
+      "season_id": 2022,
+      "week": 11,
+      "game_type": "regular",
+      "winner_name": "Jake",
+      "loser_name": "Danny"
+    },
+    {
+      "margin": 86.02,
+      "winner_id": 7,
+      "loser_id": 10,
+      "winner_score": 180.72,
+      "loser_score": 94.7,
+      "season_id": 2022,
+      "week": 4,
+      "game_type": "regular",
+      "winner_name": "Sean",
+      "loser_name": "Bob"
+    }
+  ],
+  "closest_games": [
+    {
+      "margin": 0.24,
+      "winner_id": 8,
+      "loser_id": 1,
+      "winner_score": 119.02,
+      "loser_score": 118.78,
+      "season_id": 2025,
+      "week": 15,
+      "game_type": "regular",
+      "winner_name": "Jake",
+      "loser_name": "TJ"
+    },
+    {
+      "margin": 0.48,
+      "winner_id": 6,
+      "loser_id": 5,
+      "winner_score": 90,
+      "loser_score": 89.52,
+      "season_id": 2022,
+      "week": 6,
+      "game_type": "regular",
+      "winner_name": "Ryan",
+      "loser_name": "Santos"
+    },
+    {
+      "margin": 0.56,
+      "winner_id": 1,
+      "loser_id": 7,
+      "winner_score": 131.22,
+      "loser_score": 130.66,
+      "season_id": 2022,
+      "week": 6,
+      "game_type": "regular",
+      "winner_name": "TJ",
+      "loser_name": "Sean"
+    },
+    {
+      "margin": 0.72,
+      "winner_id": 7,
+      "loser_id": 8,
+      "winner_score": 136.52,
+      "loser_score": 135.8,
+      "season_id": 2022,
+      "week": 12,
+      "game_type": "regular",
+      "winner_name": "Sean",
+      "loser_name": "Jake"
+    },
+    {
+      "margin": 0.76,
+      "winner_id": 1,
+      "loser_id": 8,
+      "winner_score": 112.26,
+      "loser_score": 111.5,
+      "season_id": 2021,
+      "week": 9,
+      "game_type": "regular",
+      "winner_name": "TJ",
+      "loser_name": "Jake"
+    },
+    {
+      "margin": 0.9,
+      "winner_id": 5,
+      "loser_id": 6,
+      "winner_score": 96.96,
+      "loser_score": 96.06,
+      "season_id": 2024,
+      "week": 1,
+      "game_type": "regular",
+      "winner_name": "Santos",
+      "loser_name": "Ryan"
+    },
+    {
+      "margin": 0.9,
+      "winner_id": 3,
+      "loser_id": 5,
+      "winner_score": 128.38,
+      "loser_score": 127.48,
+      "season_id": 2024,
+      "week": 16,
+      "game_type": "championship",
+      "winner_name": "Spirk",
+      "loser_name": "Santos"
+    },
+    {
+      "margin": 1,
+      "winner_id": 9,
+      "loser_id": 4,
+      "winner_score": 124,
+      "loser_score": 123,
+      "season_id": 2018,
+      "week": 2,
+      "game_type": "regular",
+      "winner_name": "Beef",
+      "loser_name": "Drew"
+    },
+    {
+      "margin": 1,
+      "winner_id": 8,
+      "loser_id": 5,
+      "winner_score": 112,
+      "loser_score": 111,
+      "season_id": 2018,
+      "week": 2,
+      "game_type": "regular",
+      "winner_name": "Jake",
+      "loser_name": "Santos"
+    },
+    {
+      "margin": 1,
+      "winner_id": 9,
+      "loser_id": 7,
+      "winner_score": 145,
+      "loser_score": 144,
+      "season_id": 2018,
+      "week": 6,
+      "game_type": "regular",
+      "winner_name": "Beef",
+      "loser_name": "Sean"
+    }
+  ],
+  "highest_combined_scores": [
+    {
+      "combined": 407,
+      "player1_id": 9,
+      "player2_id": 10,
+      "player1_score": 225,
+      "player2_score": 182,
+      "season_id": 2016,
+      "week": 14,
+      "game_type": "toilet_bowl",
+      "player1_name": "Beef",
+      "player2_name": "Bob"
+    },
+    {
+      "combined": 343.2,
+      "player1_id": 2,
+      "player2_id": 4,
+      "player1_score": 164.92,
+      "player2_score": 178.28,
+      "season_id": 2023,
+      "week": 10,
+      "game_type": "regular",
+      "player1_name": "Danny",
+      "player2_name": "Drew"
+    },
+    {
+      "combined": 341,
+      "player1_id": 1,
+      "player2_id": 9,
+      "player1_score": 170,
+      "player2_score": 171,
+      "season_id": 2019,
+      "week": 3,
+      "game_type": "regular",
+      "player1_name": "TJ",
+      "player2_name": "Beef"
+    },
+    {
+      "combined": 337.5,
+      "player1_id": 3,
+      "player2_id": 8,
+      "player1_score": 155.52,
+      "player2_score": 181.98,
+      "season_id": 2024,
+      "week": 14,
+      "game_type": "regular",
+      "player1_name": "Spirk",
+      "player2_name": "Jake"
+    },
+    {
+      "combined": 329.42,
+      "player1_id": 9,
+      "player2_id": 10,
+      "player1_score": 143.4,
+      "player2_score": 186.02,
+      "season_id": 2024,
+      "week": 4,
+      "game_type": "regular",
+      "player1_name": "Beef",
+      "player2_name": "Bob"
+    },
+    {
+      "combined": 327.84,
+      "player1_id": 2,
+      "player2_id": 8,
+      "player1_score": 146.8,
+      "player2_score": 181.04,
+      "season_id": 2021,
+      "week": 2,
+      "game_type": "regular",
+      "player1_name": "Danny",
+      "player2_name": "Jake"
+    },
+    {
+      "combined": 327,
+      "player1_id": 10,
+      "player2_id": 7,
+      "player1_score": 189,
+      "player2_score": 138,
+      "season_id": 2018,
+      "week": 11,
+      "game_type": "regular",
+      "player1_name": "Bob",
+      "player2_name": "Sean"
+    },
+    {
+      "combined": 323,
+      "player1_id": 8,
+      "player2_id": 9,
+      "player1_score": 184,
+      "player2_score": 139,
+      "season_id": 2019,
+      "week": 5,
+      "game_type": "regular",
+      "player1_name": "Jake",
+      "player2_name": "Beef"
+    },
+    {
+      "combined": 322.18,
+      "player1_id": 1,
+      "player2_id": 2,
+      "player1_score": 169.7,
+      "player2_score": 152.48,
+      "season_id": 2025,
+      "week": 10,
+      "game_type": "regular",
+      "player1_name": "TJ",
+      "player2_name": "Danny"
+    },
+    {
+      "combined": 317.06,
+      "player1_id": 7,
+      "player2_id": 4,
+      "player1_score": 181.48,
+      "player2_score": 135.58,
+      "season_id": 2025,
+      "week": 12,
+      "game_type": "regular",
+      "player1_name": "Sean",
+      "player2_name": "Drew"
+    }
+  ],
+  "most_wins_season": [
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 12,
+      "record": "12-2-0",
+      "season_id": 2023
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 11,
+      "record": "11-2-0",
+      "season_id": 2017
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 11,
+      "record": "11-2-0",
+      "season_id": 2018
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 11,
+      "record": "11-2-0",
+      "season_id": 2019
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 11,
+      "record": "11-3-0",
+      "season_id": 2024
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 11,
+      "record": "11-4-0",
+      "season_id": 2025
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 10,
+      "record": "10-3-0",
+      "season_id": 2020
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 10,
+      "record": "10-4-0",
+      "season_id": 2022
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 10,
+      "record": "10-4-0",
+      "season_id": 2022
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 10,
+      "record": "10-4-0",
+      "season_id": 2023
+    }
+  ],
+  "highest_ppg_season": [
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 142.5,
+      "season_id": 2018
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 141.6,
+      "season_id": 2024
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 138.1,
+      "season_id": 2022
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 137,
+      "season_id": 2023
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 135.5,
+      "season_id": 2019
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 135.4,
+      "season_id": 2017
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 135.2,
+      "season_id": 2023
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 134.8,
+      "season_id": 2019
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 131.5,
+      "season_id": 2022
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 131,
+      "season_id": 2025
+    }
+  ],
+  "most_points_season": [
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 1983.02,
+      "season_id": 2024
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 1964.88,
+      "season_id": 2025
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 1953.14,
+      "season_id": 2025
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 1933.56,
+      "season_id": 2022
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 1917.34,
+      "season_id": 2023
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 1899.74,
+      "season_id": 2025
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 1893.18,
+      "season_id": 2023
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 1872.2,
+      "season_id": 2025
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 1852,
+      "season_id": 2018
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 1840.96,
+      "season_id": 2022
+    }
+  ],
+  "most_moves_season": [
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 54,
+      "season_id": 2019
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 54,
+      "season_id": 2020
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 50,
+      "season_id": 2019
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 50,
+      "season_id": 2020
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 48,
+      "season_id": 2022
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 47,
+      "season_id": 2025
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 46,
+      "season_id": 2023
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 45,
+      "season_id": 2022
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 44,
+      "season_id": 2021
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 43,
+      "season_id": 2021
+    }
+  ],
+  "most_losses_season": [
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 12,
+      "record": "2-12-0",
+      "season_id": 2022
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 11,
+      "record": "2-11-0",
+      "season_id": 2016
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 11,
+      "record": "3-11-0",
+      "season_id": 2022
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 11,
+      "record": "3-11-0",
+      "season_id": 2023
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 11,
+      "record": "3-11-0",
+      "season_id": 2023
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 11,
+      "record": "4-11-0",
+      "season_id": 2025
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 11,
+      "record": "4-11-0",
+      "season_id": 2025
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 10,
+      "record": "3-10-0",
+      "season_id": 2017
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 10,
+      "record": "3-10-0",
+      "season_id": 2017
+    },
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 10,
+      "record": "3-10-0",
+      "season_id": 2018
+    }
+  ],
+  "last_place_counts": [
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 3
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 2
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 2
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 1
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 1
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 1
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 0
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 0
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 0
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 0
+    }
+  ],
+  "toilet_bowl_appearances": [
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 6
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 5
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 2
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 2
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 2
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 1
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 1
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 1
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 0
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 0
+    }
+  ],
+  "toilet_bowl_wins": [
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 3
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 3
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 1
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 1
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 1
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 1
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 0
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 0
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 0
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 0
+    }
+  ],
+  "toilet_bowl_losses": [
+    {
+      "player_id": 7,
+      "player_name": "Sean",
+      "value": 3
+    },
+    {
+      "player_id": 9,
+      "player_name": "Beef",
+      "value": 2
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 2
+    },
+    {
+      "player_id": 2,
+      "player_name": "Danny",
+      "value": 1
+    },
+    {
+      "player_id": 4,
+      "player_name": "Drew",
+      "value": 1
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
+      "value": 1
+    },
+    {
+      "player_id": 1,
+      "player_name": "TJ",
+      "value": 0
+    },
+    {
+      "player_id": 3,
+      "player_name": "Spirk",
+      "value": 0
+    },
+    {
+      "player_id": 5,
+      "player_name": "Santos",
+      "value": 0
+    },
+    {
+      "player_id": 8,
+      "player_name": "Jake",
+      "value": 0
+    }
+  ]
+}

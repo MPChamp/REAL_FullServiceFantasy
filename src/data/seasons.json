@@ -1,0 +1,62 @@
+[
+  {
+    "season_id": 2016,
+    "year": 2016,
+    "regular_season_end_week": 13,
+    "playoff_format": "combined"
+  },
+  {
+    "season_id": 2017,
+    "year": 2017,
+    "regular_season_end_week": 13,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2018,
+    "year": 2018,
+    "regular_season_end_week": 13,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2019,
+    "year": 2019,
+    "regular_season_end_week": 13,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2020,
+    "year": 2020,
+    "regular_season_end_week": 13,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2021,
+    "year": 2021,
+    "regular_season_end_week": 14,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2022,
+    "year": 2022,
+    "regular_season_end_week": 14,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2023,
+    "year": 2023,
+    "regular_season_end_week": 14,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2024,
+    "year": 2024,
+    "regular_season_end_week": 14,
+    "playoff_format": "weekly"
+  },
+  {
+    "season_id": 2025,
+    "year": 2025,
+    "regular_season_end_week": 15,
+    "playoff_format": "weekly"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "championship_id": 1,
+    "season_id": 2016,
+    "winner_id": 1,
+    "runner_up_id": 2
+  },
+  {
+    "championship_id": 2,
+    "season_id": 2017,
+    "winner_id": 2,
+    "runner_up_id": 6
+  },
+  {
+    "championship_id": 3,
+    "season_id": 2018,
+    "winner_id": 1,
+    "runner_up_id": 3
+  },
+  {
+    "championship_id": 4,
+    "season_id": 2019,
+    "winner_id": 10,
+    "runner_up_id": 6
+  },
+  {
+    "championship_id": 5,
+    "season_id": 2020,
+    "winner_id": 3,
+    "runner_up_id": 2
+  },
+  {
+    "championship_id": 6,
+    "season_id": 2021,
+    "winner_id": 8,
+    "runner_up_id": 1
+  },
+  {
+    "championship_id": 7,
+    "season_id": 2022,
+    "winner_id": 8,
+    "runner_up_id": 1
+  },
+  {
+    "championship_id": 8,
+    "season_id": 2023,
+    "winner_id": 6,
+    "runner_up_id": 2
+  },
+  {
+    "championship_id": 9,
+    "season_id": 2024,
+    "winner_id": 3,
+    "runner_up_id": 5
+  },
+  {
+    "championship_id": 10,
+    "season_id": 2025,
+    "winner_id": 8,
+    "runner_up_id": 7
+  }
+]
