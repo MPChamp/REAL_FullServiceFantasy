@@ -308,6 +308,189 @@ h1, h2, h3, h4, h5, h6 {
   );
 }
 
+/* ============================================
+   Motion Utilities (Home overhaul)
+   ============================================ */
+
+/* Scrolling news ticker */
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  animation: ticker-scroll 45s linear infinite;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+/* Faint football-field yard lines for the hero */
+.yard-lines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 47px,
+    rgba(245, 158, 11, 0.06) 47px,
+    rgba(245, 158, 11, 0.06) 48px
+  );
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
+}
+
+:root:not(.dark) .yard-lines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 47px,
+    rgba(180, 83, 9, 0.08) 47px,
+    rgba(180, 83, 9, 0.08) 48px
+  );
+}
+
+/* Animated gold shimmer sweeping across display text */
+@keyframes shimmer-text {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.text-shimmer-gold {
+  background: linear-gradient(
+    110deg,
+    var(--_on-surface) 35%,
+    var(--color-gold-light) 48%,
+    #fff7e0 50%,
+    var(--color-gold-light) 52%,
+    var(--_on-surface) 65%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-text 6s linear infinite;
+}
+
+/* Shine sweep across a card on hover */
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.12) 50%,
+    transparent 60%
+  );
+  transform: translateX(-120%);
+  transition: transform 0s;
+  pointer-events: none;
+}
+
+.card-shine:hover::after {
+  transform: translateX(120%);
+  transition: transform 0.7s ease;
+}
+
+/* Sad wobble for Wall of Shame cards */
+@keyframes shame-wobble {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-2deg);
+  }
+  40% {
+    transform: rotate(2.5deg);
+  }
+  60% {
+    transform: rotate(-1.5deg);
+  }
+  80% {
+    transform: rotate(1deg);
+  }
+}
+
+.shame-card:hover {
+  animation: shame-wobble 0.6s ease-in-out;
+}
+
+/* Buzzing fly on shame cards */
+@keyframes fly-buzz {
+  0%, 100% {
+    transform: translate(0, 0) rotate(10deg);
+  }
+  25% {
+    transform: translate(6px, -8px) rotate(-15deg);
+  }
+  50% {
+    transform: translate(-5px, -14px) rotate(20deg);
+  }
+  75% {
+    transform: translate(8px, -4px) rotate(-10deg);
+  }
+}
+
+.fly-buzz {
+  animation: fly-buzz 1.1s ease-in-out infinite;
+}
+
+/* Gentle idle float (trophies, crowns) */
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.float-gentle {
+  animation: float-gentle 3s ease-in-out infinite;
+}
+
+/* Pulsing gold halo for the reigning champ chip */
+@keyframes champ-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.35), 0 0 24px rgba(245, 158, 11, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(245, 158, 11, 0), 0 0 32px rgba(245, 158, 11, 0.25);
+  }
+}
+
+.champ-pulse {
+  animation: champ-pulse 2.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track,
+  .text-shimmer-gold,
+  .shame-card:hover,
+  .fly-buzz,
+  .float-gentle,
+  .champ-pulse {
+    animation: none;
+  }
+
+  .card-shine::after {
+    display: none;
+  }
+}
+
 /* Animated shimmer for loading states */
 @keyframes shimmer {
   0% {
