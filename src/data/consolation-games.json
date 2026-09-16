@@ -1,0 +1,452 @@
+[
+  {
+    "season_id": 2016,
+    "week": 14,
+    "home_player_id": 5,
+    "away_player_id": 6,
+    "home_score": 184,
+    "away_score": 196,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2016,
+    "week": 14,
+    "home_player_id": 7,
+    "away_player_id": 8,
+    "home_score": 165,
+    "away_score": 181,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2016,
+    "week": 15,
+    "home_player_id": 6,
+    "away_player_id": 8,
+    "home_score": 203,
+    "away_score": 260,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2016,
+    "week": 15,
+    "home_player_id": 5,
+    "away_player_id": 9,
+    "home_score": 226,
+    "away_score": 190,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2016,
+    "week": 15,
+    "home_player_id": 7,
+    "away_player_id": 10,
+    "home_score": 174,
+    "away_score": 210,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2017,
+    "week": 14,
+    "home_player_id": 10,
+    "away_player_id": 3,
+    "home_score": 108,
+    "away_score": 121,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2017,
+    "week": 14,
+    "home_player_id": 8,
+    "away_player_id": 5,
+    "home_score": 84,
+    "away_score": 141,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2017,
+    "week": 15,
+    "home_player_id": 3,
+    "away_player_id": 5,
+    "home_score": 107,
+    "away_score": 81,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2017,
+    "week": 15,
+    "home_player_id": 10,
+    "away_player_id": 4,
+    "home_score": 135,
+    "away_score": 75,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2017,
+    "week": 15,
+    "home_player_id": 8,
+    "away_player_id": 9,
+    "home_score": 128,
+    "away_score": 95,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2018,
+    "week": 14,
+    "home_player_id": 5,
+    "away_player_id": 10,
+    "home_score": 166,
+    "away_score": 112,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2018,
+    "week": 14,
+    "home_player_id": 4,
+    "away_player_id": 9,
+    "home_score": 101,
+    "away_score": 92,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2018,
+    "week": 15,
+    "home_player_id": 5,
+    "away_player_id": 4,
+    "home_score": 97,
+    "away_score": 100,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2018,
+    "week": 15,
+    "home_player_id": 10,
+    "away_player_id": 7,
+    "home_score": 97,
+    "away_score": 51,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2018,
+    "week": 15,
+    "home_player_id": 9,
+    "away_player_id": 6,
+    "home_score": 100,
+    "away_score": 119,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "home_player_id": 2,
+    "away_player_id": 4,
+    "home_score": 90,
+    "away_score": 108,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "home_player_id": 5,
+    "away_player_id": 8,
+    "home_score": 81,
+    "away_score": 124,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "home_player_id": 4,
+    "away_player_id": 8,
+    "home_score": 162,
+    "away_score": 114,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "home_player_id": 2,
+    "away_player_id": 3,
+    "home_score": 92,
+    "away_score": 109,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "home_player_id": 5,
+    "away_player_id": 7,
+    "home_score": 121,
+    "away_score": 83,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "home_player_id": 4,
+    "away_player_id": 5,
+    "home_score": 153,
+    "away_score": 85,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "home_player_id": 8,
+    "away_player_id": 10,
+    "home_score": 110,
+    "away_score": 129,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "home_player_id": 4,
+    "away_player_id": 10,
+    "home_score": 114,
+    "away_score": 38,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "home_player_id": 5,
+    "away_player_id": 9,
+    "home_score": 70,
+    "away_score": 15,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "home_player_id": 8,
+    "away_player_id": 7,
+    "home_score": 136,
+    "away_score": -27,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "home_player_id": 10,
+    "away_player_id": 9,
+    "home_score": 126.9,
+    "away_score": 113.74,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "home_player_id": 5,
+    "away_player_id": 3,
+    "home_score": 76.24,
+    "away_score": 59.5,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "home_player_id": 10,
+    "away_player_id": 5,
+    "home_score": 143.02,
+    "away_score": 49.24,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "home_player_id": 9,
+    "away_player_id": 7,
+    "home_score": 120.74,
+    "away_score": 86,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "home_player_id": 3,
+    "away_player_id": 4,
+    "home_score": 72.2,
+    "away_score": 115.88,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2022,
+    "week": 15,
+    "home_player_id": 3,
+    "away_player_id": 2,
+    "home_score": 79.24,
+    "away_score": 98.12,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2022,
+    "week": 15,
+    "home_player_id": 10,
+    "away_player_id": 6,
+    "home_score": 119.58,
+    "away_score": 91.36,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2022,
+    "week": 16,
+    "home_player_id": 2,
+    "away_player_id": 10,
+    "home_score": 110.2,
+    "away_score": 99.76,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2022,
+    "week": 16,
+    "home_player_id": 3,
+    "away_player_id": 5,
+    "home_score": 103.3,
+    "away_score": 106.5,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2022,
+    "week": 16,
+    "home_player_id": 6,
+    "away_player_id": 9,
+    "home_score": 136.7,
+    "away_score": 88.8,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2023,
+    "week": 15,
+    "home_player_id": 3,
+    "away_player_id": 8,
+    "home_score": 129.14,
+    "away_score": 72.06,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2023,
+    "week": 15,
+    "home_player_id": 10,
+    "away_player_id": 1,
+    "home_score": 109.84,
+    "away_score": 100.4,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2023,
+    "week": 16,
+    "home_player_id": 3,
+    "away_player_id": 10,
+    "home_score": 116.18,
+    "away_score": 105.84,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2023,
+    "week": 16,
+    "home_player_id": 8,
+    "away_player_id": 9,
+    "home_score": 96.42,
+    "away_score": 120,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2023,
+    "week": 16,
+    "home_player_id": 1,
+    "away_player_id": 7,
+    "home_score": 123.8,
+    "away_score": 98.22,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2024,
+    "week": 15,
+    "home_player_id": 9,
+    "away_player_id": 1,
+    "home_score": 109.24,
+    "away_score": 113.04,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2024,
+    "week": 15,
+    "home_player_id": 4,
+    "away_player_id": 6,
+    "home_score": 160,
+    "away_score": 139.7,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2024,
+    "week": 16,
+    "home_player_id": 1,
+    "away_player_id": 4,
+    "home_score": 129.66,
+    "away_score": 88.64,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2024,
+    "week": 16,
+    "home_player_id": 9,
+    "away_player_id": 7,
+    "home_score": 93.64,
+    "away_score": 112.66,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2024,
+    "week": 16,
+    "home_player_id": 6,
+    "away_player_id": 2,
+    "home_score": 154.94,
+    "away_score": 157.42,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2025,
+    "week": 16,
+    "home_player_id": 9,
+    "away_player_id": 3,
+    "home_score": 86.88,
+    "away_score": 94.44,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2025,
+    "week": 16,
+    "home_player_id": 4,
+    "away_player_id": 5,
+    "home_score": 129.82,
+    "away_score": 87.48,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2025,
+    "week": 17,
+    "home_player_id": 3,
+    "away_player_id": 4,
+    "home_score": 51.3,
+    "away_score": 133.08,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2025,
+    "week": 17,
+    "home_player_id": 9,
+    "away_player_id": 6,
+    "home_score": 76.9,
+    "away_score": 109.48,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  },
+  {
+    "season_id": 2025,
+    "week": 17,
+    "home_player_id": 5,
+    "away_player_id": 10,
+    "home_score": 61.34,
+    "away_score": 129.14,
+    "tier": "LOSERS_CONSOLATION_LADDER"
+  }
+]

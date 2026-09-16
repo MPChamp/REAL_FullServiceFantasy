@@ -100,3 +100,95 @@ export interface HeadToHeadRecord {
   player2_total_points: number;
   matchups: HeadToHeadMatchup[];
 }
+
+// ============================================
+// ESPN-sourced data (see scripts/fetch-espn.mjs)
+// ============================================
+
+export type NflPosition = 'QB' | 'RB' | 'WR' | 'TE' | 'K' | 'D/ST' | 'UNK';
+
+export interface NflPlayer {
+  nfl_player_id: number;
+  nfl_player_name: string;
+  position: NflPosition;
+  pro_team: string;
+}
+
+export interface DraftPick extends NflPlayer {
+  season_id: number;
+  overall_pick: number;
+  round: number;
+  round_pick: number;
+  player_id: number;
+  keeper: boolean;
+}
+
+export interface TeamName {
+  season_id: number;
+  player_id: number;
+  espn_team_id: number;
+  team_name: string;
+  abbrev: string;
+}
+
+/**
+ * ESPN consolation-ladder games. Deliberately kept out of matchups.json so they
+ * never reach records, career stats, or head-to-head — only the playoff bracket
+ * and the 9th/10th toilet bowl count in this league.
+ */
+export interface ConsolationGame {
+  season_id: number;
+  week: number;
+  home_player_id: number;
+  away_player_id: number;
+  home_score: number;
+  away_score: number;
+  tier: string;
+}
+
+export interface Transaction {
+  transaction_id: string;
+  season_id: number;
+  week: number;
+  date: string;
+  player_id: number;
+  type: 'waiver' | 'free_agent' | 'trade';
+  bid_amount: number;
+  adds: NflPlayer[];
+  drops: NflPlayer[];
+}
+
+export interface CurrentStanding {
+  player_id: number;
+  team_name: string;
+  abbrev: string;
+  wins: number;
+  losses: number;
+  ties: number;
+  points_for: number;
+  points_against: number;
+  rank: number | null;
+}
+
+export interface CurrentGame {
+  week: number;
+  home_player_id: number;
+  away_player_id: number;
+  home_score: number;
+  away_score: number;
+  winner: 'home' | 'away' | null;
+  playoff_tier: string | null;
+}
+
+export interface CurrentSeason {
+  season_id: number;
+  league_name: string | null;
+  current_week: number | null;
+  current_matchup_period: number | null;
+  regular_season_weeks: number | null;
+  playoff_team_count: number | null;
+  is_active: boolean;
+  last_updated: string;
+  standings: CurrentStanding[];
+  schedule: CurrentGame[];
+}

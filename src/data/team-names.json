@@ -1,0 +1,772 @@
+[
+  {
+    "season_id": 2016,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "Harambe's Heroes",
+    "abbrev": "HBAE"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": ". Wario's Women",
+    "abbrev": "WW"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Wonder Subs",
+    "abbrev": "Subs"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "Beef Bombers Double XL",
+    "abbrev": "BEEF"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "Mrs.  Panchal",
+    "abbrev": "PANC"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Houston  Flexicution",
+    "abbrev": "FLEX"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "Los Angeles Rammed",
+    "abbrev": "SH!T"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Chicken Wing Kingdom",
+    "abbrev": "KFC"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "\"Put It In The Mixer\"",
+    "abbrev": "PITM"
+  },
+  {
+    "season_id": 2016,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Varsity Placeholders",
+    "abbrev": "VPH"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "The Penalty Boxers",
+    "abbrev": "TPB"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "Booty Busting Black Boys",
+    "abbrev": "BBBB"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Wonder Subs",
+    "abbrev": "Subs"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "Beef Bombers Double XL",
+    "abbrev": "BEEF"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "Titi's Sugardaddy",
+    "abbrev": "TITI"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Ball so Hard University",
+    "abbrev": "BSHU"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "OJs Freedom Riders",
+    "abbrev": "OJFR"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Filipino Santoses",
+    "abbrev": "HECK"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "Vietnamese Teezus",
+    "abbrev": "VJ"
+  },
+  {
+    "season_id": 2017,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Jake loves  Julia Pohl",
+    "abbrev": "JLJP"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "RiYs Mixtape",
+    "abbrev": "RiY"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "Young  Dagger Dicks",
+    "abbrev": "YDD"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Wonder Subs",
+    "abbrev": "Subs"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "Seans Princess RAWR XD",
+    "abbrev": "XXXD"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "Titi's Sugardaddy",
+    "abbrev": "TITI"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Gianna is A Furry",
+    "abbrev": "FUR"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "Shaquems Nubjobbers",
+    "abbrev": "SNJ"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Filipino Santoses",
+    "abbrev": "HECK"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "Why You Got A Teezus Piece",
+    "abbrev": "TTP"
+  },
+  {
+    "season_id": 2018,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "The R.I.GAYS",
+    "abbrev": "GAYS"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "The Rad Dads",
+    "abbrev": "DADS"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "Sean’s Unknown Sexuality",
+    "abbrev": "SUS"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Papi Chulo",
+    "abbrev": "PAPI"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "Sean's Supple Ass Cheeks",
+    "abbrev": "SEAN"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "Ryan's Summer Fling",
+    "abbrev": "OCMD"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Gianna is Still a Furry",
+    "abbrev": "FUR"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "Santos' Stoner Boners",
+    "abbrev": "SHEA"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Duterte's Death Squad",
+    "abbrev": "DRUG"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "The Legend of The Scrub Squad",
+    "abbrev": "SS"
+  },
+  {
+    "season_id": 2019,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Baked Mayfield",
+    "abbrev": "YERR"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "The Rad Dads",
+    "abbrev": "DADS"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "Serial Rapists",
+    "abbrev": "BLM"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Papi Chulo",
+    "abbrev": "PAPI"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "Sean's Supple Ass Cheeks",
+    "abbrev": "SEAN"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "Ryan's Summer Fling",
+    "abbrev": "OCMD"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Aniela's Only Fans",
+    "abbrev": "OFNS"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "Santos' Stoner Boners",
+    "abbrev": "SHEA"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Duterte's Death Squad",
+    "abbrev": "DRUG"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "The Legend of The Scrub Squad",
+    "abbrev": "SS"
+  },
+  {
+    "season_id": 2020,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Baked Mayfield",
+    "abbrev": "YERR"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "The Yung Gravy's",
+    "abbrev": "GRVY"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "The 6.5s",
+    "abbrev": "BLM"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Papi Chulo",
+    "abbrev": "PAPI"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "Sexual  Healing",
+    "abbrev": "WWJD"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "Santos's  Butt Aids",
+    "abbrev": "EWWW"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Bishop Sycamore",
+    "abbrev": "BSHS"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "Danny's Downfall",
+    "abbrev": "JWJ"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "The Filipino Communists",
+    "abbrev": "COMM"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "Illegitimate Winner",
+    "abbrev": "SIW"
+  },
+  {
+    "season_id": 2021,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Scary Terry, Bitch",
+    "abbrev": "BIT"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "Kansas Velociraptors",
+    "abbrev": "EVAN"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "The DN Dynasty",
+    "abbrev": "BLM"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Asian Zing",
+    "abbrev": "ZING"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "The Furry Avenger",
+    "abbrev": "RFTA"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "TJ=Autodraft Fraud",
+    "abbrev": "Auto"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Book of Mormon and Moms",
+    "abbrev": "MOM"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "Sneaky Snapchats",
+    "abbrev": "BOB"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "I am definitely Genghis Khan",
+    "abbrev": "KHAN"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "The Danimals",
+    "abbrev": "LEAR"
+  },
+  {
+    "season_id": 2022,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Manti Teo's  Dead Girlfriend",
+    "abbrev": "TEO"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "Super Duper Melonheads",
+    "abbrev": "SDM"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "The Waifu Watchers",
+    "abbrev": "VIP"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Asian Zing",
+    "abbrev": "ZING"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "The Prodigal Sons",
+    "abbrev": "RFTA"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "I Love Vanguard",
+    "abbrev": "NOT"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Step Burrow, I'm Stuck",
+    "abbrev": "SBIS"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 10,
+    "espn_team_id": 7,
+    "team_name": "My Son the Communist",
+    "abbrev": "BOB"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Guys Plz See Sound of Freedom",
+    "abbrev": "QANO"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "11 SCREWS DEEP",
+    "abbrev": "PICK"
+  },
+  {
+    "season_id": 2023,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Double Champ (Tjs Father)",
+    "abbrev": "DCC"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "Banana Bread at Work Today Dude",
+    "abbrev": "Yeah"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "The Waifu Watchers",
+    "abbrev": "VIP"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Rice Crackers",
+    "abbrev": "RICE"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "The Prodigal Sons",
+    "abbrev": "RFTA"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "The Sam Darnold Fan Club",
+    "abbrev": "Sean"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "#CTESPN",
+    "abbrev": "CTE"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Sean Owes Us All $100",
+    "abbrev": "$100"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "OJ's Homicide Homies",
+    "abbrev": "RIPO"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "Soup Season",
+    "abbrev": "SS"
+  },
+  {
+    "season_id": 2024,
+    "player_id": 10,
+    "espn_team_id": 11,
+    "team_name": "My Son The Communist",
+    "abbrev": "Bob"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "Super Duper Melonheads",
+    "abbrev": "SDM"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "The MESSiahs",
+    "abbrev": "MESS"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Boobie Suckers",
+    "abbrev": "BOOB"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "The Aura Farmers",
+    "abbrev": "AURA"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "The Dictator",
+    "abbrev": "RiY"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Bonnie Blue 42",
+    "abbrev": "BB42"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Spencer Rattler Ruined My Life",
+    "abbrev": "die"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "Orange Is The New Backfield",
+    "abbrev": "OITB"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "OKC Bombers",
+    "abbrev": "BOMB"
+  },
+  {
+    "season_id": 2025,
+    "player_id": 10,
+    "espn_team_id": 11,
+    "team_name": "BMW Injury Reserve",
+    "abbrev": "Bob"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 6,
+    "espn_team_id": 1,
+    "team_name": "Kirk's Cousins",
+    "abbrev": "KIRK"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 3,
+    "espn_team_id": 2,
+    "team_name": "Where has all the DN gone?",
+    "abbrev": "DN"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 4,
+    "espn_team_id": 3,
+    "team_name": "Boobie Suckers",
+    "abbrev": "BOOB"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 9,
+    "espn_team_id": 4,
+    "team_name": "The Aura Farmers",
+    "abbrev": "AURA"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 2,
+    "espn_team_id": 5,
+    "team_name": "The Dictator",
+    "abbrev": "RiY"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 7,
+    "espn_team_id": 6,
+    "team_name": "Bonnie Blue 42",
+    "abbrev": "BB42"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 5,
+    "espn_team_id": 8,
+    "team_name": "Lisan Allar Gaib",
+    "abbrev": "DUNE"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 1,
+    "espn_team_id": 9,
+    "team_name": "Orange Is The New Backfield",
+    "abbrev": "OITB"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 8,
+    "espn_team_id": 10,
+    "team_name": "OKC Bombers",
+    "abbrev": "BOMB"
+  },
+  {
+    "season_id": 2026,
+    "player_id": 10,
+    "espn_team_id": 11,
+    "team_name": "BostonSnowBlowers",
+    "abbrev": "Bob"
+  }
+]

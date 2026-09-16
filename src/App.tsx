@@ -16,6 +16,9 @@ const ChampionshipsPage = React.lazy(() => import('./pages/ChampionshipsPage'));
 const PlayoffsPage = React.lazy(() => import('./pages/PlayoffsPage'));
 const AnalyticsPage = React.lazy(() => import('./pages/AnalyticsPage'));
 const SimulatorPage = React.lazy(() => import('./pages/SimulatorPage'));
+const DraftsPage = React.lazy(() => import('./pages/DraftsPage'));
+const TransactionsPage = React.lazy(() => import('./pages/TransactionsPage'));
+const LiveSeasonPage = React.lazy(() => import('./pages/LiveSeasonPage'));
 const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage'));
 
 function PageLoader() {
@@ -45,6 +48,9 @@ function App() {
             <Route path="/records" element={<RecordsPage />} />
             <Route path="/championships" element={<ChampionshipsPage />} />
             <Route path="/playoffs" element={<PlayoffsPage />} />
+            <Route path="/live" element={<LiveSeasonPage />} />
+            <Route path="/drafts" element={<DraftsPage />} />
+            <Route path="/transactions" element={<TransactionsPage />} />
             <Route path="/analytics" element={<AnalyticsPage />} />
             <Route path="/simulator" element={<SimulatorPage />} />
             <Route path="*" element={<NotFoundPage />} />

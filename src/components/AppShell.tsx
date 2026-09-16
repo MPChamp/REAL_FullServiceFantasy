@@ -1,12 +1,27 @@
 import { useState } from 'react';
 import type { ReactNode } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { motion, useScroll, useSpring } from 'framer-motion';
 import { Trophy, Menu, X } from 'lucide-react';
 import ThemeToggle from './common/ThemeToggle';
+import seasonsData from '@/data/seasons.json';
+import currentSeasonData from '@/data/current-season.json';
+import type { Season, CurrentSeason } from '@/data/types';
+
+const seasons = seasonsData as Season[];
+const currentSeason = currentSeasonData as CurrentSeason;
+
+const seasonYears = new Set(seasons.map((s) => s.year));
+if (currentSeason.is_active) seasonYears.add(currentSeason.season_id);
+const firstSeason = Math.min(...seasonYears);
+const seasonCount = seasonYears.size;
 
 const navLinks = [
+  { to: '/live', label: '2026' },
   { to: '/seasons', label: 'Seasons' },
   { to: '/players', label: 'Players' },
+  { to: '/drafts', label: 'Drafts' },
+  { to: '/transactions', label: 'Moves' },
   { to: '/head-to-head', label: 'Head-to-Head' },
   { to: '/records', label: 'Records' },
   { to: '/championships', label: 'Championships' },
@@ -15,7 +30,17 @@ const navLinks = [
   { to: '/simulator', label: 'What If?' },
 ];
 
-function NavLinkItem({ to, label, onClick }: { to: string; label: string; onClick?: () => void }) {
+function NavLinkItem({
+  to,
+  label,
+  onClick,
+  slide = false,
+}: {
+  to: string;
+  label: string;
+  onClick?: () => void;
+  slide?: boolean;
+}) {
   return (
     <NavLink
       to={to}
@@ -31,12 +56,32 @@ function NavLinkItem({ to, label, onClick }: { to: string; label: string; onClic
       {({ isActive }) => (
         <>
           {label}
-          {isActive && (
-            <span className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-gold rounded-full" />
-          )}
+          {isActive &&
+            (slide ? (
+              <motion.span
+                layoutId="nav-underline"
+                transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-gold rounded-full"
+              />
+            ) : (
+              <span className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-gold rounded-full" />
+            ))}
         </>
       )}
     </NavLink>
+  );
+}
+
+/** Thin gold bar under the navbar that fills as you scroll the page. */
+function ScrollProgressBar() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, { stiffness: 120, damping: 30, restDelta: 0.001 });
+  return (
+    <motion.div
+      aria-hidden
+      style={{ scaleX }}
+      className="absolute bottom-0 left-0 right-0 h-0.5 origin-left bg-gradient-to-r from-gold to-gold-light"
+    />
   );
 }
 
@@ -59,7 +104,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
           {/* Desktop nav links */}
           <div className="hidden items-center gap-6 md:flex">
             {navLinks.map((link) => (
-              <NavLinkItem key={link.to} to={link.to} label={link.label} />
+              <NavLinkItem key={link.to} to={link.to} label={link.label} slide />
             ))}
             <ThemeToggle />
           </div>
@@ -77,6 +122,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
             </button>
           </div>
         </nav>
+        <ScrollProgressBar />
       </header>
 
       {/* ========== Mobile slide-out panel ========== */}
@@ -142,7 +188,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
             Full Service Fantasy Football League
           </p>
           <p className="mt-1 text-xs text-on-surface-faint">
-            Est. 2016 &mdash; 10 Seasons of Glory
+            Est. {firstSeason} &mdash; {seasonCount} Seasons of Glory
           </p>
         </div>
       </footer>

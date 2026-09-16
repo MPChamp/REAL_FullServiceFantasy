@@ -819,10 +819,10 @@
   ],
   "most_moves_season": [
     {
-      "player_id": 9,
-      "player_name": "Beef",
+      "player_id": 3,
+      "player_name": "Spirk",
       "value": 54,
-      "season_id": 2019
+      "season_id": 2020
     },
     {
       "player_id": 6,
@@ -831,46 +831,46 @@
       "season_id": 2020
     },
     {
-      "player_id": 10,
-      "player_name": "Bob",
-      "value": 50,
-      "season_id": 2019
-    },
-    {
-      "player_id": 3,
-      "player_name": "Spirk",
-      "value": 50,
-      "season_id": 2020
-    },
-    {
       "player_id": 7,
       "player_name": "Sean",
+      "value": 50,
+      "season_id": 2022
+    },
+    {
+      "player_id": 6,
+      "player_name": "Ryan",
       "value": 48,
       "season_id": 2022
     },
     {
       "player_id": 6,
       "player_name": "Ryan",
-      "value": 47,
+      "value": 48,
       "season_id": 2025
     },
     {
-      "player_id": 6,
-      "player_name": "Ryan",
-      "value": 46,
-      "season_id": 2023
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 47,
+      "season_id": 2020
     },
     {
       "player_id": 6,
       "player_name": "Ryan",
-      "value": 45,
-      "season_id": 2022
+      "value": 47,
+      "season_id": 2023
     },
     {
       "player_id": 6,
       "player_name": "Ryan",
       "value": 44,
       "season_id": 2021
+    },
+    {
+      "player_id": 10,
+      "player_name": "Bob",
+      "value": 43,
+      "season_id": 2018
     },
     {
       "player_id": 1,

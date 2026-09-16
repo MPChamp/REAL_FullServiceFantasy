@@ -1,0 +1,14 @@
+{
+  "_comment": [
+    "Copy to espn-members.json and fill in your league's real values.",
+    "That file is gitignored because an ESPN member GUID is also the SWID",
+    "auth cookie — it does not belong in a public repo.",
+    "",
+    "Find the GUIDs by requesting the league with view=mTeam: each team's",
+    "owners[0] is the member GUID, and members[] gives the matching name.",
+    "Map each one to the player_id used in src/data/players.json. A manager",
+    "who has switched ESPN accounts gets one entry per account, both",
+    "pointing at the same player_id."
+  ],
+  "{00000000-0000-0000-0000-000000000000}": { "player_id": 1, "name": "Example Manager" }
+}

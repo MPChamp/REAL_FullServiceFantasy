@@ -45,6 +45,22 @@ export function getPlayerColor(id: number): string {
 }
 
 /**
+ * Hex colors for NFL positions, used on draft boards and transaction rows.
+ */
+export const positionColors: Record<string, string> = {
+  QB: '#ef4444', // red
+  RB: '#22c55e', // green
+  WR: '#3b82f6', // blue
+  TE: '#f59e0b', // amber
+  K: '#a855f7', // purple
+  'D/ST': '#64748b', // slate
+};
+
+export function getPositionColor(position: string): string {
+  return positionColors[position] ?? '#9ca3af';
+}
+
+/**
  * Returns Recharts-compatible tooltip style object for the current theme.
  */
 export function getChartTooltipStyle(isDark: boolean) {

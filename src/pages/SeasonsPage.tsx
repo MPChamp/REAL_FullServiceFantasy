@@ -1,20 +1,28 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, Calendar } from 'lucide-react';
+import { Trophy, Calendar, Radio } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
-import type { Player, Season, SeasonResult, Championship } from '@/data/types';
+import type { Player, Season, SeasonResult, Championship, CurrentSeason } from '@/data/types';
 import playersData from '@/data/players.json';
 import seasonsData from '@/data/seasons.json';
 import seasonResultsData from '@/data/season-results.json';
 import championshipsData from '@/data/championships.json';
+import currentSeasonData from '@/data/current-season.json';
 
 const players = playersData as Player[];
 const seasons = seasonsData as Season[];
 const seasonResults = seasonResultsData as SeasonResult[];
 const championships = championshipsData as Championship[];
+const currentSeason = currentSeasonData as CurrentSeason;
+
+// The live season only needs its own card until the SQL archive catches up.
+const showLiveCard =
+  currentSeason.is_active &&
+  currentSeason.standings.length > 0 &&
+  !seasons.some((s) => s.year === currentSeason.season_id);
 
 function getPlayerName(id: number): string {
   return players.find((p) => p.player_id === id)?.name ?? 'Unknown';
@@ -53,6 +61,44 @@ export default function SeasonsPage() {
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {showLiveCard && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+          >
+            <Link
+              to="/live"
+              className="glass-card block p-6 transition-transform hover:scale-[1.02] border-[#22c55e]/30"
+            >
+              <div className="flex items-start justify-between mb-4">
+                <span className="font-display text-5xl text-on-surface">{currentSeason.season_id}</span>
+                <span className="flex items-center gap-1.5 rounded-full bg-[#22c55e]/10 px-2.5 py-1 text-[11px] font-semibold text-[#22c55e]">
+                  <Radio className="h-3 w-3 animate-pulse" />
+                  Live
+                </span>
+              </div>
+
+              <div className="mb-4 flex items-center gap-3 rounded-lg border border-[#22c55e]/10 bg-[#22c55e]/5 px-3 py-3">
+                <PlayerAvatar playerId={currentSeason.standings[0].player_id} size="md" showRing />
+                <div>
+                  <span className="font-heading text-sm font-semibold text-[#22c55e]">
+                    Currently 1st
+                  </span>
+                  <span className="block font-heading text-sm font-medium text-on-surface">
+                    {getPlayerName(currentSeason.standings[0].player_id)}
+                  </span>
+                </div>
+              </div>
+
+              <div className="text-sm text-on-surface-muted">
+                Week {currentSeason.current_week} of {currentSeason.regular_season_weeks} &mdash; season in
+                progress
+              </div>
+            </Link>
+          </motion.div>
+        )}
+
         {seasonCards.map((card, idx) => {
           const isChampCard = !!card.champ;
           const champName = card.champ ? getPlayerName(card.champ.winner_id) : '';

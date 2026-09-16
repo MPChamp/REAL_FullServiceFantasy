@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# ESPN credentials and member GUIDs (a member GUID is also the SWID cookie)
+.env.local
+scripts/espn-members.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
