@@ -426,6 +426,95 @@ function reconstructMoves(lineupRows, draftPicks) {
   );
 }
 
+// ─── Valuing moves: what each pickup and trade actually returned ─────────────
+// A move is judged on points the player went on to score *in the lineup* of
+// whoever acquired him, from that week forward. Bench points are tracked
+// separately: a pickup that rode the bench all year returned nothing, however
+// well the player did.
+function valueMoves(moves, lineupRows) {
+  // season -> manager -> nflPlayer -> [{ week, started, points }]
+  const byManagerPlayer = new Map();
+  for (const r of lineupRows) {
+    const key = `${r.season_id}:${r.player_id}:${r.nfl_player_id}`;
+    if (!byManagerPlayer.has(key)) byManagerPlayer.set(key, []);
+    byManagerPlayer.get(key).push(r);
+  }
+
+  const pointsAfter = (seasonId, managerId, nflPlayerId, fromWeek) => {
+    const rows = byManagerPlayer.get(`${seasonId}:${managerId}:${nflPlayerId}`) ?? [];
+    let started = 0;
+    let benched = 0;
+    let weeksStarted = 0;
+    for (const r of rows) {
+      if (r.week < fromWeek) continue;
+      if (r.started) {
+        started += r.points;
+        weeksStarted++;
+      } else {
+        benched += r.points;
+      }
+    }
+    return {
+      started_points: Number(started.toFixed(2)),
+      bench_points: Number(benched.toFixed(2)),
+      weeks_started: weeksStarted,
+    };
+  };
+
+  const valued = moves.map((m) => {
+    const incoming = m.kind === 'add' || m.kind === 'claimed' || m.kind === 'trade_in';
+    if (!incoming) return m;
+    return { ...m, ...pointsAfter(m.season_id, m.player_id, m.nfl_player_id, m.week) };
+  });
+
+  // Group the two halves of each trade so both sides can be scored.
+  const trades = new Map();
+  for (const m of moves) {
+    if (m.kind !== 'trade_in' && m.kind !== 'trade_out') continue;
+    if (m.counterparty === null) continue;
+    const pair = [m.player_id, m.counterparty].sort((a, b) => a - b);
+    const key = `${m.season_id}:${m.week}:${pair[0]}-${pair[1]}`;
+    if (!trades.has(key)) {
+      trades.set(key, {
+        season_id: m.season_id,
+        week: m.week,
+        manager_a: pair[0],
+        manager_b: pair[1],
+        a_received: [],
+        b_received: [],
+      });
+    }
+    if (m.kind !== 'trade_in') continue;
+    const entry = trades.get(key);
+    const side = m.player_id === pair[0] ? entry.a_received : entry.b_received;
+    side.push({
+      nfl_player_id: m.nfl_player_id,
+      nfl_player_name: m.nfl_player_name,
+      position: m.position,
+      ...pointsAfter(m.season_id, m.player_id, m.nfl_player_id, m.week),
+    });
+  }
+
+  const tradeList = [...trades.values()]
+    .filter((t) => t.a_received.length && t.b_received.length)
+    .map((t) => {
+      const sum = (side) => Number(side.reduce((n, p) => n + p.started_points, 0).toFixed(2));
+      const aPoints = sum(t.a_received);
+      const bPoints = sum(t.b_received);
+      return {
+        ...t,
+        a_points: aPoints,
+        b_points: bPoints,
+        margin: Number(Math.abs(aPoints - bPoints).toFixed(2)),
+        winner: aPoints === bPoints ? null : aPoints > bPoints ? t.manager_a : t.manager_b,
+      };
+    })
+    .sort((a, b) => a.season_id - b.season_id || a.week - b.week);
+
+  console.log(`  valued ${valued.filter((m) => m.started_points !== undefined).length} acquisitions, ${tradeList.length} trades`);
+  return { valued, trades: tradeList };
+}
+
 // ─── Consolation ladder games ────────────────────────────────────────────────
 // ESPN counts these toward its own final rankings; the league doesn't. Only the
 // playoff bracket and the 9th/10th toilet bowl are real, and those already live
@@ -548,6 +637,7 @@ const { index: lineupIndex, rows: lineupRows } = await fetchWeeklyLineups();
 
 console.log('\nReconstructed moves:');
 const reconstructedMoves = reconstructMoves(lineupRows, picks);
+const { valued: valuedMoves, trades: tradeSummaries } = valueMoves(reconstructedMoves, lineupRows);
 
 console.log('\nConsolation games:');
 const consolationGames = await fetchConsolationGames();
@@ -566,7 +656,8 @@ writeJson('drafts.json', picks);
 writeJson('team-names.json', teamNames);
 writeJson('rosters.json', rosters);
 writeJson('lineup-index.json', lineupIndex);
-writeJson('reconstructed-moves.json', reconstructedMoves);
+writeJson('reconstructed-moves.json', valuedMoves);
+writeJson('trades.json', tradeSummaries);
 writeJson('consolation-games.json', consolationGames);
 writeJson('transactions.json', transactions);
 writeJson('current-season.json', currentSeason);

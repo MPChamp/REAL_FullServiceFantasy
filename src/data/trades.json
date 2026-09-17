@@ -1,0 +1,2634 @@
+[
+  {
+    "season_id": 2018,
+    "week": 4,
+    "manager_a": 1,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3139477,
+        "nfl_player_name": "Patrick Mahomes",
+        "position": "QB",
+        "started_points": 275,
+        "bench_points": 0,
+        "weeks_started": 11
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3043080,
+        "nfl_player_name": "O.J. Howard",
+        "position": "TE",
+        "started_points": 2,
+        "bench_points": 60,
+        "weeks_started": 2
+      }
+    ],
+    "a_points": 275,
+    "b_points": 2,
+    "margin": 273,
+    "winner": 1
+  },
+  {
+    "season_id": 2018,
+    "week": 4,
+    "manager_a": 6,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 16913,
+        "nfl_player_name": "James White",
+        "position": "RB",
+        "started_points": 175,
+        "bench_points": 18,
+        "weeks_started": 10
+      },
+      {
+        "nfl_player_id": 3116165,
+        "nfl_player_name": "Chris Godwin",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 4,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 14221,
+        "nfl_player_name": "Doug Baldwin",
+        "position": "WR",
+        "started_points": 59,
+        "bench_points": 48,
+        "weeks_started": 6
+      }
+    ],
+    "a_points": 175,
+    "b_points": 59,
+    "margin": 116,
+    "winner": 6
+  },
+  {
+    "season_id": 2018,
+    "week": 6,
+    "manager_a": 5,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 12649,
+        "nfl_player_name": "Julian Edelman",
+        "position": "WR",
+        "started_points": 15,
+        "bench_points": 0,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 2976499,
+        "nfl_player_name": "Amari Cooper",
+        "position": "WR",
+        "started_points": 110,
+        "bench_points": 35,
+        "weeks_started": 4
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2573079,
+        "nfl_player_name": "Carson Wentz",
+        "position": "QB",
+        "started_points": 88,
+        "bench_points": 54,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 12563,
+        "nfl_player_name": "Michael Crabtree",
+        "position": "WR",
+        "started_points": 6,
+        "bench_points": 62,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 125,
+    "b_points": 94,
+    "margin": 31,
+    "winner": 5
+  },
+  {
+    "season_id": 2018,
+    "week": 7,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3051392,
+        "nfl_player_name": "Ezekiel Elliott",
+        "position": "RB",
+        "started_points": 187,
+        "bench_points": 0,
+        "weeks_started": 8
+      },
+      {
+        "nfl_player_id": 15880,
+        "nfl_player_name": "Robert Woods",
+        "position": "WR",
+        "started_points": 112,
+        "bench_points": 0,
+        "weeks_started": 8
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2508176,
+        "nfl_player_name": "David Johnson",
+        "position": "RB",
+        "started_points": 111,
+        "bench_points": 9,
+        "weeks_started": 7
+      },
+      {
+        "nfl_player_id": 15847,
+        "nfl_player_name": "Travis Kelce",
+        "position": "TE",
+        "started_points": 172,
+        "bench_points": 0,
+        "weeks_started": 8
+      }
+    ],
+    "a_points": 299,
+    "b_points": 283,
+    "margin": 16,
+    "winner": 5
+  },
+  {
+    "season_id": 2018,
+    "week": 7,
+    "manager_a": 5,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 13229,
+        "nfl_player_name": "Rob Gronkowski",
+        "position": "TE",
+        "started_points": 54,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 14198,
+        "nfl_player_name": "Dion Lewis",
+        "position": "RB",
+        "started_points": 26,
+        "bench_points": 58,
+        "weeks_started": 4
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 12649,
+        "nfl_player_name": "Julian Edelman",
+        "position": "WR",
+        "started_points": 134,
+        "bench_points": 0,
+        "weeks_started": 8
+      }
+    ],
+    "a_points": 80,
+    "b_points": 134,
+    "margin": 54,
+    "winner": 8
+  },
+  {
+    "season_id": 2018,
+    "week": 8,
+    "manager_a": 3,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3046409,
+        "nfl_player_name": "Alex Collins",
+        "position": "RB",
+        "started_points": 17,
+        "bench_points": 13,
+        "weeks_started": 2
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 11283,
+        "nfl_player_name": "DeSean Jackson",
+        "position": "WR",
+        "started_points": 5,
+        "bench_points": 33,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 17,
+    "b_points": 5,
+    "margin": 12,
+    "winner": 3
+  },
+  {
+    "season_id": 2018,
+    "week": 11,
+    "manager_a": 3,
+    "manager_b": 6,
+    "a_received": [
+      {
+        "nfl_player_id": -16024,
+        "nfl_player_name": "Chargers D/ST",
+        "position": "D/ST",
+        "started_points": 10,
+        "bench_points": 16,
+        "weeks_started": 2
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 15826,
+        "nfl_player_name": "Giovani Bernard",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 6,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 10,
+    "b_points": 0,
+    "margin": 10,
+    "winner": 3
+  },
+  {
+    "season_id": 2018,
+    "week": 11,
+    "manager_a": 4,
+    "manager_b": 5,
+    "a_received": [
+      {
+        "nfl_player_id": 3052117,
+        "nfl_player_name": "Phillip Lindsay",
+        "position": "RB",
+        "started_points": 93,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 16504,
+        "nfl_player_name": "Jack Doyle",
+        "position": "TE",
+        "started_points": 8,
+        "bench_points": 11,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 93,
+    "b_points": 8,
+    "margin": 85,
+    "winner": 4
+  },
+  {
+    "season_id": 2018,
+    "week": 12,
+    "manager_a": 8,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 11283,
+        "nfl_player_name": "DeSean Jackson",
+        "position": "WR",
+        "started_points": 4,
+        "bench_points": 0,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 12514,
+        "nfl_player_name": "LeSean McCoy",
+        "position": "RB",
+        "started_points": 5,
+        "bench_points": 10,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3919596,
+        "nfl_player_name": "Chris Carson",
+        "position": "RB",
+        "started_points": 12,
+        "bench_points": 53,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 15705,
+        "nfl_player_name": "Josh Gordon",
+        "position": "WR",
+        "started_points": 28,
+        "bench_points": 14,
+        "weeks_started": 3
+      }
+    ],
+    "a_points": 9,
+    "b_points": 40,
+    "margin": 31,
+    "winner": 10
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "manager_a": 2,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 16777,
+        "nfl_player_name": "Carlos Hyde",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 37,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 16731,
+        "nfl_player_name": "Brandin Cooks",
+        "position": "WR",
+        "started_points": 58,
+        "bench_points": 9,
+        "weeks_started": 6
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 12514,
+        "nfl_player_name": "LeSean McCoy",
+        "position": "RB",
+        "started_points": 46,
+        "bench_points": 58,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 16799,
+        "nfl_player_name": "Allen Robinson II",
+        "position": "WR",
+        "started_points": 8,
+        "bench_points": 12,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 58,
+    "b_points": 54,
+    "margin": 4,
+    "winner": 2
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "manager_a": 2,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3116365,
+        "nfl_player_name": "Mark Andrews",
+        "position": "TE",
+        "started_points": 137,
+        "bench_points": 15,
+        "weeks_started": 12
+      },
+      {
+        "nfl_player_id": 2580,
+        "nfl_player_name": "Drew Brees",
+        "position": "QB",
+        "started_points": 131,
+        "bench_points": 24,
+        "weeks_started": 7
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3843750,
+        "nfl_player_name": "Derrius Guice",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 14880,
+        "nfl_player_name": "Kirk Cousins",
+        "position": "QB",
+        "started_points": 0,
+        "bench_points": 39,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 268,
+    "b_points": 0,
+    "margin": 268,
+    "winner": 2
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "manager_a": 1,
+    "manager_b": 5,
+    "a_received": [
+      {
+        "nfl_player_id": 3116385,
+        "nfl_player_name": "Joe Mixon",
+        "position": "RB",
+        "started_points": 127,
+        "bench_points": 40,
+        "weeks_started": 9
+      },
+      {
+        "nfl_player_id": 15818,
+        "nfl_player_name": "Keenan Allen",
+        "position": "WR",
+        "started_points": 164,
+        "bench_points": 12,
+        "weeks_started": 11
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3128720,
+        "nfl_player_name": "Nick Chubb",
+        "position": "RB",
+        "started_points": 209,
+        "bench_points": 0,
+        "weeks_started": 12
+      }
+    ],
+    "a_points": 291,
+    "b_points": 209,
+    "margin": 82,
+    "winner": 1
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "manager_a": 1,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 16799,
+        "nfl_player_name": "Allen Robinson II",
+        "position": "WR",
+        "started_points": 142,
+        "bench_points": 42,
+        "weeks_started": 9
+      },
+      {
+        "nfl_player_id": 3122672,
+        "nfl_player_name": "Royce Freeman",
+        "position": "RB",
+        "started_points": 25,
+        "bench_points": 32,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 3929630,
+        "nfl_player_name": "Saquon Barkley",
+        "position": "RB",
+        "started_points": 125,
+        "bench_points": 0,
+        "weeks_started": 8
+      },
+      {
+        "nfl_player_id": 4241372,
+        "nfl_player_name": "Marquise Brown",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 17,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 16790,
+        "nfl_player_name": "Jarvis Landry",
+        "position": "WR",
+        "started_points": 122,
+        "bench_points": 52,
+        "weeks_started": 8
+      },
+      {
+        "nfl_player_id": 2576434,
+        "nfl_player_name": "Melvin Gordon",
+        "position": "RB",
+        "started_points": 131,
+        "bench_points": 0,
+        "weeks_started": 10
+      },
+      {
+        "nfl_player_id": 10475,
+        "nfl_player_name": "Greg Olsen",
+        "position": "TE",
+        "started_points": 59,
+        "bench_points": 3,
+        "weeks_started": 9
+      }
+    ],
+    "a_points": 292,
+    "b_points": 312,
+    "margin": 20,
+    "winner": 7
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "manager_a": 3,
+    "manager_b": 5,
+    "a_received": [
+      {
+        "nfl_player_id": 13981,
+        "nfl_player_name": "Mark Ingram II",
+        "position": "RB",
+        "started_points": 32,
+        "bench_points": 0,
+        "weeks_started": 3
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2576925,
+        "nfl_player_name": "Darren Waller",
+        "position": "TE",
+        "started_points": 61,
+        "bench_points": 69,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 15966,
+        "nfl_player_name": "Chris Thompson",
+        "position": "RB",
+        "started_points": 3,
+        "bench_points": 8,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 32,
+    "b_points": 64,
+    "margin": 32,
+    "winner": 5
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "manager_a": 8,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3127292,
+        "nfl_player_name": "Will Dissly",
+        "position": "TE",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 2969962,
+        "nfl_player_name": "Duke Johnson",
+        "position": "RB",
+        "started_points": 18,
+        "bench_points": 74,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 10452,
+        "nfl_player_name": "Adrian Peterson",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 100,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 12649,
+        "nfl_player_name": "Julian Edelman",
+        "position": "WR",
+        "started_points": 156,
+        "bench_points": 0,
+        "weeks_started": 9
+      }
+    ],
+    "a_points": 18,
+    "b_points": 156,
+    "margin": 138,
+    "winner": 10
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "manager_a": 3,
+    "manager_b": 4,
+    "a_received": [
+      {
+        "nfl_player_id": 13232,
+        "nfl_player_name": "Jimmy Graham",
+        "position": "TE",
+        "started_points": 0,
+        "bench_points": 16,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3066158,
+        "nfl_player_name": "Tarik Cohen",
+        "position": "RB",
+        "started_points": 17,
+        "bench_points": 71,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 0,
+    "b_points": 17,
+    "margin": 17,
+    "winner": 4
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 2979477,
+        "nfl_player_name": "Tevin Coleman",
+        "position": "RB",
+        "started_points": 70,
+        "bench_points": 16,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2330,
+        "nfl_player_name": "Tom Brady",
+        "position": "QB",
+        "started_points": 18,
+        "bench_points": 24,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 70,
+    "b_points": 18,
+    "margin": 52,
+    "winner": 5
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "manager_a": 3,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 2977644,
+        "nfl_player_name": "Todd Gurley II",
+        "position": "RB",
+        "started_points": 101,
+        "bench_points": 0,
+        "weeks_started": 7
+      },
+      {
+        "nfl_player_id": 3892889,
+        "nfl_player_name": "Dede Westbrook",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 13981,
+        "nfl_player_name": "Mark Ingram II",
+        "position": "RB",
+        "started_points": 110,
+        "bench_points": 0,
+        "weeks_started": 7
+      },
+      {
+        "nfl_player_id": 13232,
+        "nfl_player_name": "Jimmy Graham",
+        "position": "TE",
+        "started_points": 17,
+        "bench_points": 11,
+        "weeks_started": 3
+      }
+    ],
+    "a_points": 101,
+    "b_points": 127,
+    "margin": 26,
+    "winner": 8
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "manager_a": 2,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 16800,
+        "nfl_player_name": "Davante Adams",
+        "position": "WR",
+        "started_points": 103,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 2,
+        "bench_points": 14,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 16731,
+        "nfl_player_name": "Brandin Cooks",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 9,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 103,
+    "b_points": 2,
+    "margin": 101,
+    "winner": 2
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "manager_a": 9,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 5528,
+        "nfl_player_name": "Larry Fitzgerald",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 59,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 8479,
+        "nfl_player_name": "Frank Gore",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 17,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3128721,
+        "nfl_player_name": "Sony Michel",
+        "position": "RB",
+        "started_points": 8,
+        "bench_points": 24,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 0,
+    "b_points": 8,
+    "margin": 8,
+    "winner": 10
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "manager_a": 3,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 3045144,
+        "nfl_player_name": "Tyler Boyd",
+        "position": "WR",
+        "started_points": 84,
+        "bench_points": 35,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 16732,
+        "nfl_player_name": "Eric Ebron",
+        "position": "TE",
+        "started_points": 2,
+        "bench_points": 23,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3915511,
+        "nfl_player_name": "Joe Burrow",
+        "position": "QB",
+        "started_points": 83,
+        "bench_points": 16,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 2570986,
+        "nfl_player_name": "Malcolm Brown",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 8,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 86,
+    "b_points": 83,
+    "margin": 3,
+    "winner": 3
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "manager_a": 4,
+    "manager_b": 5,
+    "a_received": [
+      {
+        "nfl_player_id": 16782,
+        "nfl_player_name": "Jerick McKinnon",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 40,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3932905,
+        "nfl_player_name": "Diontae Johnson",
+        "position": "WR",
+        "started_points": 61,
+        "bench_points": 89,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 0,
+    "b_points": 61,
+    "margin": 61,
+    "winner": 5
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 5536,
+        "nfl_player_name": "Ben Roethlisberger",
+        "position": "QB",
+        "started_points": 36,
+        "bench_points": 70,
+        "weeks_started": 2
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4036133,
+        "nfl_player_name": "T.J. Hockenson",
+        "position": "TE",
+        "started_points": 57,
+        "bench_points": 9,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 36,
+    "b_points": 57,
+    "margin": 21,
+    "winner": 10
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "manager_a": 3,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3051392,
+        "nfl_player_name": "Ezekiel Elliott",
+        "position": "RB",
+        "started_points": 21,
+        "bench_points": 0,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 2577327,
+        "nfl_player_name": "Tyler Lockett",
+        "position": "WR",
+        "started_points": 134,
+        "bench_points": 0,
+        "weeks_started": 9
+      },
+      {
+        "nfl_player_id": 4039359,
+        "nfl_player_name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "started_points": 6,
+        "bench_points": 18,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4052042,
+        "nfl_player_name": "James Robinson",
+        "position": "RB",
+        "started_points": 45,
+        "bench_points": 0,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4242214,
+        "nfl_player_name": "Clyde Edwards-Helaire",
+        "position": "RB",
+        "started_points": 30,
+        "bench_points": 0,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 2976212,
+        "nfl_player_name": "Stefon Diggs",
+        "position": "WR",
+        "started_points": 153,
+        "bench_points": 0,
+        "weeks_started": 8
+      }
+    ],
+    "a_points": 161,
+    "b_points": 228,
+    "margin": 67,
+    "winner": 10
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 15795,
+        "nfl_player_name": "DeAndre Hopkins",
+        "position": "WR",
+        "started_points": 32,
+        "bench_points": 0,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4046692,
+        "nfl_player_name": "Chase Claypool",
+        "position": "WR",
+        "started_points": 50,
+        "bench_points": 44,
+        "weeks_started": 3
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2976316,
+        "nfl_player_name": "Michael Thomas",
+        "position": "WR",
+        "started_points": 61,
+        "bench_points": 16,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 3912550,
+        "nfl_player_name": "Ronald Jones II",
+        "position": "RB",
+        "started_points": 35,
+        "bench_points": 45,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 82,
+    "b_points": 96,
+    "margin": 14,
+    "winner": 10
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "manager_a": 9,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4036133,
+        "nfl_player_name": "T.J. Hockenson",
+        "position": "TE",
+        "started_points": 3,
+        "bench_points": 43,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 4040761,
+        "nfl_player_name": "Devin Singletary",
+        "position": "RB",
+        "started_points": 28,
+        "bench_points": 38,
+        "weeks_started": 4
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 13981,
+        "nfl_player_name": "Mark Ingram II",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 4036131,
+        "nfl_player_name": "Noah Fant",
+        "position": "TE",
+        "started_points": 24,
+        "bench_points": 0,
+        "weeks_started": 3
+      }
+    ],
+    "a_points": 31,
+    "b_points": 24,
+    "margin": 7,
+    "winner": 9
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "manager_a": 5,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 15818,
+        "nfl_player_name": "Keenan Allen",
+        "position": "WR",
+        "started_points": 120,
+        "bench_points": 0,
+        "weeks_started": 7
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3919596,
+        "nfl_player_name": "Chris Carson",
+        "position": "RB",
+        "started_points": 58,
+        "bench_points": 0,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 120,
+    "b_points": 58,
+    "margin": 62,
+    "winner": 5
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 14881,
+        "nfl_player_name": "Russell Wilson",
+        "position": "QB",
+        "started_points": 93,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 4052042,
+        "nfl_player_name": "James Robinson",
+        "position": "RB",
+        "started_points": 95,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 16790,
+        "nfl_player_name": "Jarvis Landry",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 5,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 18,
+        "bench_points": 1,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 15795,
+        "nfl_player_name": "DeAndre Hopkins",
+        "position": "WR",
+        "started_points": 117,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "a_points": 188,
+    "b_points": 135,
+    "margin": 53,
+    "winner": 5
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "manager_a": 8,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4036131,
+        "nfl_player_name": "Noah Fant",
+        "position": "TE",
+        "started_points": 42,
+        "bench_points": 2,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 4242214,
+        "nfl_player_name": "Clyde Edwards-Helaire",
+        "position": "RB",
+        "started_points": 44,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3054212,
+        "nfl_player_name": "Jonnu Smith",
+        "position": "TE",
+        "started_points": 0,
+        "bench_points": 35,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 16728,
+        "nfl_player_name": "Teddy Bridgewater",
+        "position": "QB",
+        "started_points": 0,
+        "bench_points": 18,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 86,
+    "b_points": 0,
+    "margin": 86,
+    "winner": 8
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "manager_a": 2,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 4045163,
+        "nfl_player_name": "Miles Sanders",
+        "position": "RB",
+        "started_points": 56,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3116165,
+        "nfl_player_name": "Chris Godwin",
+        "position": "WR",
+        "started_points": 52,
+        "bench_points": 0,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 56,
+    "b_points": 52,
+    "margin": 4,
+    "winner": 2
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "manager_a": 3,
+    "manager_b": 9,
+    "a_received": [
+      {
+        "nfl_player_id": 3042778,
+        "nfl_player_name": "Corey Davis",
+        "position": "WR",
+        "started_points": 6,
+        "bench_points": 82,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 15847,
+        "nfl_player_name": "Travis Kelce",
+        "position": "TE",
+        "started_points": 118,
+        "bench_points": 0,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 2508176,
+        "nfl_player_name": "David Johnson",
+        "position": "RB",
+        "started_points": 10,
+        "bench_points": 23,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3051392,
+        "nfl_player_name": "Ezekiel Elliott",
+        "position": "RB",
+        "started_points": 42,
+        "bench_points": 0,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 3046439,
+        "nfl_player_name": "Hunter Henry",
+        "position": "TE",
+        "started_points": 41,
+        "bench_points": 14,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 134,
+    "b_points": 83,
+    "margin": 51,
+    "winner": 3
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "manager_a": 4,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3124679,
+        "nfl_player_name": "Jason Sanders",
+        "position": "K",
+        "started_points": 36,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3049899,
+        "nfl_player_name": "Younghoe Koo",
+        "position": "K",
+        "started_points": 49,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 36,
+    "b_points": 49,
+    "margin": 13,
+    "winner": 10
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "manager_a": 9,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3043275,
+        "nfl_player_name": "Austin Hooper",
+        "position": "TE",
+        "started_points": 6,
+        "bench_points": 13,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 2969962,
+        "nfl_player_name": "Duke Johnson",
+        "position": "RB",
+        "started_points": 31,
+        "bench_points": 8,
+        "weeks_started": 3
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3045127,
+        "nfl_player_name": "Wayne Gallman",
+        "position": "RB",
+        "started_points": 42,
+        "bench_points": 0,
+        "weeks_started": 4
+      },
+      {
+        "nfl_player_id": 4036133,
+        "nfl_player_name": "T.J. Hockenson",
+        "position": "TE",
+        "started_points": 57,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 37,
+    "b_points": 99,
+    "margin": 62,
+    "winner": 10
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "manager_a": 3,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 4035538,
+        "nfl_player_name": "David Montgomery",
+        "position": "RB",
+        "started_points": 103,
+        "bench_points": 0,
+        "weeks_started": 4
+      },
+      {
+        "nfl_player_id": 2980453,
+        "nfl_player_name": "Jamaal Williams",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 21,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2468609,
+        "nfl_player_name": "Taysom Hill",
+        "position": "QB",
+        "started_points": 68,
+        "bench_points": 0,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 103,
+    "b_points": 68,
+    "margin": 35,
+    "winner": 3
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "manager_a": 7,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 4241372,
+        "nfl_player_name": "Marquise Brown",
+        "position": "WR",
+        "started_points": 139.2,
+        "bench_points": 7.5,
+        "weeks_started": 9
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4036131,
+        "nfl_player_name": "Noah Fant",
+        "position": "TE",
+        "started_points": 52.3,
+        "bench_points": 37.3,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 139.2,
+    "b_points": 52.3,
+    "margin": 86.9,
+    "winner": 7
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "manager_a": 7,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3919596,
+        "nfl_player_name": "Chris Carson",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 4040761,
+        "nfl_player_name": "Devin Singletary",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 24.8,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 15847,
+        "nfl_player_name": "Travis Kelce",
+        "position": "TE",
+        "started_points": 109,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 3915416,
+        "nfl_player_name": "DJ Moore",
+        "position": "WR",
+        "started_points": 66,
+        "bench_points": 16,
+        "weeks_started": 6
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 13229,
+        "nfl_player_name": "Rob Gronkowski",
+        "position": "TE",
+        "started_points": 73.6,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 3116385,
+        "nfl_player_name": "Joe Mixon",
+        "position": "RB",
+        "started_points": 143.3,
+        "bench_points": 0,
+        "weeks_started": 7
+      },
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 15.4,
+        "bench_points": 40.3,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 15795,
+        "nfl_player_name": "DeAndre Hopkins",
+        "position": "WR",
+        "started_points": 21.6,
+        "bench_points": 0,
+        "weeks_started": 2
+      }
+    ],
+    "a_points": 175,
+    "b_points": 253.9,
+    "margin": 78.9,
+    "winner": 10
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "manager_a": 2,
+    "manager_b": 3,
+    "a_received": [
+      {
+        "nfl_player_id": 12483,
+        "nfl_player_name": "Matthew Stafford",
+        "position": "QB",
+        "started_points": 47.48,
+        "bench_points": 46.12,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 16813,
+        "nfl_player_name": "Logan Thomas",
+        "position": "TE",
+        "started_points": 19.9,
+        "bench_points": 0,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4242214,
+        "nfl_player_name": "Clyde Edwards-Helaire",
+        "position": "RB",
+        "started_points": 65.1,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4360248,
+        "nfl_player_name": "Kyle Pitts",
+        "position": "TE",
+        "started_points": 58.3,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 3042778,
+        "nfl_player_name": "Corey Davis",
+        "position": "WR",
+        "started_points": 6.5,
+        "bench_points": 3.5,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 132.48,
+    "b_points": 64.8,
+    "margin": 67.68,
+    "winner": 2
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "manager_a": 5,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 2979843,
+        "nfl_player_name": "Kenyan Drake",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 10.7,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 3122976,
+        "nfl_player_name": "Jeff Wilson Jr.",
+        "position": "RB",
+        "started_points": 12.4,
+        "bench_points": 36.3,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4361411,
+        "nfl_player_name": "Pat Freiermuth",
+        "position": "TE",
+        "started_points": 51.6,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3139602,
+        "nfl_player_name": "D'Ernest Johnson",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 2.6,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 3117256,
+        "nfl_player_name": "Dalton Schultz",
+        "position": "TE",
+        "started_points": 80.5,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "a_points": 64,
+    "b_points": 80.5,
+    "margin": 16.5,
+    "winner": 8
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3916433,
+        "nfl_player_name": "Jakobi Meyers",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 7.9,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 4039359,
+        "nfl_player_name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "started_points": 23.7,
+        "bench_points": 0,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 82.5,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4239993,
+        "nfl_player_name": "Tee Higgins",
+        "position": "WR",
+        "started_points": 87.5,
+        "bench_points": 32.3,
+        "weeks_started": 4
+      },
+      {
+        "nfl_player_id": 4240657,
+        "nfl_player_name": "Michael Carter",
+        "position": "RB",
+        "started_points": 21.9,
+        "bench_points": 3,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 3139477,
+        "nfl_player_name": "Patrick Mahomes",
+        "position": "QB",
+        "started_points": 96.3,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 106.2,
+    "b_points": 205.7,
+    "margin": 99.5,
+    "winner": 10
+  },
+  {
+    "season_id": 2022,
+    "week": 5,
+    "manager_a": 2,
+    "manager_b": 5,
+    "a_received": [
+      {
+        "nfl_player_id": 4374302,
+        "nfl_player_name": "Amon-Ra St. Brown",
+        "position": "WR",
+        "started_points": 173.4,
+        "bench_points": 0,
+        "weeks_started": 11
+      },
+      {
+        "nfl_player_id": 4427366,
+        "nfl_player_name": "Breece Hall",
+        "position": "RB",
+        "started_points": 61,
+        "bench_points": 0,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 3117256,
+        "nfl_player_name": "Dalton Schultz",
+        "position": "TE",
+        "started_points": 82.4,
+        "bench_points": 13.4,
+        "weeks_started": 9
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3116385,
+        "nfl_player_name": "Joe Mixon",
+        "position": "RB",
+        "started_points": 164.7,
+        "bench_points": 0,
+        "weeks_started": 9
+      },
+      {
+        "nfl_player_id": 2576925,
+        "nfl_player_name": "Darren Waller",
+        "position": "TE",
+        "started_points": 0,
+        "bench_points": 23.6,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 3059722,
+        "nfl_player_name": "Zay Jones",
+        "position": "WR",
+        "started_points": 37,
+        "bench_points": 57,
+        "weeks_started": 2
+      }
+    ],
+    "a_points": 316.8,
+    "b_points": 201.7,
+    "margin": 115.1,
+    "winner": 2
+  },
+  {
+    "season_id": 2022,
+    "week": 5,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": -16007,
+        "nfl_player_name": "Broncos D/ST",
+        "position": "D/ST",
+        "started_points": 23,
+        "bench_points": 13,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 3126486,
+        "nfl_player_name": "Deebo Samuel",
+        "position": "WR",
+        "started_points": 102.1,
+        "bench_points": 0,
+        "weeks_started": 8
+      },
+      {
+        "nfl_player_id": 3116165,
+        "nfl_player_name": "Chris Godwin",
+        "position": "WR",
+        "started_points": 34.5,
+        "bench_points": 48.1,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 2577327,
+        "nfl_player_name": "Tyler Lockett",
+        "position": "WR",
+        "started_points": 3.7,
+        "bench_points": 87.1,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 3122976,
+        "nfl_player_name": "Jeff Wilson Jr.",
+        "position": "RB",
+        "started_points": 2.5,
+        "bench_points": 25.6,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3915486,
+        "nfl_player_name": "Tyler Conklin",
+        "position": "TE",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 4361409,
+        "nfl_player_name": "Jahan Dotson",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 0,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 7.3,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 4242335,
+        "nfl_player_name": "Jonathan Taylor",
+        "position": "RB",
+        "started_points": 100.2,
+        "bench_points": 0,
+        "weeks_started": 7
+      }
+    ],
+    "a_points": 165.8,
+    "b_points": 100.2,
+    "margin": 65.6,
+    "winner": 5
+  },
+  {
+    "season_id": 2022,
+    "week": 5,
+    "manager_a": 5,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 3120348,
+        "nfl_player_name": "JuJu Smith-Schuster",
+        "position": "WR",
+        "started_points": 24.1,
+        "bench_points": 114.2,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4360238,
+        "nfl_player_name": "Dameon Pierce",
+        "position": "RB",
+        "started_points": 112.8,
+        "bench_points": 0,
+        "weeks_started": 9
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3895856,
+        "nfl_player_name": "Christian Kirk",
+        "position": "WR",
+        "started_points": 116.7,
+        "bench_points": 30.2,
+        "weeks_started": 7
+      },
+      {
+        "nfl_player_id": 4569173,
+        "nfl_player_name": "Rhamondre Stevenson",
+        "position": "RB",
+        "started_points": 167.5,
+        "bench_points": 19.5,
+        "weeks_started": 10
+      }
+    ],
+    "a_points": 136.9,
+    "b_points": 284.2,
+    "margin": 147.3,
+    "winner": 8
+  },
+  {
+    "season_id": 2022,
+    "week": 8,
+    "manager_a": 7,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 13.4,
+        "bench_points": 35,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3121427,
+        "nfl_player_name": "Curtis Samuel",
+        "position": "WR",
+        "started_points": 17.1,
+        "bench_points": 66.5,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 13.4,
+    "b_points": 17.1,
+    "margin": 3.7,
+    "winner": 10
+  },
+  {
+    "season_id": 2022,
+    "week": 9,
+    "manager_a": 6,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 4373626,
+        "nfl_player_name": "Tyler Allgeier",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 16.6,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4426354,
+        "nfl_player_name": "George Pickens",
+        "position": "WR",
+        "started_points": 14.5,
+        "bench_points": 65,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 0,
+    "b_points": 14.5,
+    "margin": 14.5,
+    "winner": 8
+  },
+  {
+    "season_id": 2022,
+    "week": 11,
+    "manager_a": 5,
+    "manager_b": 6,
+    "a_received": [
+      {
+        "nfl_player_id": 3059722,
+        "nfl_player_name": "Zay Jones",
+        "position": "WR",
+        "started_points": 37,
+        "bench_points": 52.8,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4040715,
+        "nfl_player_name": "Jalen Hurts",
+        "position": "QB",
+        "started_points": 155.5,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2577327,
+        "nfl_player_name": "Tyler Lockett",
+        "position": "WR",
+        "started_points": 74.4,
+        "bench_points": 0,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 192.5,
+    "b_points": 74.4,
+    "margin": 118.1,
+    "winner": 5
+  },
+  {
+    "season_id": 2022,
+    "week": 12,
+    "manager_a": 2,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 89.5,
+        "bench_points": 0,
+        "weeks_started": 4
+      },
+      {
+        "nfl_player_id": 3121422,
+        "nfl_player_name": "Terry McLaurin",
+        "position": "WR",
+        "started_points": 64.5,
+        "bench_points": 0,
+        "weeks_started": 4
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4362628,
+        "nfl_player_name": "Ja'Marr Chase",
+        "position": "WR",
+        "started_points": 80.1,
+        "bench_points": 0,
+        "weeks_started": 4
+      }
+    ],
+    "a_points": 154,
+    "b_points": 80.1,
+    "margin": 73.9,
+    "winner": 2
+  },
+  {
+    "season_id": 2023,
+    "week": 4,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 3054850,
+        "nfl_player_name": "Alvin Kamara",
+        "position": "RB",
+        "started_points": 226.1,
+        "bench_points": 0,
+        "weeks_started": 12
+      },
+      {
+        "nfl_player_id": 2976212,
+        "nfl_player_name": "Stefon Diggs",
+        "position": "WR",
+        "started_points": 194.1,
+        "bench_points": 0,
+        "weeks_started": 12
+      },
+      {
+        "nfl_player_id": 3121422,
+        "nfl_player_name": "Terry McLaurin",
+        "position": "WR",
+        "started_points": 7.3,
+        "bench_points": 136.6,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 89.3,
+        "bench_points": 7.3,
+        "weeks_started": 7
+      },
+      {
+        "nfl_player_id": 3126486,
+        "nfl_player_name": "Deebo Samuel",
+        "position": "WR",
+        "started_points": 139.4,
+        "bench_points": 22.4,
+        "weeks_started": 9
+      },
+      {
+        "nfl_player_id": 3128429,
+        "nfl_player_name": "Courtland Sutton",
+        "position": "WR",
+        "started_points": 63.9,
+        "bench_points": 83.2,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 427.5,
+    "b_points": 292.6,
+    "margin": 134.9,
+    "winner": 5
+  },
+  {
+    "season_id": 2023,
+    "week": 8,
+    "manager_a": 2,
+    "manager_b": 6,
+    "a_received": [
+      {
+        "nfl_player_id": 3046779,
+        "nfl_player_name": "Jared Goff",
+        "position": "QB",
+        "started_points": 33.8,
+        "bench_points": 54.24,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4362628,
+        "nfl_player_name": "Ja'Marr Chase",
+        "position": "WR",
+        "started_points": 125.92,
+        "bench_points": 0,
+        "weeks_started": 8
+      },
+      {
+        "nfl_player_id": 4379399,
+        "nfl_player_name": "James Cook",
+        "position": "RB",
+        "started_points": 82.2,
+        "bench_points": 51.4,
+        "weeks_started": 4
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2976499,
+        "nfl_player_name": "Amari Cooper",
+        "position": "WR",
+        "started_points": 112,
+        "bench_points": 48.1,
+        "weeks_started": 4
+      },
+      {
+        "nfl_player_id": 4361529,
+        "nfl_player_name": "Isiah Pacheco",
+        "position": "RB",
+        "started_points": 83.2,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 4372016,
+        "nfl_player_name": "Jaylen Waddle",
+        "position": "WR",
+        "started_points": 120.9,
+        "bench_points": 0,
+        "weeks_started": 8
+      }
+    ],
+    "a_points": 241.92,
+    "b_points": 316.1,
+    "margin": 74.18,
+    "winner": 6
+  },
+  {
+    "season_id": 2023,
+    "week": 11,
+    "manager_a": 5,
+    "manager_b": 8,
+    "a_received": [
+      {
+        "nfl_player_id": 4035538,
+        "nfl_player_name": "David Montgomery",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 82,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 4362887,
+        "nfl_player_name": "Justin Fields",
+        "position": "QB",
+        "started_points": 34.14,
+        "bench_points": 60.46,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4697815,
+        "nfl_player_name": "Rachaad White",
+        "position": "RB",
+        "started_points": 113.5,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": -16026,
+        "nfl_player_name": "Seahawks D/ST",
+        "position": "D/ST",
+        "started_points": 6,
+        "bench_points": 0,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 2577417,
+        "nfl_player_name": "Dak Prescott",
+        "position": "QB",
+        "started_points": 123.28,
+        "bench_points": 0,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 3915416,
+        "nfl_player_name": "DJ Moore",
+        "position": "WR",
+        "started_points": 85.8,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 147.64,
+    "b_points": 215.08,
+    "margin": 67.44,
+    "winner": 8
+  },
+  {
+    "season_id": 2023,
+    "week": 12,
+    "manager_a": 3,
+    "manager_b": 9,
+    "a_received": [
+      {
+        "nfl_player_id": 2573401,
+        "nfl_player_name": "Tyler Higbee",
+        "position": "TE",
+        "started_points": 0,
+        "bench_points": 19.9,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 2977187,
+        "nfl_player_name": "Cooper Kupp",
+        "position": "WR",
+        "started_points": 20.7,
+        "bench_points": 61.5,
+        "weeks_started": 2
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4361307,
+        "nfl_player_name": "Trey McBride",
+        "position": "TE",
+        "started_points": 65.2,
+        "bench_points": 0,
+        "weeks_started": 4
+      },
+      {
+        "nfl_player_id": 15795,
+        "nfl_player_name": "DeAndre Hopkins",
+        "position": "WR",
+        "started_points": 60.3,
+        "bench_points": 0,
+        "weeks_started": 5
+      }
+    ],
+    "a_points": 20.7,
+    "b_points": 125.5,
+    "margin": 104.8,
+    "winner": 9
+  },
+  {
+    "season_id": 2024,
+    "week": 6,
+    "manager_a": 3,
+    "manager_b": 7,
+    "a_received": [
+      {
+        "nfl_player_id": 4242355,
+        "nfl_player_name": "Jake Ferguson",
+        "position": "TE",
+        "started_points": 8.4,
+        "bench_points": 47.1,
+        "weeks_started": 2
+      },
+      {
+        "nfl_player_id": 4241474,
+        "nfl_player_name": "Brian Robinson Jr.",
+        "position": "RB",
+        "started_points": 60.8,
+        "bench_points": 14.2,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 15795,
+        "nfl_player_name": "DeAndre Hopkins",
+        "position": "WR",
+        "started_points": 5.9,
+        "bench_points": 110.3,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 2577327,
+        "nfl_player_name": "Tyler Lockett",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 16.5,
+        "weeks_started": 0
+      },
+      {
+        "nfl_player_id": 2976212,
+        "nfl_player_name": "Stefon Diggs",
+        "position": "WR",
+        "started_points": 39.7,
+        "bench_points": 0,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 3123076,
+        "nfl_player_name": "David Njoku",
+        "position": "TE",
+        "started_points": 110.5,
+        "bench_points": 27.2,
+        "weeks_started": 7
+      }
+    ],
+    "a_points": 75.1,
+    "b_points": 150.2,
+    "margin": 75.1,
+    "winner": 7
+  },
+  {
+    "season_id": 2024,
+    "week": 6,
+    "manager_a": 6,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4697815,
+        "nfl_player_name": "Rachaad White",
+        "position": "RB",
+        "started_points": 11.7,
+        "bench_points": 141.1,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4426388,
+        "nfl_player_name": "Jameson Williams",
+        "position": "WR",
+        "started_points": 0.6,
+        "bench_points": 121.7,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 11.7,
+    "b_points": 0.6,
+    "margin": 11.1,
+    "winner": 6
+  },
+  {
+    "season_id": 2024,
+    "week": 9,
+    "manager_a": 7,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4360569,
+        "nfl_player_name": "Jordan Mason",
+        "position": "RB",
+        "started_points": 0,
+        "bench_points": 11.9,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4241479,
+        "nfl_player_name": "Tua Tagovailoa",
+        "position": "QB",
+        "started_points": 0,
+        "bench_points": 17.54,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 0,
+    "b_points": 0,
+    "margin": 0,
+    "winner": null
+  },
+  {
+    "season_id": 2024,
+    "week": 10,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4241479,
+        "nfl_player_name": "Tua Tagovailoa",
+        "position": "QB",
+        "started_points": 0,
+        "bench_points": 10.18,
+        "weeks_started": 0
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4431299,
+        "nfl_player_name": "Rome Odunze",
+        "position": "WR",
+        "started_points": 0,
+        "bench_points": 5.3,
+        "weeks_started": 0
+      }
+    ],
+    "a_points": 0,
+    "b_points": 0,
+    "margin": 0,
+    "winner": null
+  },
+  {
+    "season_id": 2024,
+    "week": 11,
+    "manager_a": 8,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4596448,
+        "nfl_player_name": "Bucky Irving",
+        "position": "RB",
+        "started_points": 75.7,
+        "bench_points": 13.3,
+        "weeks_started": 4
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4430878,
+        "nfl_player_name": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "started_points": 115.3,
+        "bench_points": 0,
+        "weeks_started": 6
+      }
+    ],
+    "a_points": 75.7,
+    "b_points": 115.3,
+    "margin": 39.6,
+    "winner": 10
+  },
+  {
+    "season_id": 2024,
+    "week": 12,
+    "manager_a": 1,
+    "manager_b": 2,
+    "a_received": [
+      {
+        "nfl_player_id": 4036133,
+        "nfl_player_name": "T.J. Hockenson",
+        "position": "TE",
+        "started_points": 47.6,
+        "bench_points": 0,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 4432708,
+        "nfl_player_name": "Marvin Harrison Jr.",
+        "position": "WR",
+        "started_points": 7.7,
+        "bench_points": 39,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4241416,
+        "nfl_player_name": "Chuba Hubbard",
+        "position": "RB",
+        "started_points": 81.4,
+        "bench_points": 0,
+        "weeks_started": 5
+      },
+      {
+        "nfl_player_id": 4429025,
+        "nfl_player_name": "Quentin Johnston",
+        "position": "WR",
+        "started_points": 15.8,
+        "bench_points": 23.5,
+        "weeks_started": 2
+      }
+    ],
+    "a_points": 55.3,
+    "b_points": 97.2,
+    "margin": 41.9,
+    "winner": 2
+  },
+  {
+    "season_id": 2024,
+    "week": 13,
+    "manager_a": 6,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4426338,
+        "nfl_player_name": "Bo Nix",
+        "position": "QB",
+        "started_points": 12.16,
+        "bench_points": 34.52,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3128720,
+        "nfl_player_name": "Nick Chubb",
+        "position": "RB",
+        "started_points": 4.8,
+        "bench_points": 16.6,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 12.16,
+    "b_points": 4.8,
+    "margin": 7.36,
+    "winner": 6
+  },
+  {
+    "season_id": 2025,
+    "week": 3,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4596448,
+        "nfl_player_name": "Bucky Irving",
+        "position": "RB",
+        "started_points": 95.1,
+        "bench_points": 0,
+        "weeks_started": 7
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 3045147,
+        "nfl_player_name": "James Conner",
+        "position": "RB",
+        "started_points": 6.7,
+        "bench_points": 0,
+        "weeks_started": 1
+      },
+      {
+        "nfl_player_id": 4259545,
+        "nfl_player_name": "D'Andre Swift",
+        "position": "RB",
+        "started_points": 199.4,
+        "bench_points": 0,
+        "weeks_started": 13
+      }
+    ],
+    "a_points": 95.1,
+    "b_points": 206.1,
+    "margin": 111,
+    "winner": 10
+  },
+  {
+    "season_id": 2025,
+    "week": 5,
+    "manager_a": 5,
+    "manager_b": 10,
+    "a_received": [
+      {
+        "nfl_player_id": 4040715,
+        "nfl_player_name": "Jalen Hurts",
+        "position": "QB",
+        "started_points": 163.6,
+        "bench_points": 51.2,
+        "weeks_started": 9
+      },
+      {
+        "nfl_player_id": 4697815,
+        "nfl_player_name": "Rachaad White",
+        "position": "RB",
+        "started_points": 75.8,
+        "bench_points": 32.9,
+        "weeks_started": 6
+      },
+      {
+        "nfl_player_id": 4374302,
+        "nfl_player_name": "Amon-Ra St. Brown",
+        "position": "WR",
+        "started_points": 204.7,
+        "bench_points": 0,
+        "weeks_started": 12
+      },
+      {
+        "nfl_player_id": 4241478,
+        "nfl_player_name": "DeVonta Smith",
+        "position": "WR",
+        "started_points": 121.5,
+        "bench_points": 33.3,
+        "weeks_started": 11
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4362628,
+        "nfl_player_name": "Ja'Marr Chase",
+        "position": "WR",
+        "started_points": 232.7,
+        "bench_points": 0,
+        "weeks_started": 11
+      },
+      {
+        "nfl_player_id": 4258173,
+        "nfl_player_name": "Nico Collins",
+        "position": "WR",
+        "started_points": 172.2,
+        "bench_points": 0,
+        "weeks_started": 11
+      },
+      {
+        "nfl_player_id": 2577417,
+        "nfl_player_name": "Dak Prescott",
+        "position": "QB",
+        "started_points": 64.04,
+        "bench_points": 176.08,
+        "weeks_started": 3
+      },
+      {
+        "nfl_player_id": 3046439,
+        "nfl_player_name": "Hunter Henry",
+        "position": "TE",
+        "started_points": 12.3,
+        "bench_points": 7.3,
+        "weeks_started": 2
+      }
+    ],
+    "a_points": 565.6,
+    "b_points": 481.24,
+    "margin": 84.36,
+    "winner": 5
+  },
+  {
+    "season_id": 2025,
+    "week": 12,
+    "manager_a": 2,
+    "manager_b": 6,
+    "a_received": [
+      {
+        "nfl_player_id": 3916148,
+        "nfl_player_name": "Tony Pollard",
+        "position": "RB",
+        "started_points": 8.1,
+        "bench_points": 73.3,
+        "weeks_started": 1
+      }
+    ],
+    "b_received": [
+      {
+        "nfl_player_id": 4683062,
+        "nfl_player_name": "Xavier Worthy",
+        "position": "WR",
+        "started_points": 11.4,
+        "bench_points": 30.1,
+        "weeks_started": 1
+      }
+    ],
+    "a_points": 8.1,
+    "b_points": 11.4,
+    "margin": 3.3,
+    "winner": 6
+  }
+]

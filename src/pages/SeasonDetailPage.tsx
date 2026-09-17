@@ -1,13 +1,15 @@
 import { useState, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, ArrowLeft, Award, Check, X, Star, Zap, Swords, Target, ArrowRightLeft, TrendingUp, CalendarDays } from 'lucide-react';
+import { Trophy, ArrowLeft, Award, Check, X, Star, Zap, Swords, Target, ArrowRightLeft, TrendingUp, CalendarDays, ChevronDown } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import { formatRecord, formatScore } from '@/utils/formatting';
 import { getPlayerColor, getChartTooltipStyle } from '@/styles/theme';
 import { useTheme } from '@/hooks/useTheme';
 import ScrollableTable from '@/components/common/ScrollableTable';
+import MatchupDetail from '@/components/MatchupDetail';
+import { hasLineups } from '@/hooks/useSeasonLineups';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
 import type { Player, Season, SeasonResult, Championship, WeeklyMatchup } from '@/data/types';
@@ -55,6 +57,8 @@ export default function SeasonDetailPage() {
   const [sortKey, setSortKey] = useState<SortKey>('rank');
   const [sortAsc, setSortAsc] = useState(true);
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null);
+  const [openMatchup, setOpenMatchup] = useState<number | null>(null);
+  const lineupsAvailable = hasLineups(yearNum);
 
   const sortedResults = useMemo(() => {
     const sorted = [...results].sort((a, b) => {
@@ -668,7 +672,10 @@ export default function SeasonDetailPage() {
             {regularSeasonWeeks.map((week) => (
               <button
                 key={week}
-                onClick={() => setSelectedWeek(selectedWeek === week ? null : week)}
+                onClick={() => {
+                  setSelectedWeek(selectedWeek === week ? null : week);
+                  setOpenMatchup(null);
+                }}
                 className={`shrink-0 min-w-10 h-9 rounded-lg text-sm font-heading font-semibold transition-all ${
                   selectedWeek === week
                     ? 'bg-[#06b6d4] text-white shadow-lg shadow-[#06b6d4]/25'
@@ -692,14 +699,33 @@ export default function SeasonDetailPage() {
               <h3 className="font-heading text-sm font-semibold text-[#06b6d4] uppercase tracking-wide">
                 Week {selectedWeek} Matchups
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {!lineupsAvailable && (
+                <p className="text-xs text-on-surface-faint">
+                  Lineup detail isn&rsquo;t available for {yearNum} &mdash; ESPN keeps boxscores back to 2018
+                  only.
+                </p>
+              )}
+              <div
+                className={`grid grid-cols-1 gap-3 ${
+                  openMatchup === null ? 'sm:grid-cols-2 lg:grid-cols-3' : ''
+                }`}
+              >
                 {regularSeasonMatchups
                   .filter((m) => m.week_start === selectedWeek)
                   .map((m) => {
                     const p1Won = m.player1_score > m.player2_score;
                     const p2Won = m.player2_score > m.player1_score;
+                    const isOpen = openMatchup === m.matchup_id;
                     return (
-                      <div key={m.matchup_id} className="glass-card p-4 border border-border-default">
+                      <div
+                        key={m.matchup_id}
+                        onClick={() =>
+                          lineupsAvailable && setOpenMatchup(isOpen ? null : m.matchup_id)
+                        }
+                        className={`glass-card p-4 border transition-colors ${
+                          isOpen ? 'border-[#06b6d4]/50' : 'border-border-default'
+                        } ${lineupsAvailable ? 'cursor-pointer hover:border-[#06b6d4]/40' : ''}`}
+                      >
                         <div className="flex items-center justify-between gap-2">
                           <div className="flex items-center gap-2 flex-1 min-w-0">
                             <PlayerAvatar playerId={m.player1_id} size="sm" showRing />
@@ -725,7 +751,7 @@ export default function SeasonDetailPage() {
                             <PlayerAvatar playerId={m.player2_id} size="sm" showRing />
                           </div>
                         </div>
-                        <div className="mt-2 text-center">
+                        <div className="mt-2 flex items-center justify-center gap-2">
                           <span className={`text-[10px] font-heading font-semibold uppercase tracking-wide ${
                             p1Won || p2Won ? 'text-on-surface-faint' : 'text-on-surface-muted'
                           }`}>
@@ -735,7 +761,23 @@ export default function SeasonDetailPage() {
                                 ? `${getPlayerName(m.player2_id)} wins by ${(m.player2_score - m.player1_score).toFixed(1)}`
                                 : 'Tie'}
                           </span>
+                          {lineupsAvailable && (
+                            <ChevronDown
+                              className={`h-3 w-3 text-on-surface-faint transition-transform ${
+                                isOpen ? 'rotate-180' : ''
+                              }`}
+                            />
+                          )}
                         </div>
+
+                        {isOpen && (
+                          <MatchupDetail
+                            year={yearNum}
+                            week={m.week_start}
+                            homeId={m.player1_id}
+                            awayId={m.player2_id}
+                          />
+                        )}
                       </div>
                     );
                   })}

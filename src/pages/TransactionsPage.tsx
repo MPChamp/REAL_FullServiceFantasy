@@ -6,6 +6,7 @@ import PlayerAvatar from '@/components/common/PlayerAvatar';
 import StatCard from '@/components/common/StatCard';
 import SeasonSelector from '@/components/common/SeasonSelector';
 import ReconstructedMoves from '@/components/ReconstructedMoves';
+import MoveHighlights from '@/components/MoveHighlights';
 import { getPositionColor } from '@/styles/theme';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
@@ -122,7 +123,12 @@ export default function TransactionsPage() {
         </p>
       </motion.div>
 
-      <SeasonSelector value={season} onChange={setSeason} years={allSeasons} />
+      <MoveHighlights />
+
+      <div className="border-t border-border-default pt-8">
+        <h2 className="mb-4 font-heading text-2xl font-bold text-on-surface">Every Move, Season by Season</h2>
+        <SeasonSelector value={season} onChange={setSeason} years={allSeasons} />
+      </div>
 
       {isReconstructed ? (
         <ReconstructedMoves season={season} />

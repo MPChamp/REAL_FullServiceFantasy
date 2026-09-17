@@ -203,6 +203,38 @@ export interface ReconstructedMove extends NflPlayer {
   kind: 'add' | 'drop' | 'claimed' | 'released' | 'trade_in' | 'trade_out';
   /** The other manager, when the player changed hands directly. */
   counterparty: number | null;
+  /** Points scored in this manager's starting lineup after the move. */
+  started_points?: number;
+  /** Points scored while sitting on their bench after the move. */
+  bench_points?: number;
+  weeks_started?: number;
+}
+
+/** One side's haul in a trade, scored by what it returned afterwards. */
+export interface TradePiece {
+  nfl_player_id: number;
+  nfl_player_name: string;
+  position: NflPosition;
+  started_points: number;
+  bench_points: number;
+  weeks_started: number;
+}
+
+/**
+ * A detected trade, judged on points each side's incoming players went on to
+ * score *in the lineup* from that week forward.
+ */
+export interface TradeSummary {
+  season_id: number;
+  week: number;
+  manager_a: number;
+  manager_b: number;
+  a_received: TradePiece[];
+  b_received: TradePiece[];
+  a_points: number;
+  b_points: number;
+  margin: number;
+  winner: number | null;
 }
 
 export interface Transaction {

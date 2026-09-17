@@ -1,20 +1,16 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import { getPositionColor } from '@/styles/theme';
 import { formatScore } from '@/utils/formatting';
 
-import type { Player, WeeklyLineupSpot, LineupIndexEntry } from '@/data/types';
+import { useSeasonLineups, weeksWithLineups, hasLineups } from '@/hooks/useSeasonLineups';
+
+import type { Player, WeeklyLineupSpot } from '@/data/types';
 import playersData from '@/data/players.json';
-import lineupIndexData from '@/data/lineup-index.json';
 
 const players = playersData as Player[];
-const lineupIndex = lineupIndexData as LineupIndexEntry[];
-
-// Each season is its own chunk — the full archive is ~21k rows and must not
-// land in the main bundle.
-const lineupFiles = import.meta.glob<{ default: WeeklyLineupSpot[] }>('../data/lineups/*.json');
 
 const getPlayerName = (id: number) => players.find((p) => p.player_id === id)?.name ?? 'Unknown';
 
@@ -133,13 +129,8 @@ function LineupTable({ rows }: { rows: WeeklyLineupSpot[] }) {
 }
 
 export default function WeeklyLineups({ year }: { year: number }) {
-  const indexEntry = lineupIndex.find((e) => e.season_id === year);
-  const weeks = useMemo(() => indexEntry?.weeks ?? [], [indexEntry]);
-
-  // Tagged with its season so a previous year's rows can never render against
-  // the current one while the new chunk is still loading.
-  const [loaded, setLoaded] = useState<{ year: number; rows: WeeklyLineupSpot[] } | null>(null);
-  const rows = loaded?.year === year ? loaded.rows : null;
+  const weeks = useMemo(() => weeksWithLineups(year), [year]);
+  const rows = useSeasonLineups(year);
 
   // Derived rather than synced in an effect, so switching seasons falls back to
   // the latest available week instead of keeping a week that season never had.
@@ -148,19 +139,6 @@ export default function WeeklyLineups({ year }: { year: number }) {
     selectedWeek !== null && weeks.includes(selectedWeek)
       ? selectedWeek
       : (weeks[weeks.length - 1] ?? null);
-
-  useEffect(() => {
-    const loader = lineupFiles[`../data/lineups/${year}.json`];
-    if (!loader) return;
-
-    let cancelled = false;
-    loader().then((mod) => {
-      if (!cancelled) setLoaded({ year, rows: mod.default });
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [year]);
 
   const byManager = useMemo(() => {
     if (!rows || week === null) return [];
@@ -179,7 +157,7 @@ export default function WeeklyLineups({ year }: { year: number }) {
       .sort((a, b) => b.started - a.started);
   }, [rows, week]);
 
-  if (!indexEntry) return null;
+  if (!hasLineups(year)) return null;
 
   return (
     <section className="space-y-4">
