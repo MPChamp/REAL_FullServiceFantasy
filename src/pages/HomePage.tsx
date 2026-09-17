@@ -426,7 +426,7 @@ export default function HomePage() {
         <Reveal>
           <h2 className="mb-6 font-heading text-2xl font-semibold text-on-surface">Quick Stats</h2>
         </Reveal>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
           {[
             {
               icon: <Target className="mb-2 h-6 w-6 text-gold" />,

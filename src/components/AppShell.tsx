@@ -46,7 +46,9 @@ function NavLinkItem({
       to={to}
       onClick={onClick}
       className={({ isActive }) =>
-        `relative text-sm font-medium tracking-wide transition-colors duration-200 pb-1 ${
+        `relative text-sm font-medium tracking-wide transition-colors duration-200 ${
+          slide ? 'pb-1' : 'py-2'
+        } ${
           isActive
             ? 'text-[#f59e0b]'
             : 'text-on-surface-muted hover:text-on-surface'
@@ -137,7 +139,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
 
       {/* Panel */}
       <div
-        className={`fixed right-0 top-0 z-50 flex h-full w-72 flex-col border-l border-border-default bg-surface p-6 shadow-2xl transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed right-0 top-0 z-50 flex h-full w-72 flex-col overflow-y-auto overscroll-contain border-l border-border-default bg-surface p-6 shadow-2xl transition-transform duration-300 ease-in-out md:hidden ${
           mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >

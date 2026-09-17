@@ -59,17 +59,17 @@ function GameSide({
   played: boolean;
 }) {
   return (
-    <div className="flex flex-1 items-center gap-2">
+    <div className="flex min-w-0 flex-1 items-center gap-2">
       <PlayerAvatar playerId={id} size="sm" showRing={played && won} />
       <span
-        className={`truncate text-sm ${
+        className={`min-w-0 flex-1 truncate text-sm ${
           played && won ? 'font-semibold text-on-surface' : 'text-on-surface-muted'
         }`}
       >
         {getPlayerName(id)}
       </span>
       <span
-        className={`ml-auto font-score text-sm ${
+        className={`shrink-0 font-score text-sm ${
           !played ? 'text-on-surface-faint' : won ? 'text-[#22c55e]' : 'text-on-surface-muted'
         }`}
       >
@@ -93,9 +93,11 @@ function GameCard({ game, showSeries = true }: { game: CurrentGame; showSeries?:
 
   return (
     <div className="glass-card space-y-2 p-4">
-      <div className="flex items-center gap-3">
+      {/* Two managers, avatars and scores on one 343px-wide phone row crushes the
+          names to a few characters, so stack them until there's room. */}
+      <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-3">
         <GameSide id={game.away_player_id} score={game.away_score} won={game.winner === 'away'} played={played} />
-        <span className="shrink-0 text-xs text-on-surface-faint">@</span>
+        <span className="shrink-0 text-center text-xs text-on-surface-faint">@</span>
         <GameSide id={game.home_player_id} score={game.home_score} won={game.winner === 'home'} played={played} />
       </div>
 

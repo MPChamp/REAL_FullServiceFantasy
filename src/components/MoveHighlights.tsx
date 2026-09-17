@@ -72,13 +72,13 @@ export default function MoveHighlights() {
         </p>
       </div>
 
-      <div className="inline-flex flex-wrap gap-1 rounded-lg border border-border-default bg-surface-inset p-1">
+      <div className="grid grid-cols-3 gap-1 rounded-lg border border-border-default bg-surface-inset p-1 sm:inline-flex">
         {TABS.map(({ id, label, icon: Icon }) => (
           <button
             key={id}
             type="button"
             onClick={() => setTab(id)}
-            className={`flex cursor-pointer items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-all duration-200 ${
+            className={`flex cursor-pointer items-center justify-center gap-1.5 rounded-md px-2 py-2 text-xs font-medium transition-all duration-200 sm:px-3 sm:text-sm ${
               tab === id ? 'bg-[#f59e0b] text-black' : 'text-on-surface-muted hover:text-on-surface'
             }`}
           >
@@ -93,26 +93,24 @@ export default function MoveHighlights() {
           {bestPickups.map((m, i) => (
             <div
               key={`${m.season_id}-${m.nfl_player_id}-${m.player_id}`}
-              className="glass-card flex flex-wrap items-center gap-3 p-3"
+              className="glass-card flex items-center gap-3 p-3"
             >
               <span className="w-5 shrink-0 font-score text-sm text-on-surface-faint">{i + 1}</span>
               <PlayerAvatar playerId={m.player_id} size="sm" />
-              <span className="shrink-0 text-sm font-medium text-on-surface">
-                {getPlayerName(m.player_id)}
-              </span>
-              <span className="text-xs text-on-surface-faint">picked up</span>
-              <span className="flex-1 truncate text-sm font-semibold text-on-surface">
-                {m.nfl_player_name}
-              </span>
-              <PositionTag position={m.position} />
-              <span className="shrink-0 text-[11px] text-on-surface-faint">
-                {m.season_id} wk{m.week}
-              </span>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-2">
+                  <span className="min-w-0 flex-1 truncate text-sm font-semibold text-on-surface">
+                    {m.nfl_player_name}
+                  </span>
+                  <PositionTag position={m.position} />
+                </div>
+                <div className="truncate text-[11px] text-on-surface-faint">
+                  {getPlayerName(m.player_id)} &middot; {m.season_id} wk{m.week} &middot;{' '}
+                  {m.weeks_started} starts
+                </div>
+              </div>
               <span className="shrink-0 text-right font-score text-sm text-[#22c55e]">
                 {formatScore(m.started_points ?? 0)}
-              </span>
-              <span className="hidden shrink-0 text-[11px] text-on-surface-faint sm:block">
-                in {m.weeks_started} starts
               </span>
             </div>
           ))}
@@ -191,26 +189,23 @@ export default function MoveHighlights() {
           {busts.map((m, i) => (
             <div
               key={`${m.season_id}-${m.nfl_player_id}-${m.player_id}`}
-              className="glass-card flex flex-wrap items-center gap-3 p-3"
+              className="glass-card flex items-center gap-3 p-3"
             >
               <span className="w-5 shrink-0 font-score text-sm text-on-surface-faint">{i + 1}</span>
               <PlayerAvatar playerId={m.player_id} size="sm" />
-              <span className="shrink-0 text-sm font-medium text-on-surface">
-                {getPlayerName(m.player_id)}
-              </span>
-              <span className="text-xs text-on-surface-faint">never started</span>
-              <span className="flex-1 truncate text-sm font-semibold text-on-surface">
-                {m.nfl_player_name}
-              </span>
-              <PositionTag position={m.position} />
-              <span className="shrink-0 text-[11px] text-on-surface-faint">
-                {m.season_id} wk{m.week}
-              </span>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-2">
+                  <span className="min-w-0 flex-1 truncate text-sm font-semibold text-on-surface">
+                    {m.nfl_player_name}
+                  </span>
+                  <PositionTag position={m.position} />
+                </div>
+                <div className="truncate text-[11px] text-on-surface-faint">
+                  {getPlayerName(m.player_id)} &middot; {m.season_id} wk{m.week} &middot; never started
+                </div>
+              </div>
               <span className="shrink-0 text-right font-score text-sm text-[#ef4444]">
                 {formatScore(m.bench_points ?? 0)}
-              </span>
-              <span className="hidden shrink-0 text-[11px] text-on-surface-faint sm:block">
-                wasted
               </span>
             </div>
           ))}

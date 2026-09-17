@@ -60,6 +60,20 @@ export function getPositionColor(position: string): string {
   return positionColors[position] ?? '#9ca3af';
 }
 
+/** Lineup-slot order (includes FLEX). K and D/ST kept consistent with POSITION_ORDER. */
+export const SLOT_ORDER = ['QB', 'RB', 'WR', 'TE', 'FLEX', 'K', 'D/ST'];
+
+/** Roster position order, used when there's no lineup slot to sort by. */
+export const POSITION_ORDER = ['QB', 'RB', 'WR', 'TE', 'K', 'D/ST'];
+
+const rankIn = (order: string[], value: string) => {
+  const i = order.indexOf(value);
+  return i === -1 ? order.length : i;
+};
+
+export const slotRank = (slot: string) => rankIn(SLOT_ORDER, slot);
+export const positionRank = (position: string) => rankIn(POSITION_ORDER, position);
+
 /**
  * Returns Recharts-compatible tooltip style object for the current theme.
  */

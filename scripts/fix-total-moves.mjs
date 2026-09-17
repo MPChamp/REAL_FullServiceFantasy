@@ -25,7 +25,13 @@ for (const season of seasons) {
   for (const team of league.teams ?? []) {
     const playerId = teamMap.get(team.id)?.playerId;
     if (!playerId) continue;
-    const tc = team.transactionCounter ?? {};
+    const tc = team.transactionCounter;
+    // A season with no counter at all must not be written as 0 — that would
+    // silently erase real history from the SQL source of truth.
+    if (!tc || (tc.acquisitions == null && tc.trades == null)) {
+      console.warn(`  ! ${season.year}: no transactionCounter for player ${playerId}, skipping`);
+      continue;
+    }
     moves.set(`${playerId}:${season.year}`, (tc.acquisitions ?? 0) + (tc.trades ?? 0));
   }
   console.log(`  ${season.year}: ${league.teams?.length ?? 0} teams`);
@@ -50,6 +56,12 @@ const updated = sql.replace(ROW, (full, pid, sid, ...rest) => {
   }
   const next = moves.get(key);
   if (Number(oldMoves) === next) return full;
+  // Refuse to blank out a real number; that only happens when ESPN's response
+  // was incomplete, never as a genuine correction.
+  if (next === 0 && Number(oldMoves) > 0) {
+    console.warn(`  ! refusing to zero total_moves for player ${pid} in ${sid}`);
+    return full;
+  }
 
   // No field in this row contains a comma, so a plain split is unambiguous and
   // preserves each field's original spacing.
@@ -72,6 +84,11 @@ if (!changes.length) {
   process.exit(0);
 }
 
+// The SQL file is the league's record of truth and lives outside the repo, so
+// keep a timestamped copy before touching it.
+const backupPath = `${SQL_PATH}.bak-${new Date().toISOString().slice(0, 10)}`;
+writeFileSync(backupPath, sql);
+console.log(`Backed up to ${backupPath.split('/').pop()}`);
 writeFileSync(SQL_PATH, updated);
 console.log(`Updated ${changes.length} rows in FF_2025_Updated.sql:\n`);
 for (const c of changes.sort((a, b) => a.season - b.season || a.player - b.player)) {

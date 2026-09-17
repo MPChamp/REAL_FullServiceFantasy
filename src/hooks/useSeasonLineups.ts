@@ -8,10 +8,6 @@ const lineupIndex = lineupIndexData as LineupIndexEntry[];
 // main bundle. Vite turns this glob into a separate lazy chunk per file.
 const lineupFiles = import.meta.glob<{ default: WeeklyLineupSpot[] }>('../data/lineups/*.json');
 
-export function lineupSeasons(): number[] {
-  return lineupIndex.map((e) => e.season_id).sort((a, b) => b - a);
-}
-
 export function weeksWithLineups(year: number): number[] {
   return lineupIndex.find((e) => e.season_id === year)?.weeks ?? [];
 }
@@ -32,9 +28,15 @@ export function useSeasonLineups(year: number): WeeklyLineupSpot[] | null {
     if (!loader) return;
 
     let cancelled = false;
-    loader().then((mod) => {
-      if (!cancelled) setLoaded({ year, rows: mod.default });
-    });
+    loader()
+      .then((mod) => {
+        if (!cancelled) setLoaded({ year, rows: mod.default });
+      })
+      .catch((err) => {
+        // A lazy chunk can fail on a flaky connection; surface it instead of
+        // leaving the view on "Loading…" forever.
+        console.error(`Failed to load ${year} lineups`, err);
+      });
     return () => {
       cancelled = true;
     };

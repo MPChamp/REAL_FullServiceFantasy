@@ -45,8 +45,13 @@ export default function StatCard({
         </div>
       )}
 
-      {/* Value */}
-      <p className={`font-score text-2xl font-bold ${styles.text}`}>
+      {/* Value — long names must wrap rather than spill past the card, and the
+          icon sits absolutely in the corner, so reserve room for it. */}
+      <p
+        className={`font-score text-xl font-bold break-words sm:text-2xl ${styles.text} ${
+          icon ? 'pr-7' : ''
+        }`}
+      >
         {value}
       </p>
 

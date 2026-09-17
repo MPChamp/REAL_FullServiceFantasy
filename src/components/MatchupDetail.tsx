@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
-import { getPositionColor } from '@/styles/theme';
+import { getPositionColor, slotRank } from '@/styles/theme';
 import { formatScore } from '@/utils/formatting';
 import { useSeasonLineups } from '@/hooks/useSeasonLineups';
 
@@ -11,12 +11,6 @@ import playersData from '@/data/players.json';
 const players = playersData as Player[];
 const getPlayerName = (id: number) => players.find((p) => p.player_id === id)?.name ?? 'Unknown';
 
-// Starters first, in lineup order; the bench follows by what it scored.
-const SLOT_ORDER = ['QB', 'RB', 'WR', 'TE', 'FLEX', 'D/ST', 'K'];
-const slotRank = (slot: string) => {
-  const i = SLOT_ORDER.indexOf(slot);
-  return i === -1 ? SLOT_ORDER.length : i;
-};
 
 function Side({ rows, managerId }: { rows: WeeklyLineupSpot[]; managerId: number }) {
   const starters = rows
@@ -43,7 +37,10 @@ function Side({ rows, managerId }: { rows: WeeklyLineupSpot[]; managerId: number
           {r.nfl_player_name}
         </span>
         {r.projected != null && (
-          <span className="hidden w-9 shrink-0 text-right font-score text-[10px] text-on-surface-faint sm:block">
+          <span
+            className="w-9 shrink-0 text-right font-score text-[10px] text-on-surface-faint"
+            title={`Projected ${formatScore(r.projected)}`}
+          >
             {formatScore(r.projected)}
           </span>
         )}
@@ -70,7 +67,7 @@ function Side({ rows, managerId }: { rows: WeeklyLineupSpot[]; managerId: number
       <div className="mb-1 flex items-center gap-2 text-[10px] uppercase tracking-wide text-on-surface-faint">
         <span className="w-10" />
         <span className="flex-1">Starters</span>
-        <span className="hidden w-9 text-right sm:block">Proj</span>
+        <span className="w-9 text-right">Proj</span>
         <span className="w-11 text-right">Pts</span>
       </div>
       <ul>{starters.map((r) => line(r, false))}</ul>

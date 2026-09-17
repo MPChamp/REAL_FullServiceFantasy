@@ -181,7 +181,7 @@ export default function DraftsPage() {
 
       {/* ── Season insights ── */}
       {view === 'draft' && (
-      <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {[
           { label: 'First QB', pick: insights.firstQb, accent: 'red' as const },
           { label: 'First RB', pick: insights.firstRb, accent: 'green' as const },
@@ -223,7 +223,7 @@ export default function DraftsPage() {
                 key={pos}
                 type="button"
                 onClick={() => setPositionFilter(active ? null : pos)}
-                className="cursor-pointer rounded-full px-3 py-1 text-xs font-semibold transition-all duration-200"
+                className="cursor-pointer rounded-full px-3 py-2 text-xs font-semibold transition-all duration-200"
                 style={
                   active
                     ? { backgroundColor: color, color: '#fff' }

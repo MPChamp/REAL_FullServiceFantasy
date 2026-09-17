@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Trophy, Anchor, Info, CircleCheck } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import StatCard from '@/components/common/StatCard';
-import { getPositionColor } from '@/styles/theme';
+import { getPositionColor, positionRank } from '@/styles/theme';
 import { formatRank } from '@/utils/formatting';
 
 import type {
@@ -37,14 +37,8 @@ const LINEUP_TRACKING_FROM = lineupIndex.length
   ? Math.min(...lineupIndex.map((e) => e.season_id))
   : null;
 
-const POSITION_ORDER = ['QB', 'RB', 'WR', 'TE', 'K', 'D/ST'];
 
 const getPlayerName = (id: number) => players.find((p) => p.player_id === id)?.name ?? 'Unknown';
-
-function positionRank(position: string) {
-  const i = POSITION_ORDER.indexOf(position);
-  return i === -1 ? POSITION_ORDER.length : i;
-}
 
 export default function RosterBoard({ year, query }: { year: number; query: string }) {
   const seasonRosters = useMemo(() => rosters.filter((r) => r.season_id === year), [year]);

@@ -48,8 +48,9 @@ async function fetchDrafts() {
     const league = await fetchLeague(year, ['mDraftDetail', 'mTeam']);
     const picks = league.draftDetail?.picks ?? [];
     if (!picks.length) {
-      warn(`${year}: no draft picks returned`);
-      continue;
+      // Draft picks are the baseline for move reconstruction; dropping a season
+      // would turn every week-1 roster spot into a phantom pickup.
+      throw new Error(`${year}: no draft picks returned — aborting rather than writing partial data`);
     }
 
     const teamMap = buildTeamMap(league, year, warn);
@@ -665,4 +666,7 @@ writeJson('current-season.json', currentSeason);
 console.log(
   `\nDone. ${picks.length} picks, ${rosters.length} roster spots, ${consolationGames.length} consolation games, ${transactions.length} transactions.`
 );
-if (warnings.length) console.log(`${warnings.length} warning(s) above.`);
+if (warnings.length) {
+  console.log(`${warnings.length} warning(s) above.`);
+  process.exitCode = 1;
+}

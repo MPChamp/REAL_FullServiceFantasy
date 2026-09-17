@@ -38,9 +38,11 @@ function UpcomingMatchup({ game }: { game: CurrentGame }) {
     <div className="rounded-lg border border-border-default bg-surface-card/50 p-3">
       <div className="flex items-center gap-2">
         <PlayerAvatar playerId={game.away_player_id} size="sm" />
-        <span className="text-sm font-medium text-on-surface">{awayName}</span>
-        <span className="text-xs text-on-surface-faint">at</span>
-        <span className="text-sm font-medium text-on-surface">{homeName}</span>
+        <span className="min-w-0 flex-1 truncate text-sm font-medium text-on-surface">{awayName}</span>
+        <span className="shrink-0 text-xs text-on-surface-faint">at</span>
+        <span className="min-w-0 flex-1 truncate text-right text-sm font-medium text-on-surface">
+          {homeName}
+        </span>
         <PlayerAvatar playerId={game.home_player_id} size="sm" />
       </div>
 

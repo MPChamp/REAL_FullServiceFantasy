@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
-import { getPositionColor } from '@/styles/theme';
+import { getPositionColor, slotRank } from '@/styles/theme';
 import { formatScore } from '@/utils/formatting';
 
 import { useSeasonLineups, weeksWithLineups, hasLineups } from '@/hooks/useSeasonLineups';
@@ -14,11 +14,6 @@ const players = playersData as Player[];
 
 const getPlayerName = (id: number) => players.find((p) => p.player_id === id)?.name ?? 'Unknown';
 
-const SLOT_ORDER = ['QB', 'RB', 'WR', 'TE', 'FLEX', 'D/ST', 'K'];
-const slotRank = (slot: string) => {
-  const i = SLOT_ORDER.indexOf(slot);
-  return i === -1 ? SLOT_ORDER.length : i;
-};
 
 function LineupRow({ row, benched }: { row: WeeklyLineupSpot; benched: boolean }) {
   const color = getPositionColor(row.position);
@@ -42,7 +37,7 @@ function LineupRow({ row, benched }: { row: WeeklyLineupSpot; benched: boolean }
 
       {row.projected != null && (
         <span
-          className="hidden w-10 shrink-0 text-right font-score text-[10px] text-on-surface-faint sm:block"
+          className="w-10 shrink-0 text-right font-score text-[10px] text-on-surface-faint"
           title={`Projected ${formatScore(row.projected)}`}
         >
           {formatScore(row.projected)}

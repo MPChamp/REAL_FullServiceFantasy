@@ -450,6 +450,13 @@ console.log(`  Record categories: ${Object.keys(records).length}`);
 
 // Write files
 const write = (name, data) => {
+  // An empty parse means the SQL changed shape; writing it would wipe the site's
+  // data and, worse, make fetch-espn reclassify every playoff game.
+  const count = Array.isArray(data) ? data.length : Object.keys(data).length;
+  if (count === 0) {
+    console.error(`FATAL: ${name} parsed to 0 rows — refusing to overwrite. Check the SQL format.`);
+    process.exit(1);
+  }
   const path = join(DATA_DIR, name);
   writeFileSync(path, JSON.stringify(data, null, 2));
   console.log(`  Wrote ${name}`);

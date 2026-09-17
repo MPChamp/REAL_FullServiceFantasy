@@ -135,7 +135,7 @@ export default function TransactionsPage() {
       ) : (
       <>
 
-      <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <StatCard label={`${season} moves`} value={seasonTransactions.length} accent="gold" />
         <StatCard label="Players added" value={totalAdds} accent="green" />
         <StatCard
