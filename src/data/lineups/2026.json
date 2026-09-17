@@ -9,7 +9,8 @@
     "pro_team": "ATL",
     "lineup_slot": "RB",
     "started": true,
-    "points": 31.3
+    "points": 31.3,
+    "projected": 18.9
   },
   {
     "season_id": 2026,
@@ -21,7 +22,8 @@
     "pro_team": "LV",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -33,7 +35,8 @@
     "pro_team": "HOU",
     "lineup_slot": "WR",
     "started": true,
-    "points": 21.2
+    "points": 21.2,
+    "projected": 15.59
   },
   {
     "season_id": 2026,
@@ -45,7 +48,8 @@
     "pro_team": "NE",
     "lineup_slot": "BE",
     "started": false,
-    "points": 9.82
+    "points": 9.82,
+    "projected": 16.24
   },
   {
     "season_id": 2026,
@@ -57,7 +61,8 @@
     "pro_team": "DEN",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 1.2
+    "points": 1.2,
+    "projected": 12.24
   },
   {
     "season_id": 2026,
@@ -69,7 +74,8 @@
     "pro_team": "CHI",
     "lineup_slot": "WR",
     "started": true,
-    "points": 7.2
+    "points": 7.2,
+    "projected": 12.4
   },
   {
     "season_id": 2026,
@@ -81,7 +87,8 @@
     "pro_team": "GB",
     "lineup_slot": "IR",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -93,7 +100,8 @@
     "pro_team": "JAX",
     "lineup_slot": "BE",
     "started": false,
-    "points": 7
+    "points": 7,
+    "projected": 10.12
   },
   {
     "season_id": 2026,
@@ -105,7 +113,8 @@
     "pro_team": "SF",
     "lineup_slot": "BE",
     "started": false,
-    "points": 16.9
+    "points": 16.9,
+    "projected": 10.65
   },
   {
     "season_id": 2026,
@@ -117,7 +126,8 @@
     "pro_team": "MIN",
     "lineup_slot": "RB",
     "started": true,
-    "points": 10
+    "points": 10,
+    "projected": 10.42
   },
   {
     "season_id": 2026,
@@ -129,7 +139,8 @@
     "pro_team": "KC",
     "lineup_slot": "QB",
     "started": true,
-    "points": 21.66
+    "points": 21.66,
+    "projected": 15.47
   },
   {
     "season_id": 2026,
@@ -141,7 +152,8 @@
     "pro_team": "BAL",
     "lineup_slot": "TE",
     "started": true,
-    "points": 8.9
+    "points": 8.9,
+    "projected": 10.07
   },
   {
     "season_id": 2026,
@@ -153,7 +165,8 @@
     "pro_team": "HOU",
     "lineup_slot": "BE",
     "started": false,
-    "points": -4
+    "points": -4,
+    "projected": 5.25
   },
   {
     "season_id": 2026,
@@ -165,7 +178,8 @@
     "pro_team": "NO",
     "lineup_slot": "IR",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -177,7 +191,8 @@
     "pro_team": "ATL",
     "lineup_slot": "BE",
     "started": false,
-    "points": 3.1
+    "points": 3.1,
+    "projected": 4.92
   },
   {
     "season_id": 2026,
@@ -189,7 +204,8 @@
     "pro_team": "JAX",
     "lineup_slot": "K",
     "started": true,
-    "points": 10
+    "points": 10,
+    "projected": 6.99
   },
   {
     "season_id": 2026,
@@ -201,7 +217,8 @@
     "pro_team": "MIN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 6.65
   },
   {
     "season_id": 2026,
@@ -213,7 +230,8 @@
     "pro_team": "JAX",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 14
+    "points": 14,
+    "projected": 8.21
   },
   {
     "season_id": 2026,
@@ -225,7 +243,8 @@
     "pro_team": "CIN",
     "lineup_slot": "WR",
     "started": true,
-    "points": 3.2
+    "points": 3.2,
+    "projected": 19.94
   },
   {
     "season_id": 2026,
@@ -237,7 +256,8 @@
     "pro_team": "BAL",
     "lineup_slot": "RB",
     "started": true,
-    "points": 35.3
+    "points": 35.3,
+    "projected": 16.36
   },
   {
     "season_id": 2026,
@@ -249,7 +269,8 @@
     "pro_team": "LAR",
     "lineup_slot": "RB",
     "started": true,
-    "points": 15.5
+    "points": 15.5,
+    "projected": 13.67
   },
   {
     "season_id": 2026,
@@ -261,7 +282,8 @@
     "pro_team": "PHI",
     "lineup_slot": "WR",
     "started": true,
-    "points": 8.3
+    "points": 8.3,
+    "projected": 14.83
   },
   {
     "season_id": 2026,
@@ -273,7 +295,8 @@
     "pro_team": "JAX",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 9.8
+    "points": 9.8,
+    "projected": 11.96
   },
   {
     "season_id": 2026,
@@ -285,7 +308,8 @@
     "pro_team": "CHI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 9.5
+    "points": 9.5,
+    "projected": 12
   },
   {
     "season_id": 2026,
@@ -297,7 +321,8 @@
     "pro_team": "JAX",
     "lineup_slot": "BE",
     "started": false,
-    "points": 19.3
+    "points": 19.3,
+    "projected": 11.34
   },
   {
     "season_id": 2026,
@@ -309,7 +334,8 @@
     "pro_team": "CAR",
     "lineup_slot": "BE",
     "started": false,
-    "points": 23.7
+    "points": 23.7,
+    "projected": 12.22
   },
   {
     "season_id": 2026,
@@ -321,7 +347,8 @@
     "pro_team": "JAX",
     "lineup_slot": "QB",
     "started": true,
-    "points": 26.1
+    "points": 26.1,
+    "projected": 16.9
   },
   {
     "season_id": 2026,
@@ -333,7 +360,8 @@
     "pro_team": "NYG",
     "lineup_slot": "BE",
     "started": false,
-    "points": 27.8
+    "points": 27.8,
+    "projected": 9.48
   },
   {
     "season_id": 2026,
@@ -345,7 +373,8 @@
     "pro_team": "DAL",
     "lineup_slot": "TE",
     "started": true,
-    "points": 2.6
+    "points": 2.6,
+    "projected": 9.81
   },
   {
     "season_id": 2026,
@@ -357,7 +386,8 @@
     "pro_team": "MIN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 11.9
+    "points": 11.9,
+    "projected": 9.6
   },
   {
     "season_id": 2026,
@@ -369,7 +399,8 @@
     "pro_team": "NO",
     "lineup_slot": "BE",
     "started": false,
-    "points": 23.2
+    "points": 23.2,
+    "projected": 14.2
   },
   {
     "season_id": 2026,
@@ -381,7 +412,8 @@
     "pro_team": "PIT",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 19
+    "points": 19,
+    "projected": 7.22
   },
   {
     "season_id": 2026,
@@ -393,7 +425,8 @@
     "pro_team": "TB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -405,7 +438,8 @@
     "pro_team": "MIN",
     "lineup_slot": "K",
     "started": true,
-    "points": 6
+    "points": 6,
+    "projected": 6.59
   },
   {
     "season_id": 2026,
@@ -417,7 +451,8 @@
     "pro_team": "DET",
     "lineup_slot": "RB",
     "started": true,
-    "points": 33.6
+    "points": 33.6,
+    "projected": 22.43
   },
   {
     "season_id": 2026,
@@ -429,7 +464,8 @@
     "pro_team": "ARI",
     "lineup_slot": "TE",
     "started": true,
-    "points": 24.5
+    "points": 24.5,
+    "projected": 14.34
   },
   {
     "season_id": 2026,
@@ -441,7 +477,8 @@
     "pro_team": "ARI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 13
+    "points": 13,
+    "projected": 13.86
   },
   {
     "season_id": 2026,
@@ -453,7 +490,8 @@
     "pro_team": "BAL",
     "lineup_slot": "QB",
     "started": true,
-    "points": 24.96
+    "points": 24.96,
+    "projected": 19.11
   },
   {
     "season_id": 2026,
@@ -465,7 +503,8 @@
     "pro_team": "LAC",
     "lineup_slot": "WR",
     "started": true,
-    "points": 19.2
+    "points": 19.2,
+    "projected": 13.74
   },
   {
     "season_id": 2026,
@@ -477,7 +516,8 @@
     "pro_team": "HOU",
     "lineup_slot": "RB",
     "started": true,
-    "points": 28.9
+    "points": 28.9,
+    "projected": 12.66
   },
   {
     "season_id": 2026,
@@ -489,7 +529,8 @@
     "pro_team": "PIT",
     "lineup_slot": "WR",
     "started": true,
-    "points": 8
+    "points": 8,
+    "projected": 12.19
   },
   {
     "season_id": 2026,
@@ -501,7 +542,8 @@
     "pro_team": "GB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 32.7
+    "points": 32.7,
+    "projected": 10.92
   },
   {
     "season_id": 2026,
@@ -513,7 +555,8 @@
     "pro_team": "GB",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 3.7
+    "points": 3.7,
+    "projected": 12.75
   },
   {
     "season_id": 2026,
@@ -525,7 +568,8 @@
     "pro_team": "DET",
     "lineup_slot": "IR",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -537,7 +581,8 @@
     "pro_team": "LAC",
     "lineup_slot": "BE",
     "started": false,
-    "points": 3.7
+    "points": 3.7,
+    "projected": 10.35
   },
   {
     "season_id": 2026,
@@ -549,7 +594,8 @@
     "pro_team": "CAR",
     "lineup_slot": "BE",
     "started": false,
-    "points": 33.8
+    "points": 33.8,
+    "projected": 9.2
   },
   {
     "season_id": 2026,
@@ -561,7 +607,8 @@
     "pro_team": "LAR",
     "lineup_slot": "BE",
     "started": false,
-    "points": 1
+    "points": 1,
+    "projected": 6.17
   },
   {
     "season_id": 2026,
@@ -573,7 +620,8 @@
     "pro_team": "KC",
     "lineup_slot": "K",
     "started": true,
-    "points": 6
+    "points": 6,
+    "projected": 6.67
   },
   {
     "season_id": 2026,
@@ -585,7 +633,8 @@
     "pro_team": "BUF",
     "lineup_slot": "BE",
     "started": false,
-    "points": 18
+    "points": 18,
+    "projected": 8.65
   },
   {
     "season_id": 2026,
@@ -597,7 +646,8 @@
     "pro_team": "CLE",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.6
+    "points": 4.6,
+    "projected": 8.14
   },
   {
     "season_id": 2026,
@@ -609,7 +659,8 @@
     "pro_team": "DET",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 5
+    "points": 5,
+    "projected": 7.31
   },
   {
     "season_id": 2026,
@@ -621,7 +672,8 @@
     "pro_team": "DET",
     "lineup_slot": "WR",
     "started": true,
-    "points": 28.7
+    "points": 28.7,
+    "projected": 18.82
   },
   {
     "season_id": 2026,
@@ -633,7 +685,8 @@
     "pro_team": "LAC",
     "lineup_slot": "RB",
     "started": true,
-    "points": 8.3
+    "points": 8.3,
+    "projected": 17.57
   },
   {
     "season_id": 2026,
@@ -645,7 +698,8 @@
     "pro_team": "DAL",
     "lineup_slot": "WR",
     "started": true,
-    "points": 5.8
+    "points": 5.8,
+    "projected": 14.69
   },
   {
     "season_id": 2026,
@@ -657,7 +711,8 @@
     "pro_team": "NYG",
     "lineup_slot": "BE",
     "started": false,
-    "points": 12.9
+    "points": 12.9,
+    "projected": 12.71
   },
   {
     "season_id": 2026,
@@ -669,7 +724,8 @@
     "pro_team": "SEA",
     "lineup_slot": "RB",
     "started": true,
-    "points": 7.8
+    "points": 7.8,
+    "projected": 14.09
   },
   {
     "season_id": 2026,
@@ -681,7 +737,8 @@
     "pro_team": "NYG",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 14.1
+    "points": 14.1,
+    "projected": 13.71
   },
   {
     "season_id": 2026,
@@ -693,7 +750,8 @@
     "pro_team": "SF",
     "lineup_slot": "TE",
     "started": true,
-    "points": 3.2
+    "points": 3.2,
+    "projected": 8.37
   },
   {
     "season_id": 2026,
@@ -705,7 +763,8 @@
     "pro_team": "GB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 9.5
+    "points": 9.5,
+    "projected": 8.97
   },
   {
     "season_id": 2026,
@@ -717,7 +776,8 @@
     "pro_team": "WSH",
     "lineup_slot": "BE",
     "started": false,
-    "points": 15.5
+    "points": 15.5,
+    "projected": 9.69
   },
   {
     "season_id": 2026,
@@ -729,7 +789,8 @@
     "pro_team": "NYG",
     "lineup_slot": "BE",
     "started": false,
-    "points": 26.6
+    "points": 26.6,
+    "projected": 18.51
   },
   {
     "season_id": 2026,
@@ -741,7 +802,8 @@
     "pro_team": "WSH",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.7
+    "points": 4.7,
+    "projected": 8.85
   },
   {
     "season_id": 2026,
@@ -753,7 +815,8 @@
     "pro_team": "LAC",
     "lineup_slot": "QB",
     "started": true,
-    "points": 13.26
+    "points": 13.26,
+    "projected": 18.98
   },
   {
     "season_id": 2026,
@@ -765,7 +828,8 @@
     "pro_team": "DEN",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 2
+    "points": 2,
+    "projected": 5.86
   },
   {
     "season_id": 2026,
@@ -777,7 +841,8 @@
     "pro_team": "HOU",
     "lineup_slot": "K",
     "started": true,
-    "points": 8
+    "points": 8,
+    "projected": 7.63
   },
   {
     "season_id": 2026,
@@ -789,7 +854,8 @@
     "pro_team": "LAC",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0.9
+    "points": 0.9,
+    "projected": 6.21
   },
   {
     "season_id": 2026,
@@ -801,7 +867,8 @@
     "pro_team": "SEA",
     "lineup_slot": "BE",
     "started": false,
-    "points": 2.9
+    "points": 2.9,
+    "projected": 5.99
   },
   {
     "season_id": 2026,
@@ -813,7 +880,8 @@
     "pro_team": "SF",
     "lineup_slot": "RB",
     "started": true,
-    "points": 13.8
+    "points": 13.8,
+    "projected": 18.52
   },
   {
     "season_id": 2026,
@@ -825,7 +893,8 @@
     "pro_team": "CIN",
     "lineup_slot": "RB",
     "started": true,
-    "points": 18.8
+    "points": 18.8,
+    "projected": 16.03
   },
   {
     "season_id": 2026,
@@ -837,7 +906,8 @@
     "pro_team": "NE",
     "lineup_slot": "WR",
     "started": true,
-    "points": 5.6
+    "points": 5.6,
+    "projected": 14.18
   },
   {
     "season_id": 2026,
@@ -849,7 +919,8 @@
     "pro_team": "TB",
     "lineup_slot": "WR",
     "started": true,
-    "points": 11.3
+    "points": 11.3,
+    "projected": 14.04
   },
   {
     "season_id": 2026,
@@ -861,7 +932,8 @@
     "pro_team": "CHI",
     "lineup_slot": "TE",
     "started": true,
-    "points": 0
+    "points": 0,
+    "projected": 12.03
   },
   {
     "season_id": 2026,
@@ -873,7 +945,8 @@
     "pro_team": "DET",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 8.5
+    "points": 8.5,
+    "projected": 12.12
   },
   {
     "season_id": 2026,
@@ -885,7 +958,8 @@
     "pro_team": "WSH",
     "lineup_slot": "QB",
     "started": true,
-    "points": 17.66
+    "points": 17.66,
+    "projected": 16.83
   },
   {
     "season_id": 2026,
@@ -897,7 +971,8 @@
     "pro_team": "PIT",
     "lineup_slot": "BE",
     "started": false,
-    "points": 8.8
+    "points": 8.8,
+    "projected": 12.31
   },
   {
     "season_id": 2026,
@@ -909,7 +984,8 @@
     "pro_team": "CAR",
     "lineup_slot": "BE",
     "started": false,
-    "points": 7.2
+    "points": 7.2,
+    "projected": 10.71
   },
   {
     "season_id": 2026,
@@ -921,7 +997,8 @@
     "pro_team": "DEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 8.1
+    "points": 8.1,
+    "projected": 8.47
   },
   {
     "season_id": 2026,
@@ -933,7 +1010,8 @@
     "pro_team": "TEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 8.8
+    "points": 8.8,
+    "projected": 10.38
   },
   {
     "season_id": 2026,
@@ -945,7 +1023,8 @@
     "pro_team": "GB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 15.5
+    "points": 15.5,
+    "projected": 11
   },
   {
     "season_id": 2026,
@@ -957,7 +1036,8 @@
     "pro_team": "MIN",
     "lineup_slot": "BE",
     "started": false,
-    "points": -0.38
+    "points": -0.38,
+    "projected": 16.38
   },
   {
     "season_id": 2026,
@@ -969,7 +1049,8 @@
     "pro_team": "PHI",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 5
+    "points": 5,
+    "projected": 6.14
   },
   {
     "season_id": 2026,
@@ -981,7 +1062,8 @@
     "pro_team": "PIT",
     "lineup_slot": "K",
     "started": true,
-    "points": 6
+    "points": 6,
+    "projected": 7.15
   },
   {
     "season_id": 2026,
@@ -993,7 +1075,8 @@
     "pro_team": "NO",
     "lineup_slot": "BE",
     "started": false,
-    "points": 14.4
+    "points": 14.4,
+    "projected": 8.82
   },
   {
     "season_id": 2026,
@@ -1005,7 +1088,8 @@
     "pro_team": "BUF",
     "lineup_slot": "RB",
     "started": true,
-    "points": 9.9
+    "points": 9.9,
+    "projected": 15.88
   },
   {
     "season_id": 2026,
@@ -1017,7 +1101,8 @@
     "pro_team": "PHI",
     "lineup_slot": "RB",
     "started": true,
-    "points": 9
+    "points": 9,
+    "projected": 17.67
   },
   {
     "season_id": 2026,
@@ -1029,7 +1114,8 @@
     "pro_team": "ATL",
     "lineup_slot": "WR",
     "started": true,
-    "points": 5.5
+    "points": 5.5,
+    "projected": 13.82
   },
   {
     "season_id": 2026,
@@ -1041,7 +1127,8 @@
     "pro_team": "NYJ",
     "lineup_slot": "WR",
     "started": true,
-    "points": 13.9
+    "points": 13.9,
+    "projected": 14.77
   },
   {
     "season_id": 2026,
@@ -1053,7 +1140,8 @@
     "pro_team": "BAL",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 26
+    "points": 26,
+    "projected": 14.2
   },
   {
     "season_id": 2026,
@@ -1065,7 +1153,8 @@
     "pro_team": "PHI",
     "lineup_slot": "QB",
     "started": true,
-    "points": 24.72
+    "points": 24.72,
+    "projected": 21.04
   },
   {
     "season_id": 2026,
@@ -1077,7 +1166,8 @@
     "pro_team": "DET",
     "lineup_slot": "TE",
     "started": true,
-    "points": 9.8
+    "points": 9.8,
+    "projected": 10.95
   },
   {
     "season_id": 2026,
@@ -1089,7 +1179,8 @@
     "pro_team": "PIT",
     "lineup_slot": "BE",
     "started": false,
-    "points": 10.3
+    "points": 10.3,
+    "projected": 12.62
   },
   {
     "season_id": 2026,
@@ -1101,7 +1192,8 @@
     "pro_team": "ARI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 10.6
+    "points": 10.6,
+    "projected": 10.46
   },
   {
     "season_id": 2026,
@@ -1113,7 +1205,8 @@
     "pro_team": "CHI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 20.4
+    "points": 20.4,
+    "projected": 10.25
   },
   {
     "season_id": 2026,
@@ -1125,7 +1218,8 @@
     "pro_team": "KC",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.8
+    "points": 4.8,
+    "projected": 9.52
   },
   {
     "season_id": 2026,
@@ -1137,7 +1231,8 @@
     "pro_team": "SF",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 9.59
   },
   {
     "season_id": 2026,
@@ -1149,7 +1244,8 @@
     "pro_team": "SEA",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 14
+    "points": 14,
+    "projected": 7.22
   },
   {
     "season_id": 2026,
@@ -1161,7 +1257,8 @@
     "pro_team": "SEA",
     "lineup_slot": "K",
     "started": true,
-    "points": 5
+    "points": 5,
+    "projected": 7.41
   },
   {
     "season_id": 2026,
@@ -1173,7 +1270,8 @@
     "pro_team": "SF",
     "lineup_slot": "BE",
     "started": false,
-    "points": 21.1
+    "points": 21.1,
+    "projected": 15.47
   },
   {
     "season_id": 2026,
@@ -1185,7 +1283,8 @@
     "pro_team": "NYJ",
     "lineup_slot": "BE",
     "started": false,
-    "points": 11.4
+    "points": 11.4,
+    "projected": 5.08
   },
   {
     "season_id": 2026,
@@ -1197,7 +1296,8 @@
     "pro_team": "SEA",
     "lineup_slot": "WR",
     "started": true,
-    "points": 26.2
+    "points": 26.2,
+    "projected": 18.98
   },
   {
     "season_id": 2026,
@@ -1209,7 +1309,8 @@
     "pro_team": "MIN",
     "lineup_slot": "WR",
     "started": true,
-    "points": 31.2
+    "points": 31.2,
+    "projected": 17.08
   },
   {
     "season_id": 2026,
@@ -1221,7 +1322,8 @@
     "pro_team": "DAL",
     "lineup_slot": "RB",
     "started": true,
-    "points": 24.2
+    "points": 24.2,
+    "projected": 15.29
   },
   {
     "season_id": 2026,
@@ -1233,7 +1335,8 @@
     "pro_team": "CLE",
     "lineup_slot": "RB",
     "started": true,
-    "points": 7
+    "points": 7,
+    "projected": 13.15
   },
   {
     "season_id": 2026,
@@ -1245,7 +1348,8 @@
     "pro_team": "CHI",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 32.4
+    "points": 32.4,
+    "projected": 12.31
   },
   {
     "season_id": 2026,
@@ -1257,7 +1361,8 @@
     "pro_team": "CIN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 8.9
+    "points": 8.9,
+    "projected": 12.96
   },
   {
     "season_id": 2026,
@@ -1269,7 +1374,8 @@
     "pro_team": "ATL",
     "lineup_slot": "TE",
     "started": true,
-    "points": 0
+    "points": 0,
+    "projected": 9.83
   },
   {
     "season_id": 2026,
@@ -1281,7 +1387,8 @@
     "pro_team": "DAL",
     "lineup_slot": "QB",
     "started": true,
-    "points": 14.4
+    "points": 14.4,
+    "projected": 16.74
   },
   {
     "season_id": 2026,
@@ -1293,7 +1400,8 @@
     "pro_team": "PIT",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.1
+    "points": 4.1,
+    "projected": 12.5
   },
   {
     "season_id": 2026,
@@ -1305,7 +1413,8 @@
     "pro_team": "MIN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 9.91
   },
   {
     "season_id": 2026,
@@ -1317,7 +1426,8 @@
     "pro_team": "TB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 2.8
+    "points": 2.8,
+    "projected": 12.02
   },
   {
     "season_id": 2026,
@@ -1329,7 +1439,8 @@
     "pro_team": "DAL",
     "lineup_slot": "K",
     "started": true,
-    "points": 2
+    "points": 2,
+    "projected": 7.87
   },
   {
     "season_id": 2026,
@@ -1341,7 +1452,8 @@
     "pro_team": "SEA",
     "lineup_slot": "IR",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -1353,7 +1465,8 @@
     "pro_team": "SF",
     "lineup_slot": "BE",
     "started": false,
-    "points": 18
+    "points": 18,
+    "projected": 8.91
   },
   {
     "season_id": 2026,
@@ -1365,7 +1478,8 @@
     "pro_team": "BAL",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 8
+    "points": 8,
+    "projected": 6.65
   },
   {
     "season_id": 2026,
@@ -1377,7 +1491,8 @@
     "pro_team": "TEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 8.07
   },
   {
     "season_id": 2026,
@@ -1389,7 +1504,8 @@
     "pro_team": "LAR",
     "lineup_slot": "WR",
     "started": true,
-    "points": 12.4
+    "points": 12.4,
+    "projected": 21.05
   },
   {
     "season_id": 2026,
@@ -1401,7 +1517,8 @@
     "pro_team": "LV",
     "lineup_slot": "RB",
     "started": true,
-    "points": 32.7
+    "points": 32.7,
+    "projected": 17.94
   },
   {
     "season_id": 2026,
@@ -1413,7 +1530,8 @@
     "pro_team": "KC",
     "lineup_slot": "RB",
     "started": true,
-    "points": 34.1
+    "points": 34.1,
+    "projected": 14.7
   },
   {
     "season_id": 2026,
@@ -1425,7 +1543,8 @@
     "pro_team": "CAR",
     "lineup_slot": "WR",
     "started": true,
-    "points": 10.5
+    "points": 10.5,
+    "projected": 14.78
   },
   {
     "season_id": 2026,
@@ -1437,7 +1556,8 @@
     "pro_team": "BUF",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 21
+    "points": 21,
+    "projected": 11.57
   },
   {
     "season_id": 2026,
@@ -1449,7 +1569,8 @@
     "pro_team": "TEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 7.8
+    "points": 7.8,
+    "projected": 12
   },
   {
     "season_id": 2026,
@@ -1461,7 +1582,8 @@
     "pro_team": "ARI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.3
+    "points": 4.3,
+    "projected": 11.47
   },
   {
     "season_id": 2026,
@@ -1473,7 +1595,8 @@
     "pro_team": "LAR",
     "lineup_slot": "BE",
     "started": false,
-    "points": 5.4
+    "points": 5.4,
+    "projected": 9.37
   },
   {
     "season_id": 2026,
@@ -1485,7 +1608,8 @@
     "pro_team": "CHI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 37.26
+    "points": 37.26,
+    "projected": 16.38
   },
   {
     "season_id": 2026,
@@ -1497,7 +1621,8 @@
     "pro_team": "DEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 3.6
+    "points": 3.6,
+    "projected": 9.53
   },
   {
     "season_id": 2026,
@@ -1509,7 +1634,8 @@
     "pro_team": "WSH",
     "lineup_slot": "BE",
     "started": false,
-    "points": 12.6
+    "points": 12.6,
+    "projected": 8.28
   },
   {
     "season_id": 2026,
@@ -1521,7 +1647,8 @@
     "pro_team": "PHI",
     "lineup_slot": "TE",
     "started": true,
-    "points": 23.7
+    "points": 23.7,
+    "projected": 10.93
   },
   {
     "season_id": 2026,
@@ -1533,7 +1660,8 @@
     "pro_team": "LAR",
     "lineup_slot": "QB",
     "started": true,
-    "points": 4.1
+    "points": 4.1,
+    "projected": 17.49
   },
   {
     "season_id": 2026,
@@ -1545,7 +1673,8 @@
     "pro_team": "NO",
     "lineup_slot": "IR",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -1557,7 +1686,8 @@
     "pro_team": "LAR",
     "lineup_slot": "K",
     "started": true,
-    "points": 1
+    "points": 1,
+    "projected": 7.65
   },
   {
     "season_id": 2026,
@@ -1569,7 +1699,8 @@
     "pro_team": "NE",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 7
+    "points": 7,
+    "projected": 4.66
   },
   {
     "season_id": 2026,
@@ -1581,7 +1712,8 @@
     "pro_team": "LV",
     "lineup_slot": "BE",
     "started": false,
-    "points": 9.2
+    "points": 9.2,
+    "projected": 9.32
   },
   {
     "season_id": 2026,
@@ -1593,7 +1725,8 @@
     "pro_team": "IND",
     "lineup_slot": "RB",
     "started": true,
-    "points": 25.1
+    "points": 25.1,
+    "projected": 17.74
   },
   {
     "season_id": 2026,
@@ -1605,7 +1738,8 @@
     "pro_team": "DAL",
     "lineup_slot": "WR",
     "started": true,
-    "points": 15.4
+    "points": 15.4,
+    "projected": 17.25
   },
   {
     "season_id": 2026,
@@ -1617,7 +1751,8 @@
     "pro_team": "KC",
     "lineup_slot": "WR",
     "started": true,
-    "points": 9.9
+    "points": 9.9,
+    "projected": 14.36
   },
   {
     "season_id": 2026,
@@ -1629,7 +1764,8 @@
     "pro_team": "NO",
     "lineup_slot": "RB",
     "started": true,
-    "points": 14.8
+    "points": 14.8,
+    "projected": 15.08
   },
   {
     "season_id": 2026,
@@ -1641,7 +1777,8 @@
     "pro_team": "LAR",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 5.6
+    "points": 5.6,
+    "projected": 13.82
   },
   {
     "season_id": 2026,
@@ -1653,7 +1790,8 @@
     "pro_team": "CLE",
     "lineup_slot": "TE",
     "started": true,
-    "points": 4.1
+    "points": 4.1,
+    "projected": 11.12
   },
   {
     "season_id": 2026,
@@ -1665,7 +1803,8 @@
     "pro_team": "CIN",
     "lineup_slot": "QB",
     "started": true,
-    "points": 14.16
+    "points": 14.16,
+    "projected": 18.14
   },
   {
     "season_id": 2026,
@@ -1677,7 +1816,8 @@
     "pro_team": "NE",
     "lineup_slot": "BE",
     "started": false,
-    "points": 14.5
+    "points": 14.5,
+    "projected": 13.97
   },
   {
     "season_id": 2026,
@@ -1689,7 +1829,8 @@
     "pro_team": "TEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.4
+    "points": 4.4,
+    "projected": 11.53
   },
   {
     "season_id": 2026,
@@ -1701,7 +1842,8 @@
     "pro_team": "DEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 3.1
+    "points": 3.1,
+    "projected": 11.7
   },
   {
     "season_id": 2026,
@@ -1713,7 +1855,8 @@
     "pro_team": "JAX",
     "lineup_slot": "BE",
     "started": false,
-    "points": 12.2
+    "points": 12.2,
+    "projected": 10.41
   },
   {
     "season_id": 2026,
@@ -1725,7 +1868,8 @@
     "pro_team": "TEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 4.4
+    "points": 4.4,
+    "projected": 9.36
   },
   {
     "season_id": 2026,
@@ -1737,7 +1881,8 @@
     "pro_team": "LAC",
     "lineup_slot": "K",
     "started": true,
-    "points": 2
+    "points": 2,
+    "projected": 8.24
   },
   {
     "season_id": 2026,
@@ -1749,7 +1894,8 @@
     "pro_team": "CHI",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 2
+    "points": 2,
+    "projected": 5.79
   },
   {
     "season_id": 2026,
@@ -1761,7 +1907,8 @@
     "pro_team": "MIN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 13.6
+    "points": 13.6,
+    "projected": 9.2
   },
   {
     "season_id": 2026,
@@ -1773,7 +1920,8 @@
     "pro_team": "GB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 19.48
+    "points": 19.48,
+    "projected": 14.86
   },
   {
     "season_id": 2026,
@@ -1785,7 +1933,8 @@
     "pro_team": "MIA",
     "lineup_slot": "RB",
     "started": true,
-    "points": 10.6
+    "points": 10.6,
+    "projected": 18.2
   },
   {
     "season_id": 2026,
@@ -1797,7 +1946,8 @@
     "pro_team": "BUF",
     "lineup_slot": "QB",
     "started": true,
-    "points": 35.66
+    "points": 35.66,
+    "projected": 19.31
   },
   {
     "season_id": 2026,
@@ -1809,7 +1959,8 @@
     "pro_team": "NYJ",
     "lineup_slot": "RB",
     "started": true,
-    "points": 19.8
+    "points": 19.8,
+    "projected": 16.49
   },
   {
     "season_id": 2026,
@@ -1821,7 +1972,8 @@
     "pro_team": "NO",
     "lineup_slot": "WR",
     "started": true,
-    "points": 28.2
+    "points": 28.2,
+    "projected": 14.78
   },
   {
     "season_id": 2026,
@@ -1833,7 +1985,8 @@
     "pro_team": "IND",
     "lineup_slot": "TE",
     "started": true,
-    "points": 10.3
+    "points": 10.3,
+    "projected": 12.22
   },
   {
     "season_id": 2026,
@@ -1845,7 +1998,8 @@
     "pro_team": "TB",
     "lineup_slot": "FLEX",
     "started": true,
-    "points": 20.3
+    "points": 20.3,
+    "projected": 13.49
   },
   {
     "season_id": 2026,
@@ -1857,7 +2011,8 @@
     "pro_team": "NE",
     "lineup_slot": "IR",
     "started": false,
-    "points": 0
+    "points": 0,
+    "projected": 0
   },
   {
     "season_id": 2026,
@@ -1869,7 +2024,8 @@
     "pro_team": "WSH",
     "lineup_slot": "WR",
     "started": true,
-    "points": 3.4
+    "points": 3.4,
+    "projected": 12.23
   },
   {
     "season_id": 2026,
@@ -1881,7 +2037,8 @@
     "pro_team": "IND",
     "lineup_slot": "BE",
     "started": false,
-    "points": 10.1
+    "points": 10.1,
+    "projected": 9.7
   },
   {
     "season_id": 2026,
@@ -1893,7 +2050,8 @@
     "pro_team": "TB",
     "lineup_slot": "BE",
     "started": false,
-    "points": 8.3
+    "points": 8.3,
+    "projected": 10.26
   },
   {
     "season_id": 2026,
@@ -1905,7 +2063,8 @@
     "pro_team": "PHI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 2.5
+    "points": 2.5,
+    "projected": 8.45
   },
   {
     "season_id": 2026,
@@ -1917,7 +2076,8 @@
     "pro_team": "KC",
     "lineup_slot": "BE",
     "started": false,
-    "points": 10.1
+    "points": 10.1,
+    "projected": 9.81
   },
   {
     "season_id": 2026,
@@ -1929,7 +2089,8 @@
     "pro_team": "DEN",
     "lineup_slot": "BE",
     "started": false,
-    "points": 5.44
+    "points": 5.44,
+    "projected": 16.12
   },
   {
     "season_id": 2026,
@@ -1941,7 +2102,8 @@
     "pro_team": "CLE",
     "lineup_slot": "BE",
     "started": false,
-    "points": 7.8
+    "points": 7.8,
+    "projected": 9.08
   },
   {
     "season_id": 2026,
@@ -1953,7 +2115,8 @@
     "pro_team": "SF",
     "lineup_slot": "K",
     "started": true,
-    "points": 8
+    "points": 8,
+    "projected": 6.81
   },
   {
     "season_id": 2026,
@@ -1965,7 +2128,8 @@
     "pro_team": "LAC",
     "lineup_slot": "D/ST",
     "started": true,
-    "points": 0
+    "points": 0,
+    "projected": 7.42
   },
   {
     "season_id": 2026,
@@ -1977,6 +2141,7 @@
     "pro_team": "ARI",
     "lineup_slot": "BE",
     "started": false,
-    "points": 9
+    "points": 9,
+    "projected": 7.52
   }
 ]

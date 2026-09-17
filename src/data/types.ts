@@ -137,9 +137,12 @@ export interface RosterSpot extends NflPlayer {
 }
 
 /**
- * One player's line in a single week's lineup. Only exists from the first
- * season the site captured live (2026): ESPN serves boxscore rosters for the
- * current season only, so earlier years can never be backfilled.
+ * One player's line in a single week's lineup. Available from 2018 — that's as
+ * far back as ESPN keeps boxscore rosters, and only via the /seasons/ path
+ * (leagueHistory returns the same shape with rosters stripped out).
+ *
+ * Lives in src/data/lineups/{year}.json rather than one file: the full archive
+ * is ~21k rows, so the app lazy-loads a season at a time.
  */
 export interface WeeklyLineupSpot extends NflPlayer {
   season_id: number;
@@ -148,6 +151,15 @@ export interface WeeklyLineupSpot extends NflPlayer {
   lineup_slot: string;
   started: boolean;
   points: number;
+  /** ESPN's pre-game projection, null when it wasn't recorded. */
+  projected: number | null;
+}
+
+/** Bundled summary of which seasons and weeks have lineup files. */
+export interface LineupIndexEntry {
+  season_id: number;
+  weeks: number[];
+  rows: number;
 }
 
 export interface TeamName {

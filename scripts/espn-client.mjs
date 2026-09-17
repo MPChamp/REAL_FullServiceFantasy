@@ -31,15 +31,46 @@ export const CURRENT_SEASON = Number(env.ESPN_CURRENT_SEASON ?? new Date().getFu
 
 const cookie = `espn_s2=${env.ESPN_S2}; SWID=${env.ESPN_SWID}`;
 
-async function request(url, filter) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * A full backfill is ~200 requests, so a single dropped connection used to
+ * abort the whole run before anything was written. Retries network errors and
+ * 5xx/429 with backoff; 4xx still fails fast since retrying won't help.
+ */
+async function request(url, filter, attempt = 1) {
+  const MAX_ATTEMPTS = 4;
   const headers = { Cookie: cookie, Accept: 'application/json' };
   if (filter) headers['x-fantasy-filter'] = JSON.stringify(filter);
 
-  const res = await fetch(url, { headers });
-  if (!res.ok) {
-    throw new Error(`ESPN ${res.status} ${res.statusText} for ${url.replace(LEAGUE_ID, '<league>')}`);
+  const safeUrl = () => url.replace(LEAGUE_ID, '<league>');
+  const retry = async (reason) => {
+    if (attempt >= MAX_ATTEMPTS) {
+      throw new Error(`ESPN request failed after ${MAX_ATTEMPTS} attempts (${reason}) for ${safeUrl()}`);
+    }
+    const backoff = 500 * 2 ** (attempt - 1);
+    console.warn(`  … retrying in ${backoff}ms (${reason})`);
+    await sleep(backoff);
+    return request(url, filter, attempt + 1);
+  };
+
+  let res;
+  try {
+    res = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) });
+  } catch (e) {
+    return retry(e.cause?.code ?? e.name ?? 'network error');
   }
-  return res.json();
+
+  if (res.status === 429 || res.status >= 500) return retry(`HTTP ${res.status}`);
+  if (!res.ok) {
+    throw new Error(`ESPN ${res.status} ${res.statusText} for ${safeUrl()}`);
+  }
+
+  try {
+    return await res.json();
+  } catch {
+    return retry('malformed JSON');
+  }
 }
 
 /** leagueHistory wraps its single league in an array; /seasons/ does not. */
@@ -59,6 +90,21 @@ export function leagueUrl(year, views = [], scoringPeriodId) {
 
 export function fetchLeague(year, views, filter, scoringPeriodId) {
   return requestLeague(leagueUrl(year, views, scoringPeriodId), filter);
+}
+
+/**
+ * Always uses the /seasons/ path, which works for past years too and is the
+ * only way to get weekly boxscore lineups: leagueHistory returns the same
+ * response shape but with every roster stripped out. Verified 2018 onward;
+ * 2016-2017 predate ESPN keeping the detail at all.
+ */
+export function fetchSeasonPath(year, views = [], scoringPeriodId) {
+  const params = views.map((v) => `view=${v}`);
+  if (scoringPeriodId != null) params.push(`scoringPeriodId=${scoringPeriodId}`);
+  const url = `${BASE}/seasons/${year}/segments/0/leagues/${LEAGUE_ID}${
+    params.length ? `?${params.join('&')}` : ''
+  }`;
+  return requestLeague(url);
 }
 
 export async function fetchPlayerNames(year, playerIds) {

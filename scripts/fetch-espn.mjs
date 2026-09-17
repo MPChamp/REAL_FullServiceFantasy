@@ -1,9 +1,10 @@
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import {
   CURRENT_SEASON,
   fetchLeague,
+  fetchSeasonPath,
   fetchPlayerNames,
   buildTeamMap,
   POSITIONS,
@@ -12,6 +13,7 @@ import {
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_DIR = join(ROOT, 'src', 'data');
+const LINEUP_DIR = join(DATA_DIR, 'lineups');
 const FIRST_SEASON = 2016;
 
 const warnings = [];
@@ -183,71 +185,126 @@ async function fetchRosters(draftPicks) {
   return rosters;
 }
 
-// ─── Weekly lineups (current season only) ────────────────────────────────────
-// Who was actually started each week and what they scored. ESPN serves this
-// only while the season is live — boxscore rosters come back empty for finished
-// years — so each run appends completed weeks to a permanent archive.
+// ─── Weekly lineups ──────────────────────────────────────────────────────────
+// Who started each week, what they scored, and what they were projected to
+// score. Only reachable through the /seasons/ path — leagueHistory returns the
+// same shape with rosters stripped. 2018 is the earliest season ESPN still has
+// this for; 2016-2017 return no boxscore rosters at all.
+const FIRST_LINEUP_SEASON = 2018;
 const LINEUP_SLOT_NAMES = {
   0: 'QB', 2: 'RB', 4: 'WR', 6: 'TE', 16: 'D/ST', 17: 'K', 20: 'BE', 21: 'IR', 23: 'FLEX',
 };
+const BENCH_SLOTS = new Set([20, 21]);
 
 async function fetchWeeklyLineups() {
-  const existing = readJson('weekly-lineups.json', []);
-  const byKey = new Map(
-    existing.map((r) => [`${r.season_id}:${r.week}:${r.player_id}:${r.nfl_player_id}`, r])
-  );
+  mkdirSync(LINEUP_DIR, { recursive: true });
 
-  const league = await fetchLeague(CURRENT_SEASON, ['mTeam', 'mMatchupScore']);
-  const teamMap = buildTeamMap(league, CURRENT_SEASON, warn);
-
-  // Only weeks that have finished; a live week's points are still moving.
-  const finishedWeeks = [
-    ...new Set(
-      (league.schedule ?? [])
-        .filter((g) => g.winner && g.winner !== 'UNDECIDED')
-        .map((g) => g.matchupPeriodId)
-    ),
-  ].sort((a, b) => a - b);
+  const byKey = new Map();
+  for (let year = FIRST_LINEUP_SEASON; year <= CURRENT_SEASON; year++) {
+    const path = join(LINEUP_DIR, `${year}.json`);
+    if (!existsSync(path)) continue;
+    for (const r of JSON.parse(readFileSync(path, 'utf-8'))) {
+      byKey.set(`${r.season_id}:${r.week}:${r.player_id}:${r.nfl_player_id}`, r);
+    }
+  }
 
   let captured = 0;
-  for (const week of finishedWeeks) {
-    const box = await fetchLeague(CURRENT_SEASON, ['mBoxscore', 'mMatchupScore'], undefined, week);
-    const games = (box.schedule ?? []).filter((g) => g.matchupPeriodId === week);
+  let mismatches = 0;
 
-    for (const game of games) {
-      for (const side of ['home', 'away']) {
-        const team = teamMap.get(game[side]?.teamId);
-        const entries = game[side]?.rosterForCurrentScoringPeriod?.entries ?? [];
-        if (!team || !entries.length) continue;
+  for (let year = FIRST_LINEUP_SEASON; year <= CURRENT_SEASON; year++) {
+    const league = await fetchLeague(year, ['mTeam', 'mMatchupScore']);
+    const teamMap = buildTeamMap(league, year, warn);
 
-        for (const entry of entries) {
-          const player = entry.playerPoolEntry?.player;
-          const slotName = LINEUP_SLOT_NAMES[entry.lineupSlotId] ?? String(entry.lineupSlotId);
-          const row = {
-            season_id: CURRENT_SEASON,
-            week,
-            player_id: team.playerId,
-            nfl_player_id: entry.playerId,
-            nfl_player_name: player?.fullName ?? `Unknown (${entry.playerId})`,
-            position: POSITIONS[player?.defaultPositionId] ?? 'UNK',
-            pro_team: PRO_TEAMS[player?.proTeamId] ?? 'FA',
-            lineup_slot: slotName,
-            started: entry.lineupSlotId !== 20 && entry.lineupSlotId !== 21,
-            points: Number((entry.playerPoolEntry?.appliedStatTotal ?? 0).toFixed(2)),
-          };
-          byKey.set(`${row.season_id}:${row.week}:${row.player_id}:${row.nfl_player_id}`, row);
-          captured++;
+    // Settled weeks only — a live week's points are still moving.
+    const weeks = [
+      ...new Set(
+        (league.schedule ?? [])
+          .filter((g) => g.winner && g.winner !== 'UNDECIDED')
+          .map((g) => g.matchupPeriodId)
+      ),
+    ].sort((a, b) => a - b);
+
+    let yearRows = 0;
+    for (const week of weeks) {
+      const box = await fetchSeasonPath(year, ['mBoxscore', 'mMatchupScore'], week);
+      const games = (box.schedule ?? []).filter((g) => g.matchupPeriodId === week);
+
+      for (const game of games) {
+        for (const side of ['home', 'away']) {
+          const team = teamMap.get(game[side]?.teamId);
+          const entries = game[side]?.rosterForCurrentScoringPeriod?.entries ?? [];
+          if (!team || !entries.length) continue;
+
+          // Guard the import: starters plus any scoring adjustment must
+          // reconstruct the official total. (The league has docked teams 100
+          // points before, e.g. three teams in 2020 week 15.)
+          const adjustment = game[side]?.adjustment ?? 0;
+          const starterSum = entries
+            .filter((e) => !BENCH_SLOTS.has(e.lineupSlotId))
+            .reduce((sum, e) => sum + (e.playerPoolEntry?.appliedStatTotal ?? 0), 0);
+          if (Math.abs(starterSum + adjustment - (game[side]?.totalPoints ?? 0)) > 0.05) {
+            warn(
+              `${year} wk${week} ${team.abbrev}: starters ${starterSum.toFixed(2)} + adj ${adjustment} != ${game[side]?.totalPoints}`
+            );
+            mismatches++;
+          }
+
+          for (const entry of entries) {
+            const player = entry.playerPoolEntry?.player;
+            const stats = player?.stats ?? [];
+            const projected = stats.find(
+              (s) => s.scoringPeriodId === week && s.statSourceId === 1
+            )?.appliedTotal;
+
+            const row = {
+              season_id: year,
+              week,
+              player_id: team.playerId,
+              nfl_player_id: entry.playerId,
+              nfl_player_name: player?.fullName ?? `Unknown (${entry.playerId})`,
+              position: POSITIONS[player?.defaultPositionId] ?? 'UNK',
+              pro_team: PRO_TEAMS[player?.proTeamId] ?? 'FA',
+              lineup_slot: LINEUP_SLOT_NAMES[entry.lineupSlotId] ?? String(entry.lineupSlotId),
+              started: !BENCH_SLOTS.has(entry.lineupSlotId),
+              points: Number((entry.playerPoolEntry?.appliedStatTotal ?? 0).toFixed(2)),
+              projected: projected == null ? null : Number(projected.toFixed(2)),
+            };
+            byKey.set(`${row.season_id}:${row.week}:${row.player_id}:${row.nfl_player_id}`, row);
+            captured++;
+            yearRows++;
+          }
         }
       }
     }
-    console.log(`  week ${week}: ${games.length} games captured`);
+    // One file per season, written as we go. The full archive is ~21k rows /
+    // 5MB, far too big to bundle, so the app lazy-loads only the year on screen
+    // — and a long backfill survives a failure part-way through.
+    const seasonRows = [...byKey.values()]
+      .filter((r) => r.season_id === year)
+      .sort((a, b) => a.week - b.week || a.player_id - b.player_id);
+    writeFileSync(
+      join(LINEUP_DIR, `${year}.json`),
+      JSON.stringify(seasonRows, null, 2)
+    );
+    console.log(`  ${year}: ${weeks.length} weeks, ${yearRows} rows (saved)`);
   }
 
-  const merged = [...byKey.values()].sort(
-    (a, b) => a.season_id - b.season_id || a.week - b.week || a.player_id - b.player_id
-  );
-  console.log(`  ${captured} rows this run, ${merged.length} archived`);
-  return merged;
+  const all = [...byKey.values()];
+  console.log(`  ${captured} rows this run, ${all.length} archived${mismatches ? `, ${mismatches} score mismatches` : ''}`);
+
+  // Small index the app can import eagerly to know what exists.
+  const bySeason = new Map();
+  for (const r of all) {
+    if (!bySeason.has(r.season_id)) bySeason.set(r.season_id, new Set());
+    bySeason.get(r.season_id).add(r.week);
+  }
+  return [...bySeason.entries()]
+    .map(([season_id, weeks]) => ({
+      season_id,
+      weeks: [...weeks].sort((a, b) => a - b),
+      rows: all.filter((r) => r.season_id === season_id).length,
+    }))
+    .sort((a, b) => a.season_id - b.season_id);
 }
 
 // ─── Consolation ladder games ────────────────────────────────────────────────
@@ -368,7 +425,7 @@ console.log('\nRosters:');
 const rosters = await fetchRosters(picks);
 
 console.log('\nWeekly lineups:');
-const weeklyLineups = await fetchWeeklyLineups();
+const lineupIndex = await fetchWeeklyLineups();
 
 console.log('\nConsolation games:');
 const consolationGames = await fetchConsolationGames();
@@ -386,7 +443,7 @@ console.log('\nWriting:');
 writeJson('drafts.json', picks);
 writeJson('team-names.json', teamNames);
 writeJson('rosters.json', rosters);
-writeJson('weekly-lineups.json', weeklyLineups);
+writeJson('lineup-index.json', lineupIndex);
 writeJson('consolation-games.json', consolationGames);
 writeJson('transactions.json', transactions);
 writeJson('current-season.json', currentSeason);
