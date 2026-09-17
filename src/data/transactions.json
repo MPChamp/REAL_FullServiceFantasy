@@ -134,5 +134,73 @@
       }
     ],
     "drops": []
+  },
+  {
+    "transaction_id": "e4c6a68e-c5fa-460b-8b58-105f32f7fd3c",
+    "season_id": 2026,
+    "week": 2,
+    "date": "2026-09-16T19:21:45.835Z",
+    "player_id": 2,
+    "type": "free_agent",
+    "bid_amount": 0,
+    "adds": [
+      {
+        "nfl_player_id": -16012,
+        "nfl_player_name": "Chiefs D/ST",
+        "position": "D/ST",
+        "pro_team": "KC"
+      }
+    ],
+    "drops": []
+  },
+  {
+    "transaction_id": "de01d391-a768-4a2e-865b-95039bd04cc9",
+    "season_id": 2026,
+    "week": 2,
+    "date": "2026-09-16T20:03:42.529Z",
+    "player_id": 1,
+    "type": "free_agent",
+    "bid_amount": 0,
+    "adds": [
+      {
+        "nfl_player_id": 4362249,
+        "nfl_player_name": "Jayden Reed",
+        "position": "WR",
+        "pro_team": "GB"
+      }
+    ],
+    "drops": [
+      {
+        "nfl_player_id": 4241474,
+        "nfl_player_name": "Brian Robinson Jr.",
+        "position": "RB",
+        "pro_team": "ATL"
+      }
+    ]
+  },
+  {
+    "transaction_id": "a906af24-2ce9-4a86-b385-1fd61709f373",
+    "season_id": 2026,
+    "week": 2,
+    "date": "2026-09-17T13:23:58.540Z",
+    "player_id": 1,
+    "type": "free_agent",
+    "bid_amount": 0,
+    "adds": [
+      {
+        "nfl_player_id": -16027,
+        "nfl_player_name": "Buccaneers D/ST",
+        "position": "D/ST",
+        "pro_team": "TB"
+      }
+    ],
+    "drops": [
+      {
+        "nfl_player_id": -16030,
+        "nfl_player_name": "Jaguars D/ST",
+        "position": "D/ST",
+        "pro_team": "JAX"
+      }
+    ]
   }
 ]

@@ -1,11 +1,12 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Users, Search, Trophy } from 'lucide-react';
+import { Users, Search, Trophy, LayoutGrid, ClipboardList } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import ScrollableTable from '@/components/common/ScrollableTable';
 import SeasonSelector from '@/components/common/SeasonSelector';
 import StatCard from '@/components/common/StatCard';
+import RosterBoard from '@/components/RosterBoard';
 import { getPositionColor } from '@/styles/theme';
 import { formatRank } from '@/utils/formatting';
 import { usePageTitle } from '@/hooks/usePageTitle';
@@ -50,6 +51,7 @@ export default function DraftsPage() {
   const [year, setYear] = useState(draftYears[0]);
   const [query, setQuery] = useState('');
   const [positionFilter, setPositionFilter] = useState<string | null>(null);
+  const [view, setView] = useState<'draft' | 'rosters'>('draft');
 
   const seasonPicks = useMemo(() => drafts.filter((p) => p.season_id === year), [year]);
 
@@ -152,9 +154,33 @@ export default function DraftsPage() {
         </p>
       </motion.div>
 
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="inline-flex rounded-lg border border-border-default bg-surface-inset p-1">
+          {([
+            { id: 'draft' as const, label: 'Draft Board', icon: LayoutGrid },
+            { id: 'rosters' as const, label: 'Rosters', icon: ClipboardList },
+          ]).map(({ id, label, icon: Icon }) => (
+            <button
+              key={id}
+              type="button"
+              onClick={() => setView(id)}
+              className={`flex cursor-pointer items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-all duration-200 ${
+                view === id
+                  ? 'bg-[#f59e0b] text-black'
+                  : 'text-on-surface-muted hover:text-on-surface'
+              }`}
+            >
+              <Icon className="h-3.5 w-3.5" />
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <SeasonSelector value={year} onChange={setYear} years={draftYears} />
 
       {/* ── Season insights ── */}
+      {view === 'draft' && (
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         {[
           { label: 'First QB', pick: insights.firstQb, accent: 'red' as const },
@@ -172,6 +198,7 @@ export default function DraftsPage() {
           ) : null
         )}
       </div>
+      )}
 
       {/* ── Filters ── */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -186,6 +213,7 @@ export default function DraftsPage() {
           />
         </div>
 
+        {view === 'draft' && (
         <div className="flex flex-wrap gap-2">
           {POSITIONS.map((pos) => {
             const active = positionFilter === pos;
@@ -207,8 +235,11 @@ export default function DraftsPage() {
             );
           })}
         </div>
+        )}
       </div>
 
+      {view === 'draft' ? (
+       <>
       {/* ── Draft board ── */}
       <ScrollableTable>
         <table className="w-full min-w-[900px] border-separate border-spacing-1">
@@ -369,6 +400,10 @@ export default function DraftsPage() {
           </table>
         </ScrollableTable>
       </section>
+       </>
+      ) : (
+        <RosterBoard year={year} query={query} />
+      )}
     </div>
   );
 }

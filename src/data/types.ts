@@ -123,6 +123,19 @@ export interface DraftPick extends NflPlayer {
   keeper: boolean;
 }
 
+/**
+ * One player on a manager's roster. For finished seasons this is the
+ * end-of-season squad (ESPN keeps no weekly history); for the season in
+ * progress it's the live roster.
+ */
+export interface RosterSpot extends NflPlayer {
+  season_id: number;
+  player_id: number;
+  slot: 'starter' | 'bench' | 'ir';
+  /** True when this manager drafted the player that same year. */
+  drafted: boolean;
+}
+
 export interface TeamName {
   season_id: number;
   player_id: number;

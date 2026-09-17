@@ -136,6 +136,53 @@ async function fetchTransactions() {
   return merged;
 }
 
+// ─── Rosters ─────────────────────────────────────────────────────────────────
+// ESPN keeps exactly one roster per finished season — the end-of-season squad —
+// and ignores scoringPeriodId when asked for an older year, so week-by-week
+// history isn't available. For the season in progress this is the live roster.
+const LINEUP_SLOTS = { 20: 'bench', 21: 'ir' };
+
+async function fetchRosters(draftPicks) {
+  const rosters = [];
+
+  for (let year = FIRST_SEASON; year <= CURRENT_SEASON; year++) {
+    const league = await fetchLeague(year, ['mRoster', 'mTeam']);
+    const teamMap = buildTeamMap(league, year, warn);
+
+    // Who each manager drafted that year, to flag players they've held all season.
+    const draftedBy = new Map();
+    for (const pick of draftPicks) {
+      if (pick.season_id !== year) continue;
+      if (!draftedBy.has(pick.player_id)) draftedBy.set(pick.player_id, new Set());
+      draftedBy.get(pick.player_id).add(pick.nfl_player_id);
+    }
+
+    let count = 0;
+    for (const team of league.teams ?? []) {
+      const mapped = teamMap.get(team.id);
+      if (!mapped) continue;
+
+      for (const entry of team.roster?.entries ?? []) {
+        const player = entry.playerPoolEntry?.player;
+        rosters.push({
+          season_id: year,
+          player_id: mapped.playerId,
+          nfl_player_id: entry.playerId,
+          nfl_player_name: player?.fullName ?? `Unknown (${entry.playerId})`,
+          position: POSITIONS[player?.defaultPositionId] ?? 'UNK',
+          pro_team: PRO_TEAMS[player?.proTeamId] ?? 'FA',
+          slot: LINEUP_SLOTS[entry.lineupSlotId] ?? 'starter',
+          drafted: draftedBy.get(mapped.playerId)?.has(entry.playerId) ?? false,
+        });
+        count++;
+      }
+    }
+    console.log(`  ${year}: ${count} roster spots`);
+  }
+
+  return rosters;
+}
+
 // ─── Consolation ladder games ────────────────────────────────────────────────
 // ESPN counts these toward its own final rankings; the league doesn't. Only the
 // playoff bracket and the 9th/10th toilet bowl are real, and those already live
@@ -250,6 +297,9 @@ console.log(`Fetching ESPN data (${FIRST_SEASON}–${CURRENT_SEASON})...`);
 console.log('\nDrafts:');
 const { picks, teamNames } = await fetchDrafts();
 
+console.log('\nRosters:');
+const rosters = await fetchRosters(picks);
+
 console.log('\nConsolation games:');
 const consolationGames = await fetchConsolationGames();
 
@@ -265,11 +315,12 @@ console.log(
 console.log('\nWriting:');
 writeJson('drafts.json', picks);
 writeJson('team-names.json', teamNames);
+writeJson('rosters.json', rosters);
 writeJson('consolation-games.json', consolationGames);
 writeJson('transactions.json', transactions);
 writeJson('current-season.json', currentSeason);
 
 console.log(
-  `\nDone. ${picks.length} picks, ${consolationGames.length} consolation games, ${transactions.length} transactions.`
+  `\nDone. ${picks.length} picks, ${rosters.length} roster spots, ${consolationGames.length} consolation games, ${transactions.length} transactions.`
 );
 if (warnings.length) console.log(`${warnings.length} warning(s) above.`);

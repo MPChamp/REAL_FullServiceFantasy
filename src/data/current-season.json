@@ -6,7 +6,7 @@
   "regular_season_weeks": 15,
   "playoff_team_count": 4,
   "is_active": true,
-  "last_updated": "2026-09-16T18:27:18.434Z",
+  "last_updated": "2026-09-17T14:11:08.351Z",
   "standings": [
     {
       "player_id": 3,
@@ -54,8 +54,8 @@
     },
     {
       "player_id": 1,
-      "team_name": "Orange Is The New Backfield",
-      "abbrev": "OITB",
+      "team_name": "JELLYMAXXING",
+      "abbrev": "JELL",
       "wins": 1,
       "losses": 0,
       "ties": 0,
