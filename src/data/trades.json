@@ -11,7 +11,9 @@
         "position": "QB",
         "started_points": 275,
         "bench_points": 0,
-        "weeks_started": 11
+        "rostered_points": 275,
+        "weeks_started": 11,
+        "weeks_rostered": 12
       }
     ],
     "b_received": [
@@ -21,7 +23,9 @@
         "position": "TE",
         "started_points": 2,
         "bench_points": 60,
-        "weeks_started": 2
+        "rostered_points": 62,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 275,
@@ -41,7 +45,9 @@
         "position": "RB",
         "started_points": 175,
         "bench_points": 18,
-        "weeks_started": 10
+        "rostered_points": 193,
+        "weeks_started": 10,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 3116165,
@@ -49,7 +55,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 4,
-        "weeks_started": 0
+        "rostered_points": 4,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "b_received": [
@@ -59,7 +67,9 @@
         "position": "WR",
         "started_points": 59,
         "bench_points": 48,
-        "weeks_started": 6
+        "rostered_points": 107,
+        "weeks_started": 6,
+        "weeks_rostered": 12
       }
     ],
     "a_points": 175,
@@ -79,7 +89,9 @@
         "position": "WR",
         "started_points": 15,
         "bench_points": 0,
-        "weeks_started": 1
+        "rostered_points": 15,
+        "weeks_started": 1,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 2976499,
@@ -87,7 +99,9 @@
         "position": "WR",
         "started_points": 110,
         "bench_points": 35,
-        "weeks_started": 4
+        "rostered_points": 145,
+        "weeks_started": 4,
+        "weeks_rostered": 10
       }
     ],
     "b_received": [
@@ -97,7 +111,9 @@
         "position": "QB",
         "started_points": 88,
         "bench_points": 54,
-        "weeks_started": 5
+        "rostered_points": 142,
+        "weeks_started": 5,
+        "weeks_rostered": 10
       },
       {
         "nfl_player_id": 12563,
@@ -105,7 +121,9 @@
         "position": "WR",
         "started_points": 6,
         "bench_points": 62,
-        "weeks_started": 1
+        "rostered_points": 68,
+        "weeks_started": 1,
+        "weeks_rostered": 10
       }
     ],
     "a_points": 125,
@@ -125,7 +143,9 @@
         "position": "RB",
         "started_points": 187,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 187,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 15880,
@@ -133,7 +153,9 @@
         "position": "WR",
         "started_points": 112,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 112,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       }
     ],
     "b_received": [
@@ -143,7 +165,9 @@
         "position": "RB",
         "started_points": 111,
         "bench_points": 9,
-        "weeks_started": 7
+        "rostered_points": 120,
+        "weeks_started": 7,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 15847,
@@ -151,7 +175,9 @@
         "position": "TE",
         "started_points": 172,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 172,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 299,
@@ -171,7 +197,9 @@
         "position": "TE",
         "started_points": 54,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 54,
+        "weeks_started": 6,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 14198,
@@ -179,7 +207,9 @@
         "position": "RB",
         "started_points": 26,
         "bench_points": 58,
-        "weeks_started": 4
+        "rostered_points": 84,
+        "weeks_started": 4,
+        "weeks_rostered": 9
       }
     ],
     "b_received": [
@@ -189,7 +219,9 @@
         "position": "WR",
         "started_points": 134,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 134,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 80,
@@ -209,7 +241,9 @@
         "position": "RB",
         "started_points": 17,
         "bench_points": 13,
-        "weeks_started": 2
+        "rostered_points": 30,
+        "weeks_started": 2,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -219,7 +253,9 @@
         "position": "WR",
         "started_points": 5,
         "bench_points": 33,
-        "weeks_started": 1
+        "rostered_points": 38,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       }
     ],
     "a_points": 17,
@@ -239,7 +275,9 @@
         "position": "D/ST",
         "started_points": 10,
         "bench_points": 16,
-        "weeks_started": 2
+        "rostered_points": 26,
+        "weeks_started": 2,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -249,7 +287,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 6,
-        "weeks_started": 0
+        "rostered_points": 6,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "a_points": 10,
@@ -269,7 +309,9 @@
         "position": "RB",
         "started_points": 93,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 93,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -279,7 +321,9 @@
         "position": "TE",
         "started_points": 8,
         "bench_points": 11,
-        "weeks_started": 1
+        "rostered_points": 19,
+        "weeks_started": 1,
+        "weeks_rostered": 2
       }
     ],
     "a_points": 93,
@@ -299,7 +343,9 @@
         "position": "WR",
         "started_points": 4,
         "bench_points": 0,
-        "weeks_started": 1
+        "rostered_points": 4,
+        "weeks_started": 1,
+        "weeks_rostered": 2
       },
       {
         "nfl_player_id": 12514,
@@ -307,7 +353,9 @@
         "position": "RB",
         "started_points": 5,
         "bench_points": 10,
-        "weeks_started": 1
+        "rostered_points": 15,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       }
     ],
     "b_received": [
@@ -317,7 +365,9 @@
         "position": "RB",
         "started_points": 12,
         "bench_points": 53,
-        "weeks_started": 1
+        "rostered_points": 65,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       },
       {
         "nfl_player_id": 15705,
@@ -325,7 +375,9 @@
         "position": "WR",
         "started_points": 28,
         "bench_points": 14,
-        "weeks_started": 3
+        "rostered_points": 42,
+        "weeks_started": 3,
+        "weeks_rostered": 4
       }
     ],
     "a_points": 9,
@@ -345,7 +397,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 37,
-        "weeks_started": 0
+        "rostered_points": 37,
+        "weeks_started": 0,
+        "weeks_rostered": 4
       },
       {
         "nfl_player_id": 16731,
@@ -353,7 +407,9 @@
         "position": "WR",
         "started_points": 58,
         "bench_points": 9,
-        "weeks_started": 6
+        "rostered_points": 67,
+        "weeks_started": 6,
+        "weeks_rostered": 7
       }
     ],
     "b_received": [
@@ -363,7 +419,9 @@
         "position": "RB",
         "started_points": 46,
         "bench_points": 58,
-        "weeks_started": 5
+        "rostered_points": 104,
+        "weeks_started": 5,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 16799,
@@ -371,7 +429,9 @@
         "position": "WR",
         "started_points": 8,
         "bench_points": 12,
-        "weeks_started": 1
+        "rostered_points": 20,
+        "weeks_started": 1,
+        "weeks_rostered": 2
       }
     ],
     "a_points": 58,
@@ -391,7 +451,9 @@
         "position": "TE",
         "started_points": 137,
         "bench_points": 15,
-        "weeks_started": 12
+        "rostered_points": 152,
+        "weeks_started": 12,
+        "weeks_rostered": 14
       },
       {
         "nfl_player_id": 2580,
@@ -399,7 +461,9 @@
         "position": "QB",
         "started_points": 131,
         "bench_points": 24,
-        "weeks_started": 7
+        "rostered_points": 155,
+        "weeks_started": 7,
+        "weeks_rostered": 14
       }
     ],
     "b_received": [
@@ -409,7 +473,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 0
+        "rostered_points": 0,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 14880,
@@ -417,7 +483,9 @@
         "position": "QB",
         "started_points": 0,
         "bench_points": 39,
-        "weeks_started": 0
+        "rostered_points": 39,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       }
     ],
     "a_points": 268,
@@ -437,7 +505,9 @@
         "position": "RB",
         "started_points": 127,
         "bench_points": 40,
-        "weeks_started": 9
+        "rostered_points": 167,
+        "weeks_started": 9,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 15818,
@@ -445,7 +515,9 @@
         "position": "WR",
         "started_points": 164,
         "bench_points": 12,
-        "weeks_started": 11
+        "rostered_points": 176,
+        "weeks_started": 11,
+        "weeks_rostered": 13
       }
     ],
     "b_received": [
@@ -455,7 +527,9 @@
         "position": "RB",
         "started_points": 209,
         "bench_points": 0,
-        "weeks_started": 12
+        "rostered_points": 209,
+        "weeks_started": 12,
+        "weeks_rostered": 13
       }
     ],
     "a_points": 291,
@@ -475,7 +549,9 @@
         "position": "WR",
         "started_points": 142,
         "bench_points": 42,
-        "weeks_started": 9
+        "rostered_points": 184,
+        "weeks_started": 9,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 3122672,
@@ -483,7 +559,9 @@
         "position": "RB",
         "started_points": 25,
         "bench_points": 32,
-        "weeks_started": 3
+        "rostered_points": 57,
+        "weeks_started": 3,
+        "weeks_rostered": 7
       },
       {
         "nfl_player_id": 3929630,
@@ -491,7 +569,9 @@
         "position": "RB",
         "started_points": 125,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 125,
+        "weeks_started": 8,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 4241372,
@@ -499,7 +579,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 17,
-        "weeks_started": 0
+        "rostered_points": 17,
+        "weeks_started": 0,
+        "weeks_rostered": 4
       }
     ],
     "b_received": [
@@ -509,7 +591,9 @@
         "position": "WR",
         "started_points": 122,
         "bench_points": 52,
-        "weeks_started": 8
+        "rostered_points": 174,
+        "weeks_started": 8,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 2576434,
@@ -517,7 +601,9 @@
         "position": "RB",
         "started_points": 131,
         "bench_points": 0,
-        "weeks_started": 10
+        "rostered_points": 131,
+        "weeks_started": 10,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 10475,
@@ -525,7 +611,9 @@
         "position": "TE",
         "started_points": 59,
         "bench_points": 3,
-        "weeks_started": 9
+        "rostered_points": 62,
+        "weeks_started": 9,
+        "weeks_rostered": 12
       }
     ],
     "a_points": 292,
@@ -545,7 +633,9 @@
         "position": "RB",
         "started_points": 32,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 32,
+        "weeks_started": 3,
+        "weeks_rostered": 3
       }
     ],
     "b_received": [
@@ -555,7 +645,9 @@
         "position": "TE",
         "started_points": 61,
         "bench_points": 69,
-        "weeks_started": 5
+        "rostered_points": 130,
+        "weeks_started": 5,
+        "weeks_rostered": 11
       },
       {
         "nfl_player_id": 15966,
@@ -563,7 +655,9 @@
         "position": "RB",
         "started_points": 3,
         "bench_points": 8,
-        "weeks_started": 1
+        "rostered_points": 11,
+        "weeks_started": 1,
+        "weeks_rostered": 2
       }
     ],
     "a_points": 32,
@@ -583,7 +677,9 @@
         "position": "TE",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 1
+        "rostered_points": 0,
+        "weeks_started": 1,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 2969962,
@@ -591,7 +687,9 @@
         "position": "RB",
         "started_points": 18,
         "bench_points": 74,
-        "weeks_started": 1
+        "rostered_points": 92,
+        "weeks_started": 1,
+        "weeks_rostered": 10
       },
       {
         "nfl_player_id": 10452,
@@ -599,7 +697,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 100,
-        "weeks_started": 0
+        "rostered_points": 100,
+        "weeks_started": 0,
+        "weeks_rostered": 10
       }
     ],
     "b_received": [
@@ -609,7 +709,9 @@
         "position": "WR",
         "started_points": 156,
         "bench_points": 0,
-        "weeks_started": 9
+        "rostered_points": 156,
+        "weeks_started": 9,
+        "weeks_rostered": 10
       }
     ],
     "a_points": 18,
@@ -629,7 +731,9 @@
         "position": "TE",
         "started_points": 0,
         "bench_points": 16,
-        "weeks_started": 0
+        "rostered_points": 16,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "b_received": [
@@ -639,7 +743,9 @@
         "position": "RB",
         "started_points": 17,
         "bench_points": 71,
-        "weeks_started": 1
+        "rostered_points": 88,
+        "weeks_started": 1,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 0,
@@ -659,7 +765,9 @@
         "position": "RB",
         "started_points": 70,
         "bench_points": 16,
-        "weeks_started": 5
+        "rostered_points": 86,
+        "weeks_started": 5,
+        "weeks_rostered": 9
       }
     ],
     "b_received": [
@@ -669,7 +777,9 @@
         "position": "QB",
         "started_points": 18,
         "bench_points": 24,
-        "weeks_started": 1
+        "rostered_points": 42,
+        "weeks_started": 1,
+        "weeks_rostered": 3
       }
     ],
     "a_points": 70,
@@ -689,7 +799,9 @@
         "position": "RB",
         "started_points": 101,
         "bench_points": 0,
-        "weeks_started": 7
+        "rostered_points": 101,
+        "weeks_started": 7,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 3892889,
@@ -697,7 +809,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 1
+        "rostered_points": 0,
+        "weeks_started": 1,
+        "weeks_rostered": 1
       }
     ],
     "b_received": [
@@ -707,7 +821,9 @@
         "position": "RB",
         "started_points": 110,
         "bench_points": 0,
-        "weeks_started": 7
+        "rostered_points": 110,
+        "weeks_started": 7,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 13232,
@@ -715,7 +831,9 @@
         "position": "TE",
         "started_points": 17,
         "bench_points": 11,
-        "weeks_started": 3
+        "rostered_points": 28,
+        "weeks_started": 3,
+        "weeks_rostered": 8
       }
     ],
     "a_points": 101,
@@ -735,7 +853,9 @@
         "position": "WR",
         "started_points": 103,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 103,
+        "weeks_started": 6,
+        "weeks_rostered": 7
       }
     ],
     "b_received": [
@@ -745,7 +865,9 @@
         "position": "RB",
         "started_points": 2,
         "bench_points": 14,
-        "weeks_started": 1
+        "rostered_points": 16,
+        "weeks_started": 1,
+        "weeks_rostered": 7
       },
       {
         "nfl_player_id": 16731,
@@ -753,7 +875,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 9,
-        "weeks_started": 0
+        "rostered_points": 9,
+        "weeks_started": 0,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 103,
@@ -773,7 +897,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 59,
-        "weeks_started": 0
+        "rostered_points": 59,
+        "weeks_started": 0,
+        "weeks_rostered": 7
       },
       {
         "nfl_player_id": 8479,
@@ -781,7 +907,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 17,
-        "weeks_started": 0
+        "rostered_points": 17,
+        "weeks_started": 0,
+        "weeks_rostered": 7
       }
     ],
     "b_received": [
@@ -791,7 +919,9 @@
         "position": "RB",
         "started_points": 8,
         "bench_points": 24,
-        "weeks_started": 1
+        "rostered_points": 32,
+        "weeks_started": 1,
+        "weeks_rostered": 7
       }
     ],
     "a_points": 0,
@@ -811,7 +941,9 @@
         "position": "WR",
         "started_points": 84,
         "bench_points": 35,
-        "weeks_started": 6
+        "rostered_points": 119,
+        "weeks_started": 6,
+        "weeks_rostered": 11
       },
       {
         "nfl_player_id": 16732,
@@ -819,7 +951,9 @@
         "position": "TE",
         "started_points": 2,
         "bench_points": 23,
-        "weeks_started": 1
+        "rostered_points": 25,
+        "weeks_started": 1,
+        "weeks_rostered": 3
       }
     ],
     "b_received": [
@@ -829,7 +963,9 @@
         "position": "QB",
         "started_points": 83,
         "bench_points": 16,
-        "weeks_started": 5
+        "rostered_points": 99,
+        "weeks_started": 5,
+        "weeks_rostered": 7
       },
       {
         "nfl_player_id": 2570986,
@@ -837,7 +973,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 8,
-        "weeks_started": 0
+        "rostered_points": 8,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       }
     ],
     "a_points": 86,
@@ -857,7 +995,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 40,
-        "weeks_started": 0
+        "rostered_points": 40,
+        "weeks_started": 0,
+        "weeks_rostered": 7
       }
     ],
     "b_received": [
@@ -867,7 +1007,9 @@
         "position": "WR",
         "started_points": 61,
         "bench_points": 89,
-        "weeks_started": 5
+        "rostered_points": 150,
+        "weeks_started": 5,
+        "weeks_rostered": 11
       }
     ],
     "a_points": 0,
@@ -887,7 +1029,9 @@
         "position": "QB",
         "started_points": 36,
         "bench_points": 70,
-        "weeks_started": 2
+        "rostered_points": 106,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -897,7 +1041,9 @@
         "position": "TE",
         "started_points": 57,
         "bench_points": 9,
-        "weeks_started": 5
+        "rostered_points": 66,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 36,
@@ -917,7 +1063,9 @@
         "position": "RB",
         "started_points": 21,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 21,
+        "weeks_started": 3,
+        "weeks_rostered": 4
       },
       {
         "nfl_player_id": 2577327,
@@ -925,7 +1073,9 @@
         "position": "WR",
         "started_points": 134,
         "bench_points": 0,
-        "weeks_started": 9
+        "rostered_points": 134,
+        "weeks_started": 9,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 4039359,
@@ -933,7 +1083,9 @@
         "position": "RB",
         "started_points": 6,
         "bench_points": 18,
-        "weeks_started": 1
+        "rostered_points": 24,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       }
     ],
     "b_received": [
@@ -943,7 +1095,9 @@
         "position": "RB",
         "started_points": 45,
         "bench_points": 0,
-        "weeks_started": 2
+        "rostered_points": 45,
+        "weeks_started": 2,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 4242214,
@@ -951,7 +1105,9 @@
         "position": "RB",
         "started_points": 30,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 30,
+        "weeks_started": 3,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 2976212,
@@ -959,7 +1115,9 @@
         "position": "WR",
         "started_points": 153,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 153,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 161,
@@ -979,7 +1137,9 @@
         "position": "WR",
         "started_points": 32,
         "bench_points": 0,
-        "weeks_started": 2
+        "rostered_points": 32,
+        "weeks_started": 2,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 4046692,
@@ -987,7 +1147,9 @@
         "position": "WR",
         "started_points": 50,
         "bench_points": 44,
-        "weeks_started": 3
+        "rostered_points": 94,
+        "weeks_started": 3,
+        "weeks_rostered": 9
       }
     ],
     "b_received": [
@@ -997,7 +1159,9 @@
         "position": "WR",
         "started_points": 61,
         "bench_points": 16,
-        "weeks_started": 5
+        "rostered_points": 77,
+        "weeks_started": 5,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 3912550,
@@ -1005,7 +1169,9 @@
         "position": "RB",
         "started_points": 35,
         "bench_points": 45,
-        "weeks_started": 4
+        "rostered_points": 80,
+        "weeks_started": 4,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 82,
@@ -1025,7 +1191,9 @@
         "position": "TE",
         "started_points": 3,
         "bench_points": 43,
-        "weeks_started": 1
+        "rostered_points": 46,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       },
       {
         "nfl_player_id": 4040761,
@@ -1033,7 +1201,9 @@
         "position": "RB",
         "started_points": 28,
         "bench_points": 38,
-        "weeks_started": 4
+        "rostered_points": 66,
+        "weeks_started": 4,
+        "weeks_rostered": 9
       }
     ],
     "b_received": [
@@ -1043,7 +1213,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 0
+        "rostered_points": 0,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       },
       {
         "nfl_player_id": 4036131,
@@ -1051,7 +1223,9 @@
         "position": "TE",
         "started_points": 24,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 24,
+        "weeks_started": 3,
+        "weeks_rostered": 3
       }
     ],
     "a_points": 31,
@@ -1071,7 +1245,9 @@
         "position": "WR",
         "started_points": 120,
         "bench_points": 0,
-        "weeks_started": 7
+        "rostered_points": 120,
+        "weeks_started": 7,
+        "weeks_rostered": 7
       }
     ],
     "b_received": [
@@ -1081,7 +1257,9 @@
         "position": "RB",
         "started_points": 58,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 58,
+        "weeks_started": 4,
+        "weeks_rostered": 7
       }
     ],
     "a_points": 120,
@@ -1101,7 +1279,9 @@
         "position": "QB",
         "started_points": 93,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 93,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4052042,
@@ -1109,7 +1289,9 @@
         "position": "RB",
         "started_points": 95,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 95,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 16790,
@@ -1117,7 +1299,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 5,
-        "weeks_started": 0
+        "rostered_points": 5,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "b_received": [
@@ -1127,7 +1311,9 @@
         "position": "RB",
         "started_points": 18,
         "bench_points": 1,
-        "weeks_started": 2
+        "rostered_points": 19,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 15795,
@@ -1135,7 +1321,9 @@
         "position": "WR",
         "started_points": 117,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 117,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 188,
@@ -1155,7 +1343,9 @@
         "position": "TE",
         "started_points": 42,
         "bench_points": 2,
-        "weeks_started": 5
+        "rostered_points": 44,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4242214,
@@ -1163,7 +1353,9 @@
         "position": "RB",
         "started_points": 44,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 44,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -1173,7 +1365,9 @@
         "position": "TE",
         "started_points": 0,
         "bench_points": 35,
-        "weeks_started": 0
+        "rostered_points": 35,
+        "weeks_started": 0,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 16728,
@@ -1181,7 +1375,9 @@
         "position": "QB",
         "started_points": 0,
         "bench_points": 18,
-        "weeks_started": 0
+        "rostered_points": 18,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       }
     ],
     "a_points": 86,
@@ -1201,7 +1397,9 @@
         "position": "RB",
         "started_points": 56,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 56,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -1211,7 +1409,9 @@
         "position": "WR",
         "started_points": 52,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 52,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 56,
@@ -1231,7 +1431,9 @@
         "position": "WR",
         "started_points": 6,
         "bench_points": 82,
-        "weeks_started": 1
+        "rostered_points": 88,
+        "weeks_started": 1,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 15847,
@@ -1239,7 +1441,9 @@
         "position": "TE",
         "started_points": 118,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 118,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 2508176,
@@ -1247,7 +1451,9 @@
         "position": "RB",
         "started_points": 10,
         "bench_points": 23,
-        "weeks_started": 1
+        "rostered_points": 33,
+        "weeks_started": 1,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -1257,7 +1463,9 @@
         "position": "RB",
         "started_points": 42,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 42,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 3046439,
@@ -1265,7 +1473,9 @@
         "position": "TE",
         "started_points": 41,
         "bench_points": 14,
-        "weeks_started": 4
+        "rostered_points": 55,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 134,
@@ -1285,7 +1495,9 @@
         "position": "K",
         "started_points": 36,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 36,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -1295,7 +1507,9 @@
         "position": "K",
         "started_points": 49,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 49,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 36,
@@ -1315,7 +1529,9 @@
         "position": "TE",
         "started_points": 6,
         "bench_points": 13,
-        "weeks_started": 1
+        "rostered_points": 19,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       },
       {
         "nfl_player_id": 2969962,
@@ -1323,7 +1539,9 @@
         "position": "RB",
         "started_points": 31,
         "bench_points": 8,
-        "weeks_started": 3
+        "rostered_points": 39,
+        "weeks_started": 3,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -1333,7 +1551,9 @@
         "position": "RB",
         "started_points": 42,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 42,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 4036133,
@@ -1341,7 +1561,9 @@
         "position": "TE",
         "started_points": 57,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 57,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 37,
@@ -1361,7 +1583,9 @@
         "position": "RB",
         "started_points": 103,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 103,
+        "weeks_started": 4,
+        "weeks_rostered": 4
       },
       {
         "nfl_player_id": 2980453,
@@ -1369,7 +1593,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 21,
-        "weeks_started": 0
+        "rostered_points": 21,
+        "weeks_started": 0,
+        "weeks_rostered": 3
       }
     ],
     "b_received": [
@@ -1379,7 +1605,9 @@
         "position": "QB",
         "started_points": 68,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 68,
+        "weeks_started": 4,
+        "weeks_rostered": 4
       }
     ],
     "a_points": 103,
@@ -1399,7 +1627,9 @@
         "position": "WR",
         "started_points": 139.2,
         "bench_points": 7.5,
-        "weeks_started": 9
+        "rostered_points": 146.7,
+        "weeks_started": 9,
+        "weeks_rostered": 12
       }
     ],
     "b_received": [
@@ -1409,7 +1639,9 @@
         "position": "TE",
         "started_points": 52.3,
         "bench_points": 37.3,
-        "weeks_started": 5
+        "rostered_points": 89.6,
+        "weeks_started": 5,
+        "weeks_rostered": 12
       }
     ],
     "a_points": 139.2,
@@ -1429,7 +1661,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 0
+        "rostered_points": 0,
+        "weeks_started": 0,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 4040761,
@@ -1437,7 +1671,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 24.8,
-        "weeks_started": 0
+        "rostered_points": 24.8,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       },
       {
         "nfl_player_id": 15847,
@@ -1445,7 +1681,9 @@
         "position": "TE",
         "started_points": 109,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 109,
+        "weeks_started": 6,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 3915416,
@@ -1453,7 +1691,9 @@
         "position": "WR",
         "started_points": 66,
         "bench_points": 16,
-        "weeks_started": 6
+        "rostered_points": 82,
+        "weeks_started": 6,
+        "weeks_rostered": 8
       }
     ],
     "b_received": [
@@ -1463,7 +1703,9 @@
         "position": "TE",
         "started_points": 73.6,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 73.6,
+        "weeks_started": 6,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 3116385,
@@ -1471,7 +1713,9 @@
         "position": "RB",
         "started_points": 143.3,
         "bench_points": 0,
-        "weeks_started": 7
+        "rostered_points": 143.3,
+        "weeks_started": 7,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 3045147,
@@ -1479,7 +1723,9 @@
         "position": "RB",
         "started_points": 15.4,
         "bench_points": 40.3,
-        "weeks_started": 1
+        "rostered_points": 55.7,
+        "weeks_started": 1,
+        "weeks_rostered": 2
       },
       {
         "nfl_player_id": 15795,
@@ -1487,7 +1733,9 @@
         "position": "WR",
         "started_points": 21.6,
         "bench_points": 0,
-        "weeks_started": 2
+        "rostered_points": 21.6,
+        "weeks_started": 2,
+        "weeks_rostered": 8
       }
     ],
     "a_points": 175,
@@ -1507,7 +1755,9 @@
         "position": "QB",
         "started_points": 47.48,
         "bench_points": 46.12,
-        "weeks_started": 2
+        "rostered_points": 93.6,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 16813,
@@ -1515,7 +1765,9 @@
         "position": "TE",
         "started_points": 19.9,
         "bench_points": 0,
-        "weeks_started": 2
+        "rostered_points": 19.9,
+        "weeks_started": 2,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 4242214,
@@ -1523,7 +1775,9 @@
         "position": "RB",
         "started_points": 65.1,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 65.1,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -1533,7 +1787,9 @@
         "position": "TE",
         "started_points": 58.3,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 58.3,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 3042778,
@@ -1541,7 +1797,9 @@
         "position": "WR",
         "started_points": 6.5,
         "bench_points": 3.5,
-        "weeks_started": 1
+        "rostered_points": 10,
+        "weeks_started": 1,
+        "weeks_rostered": 3
       }
     ],
     "a_points": 132.48,
@@ -1561,7 +1819,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 10.7,
-        "weeks_started": 0
+        "rostered_points": 10.7,
+        "weeks_started": 0,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 3122976,
@@ -1569,7 +1829,9 @@
         "position": "RB",
         "started_points": 12.4,
         "bench_points": 36.3,
-        "weeks_started": 2
+        "rostered_points": 48.7,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4361411,
@@ -1577,7 +1839,9 @@
         "position": "TE",
         "started_points": 51.6,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 51.6,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -1587,7 +1851,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 2.6,
-        "weeks_started": 0
+        "rostered_points": 2.6,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       },
       {
         "nfl_player_id": 3117256,
@@ -1595,7 +1861,9 @@
         "position": "TE",
         "started_points": 80.5,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 80.5,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 64,
@@ -1615,7 +1883,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 7.9,
-        "weeks_started": 0
+        "rostered_points": 7.9,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 4039359,
@@ -1623,7 +1893,9 @@
         "position": "RB",
         "started_points": 23.7,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 23.7,
+        "weeks_started": 3,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 3045147,
@@ -1631,7 +1903,9 @@
         "position": "RB",
         "started_points": 82.5,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 82.5,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -1641,7 +1915,9 @@
         "position": "WR",
         "started_points": 87.5,
         "bench_points": 32.3,
-        "weeks_started": 4
+        "rostered_points": 119.8,
+        "weeks_started": 4,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4240657,
@@ -1649,7 +1925,9 @@
         "position": "RB",
         "started_points": 21.9,
         "bench_points": 3,
-        "weeks_started": 2
+        "rostered_points": 24.9,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 3139477,
@@ -1657,7 +1935,9 @@
         "position": "QB",
         "started_points": 96.3,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 96.3,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 106.2,
@@ -1677,7 +1957,9 @@
         "position": "WR",
         "started_points": 173.4,
         "bench_points": 0,
-        "weeks_started": 11
+        "rostered_points": 173.4,
+        "weeks_started": 11,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 4427366,
@@ -1685,7 +1967,9 @@
         "position": "RB",
         "started_points": 61,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 61,
+        "weeks_started": 3,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 3117256,
@@ -1693,7 +1977,9 @@
         "position": "TE",
         "started_points": 82.4,
         "bench_points": 13.4,
-        "weeks_started": 9
+        "rostered_points": 95.8,
+        "weeks_started": 9,
+        "weeks_rostered": 12
       }
     ],
     "b_received": [
@@ -1703,7 +1989,9 @@
         "position": "RB",
         "started_points": 164.7,
         "bench_points": 0,
-        "weeks_started": 9
+        "rostered_points": 164.7,
+        "weeks_started": 9,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 2576925,
@@ -1711,7 +1999,9 @@
         "position": "TE",
         "started_points": 0,
         "bench_points": 23.6,
-        "weeks_started": 1
+        "rostered_points": 23.6,
+        "weeks_started": 1,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 3059722,
@@ -1719,7 +2009,9 @@
         "position": "WR",
         "started_points": 37,
         "bench_points": 57,
-        "weeks_started": 2
+        "rostered_points": 94,
+        "weeks_started": 2,
+        "weeks_rostered": 7
       }
     ],
     "a_points": 316.8,
@@ -1739,7 +2031,9 @@
         "position": "D/ST",
         "started_points": 23,
         "bench_points": 13,
-        "weeks_started": 5
+        "rostered_points": 36,
+        "weeks_started": 5,
+        "weeks_rostered": 8
       },
       {
         "nfl_player_id": 3126486,
@@ -1747,7 +2041,9 @@
         "position": "WR",
         "started_points": 102.1,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 102.1,
+        "weeks_started": 8,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 3116165,
@@ -1755,7 +2051,9 @@
         "position": "WR",
         "started_points": 34.5,
         "bench_points": 48.1,
-        "weeks_started": 3
+        "rostered_points": 82.6,
+        "weeks_started": 3,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 2577327,
@@ -1763,7 +2061,9 @@
         "position": "WR",
         "started_points": 3.7,
         "bench_points": 87.1,
-        "weeks_started": 1
+        "rostered_points": 90.8,
+        "weeks_started": 1,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 3122976,
@@ -1771,7 +2071,9 @@
         "position": "RB",
         "started_points": 2.5,
         "bench_points": 25.6,
-        "weeks_started": 1
+        "rostered_points": 28.1,
+        "weeks_started": 1,
+        "weeks_rostered": 3
       }
     ],
     "b_received": [
@@ -1781,7 +2083,9 @@
         "position": "TE",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 0
+        "rostered_points": 0,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 4361409,
@@ -1789,7 +2093,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 0,
-        "weeks_started": 0
+        "rostered_points": 0,
+        "weeks_started": 0,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 3045147,
@@ -1797,7 +2103,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 7.3,
-        "weeks_started": 0
+        "rostered_points": 7.3,
+        "weeks_started": 0,
+        "weeks_rostered": 3
       },
       {
         "nfl_player_id": 4242335,
@@ -1805,7 +2113,9 @@
         "position": "RB",
         "started_points": 100.2,
         "bench_points": 0,
-        "weeks_started": 7
+        "rostered_points": 100.2,
+        "weeks_started": 7,
+        "weeks_rostered": 12
       }
     ],
     "a_points": 165.8,
@@ -1825,7 +2135,9 @@
         "position": "WR",
         "started_points": 24.1,
         "bench_points": 114.2,
-        "weeks_started": 2
+        "rostered_points": 138.3,
+        "weeks_started": 2,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 4360238,
@@ -1833,7 +2145,9 @@
         "position": "RB",
         "started_points": 112.8,
         "bench_points": 0,
-        "weeks_started": 9
+        "rostered_points": 112.8,
+        "weeks_started": 9,
+        "weeks_rostered": 12
       }
     ],
     "b_received": [
@@ -1843,7 +2157,9 @@
         "position": "WR",
         "started_points": 116.7,
         "bench_points": 30.2,
-        "weeks_started": 7
+        "rostered_points": 146.9,
+        "weeks_started": 7,
+        "weeks_rostered": 12
       },
       {
         "nfl_player_id": 4569173,
@@ -1851,7 +2167,9 @@
         "position": "RB",
         "started_points": 167.5,
         "bench_points": 19.5,
-        "weeks_started": 10
+        "rostered_points": 187,
+        "weeks_started": 10,
+        "weeks_rostered": 12
       }
     ],
     "a_points": 136.9,
@@ -1871,7 +2189,9 @@
         "position": "RB",
         "started_points": 13.4,
         "bench_points": 35,
-        "weeks_started": 1
+        "rostered_points": 48.4,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       }
     ],
     "b_received": [
@@ -1881,7 +2201,9 @@
         "position": "WR",
         "started_points": 17.1,
         "bench_points": 66.5,
-        "weeks_started": 1
+        "rostered_points": 83.6,
+        "weeks_started": 1,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 13.4,
@@ -1901,7 +2223,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 16.6,
-        "weeks_started": 0
+        "rostered_points": 16.6,
+        "weeks_started": 0,
+        "weeks_rostered": 2
       }
     ],
     "b_received": [
@@ -1911,7 +2235,9 @@
         "position": "WR",
         "started_points": 14.5,
         "bench_points": 65,
-        "weeks_started": 1
+        "rostered_points": 79.5,
+        "weeks_started": 1,
+        "weeks_rostered": 8
       }
     ],
     "a_points": 0,
@@ -1931,7 +2257,9 @@
         "position": "WR",
         "started_points": 37,
         "bench_points": 52.8,
-        "weeks_started": 2
+        "rostered_points": 89.8,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4040715,
@@ -1939,7 +2267,9 @@
         "position": "QB",
         "started_points": 155.5,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 155.5,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -1949,7 +2279,9 @@
         "position": "WR",
         "started_points": 74.4,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 74.4,
+        "weeks_started": 4,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 192.5,
@@ -1969,7 +2301,9 @@
         "position": "RB",
         "started_points": 89.5,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 89.5,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 3121422,
@@ -1977,7 +2311,9 @@
         "position": "WR",
         "started_points": 64.5,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 64.5,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -1987,7 +2323,9 @@
         "position": "WR",
         "started_points": 80.1,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 80.1,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 154,
@@ -2007,7 +2345,9 @@
         "position": "RB",
         "started_points": 226.1,
         "bench_points": 0,
-        "weeks_started": 12
+        "rostered_points": 226.1,
+        "weeks_started": 12,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 2976212,
@@ -2015,7 +2355,9 @@
         "position": "WR",
         "started_points": 194.1,
         "bench_points": 0,
-        "weeks_started": 12
+        "rostered_points": 194.1,
+        "weeks_started": 12,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 3121422,
@@ -2023,7 +2365,9 @@
         "position": "WR",
         "started_points": 7.3,
         "bench_points": 136.6,
-        "weeks_started": 1
+        "rostered_points": 143.9,
+        "weeks_started": 1,
+        "weeks_rostered": 13
       }
     ],
     "b_received": [
@@ -2033,7 +2377,9 @@
         "position": "RB",
         "started_points": 89.3,
         "bench_points": 7.3,
-        "weeks_started": 7
+        "rostered_points": 96.6,
+        "weeks_started": 7,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 3126486,
@@ -2041,7 +2387,9 @@
         "position": "WR",
         "started_points": 139.4,
         "bench_points": 22.4,
-        "weeks_started": 9
+        "rostered_points": 161.8,
+        "weeks_started": 9,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 3128429,
@@ -2049,7 +2397,9 @@
         "position": "WR",
         "started_points": 63.9,
         "bench_points": 83.2,
-        "weeks_started": 5
+        "rostered_points": 147.1,
+        "weeks_started": 5,
+        "weeks_rostered": 13
       }
     ],
     "a_points": 427.5,
@@ -2069,7 +2419,9 @@
         "position": "QB",
         "started_points": 33.8,
         "bench_points": 54.24,
-        "weeks_started": 2
+        "rostered_points": 88.04,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4362628,
@@ -2077,7 +2429,9 @@
         "position": "WR",
         "started_points": 125.92,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 125.92,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 4379399,
@@ -2085,7 +2439,9 @@
         "position": "RB",
         "started_points": 82.2,
         "bench_points": 51.4,
-        "weeks_started": 4
+        "rostered_points": 133.6,
+        "weeks_started": 4,
+        "weeks_rostered": 9
       }
     ],
     "b_received": [
@@ -2095,7 +2451,9 @@
         "position": "WR",
         "started_points": 112,
         "bench_points": 48.1,
-        "weeks_started": 4
+        "rostered_points": 160.1,
+        "weeks_started": 4,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 4361529,
@@ -2103,7 +2461,9 @@
         "position": "RB",
         "started_points": 83.2,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 83.2,
+        "weeks_started": 6,
+        "weeks_rostered": 9
       },
       {
         "nfl_player_id": 4372016,
@@ -2111,7 +2471,9 @@
         "position": "WR",
         "started_points": 120.9,
         "bench_points": 0,
-        "weeks_started": 8
+        "rostered_points": 120.9,
+        "weeks_started": 8,
+        "weeks_rostered": 9
       }
     ],
     "a_points": 241.92,
@@ -2131,7 +2493,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 82,
-        "weeks_started": 0
+        "rostered_points": 82,
+        "weeks_started": 0,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4362887,
@@ -2139,7 +2503,9 @@
         "position": "QB",
         "started_points": 34.14,
         "bench_points": 60.46,
-        "weeks_started": 2
+        "rostered_points": 94.6,
+        "weeks_started": 2,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 4697815,
@@ -2147,7 +2513,9 @@
         "position": "RB",
         "started_points": 113.5,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 113.5,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -2157,7 +2525,9 @@
         "position": "D/ST",
         "started_points": 6,
         "bench_points": 0,
-        "weeks_started": 1
+        "rostered_points": 6,
+        "weeks_started": 1,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 2577417,
@@ -2165,7 +2535,9 @@
         "position": "QB",
         "started_points": 123.28,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 123.28,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       },
       {
         "nfl_player_id": 3915416,
@@ -2173,7 +2545,9 @@
         "position": "WR",
         "started_points": 85.8,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 85.8,
+        "weeks_started": 5,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 147.64,
@@ -2193,7 +2567,9 @@
         "position": "TE",
         "started_points": 0,
         "bench_points": 19.9,
-        "weeks_started": 0
+        "rostered_points": 19.9,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 2977187,
@@ -2201,7 +2577,9 @@
         "position": "WR",
         "started_points": 20.7,
         "bench_points": 61.5,
-        "weeks_started": 2
+        "rostered_points": 82.2,
+        "weeks_started": 2,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -2211,7 +2589,9 @@
         "position": "TE",
         "started_points": 65.2,
         "bench_points": 0,
-        "weeks_started": 4
+        "rostered_points": 65.2,
+        "weeks_started": 4,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 15795,
@@ -2219,7 +2599,9 @@
         "position": "WR",
         "started_points": 60.3,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 60.3,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 20.7,
@@ -2239,7 +2621,9 @@
         "position": "TE",
         "started_points": 8.4,
         "bench_points": 47.1,
-        "weeks_started": 2
+        "rostered_points": 55.5,
+        "weeks_started": 2,
+        "weeks_rostered": 11
       },
       {
         "nfl_player_id": 4241474,
@@ -2247,7 +2631,9 @@
         "position": "RB",
         "started_points": 60.8,
         "bench_points": 14.2,
-        "weeks_started": 6
+        "rostered_points": 75,
+        "weeks_started": 6,
+        "weeks_rostered": 11
       },
       {
         "nfl_player_id": 15795,
@@ -2255,7 +2641,9 @@
         "position": "WR",
         "started_points": 5.9,
         "bench_points": 110.3,
-        "weeks_started": 1
+        "rostered_points": 116.2,
+        "weeks_started": 1,
+        "weeks_rostered": 11
       }
     ],
     "b_received": [
@@ -2265,7 +2653,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 16.5,
-        "weeks_started": 0
+        "rostered_points": 16.5,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 2976212,
@@ -2273,7 +2663,9 @@
         "position": "WR",
         "started_points": 39.7,
         "bench_points": 0,
-        "weeks_started": 3
+        "rostered_points": 39.7,
+        "weeks_started": 3,
+        "weeks_rostered": 11
       },
       {
         "nfl_player_id": 3123076,
@@ -2281,7 +2673,9 @@
         "position": "TE",
         "started_points": 110.5,
         "bench_points": 27.2,
-        "weeks_started": 7
+        "rostered_points": 137.7,
+        "weeks_started": 7,
+        "weeks_rostered": 11
       }
     ],
     "a_points": 75.1,
@@ -2301,7 +2695,9 @@
         "position": "RB",
         "started_points": 11.7,
         "bench_points": 141.1,
-        "weeks_started": 1
+        "rostered_points": 152.8,
+        "weeks_started": 1,
+        "weeks_rostered": 11
       }
     ],
     "b_received": [
@@ -2311,7 +2707,9 @@
         "position": "WR",
         "started_points": 0.6,
         "bench_points": 121.7,
-        "weeks_started": 1
+        "rostered_points": 122.3,
+        "weeks_started": 1,
+        "weeks_rostered": 11
       }
     ],
     "a_points": 11.7,
@@ -2331,7 +2729,9 @@
         "position": "RB",
         "started_points": 0,
         "bench_points": 11.9,
-        "weeks_started": 0
+        "rostered_points": 11.9,
+        "weeks_started": 0,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -2341,7 +2741,9 @@
         "position": "QB",
         "started_points": 0,
         "bench_points": 17.54,
-        "weeks_started": 0
+        "rostered_points": 17.54,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "a_points": 0,
@@ -2361,7 +2763,9 @@
         "position": "QB",
         "started_points": 0,
         "bench_points": 10.18,
-        "weeks_started": 0
+        "rostered_points": 10.18,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "b_received": [
@@ -2371,7 +2775,9 @@
         "position": "WR",
         "started_points": 0,
         "bench_points": 5.3,
-        "weeks_started": 0
+        "rostered_points": 5.3,
+        "weeks_started": 0,
+        "weeks_rostered": 1
       }
     ],
     "a_points": 0,
@@ -2391,7 +2797,9 @@
         "position": "RB",
         "started_points": 75.7,
         "bench_points": 13.3,
-        "weeks_started": 4
+        "rostered_points": 89,
+        "weeks_started": 4,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -2401,7 +2809,9 @@
         "position": "WR",
         "started_points": 115.3,
         "bench_points": 0,
-        "weeks_started": 6
+        "rostered_points": 115.3,
+        "weeks_started": 6,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 75.7,
@@ -2421,7 +2831,9 @@
         "position": "TE",
         "started_points": 47.6,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 47.6,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 4432708,
@@ -2429,7 +2841,9 @@
         "position": "WR",
         "started_points": 7.7,
         "bench_points": 39,
-        "weeks_started": 1
+        "rostered_points": 46.7,
+        "weeks_started": 1,
+        "weeks_rostered": 5
       }
     ],
     "b_received": [
@@ -2439,7 +2853,9 @@
         "position": "RB",
         "started_points": 81.4,
         "bench_points": 0,
-        "weeks_started": 5
+        "rostered_points": 81.4,
+        "weeks_started": 5,
+        "weeks_rostered": 5
       },
       {
         "nfl_player_id": 4429025,
@@ -2447,7 +2863,9 @@
         "position": "WR",
         "started_points": 15.8,
         "bench_points": 23.5,
-        "weeks_started": 2
+        "rostered_points": 39.3,
+        "weeks_started": 2,
+        "weeks_rostered": 5
       }
     ],
     "a_points": 55.3,
@@ -2467,7 +2885,9 @@
         "position": "QB",
         "started_points": 12.16,
         "bench_points": 34.52,
-        "weeks_started": 1
+        "rostered_points": 46.68,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       }
     ],
     "b_received": [
@@ -2477,7 +2897,9 @@
         "position": "RB",
         "started_points": 4.8,
         "bench_points": 16.6,
-        "weeks_started": 1
+        "rostered_points": 21.4,
+        "weeks_started": 1,
+        "weeks_rostered": 4
       }
     ],
     "a_points": 12.16,
@@ -2497,7 +2919,9 @@
         "position": "RB",
         "started_points": 95.1,
         "bench_points": 0,
-        "weeks_started": 7
+        "rostered_points": 95.1,
+        "weeks_started": 7,
+        "weeks_rostered": 15
       }
     ],
     "b_received": [
@@ -2507,7 +2931,9 @@
         "position": "RB",
         "started_points": 6.7,
         "bench_points": 0,
-        "weeks_started": 1
+        "rostered_points": 6.7,
+        "weeks_started": 1,
+        "weeks_rostered": 1
       },
       {
         "nfl_player_id": 4259545,
@@ -2515,7 +2941,9 @@
         "position": "RB",
         "started_points": 199.4,
         "bench_points": 0,
-        "weeks_started": 13
+        "rostered_points": 199.4,
+        "weeks_started": 13,
+        "weeks_rostered": 15
       }
     ],
     "a_points": 95.1,
@@ -2535,7 +2963,9 @@
         "position": "QB",
         "started_points": 163.6,
         "bench_points": 51.2,
-        "weeks_started": 9
+        "rostered_points": 214.8,
+        "weeks_started": 9,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 4697815,
@@ -2543,7 +2973,9 @@
         "position": "RB",
         "started_points": 75.8,
         "bench_points": 32.9,
-        "weeks_started": 6
+        "rostered_points": 108.7,
+        "weeks_started": 6,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 4374302,
@@ -2551,7 +2983,9 @@
         "position": "WR",
         "started_points": 204.7,
         "bench_points": 0,
-        "weeks_started": 12
+        "rostered_points": 204.7,
+        "weeks_started": 12,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 4241478,
@@ -2559,7 +2993,9 @@
         "position": "WR",
         "started_points": 121.5,
         "bench_points": 33.3,
-        "weeks_started": 11
+        "rostered_points": 154.8,
+        "weeks_started": 11,
+        "weeks_rostered": 13
       }
     ],
     "b_received": [
@@ -2569,7 +3005,9 @@
         "position": "WR",
         "started_points": 232.7,
         "bench_points": 0,
-        "weeks_started": 11
+        "rostered_points": 232.7,
+        "weeks_started": 11,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 4258173,
@@ -2577,7 +3015,9 @@
         "position": "WR",
         "started_points": 172.2,
         "bench_points": 0,
-        "weeks_started": 11
+        "rostered_points": 172.2,
+        "weeks_started": 11,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 2577417,
@@ -2585,7 +3025,9 @@
         "position": "QB",
         "started_points": 64.04,
         "bench_points": 176.08,
-        "weeks_started": 3
+        "rostered_points": 240.12,
+        "weeks_started": 3,
+        "weeks_rostered": 13
       },
       {
         "nfl_player_id": 3046439,
@@ -2593,7 +3035,9 @@
         "position": "TE",
         "started_points": 12.3,
         "bench_points": 7.3,
-        "weeks_started": 2
+        "rostered_points": 19.6,
+        "weeks_started": 2,
+        "weeks_rostered": 3
       }
     ],
     "a_points": 565.6,
@@ -2613,7 +3057,9 @@
         "position": "RB",
         "started_points": 8.1,
         "bench_points": 73.3,
-        "weeks_started": 1
+        "rostered_points": 81.4,
+        "weeks_started": 1,
+        "weeks_rostered": 6
       }
     ],
     "b_received": [
@@ -2623,7 +3069,9 @@
         "position": "WR",
         "started_points": 11.4,
         "bench_points": 30.1,
-        "weeks_started": 1
+        "rostered_points": 41.5,
+        "weeks_started": 1,
+        "weeks_rostered": 6
       }
     ],
     "a_points": 8.1,

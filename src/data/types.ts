@@ -207,7 +207,10 @@ export interface ReconstructedMove extends NflPlayer {
   started_points?: number;
   /** Points scored while sitting on their bench after the move. */
   bench_points?: number;
+  /** started + bench, i.e. everything he scored while on their roster. */
+  rostered_points?: number;
   weeks_started?: number;
+  weeks_rostered?: number;
 }
 
 /** One side's haul in a trade, scored by what it returned afterwards. */
@@ -215,9 +218,13 @@ export interface TradePiece {
   nfl_player_id: number;
   nfl_player_name: string;
   position: NflPosition;
+  /** Points scored while in the acquirer's starting lineup. */
   started_points: number;
   bench_points: number;
+  /** started + bench, i.e. everything he scored while on their roster. */
+  rostered_points: number;
   weeks_started: number;
+  weeks_rostered: number;
 }
 
 /**

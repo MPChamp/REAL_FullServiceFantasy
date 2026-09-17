@@ -4,7 +4,7 @@ import PlayerAvatar from '@/components/common/PlayerAvatar';
 import { getPositionColor } from '@/styles/theme';
 import { formatScore } from '@/utils/formatting';
 
-import type { Player, ReconstructedMove, TradeSummary } from '@/data/types';
+import type { Player, ReconstructedMove, TradeSummary, TradePiece } from '@/data/types';
 import playersData from '@/data/players.json';
 import movesData from '@/data/reconstructed-moves.json';
 import tradesData from '@/data/trades.json';
@@ -22,6 +22,18 @@ const TABS: { id: Tab; label: string; icon: typeof Gem }[] = [
   { id: 'trades', label: 'Most lopsided trades', icon: Trophy },
   { id: 'busts', label: 'Never started', icon: Skull },
 ];
+
+/** A zero means "never in the lineup" far more often than "played and scored nothing". */
+function describePiece(p: TradePiece): string {
+  if (p.weeks_rostered === 0) return 'dropped before playing a week';
+  if (p.weeks_started === 0) {
+    const kept = `${p.weeks_rostered} wk${p.weeks_rostered === 1 ? '' : 's'} on roster`;
+    return p.rostered_points > 0
+      ? `never started — ${formatScore(p.rostered_points)} pts on the bench, ${kept}`
+      : `never started, ${kept}`;
+  }
+  return `${p.weeks_started} start${p.weeks_started === 1 ? '' : 's'} of ${p.weeks_rostered} wks rostered`;
+}
 
 function PositionTag({ position }: { position: string }) {
   const color = getPositionColor(position);
@@ -68,7 +80,7 @@ export default function MoveHighlights() {
       <div>
         <h2 className="font-heading text-2xl font-bold text-on-surface">Hits and Misses</h2>
         <p className="mt-1 text-sm text-on-surface-muted">
-          Every move since 2018, judged on the points it actually put in a starting lineup afterwards
+          Every move since 2018, judged on points the player went on to score in the acquirer's starting lineup. A zero usually means he was never started — not that he played badly.
         </p>
       </div>
 
@@ -159,15 +171,20 @@ export default function MoveHighlights() {
                       </div>
                       <ul className="space-y-0.5">
                         {got.map((p) => (
-                          <li key={p.nfl_player_id} className="flex items-center gap-2 text-xs">
-                            <ArrowRight className="h-3 w-3 shrink-0 text-on-surface-faint" />
-                            <span className="flex-1 truncate text-on-surface-muted">
-                              {p.nfl_player_name}
-                            </span>
-                            <PositionTag position={p.position} />
-                            <span className="w-12 shrink-0 text-right font-score text-on-surface-faint">
-                              {formatScore(p.started_points)}
-                            </span>
+                          <li key={p.nfl_player_id} className="text-xs">
+                            <div className="flex items-center gap-2">
+                              <ArrowRight className="h-3 w-3 shrink-0 text-on-surface-faint" />
+                              <span className="min-w-0 flex-1 truncate text-on-surface-muted">
+                                {p.nfl_player_name}
+                              </span>
+                              <PositionTag position={p.position} />
+                              <span className="w-12 shrink-0 text-right font-score text-on-surface-faint">
+                                {formatScore(p.started_points)}
+                              </span>
+                            </div>
+                            <div className="pl-5 text-[10px] text-on-surface-faint">
+                              {describePiece(p)}
+                            </div>
                           </li>
                         ))}
                       </ul>

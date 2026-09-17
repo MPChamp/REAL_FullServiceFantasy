@@ -441,13 +441,17 @@ function valueMoves(moves, lineupRows) {
     byManagerPlayer.get(key).push(r);
   }
 
+  // A zero is ambiguous on its own — benched behind someone better, injured, or
+  // dropped the same week all look alike — so carry the context that explains it.
   const pointsAfter = (seasonId, managerId, nflPlayerId, fromWeek) => {
     const rows = byManagerPlayer.get(`${seasonId}:${managerId}:${nflPlayerId}`) ?? [];
     let started = 0;
     let benched = 0;
     let weeksStarted = 0;
+    let weeksRostered = 0;
     for (const r of rows) {
       if (r.week < fromWeek) continue;
+      weeksRostered++;
       if (r.started) {
         started += r.points;
         weeksStarted++;
@@ -458,7 +462,9 @@ function valueMoves(moves, lineupRows) {
     return {
       started_points: Number(started.toFixed(2)),
       bench_points: Number(benched.toFixed(2)),
+      rostered_points: Number((started + benched).toFixed(2)),
       weeks_started: weeksStarted,
+      weeks_rostered: weeksRostered,
     };
   };
 
