@@ -1,23 +1,37 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { Trophy, Anchor } from 'lucide-react';
+import { Trophy, Anchor, Info, CircleCheck } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import StatCard from '@/components/common/StatCard';
 import { getPositionColor } from '@/styles/theme';
 import { formatRank } from '@/utils/formatting';
 
-import type { Player, RosterSpot, TeamName, SeasonResult, Championship } from '@/data/types';
+import type {
+  Player,
+  RosterSpot,
+  TeamName,
+  SeasonResult,
+  Championship,
+  WeeklyLineupSpot,
+} from '@/data/types';
 import playersData from '@/data/players.json';
 import rostersData from '@/data/rosters.json';
 import teamNamesData from '@/data/team-names.json';
 import seasonResultsData from '@/data/season-results.json';
 import championshipsData from '@/data/championships.json';
+import weeklyLineupsData from '@/data/weekly-lineups.json';
 
 const players = playersData as Player[];
 const rosters = rostersData as RosterSpot[];
 const teamNames = teamNamesData as TeamName[];
 const seasonResults = seasonResultsData as SeasonResult[];
 const championships = championshipsData as Championship[];
+const weeklyLineups = weeklyLineupsData as WeeklyLineupSpot[];
+
+/** First season the site captured live lineups — nothing earlier can be backfilled. */
+const LINEUP_TRACKING_FROM = weeklyLineups.length
+  ? Math.min(...weeklyLineups.map((r) => r.season_id))
+  : null;
 
 const POSITION_ORDER = ['QB', 'RB', 'WR', 'TE', 'K', 'D/ST'];
 
@@ -75,8 +89,52 @@ export default function RosterBoard({ year, query }: { year: number; query: stri
     return <p className="text-on-surface-muted">No roster data for {year}.</p>;
   }
 
+  const tracksLineups = LINEUP_TRACKING_FROM !== null && year >= LINEUP_TRACKING_FROM;
+  const weeksRecorded = tracksLineups
+    ? new Set(weeklyLineups.filter((r) => r.season_id === year).map((r) => r.week)).size
+    : 0;
+
   return (
     <div className="space-y-6">
+      {/* What this data is — and isn't. */}
+      {tracksLineups ? (
+        <div className="flex items-start gap-3 rounded-lg border border-[#22c55e]/20 bg-[#22c55e]/5 p-4">
+          <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#22c55e]" />
+          <div className="space-y-1 text-sm">
+            <p className="font-medium text-on-surface">Live roster, with weekly lineups being recorded</p>
+            <p className="text-on-surface-muted">
+              This is the roster as it stands right now. Starting with {LINEUP_TRACKING_FROM}, the site also
+              archives who was <em>started</em> each week and what they scored &mdash;{' '}
+              {weeksRecorded > 0
+                ? `${weeksRecorded} week${weeksRecorded === 1 ? '' : 's'} saved so far.`
+                : 'capture begins once week 1 finishes.'}{' '}
+              ESPN deletes that detail when the season rolls over, so it survives only because it&rsquo;s
+              saved here each week.
+            </p>
+          </div>
+        </div>
+      ) : (
+        <div className="flex items-start gap-3 rounded-lg border border-border-default bg-surface-inset/50 p-4">
+          <Info className="mt-0.5 h-4 w-4 shrink-0 text-on-surface-faint" />
+          <div className="space-y-1 text-sm">
+            <p className="font-medium text-on-surface">End-of-season rosters only</p>
+            <p className="text-on-surface-muted">
+              These are the squads as they stood when {year} ended &mdash; not week-by-week. There is no
+              record of who was <em>started</em> or benched in any given week, what they scored, or when
+              players were picked up, because ESPN keeps only a single final roster for a finished season
+              and discards the weekly detail.
+              {LINEUP_TRACKING_FROM !== null && (
+                <>
+                  {' '}
+                  That history begins with <strong className="text-on-surface">{LINEUP_TRACKING_FROM}</strong>,
+                  which the site now records every week.
+                </>
+              )}
+            </p>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <StatCard
           label="Drafted players still rostered"

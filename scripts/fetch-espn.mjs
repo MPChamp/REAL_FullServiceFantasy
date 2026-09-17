@@ -183,6 +183,73 @@ async function fetchRosters(draftPicks) {
   return rosters;
 }
 
+// ─── Weekly lineups (current season only) ────────────────────────────────────
+// Who was actually started each week and what they scored. ESPN serves this
+// only while the season is live — boxscore rosters come back empty for finished
+// years — so each run appends completed weeks to a permanent archive.
+const LINEUP_SLOT_NAMES = {
+  0: 'QB', 2: 'RB', 4: 'WR', 6: 'TE', 16: 'D/ST', 17: 'K', 20: 'BE', 21: 'IR', 23: 'FLEX',
+};
+
+async function fetchWeeklyLineups() {
+  const existing = readJson('weekly-lineups.json', []);
+  const byKey = new Map(
+    existing.map((r) => [`${r.season_id}:${r.week}:${r.player_id}:${r.nfl_player_id}`, r])
+  );
+
+  const league = await fetchLeague(CURRENT_SEASON, ['mTeam', 'mMatchupScore']);
+  const teamMap = buildTeamMap(league, CURRENT_SEASON, warn);
+
+  // Only weeks that have finished; a live week's points are still moving.
+  const finishedWeeks = [
+    ...new Set(
+      (league.schedule ?? [])
+        .filter((g) => g.winner && g.winner !== 'UNDECIDED')
+        .map((g) => g.matchupPeriodId)
+    ),
+  ].sort((a, b) => a - b);
+
+  let captured = 0;
+  for (const week of finishedWeeks) {
+    const box = await fetchLeague(CURRENT_SEASON, ['mBoxscore', 'mMatchupScore'], undefined, week);
+    const games = (box.schedule ?? []).filter((g) => g.matchupPeriodId === week);
+
+    for (const game of games) {
+      for (const side of ['home', 'away']) {
+        const team = teamMap.get(game[side]?.teamId);
+        const entries = game[side]?.rosterForCurrentScoringPeriod?.entries ?? [];
+        if (!team || !entries.length) continue;
+
+        for (const entry of entries) {
+          const player = entry.playerPoolEntry?.player;
+          const slotName = LINEUP_SLOT_NAMES[entry.lineupSlotId] ?? String(entry.lineupSlotId);
+          const row = {
+            season_id: CURRENT_SEASON,
+            week,
+            player_id: team.playerId,
+            nfl_player_id: entry.playerId,
+            nfl_player_name: player?.fullName ?? `Unknown (${entry.playerId})`,
+            position: POSITIONS[player?.defaultPositionId] ?? 'UNK',
+            pro_team: PRO_TEAMS[player?.proTeamId] ?? 'FA',
+            lineup_slot: slotName,
+            started: entry.lineupSlotId !== 20 && entry.lineupSlotId !== 21,
+            points: Number((entry.playerPoolEntry?.appliedStatTotal ?? 0).toFixed(2)),
+          };
+          byKey.set(`${row.season_id}:${row.week}:${row.player_id}:${row.nfl_player_id}`, row);
+          captured++;
+        }
+      }
+    }
+    console.log(`  week ${week}: ${games.length} games captured`);
+  }
+
+  const merged = [...byKey.values()].sort(
+    (a, b) => a.season_id - b.season_id || a.week - b.week || a.player_id - b.player_id
+  );
+  console.log(`  ${captured} rows this run, ${merged.length} archived`);
+  return merged;
+}
+
 // ─── Consolation ladder games ────────────────────────────────────────────────
 // ESPN counts these toward its own final rankings; the league doesn't. Only the
 // playoff bracket and the 9th/10th toilet bowl are real, and those already live
@@ -300,6 +367,9 @@ const { picks, teamNames } = await fetchDrafts();
 console.log('\nRosters:');
 const rosters = await fetchRosters(picks);
 
+console.log('\nWeekly lineups:');
+const weeklyLineups = await fetchWeeklyLineups();
+
 console.log('\nConsolation games:');
 const consolationGames = await fetchConsolationGames();
 
@@ -316,6 +386,7 @@ console.log('\nWriting:');
 writeJson('drafts.json', picks);
 writeJson('team-names.json', teamNames);
 writeJson('rosters.json', rosters);
+writeJson('weekly-lineups.json', weeklyLineups);
 writeJson('consolation-games.json', consolationGames);
 writeJson('transactions.json', transactions);
 writeJson('current-season.json', currentSeason);

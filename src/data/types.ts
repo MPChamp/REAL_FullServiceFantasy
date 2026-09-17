@@ -136,6 +136,20 @@ export interface RosterSpot extends NflPlayer {
   drafted: boolean;
 }
 
+/**
+ * One player's line in a single week's lineup. Only exists from the first
+ * season the site captured live (2026): ESPN serves boxscore rosters for the
+ * current season only, so earlier years can never be backfilled.
+ */
+export interface WeeklyLineupSpot extends NflPlayer {
+  season_id: number;
+  week: number;
+  player_id: number;
+  lineup_slot: string;
+  started: boolean;
+  points: number;
+}
+
 export interface TeamName {
   season_id: number;
   player_id: number;

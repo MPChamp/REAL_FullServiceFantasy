@@ -48,16 +48,17 @@ async function requestLeague(url, filter) {
   return Array.isArray(json) ? json[0] : json;
 }
 
-export function leagueUrl(year, views = []) {
+export function leagueUrl(year, views = [], scoringPeriodId) {
   const params = views.map((v) => `view=${v}`);
+  if (scoringPeriodId != null) params.push(`scoringPeriodId=${scoringPeriodId}`);
   if (year >= CURRENT_SEASON) {
     return `${BASE}/seasons/${year}/segments/0/leagues/${LEAGUE_ID}${params.length ? `?${params.join('&')}` : ''}`;
   }
   return `${BASE}/leagueHistory/${LEAGUE_ID}?seasonId=${year}${params.length ? `&${params.join('&')}` : ''}`;
 }
 
-export function fetchLeague(year, views, filter) {
-  return requestLeague(leagueUrl(year, views), filter);
+export function fetchLeague(year, views, filter, scoringPeriodId) {
+  return requestLeague(leagueUrl(year, views, scoringPeriodId), filter);
 }
 
 export async function fetchPlayerNames(year, playerIds) {
