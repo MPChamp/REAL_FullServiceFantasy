@@ -4,15 +4,23 @@ import { motion } from 'framer-motion';
 import { ArrowDown, ArrowUp, Inbox } from 'lucide-react';
 import PlayerAvatar from '@/components/common/PlayerAvatar';
 import StatCard from '@/components/common/StatCard';
+import SeasonSelector from '@/components/common/SeasonSelector';
+import ReconstructedMoves from '@/components/ReconstructedMoves';
 import { getPositionColor } from '@/styles/theme';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
-import type { Player, Transaction, NflPlayer } from '@/data/types';
+import type { Player, Transaction, NflPlayer, ReconstructedMove } from '@/data/types';
 import playersData from '@/data/players.json';
 import transactionsData from '@/data/transactions.json';
+import reconstructedMovesData from '@/data/reconstructed-moves.json';
 
 const players = playersData as Player[];
 const transactions = transactionsData as Transaction[];
+
+// Seasons whose moves were recovered by diffing rosters rather than logged live.
+const reconstructedSeasons = [
+  ...new Set((reconstructedMovesData as ReconstructedMove[]).map((m) => m.season_id)),
+].sort((a, b) => b - a);
 
 const TYPE_LABELS: Record<Transaction['type'], string> = {
   waiver: 'Waiver',
@@ -50,16 +58,25 @@ export default function TransactionsPage() {
   usePageTitle('Transactions');
   const [managerFilter, setManagerFilter] = useState<number | null>(null);
 
-  const seasons = useMemo(
+  const liveSeasons = useMemo(
     () => [...new Set(transactions.map((t) => t.season_id))].sort((a, b) => b - a),
     []
   );
+  // Live seasons have an exact feed; earlier ones are diffed from weekly rosters.
+  const allSeasons = useMemo(
+    () => [...new Set([...liveSeasons, ...reconstructedSeasons])].sort((a, b) => b - a),
+    [liveSeasons]
+  );
+  const [season, setSeason] = useState(allSeasons[0]);
+  const isReconstructed = !liveSeasons.includes(season);
+
 
   const visible = useMemo(() => {
     return transactions
+      .filter((t) => t.season_id === season)
       .filter((t) => managerFilter === null || t.player_id === managerFilter)
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  }, [managerFilter]);
+  }, [managerFilter, season]);
 
   const byWeek = useMemo(() => {
     const groups = new Map<string, Transaction[]>();
@@ -71,13 +88,18 @@ export default function TransactionsPage() {
     return [...groups.entries()];
   }, [visible]);
 
+  const seasonTransactions = useMemo(
+    () => transactions.filter((t) => t.season_id === season),
+    [season]
+  );
+
   const leaders = useMemo(() => {
     const counts = new Map<number, number>();
-    for (const t of transactions) counts.set(t.player_id, (counts.get(t.player_id) ?? 0) + 1);
+    for (const t of seasonTransactions) counts.set(t.player_id, (counts.get(t.player_id) ?? 0) + 1);
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  }, []);
+  }, [seasonTransactions]);
 
-  const totalAdds = transactions.reduce((sum, t) => sum + t.adds.length, 0);
+  const totalAdds = seasonTransactions.reduce((sum, t) => sum + t.adds.length, 0);
 
   if (!transactions.length) {
     return (
@@ -96,19 +118,26 @@ export default function TransactionsPage() {
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
         <h1 className="font-heading text-4xl font-bold text-on-surface">Transactions</h1>
         <p className="mt-2 text-on-surface-muted">
-          Waiver claims, free agent grabs, and trades &mdash; logged as they happen
+          Waiver claims, free agent grabs, and trades across every season since 2018
         </p>
       </motion.div>
 
+      <SeasonSelector value={season} onChange={setSeason} years={allSeasons} />
+
+      {isReconstructed ? (
+        <ReconstructedMoves season={season} />
+      ) : (
+      <>
+
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-        <StatCard label="Total moves" value={transactions.length} accent="gold" />
+        <StatCard label={`${season} moves`} value={seasonTransactions.length} accent="gold" />
         <StatCard label="Players added" value={totalAdds} accent="green" />
         <StatCard
           label="Most active"
           value={leaders[0] ? `${getPlayerName(leaders[0][0])} (${leaders[0][1]})` : '—'}
           accent="purple"
         />
-        <StatCard label="Seasons logged" value={seasons.join(', ')} accent="red" />
+        <StatCard label="Record type" value="Exact (live feed)" accent="red" />
       </div>
 
       {/* ── Manager filter ── */}
@@ -125,7 +154,7 @@ export default function TransactionsPage() {
           Everyone
         </button>
         {players.map((p) => {
-          const count = transactions.filter((t) => t.player_id === p.player_id).length;
+          const count = seasonTransactions.filter((t) => t.player_id === p.player_id).length;
           if (!count) return null;
           const active = managerFilter === p.player_id;
           return (
@@ -150,12 +179,12 @@ export default function TransactionsPage() {
       {/* ── Move log ── */}
       <div className="space-y-6">
         {byWeek.map(([key, moves]) => {
-          const [season, week] = key.split('-');
+          const week = key.split('-')[1];
           return (
             <div key={key} className="space-y-3">
               <div className="flex items-center gap-3">
                 <h2 className="font-heading text-lg font-semibold text-on-surface">
-                  {season} &middot; Week {week}
+                  Week {week}
                 </h2>
                 <div className="h-px flex-1 bg-border-default" />
                 <span className="text-xs text-on-surface-faint">{moves.length} moves</span>
@@ -202,9 +231,10 @@ export default function TransactionsPage() {
       </div>
 
       <p className="text-xs text-on-surface-faint">
-        ESPN only exposes the current season&rsquo;s activity feed, so this log starts with {seasons[seasons.length - 1]} and
-        grows as the season runs.
+        {season} is the live season, so these are ESPN&rsquo;s exact records, captured as they happen.
       </p>
+      </>
+      )}
     </div>
   );
 }

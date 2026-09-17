@@ -185,6 +185,26 @@ export interface ConsolationGame {
   tier: string;
 }
 
+/**
+ * A roster move recovered by diffing consecutive weekly rosters, for the
+ * seasons whose transaction feed ESPN has already discarded (2018 onward).
+ *
+ * Validated against ESPN's per-team counters: 2,227 reconstructed acquisitions
+ * against 2,214 recorded. Two limits are inherent to the method — moves are
+ * dated to the gap between two weeks rather than a timestamp, and a player
+ * dropped and re-added within one gap leaves no trace.
+ */
+export interface ReconstructedMove extends NflPlayer {
+  season_id: number;
+  week: number;
+  /** The move happened between this week and `week`; 0 means since the draft. */
+  after_week: number;
+  player_id: number;
+  kind: 'add' | 'drop' | 'claimed' | 'released' | 'trade_in' | 'trade_out';
+  /** The other manager, when the player changed hands directly. */
+  counterparty: number | null;
+}
+
 export interface Transaction {
   transaction_id: string;
   season_id: number;

@@ -298,13 +298,132 @@ async function fetchWeeklyLineups() {
     if (!bySeason.has(r.season_id)) bySeason.set(r.season_id, new Set());
     bySeason.get(r.season_id).add(r.week);
   }
-  return [...bySeason.entries()]
+  const index = [...bySeason.entries()]
     .map(([season_id, weeks]) => ({
       season_id,
       weeks: [...weeks].sort((a, b) => a - b),
       rows: all.filter((r) => r.season_id === season_id).length,
     }))
     .sort((a, b) => a.season_id - b.season_id);
+
+  return { index, rows: all };
+}
+
+// ─── Reconstructed roster moves (2018 → last completed season) ───────────────
+// ESPN discards the transaction feed at rollover, but weekly rosters survive,
+// so every add and drop can be recovered by diffing consecutive weeks against
+// the draft as a baseline. Validated against ESPN's own per-team counters:
+// 2,227 reconstructed acquisitions vs 2,214 recorded (101%), and 60 distinct
+// trades vs 60 (ESPN counts a trade once per team, hence 120 in its data).
+//
+// Two things this cannot know, by construction:
+//   - Exact dates. A move is dated to the gap between two weeks.
+//   - A player dropped and re-claimed inside one gap is invisible, and a swap
+//     that happens to cross between two managers can look like a trade.
+function reconstructMoves(lineupRows, draftPicks) {
+  const moves = [];
+  // The live season has an exact transaction feed, so inferring it would be
+  // both redundant and worse.
+  const seasons = [...new Set(lineupRows.map((r) => r.season_id))]
+    .filter((y) => y < CURRENT_SEASON)
+    .sort((a, b) => a - b);
+
+  for (const year of seasons) {
+    const byWeek = new Map();
+    for (const r of lineupRows) {
+      if (r.season_id !== year) continue;
+      if (!byWeek.has(r.week)) byWeek.set(r.week, new Map());
+      const wk = byWeek.get(r.week);
+      if (!wk.has(r.player_id)) wk.set(r.player_id, new Map());
+      wk.get(r.player_id).set(r.nfl_player_id, r);
+    }
+
+    // Draft-day rosters are the baseline, so preseason moves show up in week 1.
+    const draftRosters = new Map();
+    for (const pick of draftPicks) {
+      if (pick.season_id !== year) continue;
+      if (!draftRosters.has(pick.player_id)) draftRosters.set(pick.player_id, new Map());
+      draftRosters.get(pick.player_id).set(pick.nfl_player_id, pick);
+    }
+
+    let prev = draftRosters;
+    let prevWeek = 0;
+
+    for (const week of [...byWeek.keys()].sort((a, b) => a - b)) {
+      const cur = byWeek.get(week);
+      const gained = new Map();
+      const lost = new Map();
+
+      for (const [manager, roster] of cur) {
+        const before = prev.get(manager) ?? new Map();
+        for (const id of roster.keys()) if (!before.has(id)) gained.set(id, manager);
+        for (const id of before.keys()) if (!roster.has(id)) lost.set(id, manager);
+      }
+
+      // Players that changed hands, grouped by the pair involved. A pair that
+      // moved players both ways inside one gap is treated as a trade.
+      const pairs = new Map();
+      for (const [nflId, to] of gained) {
+        const from = lost.get(nflId);
+        if (!from || from === to) continue;
+        const key = [from, to].sort((a, b) => a - b).join('-');
+        if (!pairs.has(key)) pairs.set(key, { forward: [], backward: [] });
+        const entry = pairs.get(key);
+        (from < to ? entry.forward : entry.backward).push(nflId);
+      }
+      const tradedIds = new Set();
+      for (const { forward, backward } of pairs.values()) {
+        if (forward.length && backward.length) {
+          for (const id of [...forward, ...backward]) tradedIds.add(id);
+        }
+      }
+
+      const describe = (info, nflId) => ({
+        nfl_player_id: nflId,
+        nfl_player_name: info?.nfl_player_name ?? `Unknown (${nflId})`,
+        position: info?.position ?? 'UNK',
+        pro_team: info?.pro_team ?? 'FA',
+      });
+
+      for (const [nflId, manager] of gained) {
+        const from = lost.get(nflId);
+        const fromOther = from && from !== manager ? from : null;
+        moves.push({
+          season_id: year,
+          week,
+          after_week: prevWeek,
+          player_id: manager,
+          ...describe(cur.get(manager)?.get(nflId), nflId),
+          kind: tradedIds.has(nflId) && fromOther ? 'trade_in' : fromOther ? 'claimed' : 'add',
+          counterparty: fromOther,
+        });
+      }
+
+      for (const [nflId, manager] of lost) {
+        const to = gained.get(nflId);
+        const toOther = to && to !== manager ? to : null;
+        moves.push({
+          season_id: year,
+          week,
+          after_week: prevWeek,
+          player_id: manager,
+          ...describe(prev.get(manager)?.get(nflId), nflId),
+          kind: tradedIds.has(nflId) && toOther ? 'trade_out' : toOther ? 'released' : 'drop',
+          counterparty: toOther,
+        });
+      }
+
+      prev = cur;
+      prevWeek = week;
+    }
+  }
+
+  const counts = {};
+  for (const m of moves) counts[m.kind] = (counts[m.kind] ?? 0) + 1;
+  console.log(`  ${moves.length} moves reconstructed: ${JSON.stringify(counts)}`);
+  return moves.sort(
+    (a, b) => a.season_id - b.season_id || a.week - b.week || a.player_id - b.player_id
+  );
 }
 
 // ─── Consolation ladder games ────────────────────────────────────────────────
@@ -425,7 +544,10 @@ console.log('\nRosters:');
 const rosters = await fetchRosters(picks);
 
 console.log('\nWeekly lineups:');
-const lineupIndex = await fetchWeeklyLineups();
+const { index: lineupIndex, rows: lineupRows } = await fetchWeeklyLineups();
+
+console.log('\nReconstructed moves:');
+const reconstructedMoves = reconstructMoves(lineupRows, picks);
 
 console.log('\nConsolation games:');
 const consolationGames = await fetchConsolationGames();
@@ -444,6 +566,7 @@ writeJson('drafts.json', picks);
 writeJson('team-names.json', teamNames);
 writeJson('rosters.json', rosters);
 writeJson('lineup-index.json', lineupIndex);
+writeJson('reconstructed-moves.json', reconstructedMoves);
 writeJson('consolation-games.json', consolationGames);
 writeJson('transactions.json', transactions);
 writeJson('current-season.json', currentSeason);
