@@ -290,3 +290,64 @@ export interface CurrentSeason {
   standings: CurrentStanding[];
   schedule: CurrentGame[];
 }
+
+// ============================================
+// Derived talking points (see scripts/compute-facts.mjs)
+// ============================================
+
+/** A player line as it appears inside a fact. */
+export interface FactPlayer {
+  name: string;
+  position: NflPosition;
+  points: number;
+  projected: number | null;
+  slot: string;
+}
+
+/**
+ * One manager's week, measured against the best lineup their roster allowed.
+ * Lives in src/data/facts/{year}.json and lazy-loads a season at a time.
+ */
+export interface GameFact {
+  season_id: number;
+  week: number;
+  player_id: number;
+  opponent_id: number | null;
+  points: number;
+  opponent_points: number | null;
+  /** Best score the roster could have produced under the slots actually used. */
+  optimal_points: number;
+  /** points / optimal_points; 1 means a perfect lineup. */
+  efficiency: number | null;
+  bench_points: number;
+  /** The single substitution that would have gained the most. */
+  missed_swap: { benched: FactPlayer; started: FactPlayer; gain: number } | null;
+  /** That one swap alone would have turned the loss into a win. */
+  swap_would_have_won: boolean;
+  /** Even a perfect lineup would still have won it. */
+  optimal_would_have_won: boolean;
+  top_starter: FactPlayer;
+  boom: (FactPlayer & { over: number }) | null;
+  bust: (FactPlayer & { under: number }) | null;
+}
+
+export interface SeasonManagerFact {
+  player_id: number;
+  bench_points: number;
+  efficiency: number | null;
+  games_lost_by_lineup: number;
+}
+
+export interface SeasonFact {
+  season_id: number;
+  costliest_benching: GameFact | null;
+  games_lost_by_one_swap: number;
+  biggest_boom: GameFact | null;
+  biggest_bust: GameFact | null;
+  best_single_start: GameFact | null;
+  perfect_lineups: number;
+  best_manager: SeasonManagerFact | null;
+  worst_manager: SeasonManagerFact | null;
+  most_bench_points: SeasonManagerFact | null;
+  managers: SeasonManagerFact[];
+}

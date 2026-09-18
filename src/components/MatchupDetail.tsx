@@ -4,15 +4,54 @@ import PlayerAvatar from '@/components/common/PlayerAvatar';
 import { getPositionColor, slotRank } from '@/styles/theme';
 import { formatScore } from '@/utils/formatting';
 import { useSeasonLineups } from '@/hooks/useSeasonLineups';
+import { useSeasonFacts } from '@/hooks/useSeasonFacts';
 
-import type { Player, WeeklyLineupSpot } from '@/data/types';
+import type { Player, WeeklyLineupSpot, GameFact } from '@/data/types';
 import playersData from '@/data/players.json';
 
 const players = playersData as Player[];
 const getPlayerName = (id: number) => players.find((p) => p.player_id === id)?.name ?? 'Unknown';
 
 
-function Side({ rows, managerId }: { rows: WeeklyLineupSpot[]; managerId: number }) {
+function FactLine({ fact }: { fact: GameFact | undefined }) {
+  if (!fact) return null;
+  const pct = fact.efficiency == null ? null : Math.round(fact.efficiency * 100);
+
+  return (
+    <div className="mt-2 space-y-1 border-t border-border-default pt-2 text-[11px]">
+      {pct !== null && (
+        <div className="flex items-center justify-between">
+          <span className="text-on-surface-faint">Lineup efficiency</span>
+          <span className={pct === 100 ? 'font-semibold text-[#22c55e]' : 'text-on-surface-muted'}>
+            {pct === 100 ? 'Perfect lineup' : `${pct}% of ${formatScore(fact.optimal_points)} possible`}
+          </span>
+        </div>
+      )}
+      {fact.missed_swap && (
+        <p className={fact.swap_would_have_won ? 'text-[#ef4444]' : 'text-on-surface-faint'}>
+          Should have started {fact.missed_swap.benched.name} (
+          {formatScore(fact.missed_swap.benched.points)}) over{' '}
+          {fact.missed_swap.started.name} ({formatScore(fact.missed_swap.started.points)}) &mdash;{' '}
+          {formatScore(fact.missed_swap.gain)} pts
+          {fact.swap_would_have_won && ', which would have won it'}
+        </p>
+      )}
+      {!fact.missed_swap && pct === 100 && (
+        <p className="text-[#22c55e]">Nothing on the bench would have scored more.</p>
+      )}
+    </div>
+  );
+}
+
+function Side({
+  rows,
+  managerId,
+  fact,
+}: {
+  rows: WeeklyLineupSpot[];
+  managerId: number;
+  fact?: GameFact;
+}) {
   const starters = rows
     .filter((r) => r.started)
     .sort((a, b) => slotRank(a.lineup_slot) - slotRank(b.lineup_slot));
@@ -76,6 +115,8 @@ function Side({ rows, managerId }: { rows: WeeklyLineupSpot[]; managerId: number
         Bench &middot; {formatScore(Number(benchTotal.toFixed(2)))} pts
       </div>
       <ul className="opacity-70">{bench.map((r) => line(r, true))}</ul>
+
+      <FactLine fact={fact} />
     </div>
   );
 }
@@ -92,6 +133,7 @@ export default function MatchupDetail({
   awayId: number;
 }) {
   const rows = useSeasonLineups(year);
+  const facts = useSeasonFacts(year);
 
   const sides = useMemo(() => {
     if (!rows) return null;
@@ -118,9 +160,17 @@ export default function MatchupDetail({
       className="overflow-hidden"
     >
       <div className="flex flex-col gap-6 border-t border-border-default px-1 pt-3 sm:flex-row">
-        <Side rows={sides.away} managerId={awayId} />
+        <Side
+          rows={sides.away}
+          managerId={awayId}
+          fact={facts?.find((f) => f.week === week && f.player_id === awayId)}
+        />
         <div className="hidden w-px shrink-0 bg-border-default sm:block" />
-        <Side rows={sides.home} managerId={homeId} />
+        <Side
+          rows={sides.home}
+          managerId={homeId}
+          fact={facts?.find((f) => f.week === week && f.player_id === homeId)}
+        />
       </div>
     </motion.div>
   );

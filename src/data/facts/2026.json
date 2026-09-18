@@ -1,0 +1,516 @@
+[
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 1,
+    "opponent_id": 6,
+    "points": 125.46,
+    "opponent_points": 117.82,
+    "optimal_points": 141.16,
+    "efficiency": 0.8888,
+    "bench_points": 32.82,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 16.9,
+        "projected": 10.65,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "points": 1.2,
+        "projected": 12.24,
+        "slot": "FLEX"
+      },
+      "gain": 15.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Bijan Robinson",
+      "position": "RB",
+      "points": 31.3,
+      "projected": 18.9,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Bijan Robinson",
+      "position": "RB",
+      "points": 31.3,
+      "projected": 18.9,
+      "slot": "RB",
+      "over": 12.4
+    },
+    "bust": {
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "points": 1.2,
+      "projected": 12.24,
+      "slot": "FLEX",
+      "under": 11.04
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 125.8,
+    "opponent_points": 146.5,
+    "optimal_points": 182.2,
+    "efficiency": 0.6905,
+    "bench_points": 115.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Isaiah Likely",
+        "position": "TE",
+        "points": 27.8,
+        "projected": 9.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jake Ferguson",
+        "position": "TE",
+        "points": 2.6,
+        "projected": 9.81,
+        "slot": "TE"
+      },
+      "gain": 25.2
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 35.3,
+      "projected": 16.36,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 35.3,
+      "projected": 16.36,
+      "slot": "RB",
+      "over": 18.94
+    },
+    "bust": {
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "points": 3.2,
+      "projected": 19.94,
+      "slot": "WR",
+      "under": 16.74
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 3,
+    "opponent_id": 9,
+    "points": 153.86,
+    "opponent_points": 93.06,
+    "optimal_points": 208.66,
+    "efficiency": 0.7374,
+    "bench_points": 106.8,
+    "missed_swap": {
+      "benched": {
+        "name": "Jalen Coker",
+        "position": "WR",
+        "points": 33.8,
+        "projected": 9.2,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "MarShawn Lloyd",
+        "position": "RB",
+        "points": 3.7,
+        "projected": 12.75,
+        "slot": "FLEX"
+      },
+      "gain": 30.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jahmyr Gibbs",
+      "position": "RB",
+      "points": 33.6,
+      "projected": 22.43,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 28.9,
+      "projected": 12.66,
+      "slot": "RB",
+      "over": 16.24
+    },
+    "bust": {
+      "name": "MarShawn Lloyd",
+      "position": "RB",
+      "points": 3.7,
+      "projected": 12.75,
+      "slot": "FLEX",
+      "under": 9.05
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 4,
+    "opponent_id": 7,
+    "points": 91.16,
+    "opponent_points": 145.4,
+    "optimal_points": 125.6,
+    "efficiency": 0.7258,
+    "bench_points": 73,
+    "missed_swap": {
+      "benched": {
+        "name": "Jaxson Dart",
+        "position": "QB",
+        "points": 26.6,
+        "projected": 18.51,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Justin Herbert",
+        "position": "QB",
+        "points": 13.26,
+        "projected": 18.98,
+        "slot": "QB"
+      },
+      "gain": 13.34
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "points": 28.7,
+      "projected": 18.82,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "points": 28.7,
+      "projected": 18.82,
+      "slot": "WR",
+      "over": 9.88
+    },
+    "bust": {
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "points": 8.3,
+      "projected": 17.57,
+      "slot": "RB",
+      "under": 9.27
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 5,
+    "opponent_id": 10,
+    "points": 86.66,
+    "opponent_points": 136.26,
+    "optimal_points": 111.26,
+    "efficiency": 0.7789,
+    "bench_points": 62.42,
+    "missed_swap": {
+      "benched": {
+        "name": "Juwan Johnson",
+        "position": "TE",
+        "points": 14.4,
+        "projected": 8.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Colston Loveland",
+        "position": "TE",
+        "points": 0,
+        "projected": 12.03,
+        "slot": "TE"
+      },
+      "gain": 14.4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chase Brown",
+      "position": "RB",
+      "points": 18.8,
+      "projected": 16.03,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Chase Brown",
+      "position": "RB",
+      "points": 18.8,
+      "projected": 16.03,
+      "slot": "RB",
+      "over": 2.77
+    },
+    "bust": {
+      "name": "Colston Loveland",
+      "position": "TE",
+      "points": 0,
+      "projected": 12.03,
+      "slot": "TE",
+      "under": 12.03
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 6,
+    "opponent_id": 1,
+    "points": 117.82,
+    "opponent_points": 125.46,
+    "optimal_points": 136.32,
+    "efficiency": 0.8643,
+    "bench_points": 78.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Kyle Monangai",
+        "position": "RB",
+        "points": 20.4,
+        "projected": 10.25,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Saquon Barkley",
+        "position": "RB",
+        "points": 9,
+        "projected": 17.67,
+        "slot": "RB"
+      },
+      "gain": 11.4
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Zay Flowers",
+      "position": "WR",
+      "points": 26,
+      "projected": 14.2,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Zay Flowers",
+      "position": "WR",
+      "points": 26,
+      "projected": 14.2,
+      "slot": "FLEX",
+      "over": 11.8
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 9,
+      "projected": 17.67,
+      "slot": "RB",
+      "under": 8.67
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 7,
+    "opponent_id": 4,
+    "points": 145.4,
+    "opponent_points": 91.16,
+    "optimal_points": 156.4,
+    "efficiency": 0.9297,
+    "bench_points": 33.8,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 32.4,
+      "projected": 12.31,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 32.4,
+      "projected": 12.31,
+      "slot": "FLEX",
+      "over": 20.09
+    },
+    "bust": {
+      "name": "Kyle Pitts Sr.",
+      "position": "TE",
+      "points": 0,
+      "projected": 9.83,
+      "slot": "TE",
+      "under": 9.83
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 146.5,
+    "opponent_points": 125.8,
+    "optimal_points": 181.76,
+    "efficiency": 0.806,
+    "bench_points": 80.16,
+    "missed_swap": {
+      "benched": {
+        "name": "Caleb Williams",
+        "position": "QB",
+        "points": 37.26,
+        "projected": 16.38,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 4.1,
+        "projected": 17.49,
+        "slot": "QB"
+      },
+      "gain": 33.16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "points": 34.1,
+      "projected": 14.7,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "points": 34.1,
+      "projected": 14.7,
+      "slot": "RB",
+      "over": 19.4
+    },
+    "bust": {
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "points": 4.1,
+      "projected": 17.49,
+      "slot": "QB",
+      "under": 13.39
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 9,
+    "opponent_id": 3,
+    "points": 93.06,
+    "opponent_points": 153.86,
+    "optimal_points": 119.08,
+    "efficiency": 0.7815,
+    "bench_points": 71.68,
+    "missed_swap": {
+      "benched": {
+        "name": "T.J. Hockenson",
+        "position": "TE",
+        "points": 13.6,
+        "projected": 9.2,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Harold Fannin Jr.",
+        "position": "TE",
+        "points": 4.1,
+        "projected": 11.12,
+        "slot": "TE"
+      },
+      "gain": 9.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 25.1,
+      "projected": 17.74,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 25.1,
+      "projected": 17.74,
+      "slot": "RB",
+      "over": 7.36
+    },
+    "bust": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 5.6,
+      "projected": 13.82,
+      "slot": "FLEX",
+      "under": 8.22
+    }
+  },
+  {
+    "season_id": 2026,
+    "week": 1,
+    "player_id": 10,
+    "opponent_id": 5,
+    "points": 136.26,
+    "opponent_points": 86.66,
+    "optimal_points": 142.96,
+    "efficiency": 0.9531,
+    "bench_points": 53.24,
+    "missed_swap": {
+      "benched": {
+        "name": "Alec Pierce",
+        "position": "WR",
+        "points": 10.1,
+        "projected": 9.7,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 3.4,
+        "projected": 12.23,
+        "slot": "WR"
+      },
+      "gain": 6.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 35.66,
+      "projected": 19.31,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 35.66,
+      "projected": 19.31,
+      "slot": "QB",
+      "over": 16.35
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 3.4,
+      "projected": 12.23,
+      "slot": "WR",
+      "under": 8.83
+    }
+  }
+]

@@ -1,0 +1,8292 @@
+[
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 1,
+    "opponent_id": 10,
+    "points": 137.5,
+    "opponent_points": 163.76,
+    "optimal_points": 161.6,
+    "efficiency": 0.8509,
+    "bench_points": 85.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Ty'Son Williams",
+        "position": "RB",
+        "points": 18.4,
+        "projected": 11.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Saquon Barkley",
+        "position": "RB",
+        "points": 3.7,
+        "projected": 13.82,
+        "slot": "RB"
+      },
+      "gain": 14.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 33.9,
+      "projected": 12.68,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 33.9,
+      "projected": 12.68,
+      "slot": "FLEX",
+      "over": 21.22
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 3.7,
+      "projected": 13.82,
+      "slot": "RB",
+      "under": 10.12
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 2,
+    "opponent_id": 4,
+    "points": 119.2,
+    "opponent_points": 174.62,
+    "optimal_points": 132.1,
+    "efficiency": 0.9023,
+    "bench_points": 25.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 17.1,
+        "projected": 10.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Jones",
+        "position": "RB",
+        "points": 4.2,
+        "projected": 15.11,
+        "slot": "RB"
+      },
+      "gain": 12.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 28.76,
+      "projected": 20.45,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Corey Davis",
+      "position": "WR",
+      "points": 26.7,
+      "projected": 12.31,
+      "slot": "FLEX",
+      "over": 14.39
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 4.2,
+      "projected": 15.11,
+      "slot": "RB",
+      "under": 10.91
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 3,
+    "opponent_id": 8,
+    "points": 123,
+    "opponent_points": 120.26,
+    "optimal_points": 134.24,
+    "efficiency": 0.9163,
+    "bench_points": 60.24,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVonta Smith",
+        "position": "WR",
+        "points": 19.1,
+        "projected": 12.01,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 12.4,
+        "projected": 14.14,
+        "slot": "WR"
+      },
+      "gain": 6.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 24.4,
+      "projected": 13.73,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 24.4,
+      "projected": 13.73,
+      "slot": "FLEX",
+      "over": 10.67
+    },
+    "bust": {
+      "name": "Buccaneers D/ST",
+      "position": "D/ST",
+      "points": -3,
+      "projected": 4.51,
+      "slot": "D/ST",
+      "under": 7.51
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 4,
+    "opponent_id": 2,
+    "points": 174.62,
+    "opponent_points": 119.2,
+    "optimal_points": 174.62,
+    "efficiency": 1,
+    "bench_points": 44.7,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 38.9,
+      "projected": 15.01,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 38.9,
+      "projected": 15.01,
+      "slot": "WR",
+      "over": 23.89
+    },
+    "bust": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 1.32,
+      "projected": 19.46,
+      "slot": "QB",
+      "under": 18.14
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 5,
+    "opponent_id": 9,
+    "points": 104.88,
+    "opponent_points": 118.18,
+    "optimal_points": 128.68,
+    "efficiency": 0.815,
+    "bench_points": 54.2,
+    "missed_swap": {
+      "benched": {
+        "name": "Tee Higgins",
+        "position": "WR",
+        "points": 15.8,
+        "projected": 12.68,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandon Aiyuk",
+        "position": "WR",
+        "points": 0,
+        "projected": 13.98,
+        "slot": "FLEX"
+      },
+      "gain": 15.8
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 33.28,
+      "projected": 22.68,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 33.28,
+      "projected": 22.68,
+      "slot": "QB",
+      "over": 10.6
+    },
+    "bust": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "points": 0,
+      "projected": 13.98,
+      "slot": "FLEX",
+      "under": 13.98
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 6,
+    "opponent_id": 7,
+    "points": 115.42,
+    "opponent_points": 130.76,
+    "optimal_points": 137.22,
+    "efficiency": 0.8411,
+    "bench_points": 83.38,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Williams",
+        "position": "WR",
+        "points": 22.2,
+        "projected": 10.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Raheem Mostert",
+        "position": "RB",
+        "points": 2,
+        "projected": 13.93,
+        "slot": "FLEX"
+      },
+      "gain": 20.2
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 27.42,
+      "projected": 21.4,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 25.5,
+      "projected": 13.91,
+      "slot": "WR",
+      "over": 11.59
+    },
+    "bust": {
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "points": 2,
+      "projected": 13.93,
+      "slot": "FLEX",
+      "under": 11.93
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 7,
+    "opponent_id": 6,
+    "points": 130.76,
+    "opponent_points": 115.42,
+    "optimal_points": 166.36,
+    "efficiency": 0.786,
+    "bench_points": 84.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Rob Gronkowski",
+        "position": "TE",
+        "points": 29,
+        "projected": 7.72,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Noah Fant",
+        "position": "TE",
+        "points": 12.2,
+        "projected": 9.15,
+        "slot": "TE"
+      },
+      "gain": 16.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 33.56,
+      "projected": 22.7,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 33.56,
+      "projected": 22.7,
+      "slot": "QB",
+      "over": 10.86
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 5.4,
+      "projected": 15.02,
+      "slot": "WR",
+      "under": 9.62
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 8,
+    "opponent_id": 3,
+    "points": 120.26,
+    "opponent_points": 123,
+    "optimal_points": 140.86,
+    "efficiency": 0.8538,
+    "bench_points": 79.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Ja'Marr Chase",
+        "position": "WR",
+        "points": 20.9,
+        "projected": 10.47,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Allen Robinson II",
+        "position": "WR",
+        "points": 9.5,
+        "projected": 14.68,
+        "slot": "WR"
+      },
+      "gain": 11.4
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 27.16,
+      "projected": 21.96,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 23.8,
+      "projected": 13.44,
+      "slot": "FLEX",
+      "over": 10.36
+    },
+    "bust": {
+      "name": "Robert Tonyan",
+      "position": "TE",
+      "points": 2.8,
+      "projected": 8.85,
+      "slot": "TE",
+      "under": 6.05
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 9,
+    "opponent_id": 5,
+    "points": 118.18,
+    "opponent_points": 104.88,
+    "optimal_points": 142.88,
+    "efficiency": 0.8271,
+    "bench_points": 88.28,
+    "missed_swap": {
+      "benched": {
+        "name": "Jamaal Williams",
+        "position": "RB",
+        "points": 25,
+        "projected": 8.8,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Antonio Gibson",
+        "position": "RB",
+        "points": 13.8,
+        "projected": 16.18,
+        "slot": "RB"
+      },
+      "gain": 11.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 26,
+      "projected": 14.39,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 26,
+      "projected": 14.39,
+      "slot": "WR",
+      "over": 11.61
+    },
+    "bust": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 10.6,
+      "projected": 19.93,
+      "slot": "WR",
+      "under": 9.33
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 1,
+    "player_id": 10,
+    "opponent_id": 1,
+    "points": 163.76,
+    "opponent_points": 137.5,
+    "optimal_points": 178.16,
+    "efficiency": 0.9192,
+    "bench_points": 103.58,
+    "missed_swap": {
+      "benched": {
+        "name": "Antonio Brown",
+        "position": "WR",
+        "points": 23.7,
+        "projected": 11.5,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 15.4,
+        "projected": 13.42,
+        "slot": "WR"
+      },
+      "gain": 8.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 37.1,
+      "projected": 18.28,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 37.1,
+      "projected": 18.28,
+      "slot": "WR",
+      "over": 18.82
+    },
+    "bust": {
+      "name": "Dolphins D/ST",
+      "position": "D/ST",
+      "points": 5,
+      "projected": 6.94,
+      "slot": "D/ST",
+      "under": 1.94
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 1,
+    "opponent_id": 5,
+    "points": 71.16,
+    "opponent_points": 152.22,
+    "optimal_points": 89.36,
+    "efficiency": 0.7963,
+    "bench_points": 53.9,
+    "missed_swap": {
+      "benched": {
+        "name": "Deebo Samuel",
+        "position": "WR",
+        "points": 16.1,
+        "projected": 14.45,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Chark Jr.",
+        "position": "WR",
+        "points": 2.9,
+        "projected": 11.84,
+        "slot": "WR"
+      },
+      "gain": 13.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 16.66,
+      "projected": 23.74,
+      "slot": "QB"
+    },
+    "boom": null,
+    "bust": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 6.3,
+      "projected": 17.68,
+      "slot": "RB",
+      "under": 11.38
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 146.8,
+    "opponent_points": 181.04,
+    "optimal_points": 166.5,
+    "efficiency": 0.8817,
+    "bench_points": 46.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Henry Ruggs III",
+        "position": "WR",
+        "points": 22.5,
+        "projected": 9.42,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Corey Davis",
+        "position": "WR",
+        "points": 2.8,
+        "projected": 12.63,
+        "slot": "FLEX"
+      },
+      "gain": 19.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 41.5,
+      "projected": 17.1,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 41.5,
+      "projected": 17.1,
+      "slot": "RB",
+      "over": 24.4
+    },
+    "bust": {
+      "name": "Corey Davis",
+      "position": "WR",
+      "points": 2.8,
+      "projected": 12.63,
+      "slot": "FLEX",
+      "under": 9.83
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 3,
+    "opponent_id": 10,
+    "points": 130.46,
+    "opponent_points": 115.92,
+    "optimal_points": 143.36,
+    "efficiency": 0.91,
+    "bench_points": 49.82,
+    "missed_swap": {
+      "benched": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 17.5,
+        "projected": 11.97,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "D'Andre Swift",
+        "position": "RB",
+        "points": 11.8,
+        "projected": 15.02,
+        "slot": "FLEX"
+      },
+      "gain": 5.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 32.26,
+      "projected": 22.43,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Buccaneers D/ST",
+      "position": "D/ST",
+      "points": 19,
+      "projected": 6.98,
+      "slot": "D/ST",
+      "over": 12.02
+    },
+    "bust": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 4.6,
+      "projected": 14.81,
+      "slot": "RB",
+      "under": 10.21
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 4,
+    "opponent_id": 7,
+    "points": 128.6,
+    "opponent_points": 142.5,
+    "optimal_points": 150.6,
+    "efficiency": 0.8539,
+    "bench_points": 61.9,
+    "missed_swap": {
+      "benched": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 24.9,
+        "projected": 13.42,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 5.4,
+        "projected": 15.6,
+        "slot": "WR"
+      },
+      "gain": 19.5
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 26.8,
+      "projected": 20.88,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "T.J. Hockenson",
+      "position": "TE",
+      "points": 20.6,
+      "projected": 11.62,
+      "slot": "TE",
+      "over": 8.98
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 5.4,
+      "projected": 15.6,
+      "slot": "WR",
+      "under": 10.2
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 5,
+    "opponent_id": 1,
+    "points": 152.22,
+    "opponent_points": 71.16,
+    "optimal_points": 160.02,
+    "efficiency": 0.9513,
+    "bench_points": 53.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "points": 20.3,
+        "projected": 10.76,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 16,
+        "projected": 17,
+        "slot": "WR"
+      },
+      "gain": 4.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 47.7,
+      "projected": 18.67,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 47.7,
+      "projected": 18.67,
+      "slot": "RB",
+      "over": 29.03
+    },
+    "bust": {
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "points": 7.3,
+      "projected": 12.47,
+      "slot": "RB",
+      "under": 5.17
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 6,
+    "opponent_id": 9,
+    "points": 114.68,
+    "opponent_points": 101.12,
+    "optimal_points": 149.98,
+    "efficiency": 0.7646,
+    "bench_points": 84.58,
+    "missed_swap": {
+      "benched": {
+        "name": "Tony Pollard",
+        "position": "RB",
+        "points": 23,
+        "projected": 7.08,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 6.9,
+        "projected": 14.89,
+        "slot": "RB"
+      },
+      "gain": 16.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 22.1,
+      "projected": 13.11,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Bills D/ST",
+      "position": "D/ST",
+      "points": 19,
+      "projected": 7.09,
+      "slot": "D/ST",
+      "over": 11.91
+    },
+    "bust": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 7.48,
+      "projected": 20.73,
+      "slot": "QB",
+      "under": 13.25
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 7,
+    "opponent_id": 4,
+    "points": 142.5,
+    "opponent_points": 128.6,
+    "optimal_points": 152.9,
+    "efficiency": 0.932,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "James White",
+        "position": "RB",
+        "points": 18.5,
+        "projected": 10.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Joe Mixon",
+        "position": "RB",
+        "points": 8.1,
+        "projected": 16.08,
+        "slot": "RB"
+      },
+      "gain": 10.4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 33.1,
+      "projected": 21.97,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 33.1,
+      "projected": 21.97,
+      "slot": "QB",
+      "over": 11.13
+    },
+    "bust": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 8.1,
+      "projected": 16.08,
+      "slot": "RB",
+      "under": 7.98
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 181.04,
+    "opponent_points": 146.8,
+    "optimal_points": 193.94,
+    "efficiency": 0.9335,
+    "bench_points": 92.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Marquise Brown",
+        "position": "WR",
+        "points": 23.3,
+        "projected": 11.75,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Allen Robinson II",
+        "position": "WR",
+        "points": 10.4,
+        "projected": 15.58,
+        "slot": "WR"
+      },
+      "gain": 12.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 36.8,
+      "projected": 14.87,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 36.8,
+      "projected": 14.87,
+      "slot": "FLEX",
+      "over": 21.93
+    },
+    "bust": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 10.4,
+      "projected": 15.58,
+      "slot": "WR",
+      "under": 5.18
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 9,
+    "opponent_id": 6,
+    "points": 101.12,
+    "opponent_points": 114.68,
+    "optimal_points": 122.82,
+    "efficiency": 0.8233,
+    "bench_points": 54.22,
+    "missed_swap": {
+      "benched": {
+        "name": "Colts D/ST",
+        "position": "D/ST",
+        "points": 10,
+        "projected": 5.23,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ravens D/ST",
+        "position": "D/ST",
+        "points": 0,
+        "projected": 3.68,
+        "slot": "D/ST"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 31.8,
+      "projected": 15.42,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 31.8,
+      "projected": 15.42,
+      "slot": "WR",
+      "over": 16.38
+    },
+    "bust": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 9.3,
+      "projected": 17.54,
+      "slot": "RB",
+      "under": 8.24
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 2,
+    "player_id": 10,
+    "opponent_id": 3,
+    "points": 115.92,
+    "opponent_points": 130.46,
+    "optimal_points": 140.02,
+    "efficiency": 0.8279,
+    "bench_points": 65.34,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 21.9,
+        "projected": 13.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Antonio Brown",
+        "position": "WR",
+        "points": 2.7,
+        "projected": 11.91,
+        "slot": "FLEX"
+      },
+      "gain": 19.2
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 23.9,
+      "projected": 20.3,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 22.8,
+      "projected": 13.7,
+      "slot": "WR",
+      "over": 9.1
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 5.9,
+      "projected": 20.82,
+      "slot": "WR",
+      "under": 14.92
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 118.92,
+    "opponent_points": 150.74,
+    "optimal_points": 153.52,
+    "efficiency": 0.7746,
+    "bench_points": 62.8,
+    "missed_swap": {
+      "benched": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 16.2,
+        "projected": 10.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ty'Son Williams",
+        "position": "RB",
+        "points": 2.2,
+        "projected": 12.99,
+        "slot": "FLEX"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 37.22,
+      "projected": 22.41,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 37.22,
+      "projected": 22.41,
+      "slot": "QB",
+      "over": 14.81
+    },
+    "bust": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 0.3,
+      "projected": 15.11,
+      "slot": "WR",
+      "under": 14.81
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 2,
+    "opponent_id": 10,
+    "points": 150.54,
+    "opponent_points": 142.52,
+    "optimal_points": 167.14,
+    "efficiency": 0.9007,
+    "bench_points": 61.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 27.5,
+        "projected": 11.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sony Michel",
+        "position": "RB",
+        "points": 10.9,
+        "projected": 14.06,
+        "slot": "FLEX"
+      },
+      "gain": 16.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "points": 28.2,
+      "projected": 17.63,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 26.8,
+      "projected": 15.87,
+      "slot": "WR",
+      "over": 10.93
+    },
+    "bust": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 5.5,
+      "projected": 10.71,
+      "slot": "TE",
+      "under": 5.21
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 3,
+    "opponent_id": 5,
+    "points": 111.58,
+    "opponent_points": 103.5,
+    "optimal_points": 136.22,
+    "efficiency": 0.8191,
+    "bench_points": 73.32,
+    "missed_swap": {
+      "benched": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 29.52,
+        "projected": 19.81,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "points": 19.28,
+        "projected": 24.42,
+        "slot": "QB"
+      },
+      "gain": 10.24
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 23.7,
+      "projected": 14.78,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 23.7,
+      "projected": 14.78,
+      "slot": "FLEX",
+      "over": 8.92
+    },
+    "bust": {
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "points": 3.6,
+      "projected": 13.88,
+      "slot": "WR",
+      "under": 10.28
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 4,
+    "opponent_id": 6,
+    "points": 92.84,
+    "opponent_points": 147.22,
+    "optimal_points": 125.64,
+    "efficiency": 0.7389,
+    "bench_points": 81.54,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 18.6,
+        "projected": 7.55,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "T.J. Hockenson",
+        "position": "TE",
+        "points": 3,
+        "projected": 14.22,
+        "slot": "TE"
+      },
+      "gain": 15.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 22.7,
+      "projected": 17.63,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Justin Tucker",
+      "position": "K",
+      "points": 13,
+      "projected": 6.44,
+      "slot": "K",
+      "over": 6.56
+    },
+    "bust": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 6,
+      "projected": 25.9,
+      "slot": "RB",
+      "under": 19.9
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 5,
+    "opponent_id": 3,
+    "points": 103.5,
+    "opponent_points": 111.58,
+    "optimal_points": 111.5,
+    "efficiency": 0.9283,
+    "bench_points": 34,
+    "missed_swap": {
+      "benched": {
+        "name": "Brandon Aiyuk",
+        "position": "WR",
+        "points": 14.5,
+        "projected": 7.89,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 9.5,
+        "projected": 17.18,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 22.9,
+      "projected": 23.61,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "points": 17,
+      "projected": 7.87,
+      "slot": "D/ST",
+      "over": 9.13
+    },
+    "bust": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 9.5,
+      "projected": 17.18,
+      "slot": "WR",
+      "under": 7.68
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 6,
+    "opponent_id": 4,
+    "points": 147.22,
+    "opponent_points": 92.84,
+    "optimal_points": 147.22,
+    "efficiency": 1,
+    "bench_points": 53.44,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 33.2,
+      "projected": 14.91,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 33.2,
+      "projected": 14.91,
+      "slot": "WR",
+      "over": 18.29
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 8.5,
+      "projected": 14.2,
+      "slot": "RB",
+      "under": 5.7
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 7,
+    "opponent_id": 8,
+    "points": 102.44,
+    "opponent_points": 120.48,
+    "optimal_points": 136.54,
+    "efficiency": 0.7503,
+    "bench_points": 71.7,
+    "missed_swap": {
+      "benched": {
+        "name": "James Robinson",
+        "position": "RB",
+        "points": 25.4,
+        "projected": 13.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 7.7,
+        "projected": 13.58,
+        "slot": "FLEX"
+      },
+      "gain": 17.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 26.6,
+      "projected": 15.99,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 26.6,
+      "projected": 15.99,
+      "slot": "RB",
+      "over": 10.61
+    },
+    "bust": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 5.1,
+      "projected": 16.97,
+      "slot": "WR",
+      "under": 11.87
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 8,
+    "opponent_id": 7,
+    "points": 120.48,
+    "opponent_points": 102.44,
+    "optimal_points": 139.28,
+    "efficiency": 0.865,
+    "bench_points": 86.36,
+    "missed_swap": {
+      "benched": {
+        "name": "Ja'Marr Chase",
+        "position": "WR",
+        "points": 22.5,
+        "projected": 14.8,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marquise Brown",
+        "position": "WR",
+        "points": 8.3,
+        "projected": 14.77,
+        "slot": "FLEX"
+      },
+      "gain": 14.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 30.6,
+      "projected": 18.55,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 30.6,
+      "projected": 18.55,
+      "slot": "WR",
+      "over": 12.05
+    },
+    "bust": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 8.4,
+      "projected": 16.95,
+      "slot": "RB",
+      "under": 8.55
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 150.74,
+    "opponent_points": 118.92,
+    "optimal_points": 165.64,
+    "efficiency": 0.91,
+    "bench_points": 68.56,
+    "missed_swap": {
+      "benched": {
+        "name": "Cole Beasley",
+        "position": "WR",
+        "points": 20.8,
+        "projected": 10.59,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 7.1,
+        "projected": 17.85,
+        "slot": "WR"
+      },
+      "gain": 13.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 31.2,
+      "projected": 19.92,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 31.2,
+      "projected": 19.92,
+      "slot": "WR",
+      "over": 11.28
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 7.1,
+      "projected": 17.85,
+      "slot": "WR",
+      "under": 10.75
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 3,
+    "player_id": 10,
+    "opponent_id": 2,
+    "points": 142.52,
+    "opponent_points": 150.54,
+    "optimal_points": 153.32,
+    "efficiency": 0.9296,
+    "bench_points": 73.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "points": 17.8,
+        "projected": 11.3,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyreek Hill",
+        "position": "WR",
+        "points": 11.7,
+        "projected": 18.58,
+        "slot": "WR"
+      },
+      "gain": 6.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 20.7,
+      "projected": 14.04,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Saints D/ST",
+      "position": "D/ST",
+      "points": 19,
+      "projected": 6.83,
+      "slot": "D/ST",
+      "over": 12.17
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 11.7,
+      "projected": 18.58,
+      "slot": "WR",
+      "under": 6.88
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 1,
+    "opponent_id": 3,
+    "points": 171.92,
+    "opponent_points": 100.44,
+    "optimal_points": 189.62,
+    "efficiency": 0.9067,
+    "bench_points": 65.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 34.6,
+        "projected": 12.56,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Leonard Fournette",
+        "position": "RB",
+        "points": 16.9,
+        "projected": 14.13,
+        "slot": "FLEX"
+      },
+      "gain": 17.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 35.7,
+      "projected": 16.58,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 35.7,
+      "projected": 16.58,
+      "slot": "WR",
+      "over": 19.12
+    },
+    "bust": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 20.02,
+      "projected": 25.5,
+      "slot": "QB",
+      "under": 5.48
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 2,
+    "opponent_id": 5,
+    "points": 118.28,
+    "opponent_points": 126.92,
+    "optimal_points": 125.28,
+    "efficiency": 0.9441,
+    "bench_points": 39.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 16.6,
+        "projected": 12.67,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Jones",
+        "position": "RB",
+        "points": 12.9,
+        "projected": 17.93,
+        "slot": "RB"
+      },
+      "gain": 3.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 28.18,
+      "projected": 22.95,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Corey Davis",
+      "position": "WR",
+      "points": 21.1,
+      "projected": 12.98,
+      "slot": "FLEX",
+      "over": 8.12
+    },
+    "bust": {
+      "name": "Panthers D/ST",
+      "position": "D/ST",
+      "points": -6,
+      "projected": 4.91,
+      "slot": "D/ST",
+      "under": 10.91
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 3,
+    "opponent_id": 1,
+    "points": 100.44,
+    "opponent_points": 171.92,
+    "optimal_points": 128.74,
+    "efficiency": 0.7802,
+    "bench_points": 74.2,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVonta Smith",
+        "position": "WR",
+        "points": 19.2,
+        "projected": 13.11,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 5.1,
+        "projected": 13.9,
+        "slot": "WR"
+      },
+      "gain": 14.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 24.2,
+      "projected": 15.99,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 24.2,
+      "projected": 15.99,
+      "slot": "WR",
+      "over": 8.21
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 6.4,
+      "projected": 21.03,
+      "slot": "RB",
+      "under": 14.63
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 4,
+    "opponent_id": 9,
+    "points": 109.12,
+    "opponent_points": 101.08,
+    "optimal_points": 122.62,
+    "efficiency": 0.8899,
+    "bench_points": 46.22,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 16.7,
+        "projected": 7.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 7.6,
+        "projected": 15.29,
+        "slot": "FLEX"
+      },
+      "gain": 9.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 24.12,
+      "projected": 19.39,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 22.6,
+      "projected": 16.04,
+      "slot": "RB",
+      "over": 6.56
+    },
+    "bust": {
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "points": 0.2,
+      "projected": 10.63,
+      "slot": "RB",
+      "under": 10.43
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 5,
+    "opponent_id": 2,
+    "points": 126.92,
+    "opponent_points": 118.28,
+    "optimal_points": 150.22,
+    "efficiency": 0.8449,
+    "bench_points": 63.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Laviska Shenault Jr.",
+        "position": "WR",
+        "points": 17,
+        "projected": 10.8,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 3.3,
+        "projected": 15.91,
+        "slot": "WR"
+      },
+      "gain": 13.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 31.72,
+      "projected": 23.55,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jared Cook",
+      "position": "TE",
+      "points": 19,
+      "projected": 9,
+      "slot": "TE",
+      "over": 10
+    },
+    "bust": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 3.3,
+      "projected": 15.91,
+      "slot": "WR",
+      "under": 12.61
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 6,
+    "opponent_id": 8,
+    "points": 102.44,
+    "opponent_points": 116.26,
+    "optimal_points": 153.72,
+    "efficiency": 0.6664,
+    "bench_points": 107.22,
+    "missed_swap": {
+      "benched": {
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "points": 18.5,
+        "projected": 10.78,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Williams",
+        "position": "WR",
+        "points": 2.1,
+        "projected": 16.79,
+        "slot": "WR"
+      },
+      "gain": 16.4
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Bills D/ST",
+      "position": "D/ST",
+      "points": 21,
+      "projected": 7.65,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Bills D/ST",
+      "position": "D/ST",
+      "points": 21,
+      "projected": 7.65,
+      "slot": "D/ST",
+      "over": 13.35
+    },
+    "bust": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 2.1,
+      "projected": 16.79,
+      "slot": "WR",
+      "under": 14.69
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 7,
+    "opponent_id": 10,
+    "points": 121.02,
+    "opponent_points": 129.26,
+    "optimal_points": 142.12,
+    "efficiency": 0.8515,
+    "bench_points": 66,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 20.8,
+        "projected": 14.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeAndre Hopkins",
+        "position": "WR",
+        "points": 10.7,
+        "projected": 16.37,
+        "slot": "WR"
+      },
+      "gain": 10.1
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 22.62,
+      "projected": 22.5,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Noah Fant",
+      "position": "TE",
+      "points": 16.6,
+      "projected": 10.28,
+      "slot": "TE",
+      "over": 6.32
+    },
+    "bust": {
+      "name": "Bengals D/ST",
+      "position": "D/ST",
+      "points": 1,
+      "projected": 7.94,
+      "slot": "D/ST",
+      "under": 6.94
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 8,
+    "opponent_id": 6,
+    "points": 116.26,
+    "opponent_points": 102.44,
+    "optimal_points": 144.44,
+    "efficiency": 0.8049,
+    "bench_points": 79.04,
+    "missed_swap": {
+      "benched": {
+        "name": "Sam Darnold",
+        "position": "QB",
+        "points": 31.54,
+        "projected": 16.92,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tom Brady",
+        "position": "QB",
+        "points": 11.06,
+        "projected": 20.49,
+        "slot": "QB"
+      },
+      "gain": 20.48
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 30.3,
+      "projected": 15.12,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 30.3,
+      "projected": 15.12,
+      "slot": "FLEX",
+      "over": 15.18
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 11.06,
+      "projected": 20.49,
+      "slot": "QB",
+      "under": 9.43
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 9,
+    "opponent_id": 4,
+    "points": 101.08,
+    "opponent_points": 109.12,
+    "optimal_points": 120.78,
+    "efficiency": 0.8369,
+    "bench_points": 71.66,
+    "missed_swap": {
+      "benched": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 16.6,
+        "projected": 8.68,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cole Beasley",
+        "position": "WR",
+        "points": 3.6,
+        "projected": 12.14,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 21.28,
+      "projected": 21.26,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Colts D/ST",
+      "position": "D/ST",
+      "points": 10,
+      "projected": 6.02,
+      "slot": "D/ST",
+      "over": 3.98
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 6.4,
+      "projected": 16.97,
+      "slot": "WR",
+      "under": 10.57
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 4,
+    "player_id": 10,
+    "opponent_id": 7,
+    "points": 129.26,
+    "opponent_points": 121.02,
+    "optimal_points": 154.38,
+    "efficiency": 0.8373,
+    "bench_points": 83.08,
+    "missed_swap": {
+      "benched": {
+        "name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "points": 16.6,
+        "projected": 14.78,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Carson",
+        "position": "RB",
+        "points": 4.1,
+        "projected": 15.44,
+        "slot": "RB"
+      },
+      "gain": 12.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 47.6,
+      "projected": 17.8,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 47.6,
+      "projected": 17.8,
+      "slot": "WR",
+      "over": 29.8
+    },
+    "bust": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 6.3,
+      "projected": 17.97,
+      "slot": "TE",
+      "under": 11.67
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 120.1,
+    "opponent_points": 151.22,
+    "optimal_points": 164.8,
+    "efficiency": 0.7288,
+    "bench_points": 110.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Antonio Brown",
+        "position": "WR",
+        "points": 31.4,
+        "projected": 13.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "points": 6.8,
+        "projected": 16.31,
+        "slot": "WR"
+      },
+      "gain": 24.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 36.5,
+      "projected": 26.78,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 31.9,
+      "projected": 14.28,
+      "slot": "RB",
+      "over": 17.62
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 0.9,
+      "projected": 16.77,
+      "slot": "RB",
+      "under": 15.87
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 151.22,
+    "opponent_points": 120.1,
+    "optimal_points": 162.22,
+    "efficiency": 0.9322,
+    "bench_points": 59.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 25.9,
+        "projected": 13.12,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Jones",
+        "position": "RB",
+        "points": 14.9,
+        "projected": 16.7,
+        "slot": "RB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 26.9,
+      "projected": 10.85,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 26.9,
+      "projected": 10.85,
+      "slot": "TE",
+      "over": 16.05
+    },
+    "bust": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 13.5,
+      "projected": 16.72,
+      "slot": "WR",
+      "under": 3.22
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 3,
+    "opponent_id": 9,
+    "points": 137.68,
+    "opponent_points": 147.22,
+    "optimal_points": 179.18,
+    "efficiency": 0.7684,
+    "bench_points": 84.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 27,
+        "projected": 13.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 4,
+        "projected": 13,
+        "slot": "WR"
+      },
+      "gain": 23
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 43.88,
+      "projected": 23.34,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 43.88,
+      "projected": 23.34,
+      "slot": "QB",
+      "over": 20.54
+    },
+    "bust": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 4,
+      "projected": 13,
+      "slot": "WR",
+      "under": 9
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 4,
+    "opponent_id": 8,
+    "points": 91.36,
+    "opponent_points": 164.34,
+    "optimal_points": 130.96,
+    "efficiency": 0.6976,
+    "bench_points": 87.98,
+    "missed_swap": {
+      "benched": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 25,
+        "projected": 12.75,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 6,
+        "projected": 15.42,
+        "slot": "FLEX"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 26.8,
+      "projected": 19.26,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 26.8,
+      "projected": 19.26,
+      "slot": "WR",
+      "over": 7.54
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 6,
+      "projected": 15.42,
+      "slot": "FLEX",
+      "under": 9.42
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 5,
+    "opponent_id": 7,
+    "points": 133.68,
+    "opponent_points": 173.76,
+    "optimal_points": 140.58,
+    "efficiency": 0.9509,
+    "bench_points": 51.9,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Carter",
+        "position": "RB",
+        "points": 14.8,
+        "projected": 12.41,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Alex Collins",
+        "position": "RB",
+        "points": 9.2,
+        "projected": 13.42,
+        "slot": "RB"
+      },
+      "gain": 5.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 31,
+      "projected": 21.83,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 31,
+      "projected": 21.83,
+      "slot": "RB",
+      "over": 9.17
+    },
+    "bust": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 8.9,
+      "projected": 18.92,
+      "slot": "WR",
+      "under": 10.02
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 6,
+    "opponent_id": 10,
+    "points": 166.98,
+    "opponent_points": 97.98,
+    "optimal_points": 198.28,
+    "efficiency": 0.8421,
+    "bench_points": 62.54,
+    "missed_swap": {
+      "benched": {
+        "name": "Bills D/ST",
+        "position": "D/ST",
+        "points": 15,
+        "projected": 4.08,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Patriots D/ST",
+        "position": "D/ST",
+        "points": 4,
+        "projected": 7.57,
+        "slot": "D/ST"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 41.7,
+      "projected": 11.49,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 41.7,
+      "projected": 11.49,
+      "slot": "TE",
+      "over": 30.21
+    },
+    "bust": {
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "points": 6.5,
+      "projected": 12.15,
+      "slot": "FLEX",
+      "under": 5.65
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 7,
+    "opponent_id": 5,
+    "points": 173.76,
+    "opponent_points": 133.68,
+    "optimal_points": 184.96,
+    "efficiency": 0.9394,
+    "bench_points": 59.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Myles Gaskin",
+        "position": "RB",
+        "points": 31.9,
+        "projected": 8.57,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "James Robinson",
+        "position": "RB",
+        "points": 21.7,
+        "projected": 16.16,
+        "slot": "RB"
+      },
+      "gain": 10.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Marquise Brown",
+      "position": "WR",
+      "points": 33.5,
+      "projected": 13,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Marquise Brown",
+      "position": "WR",
+      "points": 33.5,
+      "projected": 13,
+      "slot": "FLEX",
+      "over": 20.5
+    },
+    "bust": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 13.66,
+      "projected": 24.19,
+      "slot": "QB",
+      "under": 10.53
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 8,
+    "opponent_id": 4,
+    "points": 164.34,
+    "opponent_points": 91.36,
+    "optimal_points": 169.84,
+    "efficiency": 0.9676,
+    "bench_points": 34.38,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 37.74,
+      "projected": 23.49,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 34.9,
+      "projected": 17.35,
+      "slot": "RB",
+      "over": 17.55
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 8.6,
+      "projected": 16.9,
+      "slot": "WR",
+      "under": 8.3
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 9,
+    "opponent_id": 3,
+    "points": 147.22,
+    "opponent_points": 137.68,
+    "optimal_points": 164.82,
+    "efficiency": 0.8932,
+    "bench_points": 56.72,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Claypool",
+        "position": "WR",
+        "points": 24,
+        "projected": 12.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 10.7,
+        "projected": 16.52,
+        "slot": "WR"
+      },
+      "gain": 13.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 42.82,
+      "projected": 19.66,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 42.82,
+      "projected": 19.66,
+      "slot": "QB",
+      "over": 23.16
+    },
+    "bust": {
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "points": 6.4,
+      "projected": 15.35,
+      "slot": "RB",
+      "under": 8.95
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 5,
+    "player_id": 10,
+    "opponent_id": 6,
+    "points": 97.98,
+    "opponent_points": 166.98,
+    "optimal_points": 102.88,
+    "efficiency": 0.9524,
+    "bench_points": 38.72,
+    "missed_swap": {
+      "benched": {
+        "name": "Jakobi Meyers",
+        "position": "WR",
+        "points": 9.6,
+        "projected": 13.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 5.3,
+        "projected": 16.16,
+        "slot": "FLEX"
+      },
+      "gain": 4.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "points": 18.4,
+      "projected": 13.64,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "points": 18.4,
+      "projected": 13.64,
+      "slot": "RB",
+      "over": 4.76
+    },
+    "bust": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 9.08,
+      "projected": 22.35,
+      "slot": "QB",
+      "under": 13.27
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 1,
+    "opponent_id": 7,
+    "points": 168.42,
+    "opponent_points": 141.76,
+    "optimal_points": 172.62,
+    "efficiency": 0.9757,
+    "bench_points": 35.8,
+    "missed_swap": {
+      "benched": {
+        "name": "Robby Anderson",
+        "position": "WR",
+        "points": 10.1,
+        "projected": 11.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zack Moss",
+        "position": "RB",
+        "points": 5.9,
+        "projected": 12.44,
+        "slot": "FLEX"
+      },
+      "gain": 4.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 30.7,
+      "projected": 14.37,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 30.7,
+      "projected": 14.37,
+      "slot": "RB",
+      "over": 16.33
+    },
+    "bust": {
+      "name": "Zack Moss",
+      "position": "RB",
+      "points": 5.9,
+      "projected": 12.44,
+      "slot": "FLEX",
+      "under": 6.54
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 2,
+    "opponent_id": 3,
+    "points": 125,
+    "opponent_points": 113.48,
+    "optimal_points": 125,
+    "efficiency": 1,
+    "bench_points": 10.8,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 25,
+      "projected": 22.24,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 21,
+      "projected": 16.89,
+      "slot": "RB",
+      "over": 4.11
+    },
+    "bust": {
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "points": 10.8,
+      "projected": 21.52,
+      "slot": "FLEX",
+      "under": 10.72
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 3,
+    "opponent_id": 2,
+    "points": 113.48,
+    "opponent_points": 125,
+    "optimal_points": 142.44,
+    "efficiency": 0.7967,
+    "bench_points": 83.44,
+    "missed_swap": {
+      "benched": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 25.24,
+        "projected": 21.75,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "points": 11.78,
+        "projected": 24.51,
+        "slot": "QB"
+      },
+      "gain": 13.46
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 22.3,
+      "projected": 18.62,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 22.3,
+      "projected": 18.62,
+      "slot": "RB",
+      "over": 3.68
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 11.78,
+      "projected": 24.51,
+      "slot": "QB",
+      "under": 12.73
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 4,
+    "opponent_id": 10,
+    "points": 117.9,
+    "opponent_points": 129.78,
+    "optimal_points": 164.32,
+    "efficiency": 0.7175,
+    "bench_points": 95.62,
+    "missed_swap": {
+      "benched": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 29.8,
+        "projected": 14.13,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 10.5,
+        "projected": 14.05,
+        "slot": "WR"
+      },
+      "gain": 19.3
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 23.7,
+      "projected": 19.1,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "points": 23.4,
+      "projected": 13.39,
+      "slot": "FLEX",
+      "over": 10.01
+    },
+    "bust": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 11.8,
+      "projected": 17.66,
+      "slot": "WR",
+      "under": 5.86
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 5,
+    "opponent_id": 6,
+    "points": 161.18,
+    "opponent_points": 106.3,
+    "optimal_points": 175.08,
+    "efficiency": 0.9206,
+    "bench_points": 65,
+    "missed_swap": {
+      "benched": {
+        "name": "Alex Collins",
+        "position": "RB",
+        "points": 16.8,
+        "projected": 11.81,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "points": 5.8,
+        "projected": 13.65,
+        "slot": "FLEX"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 36.1,
+      "projected": 14.41,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 36.1,
+      "projected": 14.41,
+      "slot": "WR",
+      "over": 21.69
+    },
+    "bust": {
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "points": 5.8,
+      "projected": 13.65,
+      "slot": "FLEX",
+      "under": 7.85
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 6,
+    "opponent_id": 5,
+    "points": 106.3,
+    "opponent_points": 161.18,
+    "optimal_points": 117.1,
+    "efficiency": 0.9078,
+    "bench_points": 26.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "points": 15.5,
+        "projected": 11.46,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Williams",
+        "position": "WR",
+        "points": 4.7,
+        "projected": 18.77,
+        "slot": "WR"
+      },
+      "gain": 10.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 28.8,
+      "projected": 20.07,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 28.8,
+      "projected": 20.07,
+      "slot": "QB",
+      "over": 8.73
+    },
+    "bust": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 4.7,
+      "projected": 18.77,
+      "slot": "WR",
+      "under": 14.07
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 7,
+    "opponent_id": 1,
+    "points": 141.76,
+    "opponent_points": 168.42,
+    "optimal_points": 145.96,
+    "efficiency": 0.9712,
+    "bench_points": 29.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 8.9,
+        "projected": 12.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 4.7,
+        "projected": 16.79,
+        "slot": "WR"
+      },
+      "gain": 4.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 26.3,
+      "projected": 17.58,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 26.3,
+      "projected": 17.58,
+      "slot": "FLEX",
+      "over": 8.72
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 4.7,
+      "projected": 16.79,
+      "slot": "WR",
+      "under": 12.09
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 8,
+    "opponent_id": 9,
+    "points": 123.88,
+    "opponent_points": 67.1,
+    "optimal_points": 160.18,
+    "efficiency": 0.7734,
+    "bench_points": 77.58,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 21.3,
+        "projected": 5.75,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandon Bolden",
+        "position": "RB",
+        "points": 1.2,
+        "projected": 8.68,
+        "slot": "RB"
+      },
+      "gain": 20.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 34,
+      "projected": 22.63,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Noah Fant",
+      "position": "TE",
+      "points": 24.7,
+      "projected": 10.3,
+      "slot": "TE",
+      "over": 14.4
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 6.8,
+      "projected": 18.42,
+      "slot": "WR",
+      "under": 11.62
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 9,
+    "opponent_id": 8,
+    "points": 67.1,
+    "opponent_points": 123.88,
+    "optimal_points": 101.76,
+    "efficiency": 0.6594,
+    "bench_points": 66.76,
+    "missed_swap": {
+      "benched": {
+        "name": "Cole Beasley",
+        "position": "WR",
+        "points": 21.8,
+        "projected": 10.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chase Claypool",
+        "position": "WR",
+        "points": 3.7,
+        "projected": 14.62,
+        "slot": "FLEX"
+      },
+      "gain": 18.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 12.9,
+      "projected": 21.97,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Colts D/ST",
+      "position": "D/ST",
+      "points": 11,
+      "projected": 6.69,
+      "slot": "D/ST",
+      "over": 4.31
+    },
+    "bust": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 11,
+      "projected": 24.7,
+      "slot": "QB",
+      "under": 13.7
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 6,
+    "player_id": 10,
+    "opponent_id": 4,
+    "points": 129.78,
+    "opponent_points": 117.9,
+    "optimal_points": 146.88,
+    "efficiency": 0.8836,
+    "bench_points": 77.68,
+    "missed_swap": {
+      "benched": {
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "points": 29,
+        "projected": 11.85,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 12.9,
+        "projected": 17.64,
+        "slot": "WR"
+      },
+      "gain": 16.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Darrell Henderson Jr.",
+      "position": "RB",
+      "points": 24.7,
+      "projected": 16.41,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Darrell Henderson Jr.",
+      "position": "RB",
+      "points": 24.7,
+      "projected": 16.41,
+      "slot": "RB",
+      "over": 8.29
+    },
+    "bust": {
+      "name": "Taylor Heinicke",
+      "position": "QB",
+      "points": 9.28,
+      "projected": 20.59,
+      "slot": "QB",
+      "under": 11.31
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 1,
+    "opponent_id": 6,
+    "points": 116.18,
+    "opponent_points": 127.44,
+    "optimal_points": 119.28,
+    "efficiency": 0.974,
+    "bench_points": 32.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Javonte Williams",
+        "position": "RB",
+        "points": 17.2,
+        "projected": 10.62,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 14.1,
+        "projected": 17,
+        "slot": "FLEX"
+      },
+      "gain": 3.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 27.3,
+      "projected": 14.64,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 27.3,
+      "projected": 14.64,
+      "slot": "WR",
+      "over": 12.66
+    },
+    "bust": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": -6,
+      "projected": 5.69,
+      "slot": "D/ST",
+      "under": 11.69
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 2,
+    "opponent_id": 9,
+    "points": 91.54,
+    "opponent_points": 104.42,
+    "optimal_points": 104.04,
+    "efficiency": 0.8799,
+    "bench_points": 20.5,
+    "missed_swap": {
+      "benched": {
+        "name": "David Johnson",
+        "position": "RB",
+        "points": 10.2,
+        "projected": 6.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Damien Williams",
+        "position": "RB",
+        "points": 1.8,
+        "projected": 9.78,
+        "slot": "RB"
+      },
+      "gain": 8.4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 25.54,
+      "projected": 23.17,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 23.3,
+      "projected": 13.1,
+      "slot": "TE",
+      "over": 10.2
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 8.9,
+      "projected": 18.32,
+      "slot": "RB",
+      "under": 9.42
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 3,
+    "opponent_id": 7,
+    "points": 146.28,
+    "opponent_points": 125.54,
+    "optimal_points": 150.36,
+    "efficiency": 0.9729,
+    "bench_points": 31.46,
+    "missed_swap": {
+      "benched": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 27.16,
+        "projected": 22.7,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "points": 23.08,
+        "projected": 23.76,
+        "slot": "QB"
+      },
+      "gain": 4.08
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 28.4,
+      "projected": 17.74,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Buccaneers D/ST",
+      "position": "D/ST",
+      "points": 18,
+      "projected": 6.92,
+      "slot": "D/ST",
+      "over": 11.08
+    },
+    "bust": {
+      "name": "Harrison Butker",
+      "position": "K",
+      "points": 2,
+      "projected": 5.9,
+      "slot": "K",
+      "under": 3.9
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 4,
+    "opponent_id": 5,
+    "points": 134.26,
+    "opponent_points": 111.64,
+    "optimal_points": 134.26,
+    "efficiency": 1,
+    "bench_points": 19.2,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Damien Harris",
+      "position": "RB",
+      "points": 25.3,
+      "projected": 11.79,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Damien Harris",
+      "position": "RB",
+      "points": 25.3,
+      "projected": 11.79,
+      "slot": "RB",
+      "over": 13.51
+    },
+    "bust": {
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "points": 11.8,
+      "projected": 15.62,
+      "slot": "WR",
+      "under": 3.82
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 5,
+    "opponent_id": 4,
+    "points": 111.64,
+    "opponent_points": 134.26,
+    "optimal_points": 122.04,
+    "efficiency": 0.9148,
+    "bench_points": 23.8,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Carter",
+        "position": "RB",
+        "points": 18.4,
+        "projected": 12.94,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darrel Williams",
+        "position": "RB",
+        "points": 8,
+        "projected": 14.23,
+        "slot": "RB"
+      },
+      "gain": 10.4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "points": 20.5,
+      "projected": 12.89,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "points": 20.5,
+      "projected": 12.89,
+      "slot": "WR",
+      "over": 7.61
+    },
+    "bust": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 9.74,
+      "projected": 26.64,
+      "slot": "QB",
+      "under": 16.9
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 6,
+    "opponent_id": 1,
+    "points": 127.44,
+    "opponent_points": 116.18,
+    "optimal_points": 152.24,
+    "efficiency": 0.8371,
+    "bench_points": 38,
+    "missed_swap": {
+      "benched": {
+        "name": "Khalil Herbert",
+        "position": "RB",
+        "points": 18.3,
+        "projected": 9.99,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 3.7,
+        "projected": 13.71,
+        "slot": "RB"
+      },
+      "gain": 14.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 33.9,
+      "projected": 23.81,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 33.9,
+      "projected": 23.81,
+      "slot": "RB",
+      "over": 10.09
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 3.7,
+      "projected": 13.71,
+      "slot": "RB",
+      "under": 10.01
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 7,
+    "opponent_id": 3,
+    "points": 125.54,
+    "opponent_points": 146.28,
+    "optimal_points": 131.34,
+    "efficiency": 0.9558,
+    "bench_points": 23.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Myles Gaskin",
+        "position": "RB",
+        "points": 17.7,
+        "projected": 11.67,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Joe Mixon",
+        "position": "RB",
+        "points": 11.9,
+        "projected": 16.35,
+        "slot": "RB"
+      },
+      "gain": 5.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 31.6,
+      "projected": 16.1,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 31.6,
+      "projected": 16.1,
+      "slot": "WR",
+      "over": 15.5
+    },
+    "bust": {
+      "name": "O.J. Howard",
+      "position": "TE",
+      "points": 1.9,
+      "projected": 8.44,
+      "slot": "TE",
+      "under": 6.54
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 8,
+    "opponent_id": 10,
+    "points": 163.14,
+    "opponent_points": 114.24,
+    "optimal_points": 175.04,
+    "efficiency": 0.932,
+    "bench_points": 29.98,
+    "missed_swap": {
+      "benched": {
+        "name": "Devonta Freeman",
+        "position": "RB",
+        "points": 12.9,
+        "projected": 7.31,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Davis",
+        "position": "RB",
+        "points": 1,
+        "projected": 12.43,
+        "slot": "RB"
+      },
+      "gain": 11.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 37.6,
+      "projected": 23.04,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "points": 34.1,
+      "projected": 16.3,
+      "slot": "FLEX",
+      "over": 17.8
+    },
+    "bust": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 1,
+      "projected": 12.43,
+      "slot": "RB",
+      "under": 11.43
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 9,
+    "opponent_id": 2,
+    "points": 104.42,
+    "opponent_points": 91.54,
+    "optimal_points": 115.82,
+    "efficiency": 0.9016,
+    "bench_points": 25.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Colts D/ST",
+        "position": "D/ST",
+        "points": 12,
+        "projected": 4.96,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Raiders D/ST",
+        "position": "D/ST",
+        "points": 5,
+        "projected": 4.83,
+        "slot": "D/ST"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 19.6,
+      "projected": 23.28,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Dallas Goedert",
+      "position": "TE",
+      "points": 12,
+      "projected": 11.27,
+      "slot": "TE",
+      "over": 0.73
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 3.2,
+      "projected": 13.51,
+      "slot": "WR",
+      "under": 10.31
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 7,
+    "player_id": 10,
+    "opponent_id": 8,
+    "points": 114.24,
+    "opponent_points": 163.14,
+    "optimal_points": 124.24,
+    "efficiency": 0.9195,
+    "bench_points": 46.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "points": 15.3,
+        "projected": 14.28,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 7.1,
+        "projected": 17.48,
+        "slot": "FLEX"
+      },
+      "gain": 8.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "points": 26.64,
+      "projected": 19.1,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "points": 26.64,
+      "projected": 19.1,
+      "slot": "QB",
+      "over": 7.54
+    },
+    "bust": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 7.1,
+      "projected": 17.48,
+      "slot": "FLEX",
+      "under": 10.38
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 1,
+    "opponent_id": 4,
+    "points": 163.26,
+    "opponent_points": 126.16,
+    "optimal_points": 167.76,
+    "efficiency": 0.9732,
+    "bench_points": 39.02,
+    "missed_swap": {
+      "benched": {
+        "name": "Zack Moss",
+        "position": "RB",
+        "points": 11.8,
+        "projected": 12.59,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Leonard Fournette",
+        "position": "RB",
+        "points": 7.3,
+        "projected": 15.49,
+        "slot": "RB"
+      },
+      "gain": 4.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 31.5,
+      "projected": 15.89,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 31.5,
+      "projected": 15.89,
+      "slot": "WR",
+      "over": 15.61
+    },
+    "bust": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 7.3,
+      "projected": 15.49,
+      "slot": "RB",
+      "under": 8.19
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 2,
+    "opponent_id": 7,
+    "points": 104.82,
+    "opponent_points": 76.76,
+    "optimal_points": 130.42,
+    "efficiency": 0.8037,
+    "bench_points": 34,
+    "missed_swap": {
+      "benched": {
+        "name": "Panthers D/ST",
+        "position": "D/ST",
+        "points": 12,
+        "projected": 5.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Bengals D/ST",
+        "position": "D/ST",
+        "points": 1,
+        "projected": 7.41,
+        "slot": "D/ST"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 24,
+      "projected": 15.98,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 24,
+      "projected": 15.98,
+      "slot": "RB",
+      "over": 8.02
+    },
+    "bust": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 4.1,
+      "projected": 17.61,
+      "slot": "WR",
+      "under": 13.51
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 3,
+    "opponent_id": 6,
+    "points": 98.3,
+    "opponent_points": 102.24,
+    "optimal_points": 111.7,
+    "efficiency": 0.88,
+    "bench_points": 23.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Steelers D/ST",
+        "position": "D/ST",
+        "points": 9,
+        "projected": 5.16,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Buccaneers D/ST",
+        "position": "D/ST",
+        "points": -1,
+        "projected": 6.24,
+        "slot": "D/ST"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "points": 24.2,
+      "projected": 22.16,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 20.7,
+      "projected": 12.84,
+      "slot": "WR",
+      "over": 7.86
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 7.8,
+      "projected": 20.68,
+      "slot": "RB",
+      "under": 12.88
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 4,
+    "opponent_id": 1,
+    "points": 126.16,
+    "opponent_points": 163.26,
+    "optimal_points": 149.66,
+    "efficiency": 0.843,
+    "bench_points": 72.86,
+    "missed_swap": {
+      "benched": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 26.2,
+        "projected": 12.2,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 6,
+        "projected": 15.38,
+        "slot": "FLEX"
+      },
+      "gain": 20.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 22.3,
+      "projected": 14.87,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 22.3,
+      "projected": 14.87,
+      "slot": "WR",
+      "over": 7.43
+    },
+    "bust": {
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "points": 6,
+      "projected": 15.38,
+      "slot": "FLEX",
+      "under": 9.38
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 5,
+    "opponent_id": 8,
+    "points": 102.8,
+    "opponent_points": 122.4,
+    "optimal_points": 145.88,
+    "efficiency": 0.7047,
+    "bench_points": 108.44,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Carter",
+        "position": "RB",
+        "points": 32.2,
+        "projected": 12.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Derrick Henry",
+        "position": "RB",
+        "points": 6.8,
+        "projected": 23.14,
+        "slot": "RB"
+      },
+      "gain": 25.4
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "points": 19.7,
+      "projected": 13.56,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "points": 19.7,
+      "projected": 13.56,
+      "slot": "FLEX",
+      "over": 6.14
+    },
+    "bust": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 6.8,
+      "projected": 23.14,
+      "slot": "RB",
+      "under": 16.34
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 6,
+    "opponent_id": 3,
+    "points": 102.24,
+    "opponent_points": 98.3,
+    "optimal_points": 127.64,
+    "efficiency": 0.801,
+    "bench_points": 35.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Ty Johnson",
+        "position": "RB",
+        "points": 19.6,
+        "projected": 8.47,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kenneth Gainwell",
+        "position": "RB",
+        "points": 2.7,
+        "projected": 12.58,
+        "slot": "FLEX"
+      },
+      "gain": 16.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 28,
+      "projected": 17.33,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 28,
+      "projected": 17.33,
+      "slot": "WR",
+      "over": 10.67
+    },
+    "bust": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 3.9,
+      "projected": 16.55,
+      "slot": "WR",
+      "under": 12.65
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 7,
+    "opponent_id": 2,
+    "points": 76.76,
+    "opponent_points": 104.82,
+    "optimal_points": 93.96,
+    "efficiency": 0.8169,
+    "bench_points": 47.1,
+    "missed_swap": {
+      "benched": {
+        "name": "James Conner",
+        "position": "RB",
+        "points": 14.2,
+        "projected": 10.02,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "James Robinson",
+        "position": "RB",
+        "points": 4.9,
+        "projected": 17.03,
+        "slot": "RB"
+      },
+      "gain": 9.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 25.1,
+      "projected": 14.96,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 25.1,
+      "projected": 14.96,
+      "slot": "FLEX",
+      "over": 10.14
+    },
+    "bust": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 9.06,
+      "projected": 22.3,
+      "slot": "QB",
+      "under": 13.24
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 8,
+    "opponent_id": 5,
+    "points": 122.4,
+    "opponent_points": 102.8,
+    "optimal_points": 128.1,
+    "efficiency": 0.9555,
+    "bench_points": 36.96,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Davis",
+        "position": "RB",
+        "points": 11.6,
+        "projected": 8.85,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 6.5,
+        "projected": 15.55,
+        "slot": "FLEX"
+      },
+      "gain": 5.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 27.2,
+      "projected": 21.4,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 24.4,
+      "projected": 18.35,
+      "slot": "RB",
+      "over": 6.05
+    },
+    "bust": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 7.9,
+      "projected": 17.28,
+      "slot": "RB",
+      "under": 9.38
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 9,
+    "opponent_id": 10,
+    "points": 121.62,
+    "opponent_points": 137.96,
+    "optimal_points": 121.62,
+    "efficiency": 1,
+    "bench_points": 12.62,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 26.2,
+      "projected": 12.56,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 26.2,
+      "projected": 12.56,
+      "slot": "WR",
+      "over": 13.64
+    },
+    "bust": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 13.82,
+      "projected": 21.29,
+      "slot": "QB",
+      "under": 7.47
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 8,
+    "player_id": 10,
+    "opponent_id": 9,
+    "points": 137.96,
+    "opponent_points": 121.62,
+    "optimal_points": 149.26,
+    "efficiency": 0.9243,
+    "bench_points": 48.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Melvin Gordon III",
+        "position": "RB",
+        "points": 21.2,
+        "projected": 11.59,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chuba Hubbard",
+        "position": "RB",
+        "points": 16.1,
+        "projected": 15.55,
+        "slot": "RB"
+      },
+      "gain": 5.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 27.4,
+      "projected": 20.3,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 27.4,
+      "projected": 20.3,
+      "slot": "WR",
+      "over": 7.1
+    },
+    "bust": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 6.7,
+      "projected": 17.35,
+      "slot": "TE",
+      "under": 10.65
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 1,
+    "opponent_id": 8,
+    "points": 112.26,
+    "opponent_points": 111.5,
+    "optimal_points": 120.86,
+    "efficiency": 0.9288,
+    "bench_points": 46.9,
+    "missed_swap": {
+      "benched": {
+        "name": "AJ Dillon",
+        "position": "RB",
+        "points": 13,
+        "projected": 7.86,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zack Moss",
+        "position": "RB",
+        "points": 4.4,
+        "projected": 13.22,
+        "slot": "FLEX"
+      },
+      "gain": 8.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 34,
+      "projected": 19.33,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 34,
+      "projected": 19.33,
+      "slot": "RB",
+      "over": 14.67
+    },
+    "bust": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 11.56,
+      "projected": 26.9,
+      "slot": "QB",
+      "under": 15.34
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 2,
+    "opponent_id": 6,
+    "points": 95.38,
+    "opponent_points": 83.98,
+    "optimal_points": 115.38,
+    "efficiency": 0.8267,
+    "bench_points": 34.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Jordan Howard",
+        "position": "RB",
+        "points": 13.1,
+        "projected": 5.49,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Bryan Edwards",
+        "position": "WR",
+        "points": 0,
+        "projected": 10.66,
+        "slot": "FLEX"
+      },
+      "gain": 13.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 22.4,
+      "projected": 15.23,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 22.4,
+      "projected": 15.23,
+      "slot": "WR",
+      "over": 7.17
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 5.3,
+      "projected": 17.68,
+      "slot": "RB",
+      "under": 12.38
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 3,
+    "opponent_id": 4,
+    "points": 110.44,
+    "opponent_points": 90.08,
+    "optimal_points": 123.84,
+    "efficiency": 0.8918,
+    "bench_points": 46.56,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVonta Smith",
+        "position": "WR",
+        "points": 22.6,
+        "projected": 11.24,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 10.5,
+        "projected": 12.4,
+        "slot": "WR"
+      },
+      "gain": 12.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 30.64,
+      "projected": 24.65,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 30.64,
+      "projected": 24.65,
+      "slot": "QB",
+      "over": 5.99
+    },
+    "bust": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 11.7,
+      "projected": 16.58,
+      "slot": "WR",
+      "under": 4.88
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 4,
+    "opponent_id": 3,
+    "points": 90.08,
+    "opponent_points": 110.44,
+    "optimal_points": 111.88,
+    "efficiency": 0.8051,
+    "bench_points": 50,
+    "missed_swap": {
+      "benched": {
+        "name": "Nyheim Hines",
+        "position": "RB",
+        "points": 20.8,
+        "projected": 9.25,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 3.9,
+        "projected": 13.6,
+        "slot": "FLEX"
+      },
+      "gain": 16.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "points": 21.58,
+      "projected": 19.24,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "points": 21.58,
+      "projected": 19.24,
+      "slot": "QB",
+      "over": 2.34
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 5.7,
+      "projected": 15.77,
+      "slot": "WR",
+      "under": 10.07
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 5,
+    "opponent_id": 10,
+    "points": 96.54,
+    "opponent_points": 93.48,
+    "optimal_points": 107.14,
+    "efficiency": 0.9011,
+    "bench_points": 47.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Tee Higgins",
+        "position": "WR",
+        "points": 13.8,
+        "projected": 13.69,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 4.3,
+        "projected": 15.94,
+        "slot": "WR"
+      },
+      "gain": 9.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "points": 17.4,
+      "projected": 14.9,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Cardinals D/ST",
+      "position": "D/ST",
+      "points": 12,
+      "projected": 5.88,
+      "slot": "D/ST",
+      "over": 6.12
+    },
+    "bust": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 10.44,
+      "projected": 22.52,
+      "slot": "QB",
+      "under": 12.08
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 6,
+    "opponent_id": 2,
+    "points": 83.98,
+    "opponent_points": 95.38,
+    "optimal_points": 120.58,
+    "efficiency": 0.6965,
+    "bench_points": 74.38,
+    "missed_swap": {
+      "benched": {
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "points": 20.6,
+        "projected": 10.22,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 2.1,
+        "projected": 11.26,
+        "slot": "FLEX"
+      },
+      "gain": 18.5
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 20.4,
+      "projected": 19.21,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Bills D/ST",
+      "position": "D/ST",
+      "points": 9,
+      "projected": 7.33,
+      "slot": "D/ST",
+      "over": 1.67
+    },
+    "bust": {
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "points": 1.3,
+      "projected": 11.04,
+      "slot": "RB",
+      "under": 9.74
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 7,
+    "opponent_id": 9,
+    "points": 127.22,
+    "opponent_points": 90.54,
+    "optimal_points": 136.34,
+    "efficiency": 0.9331,
+    "bench_points": 36.82,
+    "missed_swap": {
+      "benched": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 16.42,
+        "projected": 12.37,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 7.6,
+        "projected": 15.96,
+        "slot": "WR"
+      },
+      "gain": 8.82
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Marquise Brown",
+      "position": "WR",
+      "points": 20.6,
+      "projected": 15.29,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Browns D/ST",
+      "position": "D/ST",
+      "points": 18,
+      "projected": 5.3,
+      "slot": "D/ST",
+      "over": 12.7
+    },
+    "bust": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "points": 7.6,
+      "projected": 15.96,
+      "slot": "WR",
+      "under": 8.36
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 8,
+    "opponent_id": 1,
+    "points": 111.5,
+    "opponent_points": 112.26,
+    "optimal_points": 117.3,
+    "efficiency": 0.9506,
+    "bench_points": 25.62,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 16,
+        "projected": 6.5,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Rashod Bateman",
+        "position": "WR",
+        "points": 10.2,
+        "projected": 10.1,
+        "slot": "FLEX"
+      },
+      "gain": 5.8
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 30.3,
+      "projected": 16.21,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 30.3,
+      "projected": 16.21,
+      "slot": "RB",
+      "over": 14.09
+    },
+    "bust": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 11.2,
+      "projected": 18.91,
+      "slot": "RB",
+      "under": 7.71
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 9,
+    "opponent_id": 7,
+    "points": 90.54,
+    "opponent_points": 127.22,
+    "optimal_points": 123.94,
+    "efficiency": 0.7305,
+    "bench_points": 65.46,
+    "missed_swap": {
+      "benched": {
+        "name": "George Kittle",
+        "position": "TE",
+        "points": 22.1,
+        "projected": 8.96,
+        "slot": "IR"
+      },
+      "started": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 7.3,
+        "projected": 9.98,
+        "slot": "TE"
+      },
+      "gain": 14.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 31.64,
+      "projected": 21.2,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 31.64,
+      "projected": 21.2,
+      "slot": "QB",
+      "over": 10.44
+    },
+    "bust": {
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "points": 0.3,
+      "projected": 13.76,
+      "slot": "RB",
+      "under": 13.46
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 9,
+    "player_id": 10,
+    "opponent_id": 5,
+    "points": 93.48,
+    "opponent_points": 96.54,
+    "optimal_points": 154.18,
+    "efficiency": 0.6063,
+    "bench_points": 83.2,
+    "missed_swap": {
+      "benched": {
+        "name": "James Conner",
+        "position": "RB",
+        "points": 40.3,
+        "projected": 9.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "points": 8.8,
+        "projected": 17.51,
+        "slot": "RB"
+      },
+      "gain": 31.5
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 28,
+      "projected": 15.61,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 28,
+      "projected": 15.61,
+      "slot": "RB",
+      "over": 12.39
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 7.3,
+      "projected": 20.4,
+      "slot": "WR",
+      "under": 13.1
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 1,
+    "opponent_id": 10,
+    "points": 120.64,
+    "opponent_points": 109.04,
+    "optimal_points": 144.84,
+    "efficiency": 0.8329,
+    "bench_points": 51.2,
+    "missed_swap": {
+      "benched": {
+        "name": "Rhamondre Stevenson",
+        "position": "RB",
+        "points": 27.4,
+        "projected": 11.78,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 4.9,
+        "projected": 18.35,
+        "slot": "RB"
+      },
+      "gain": 22.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 30.3,
+      "projected": 17.01,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 30.3,
+      "projected": 17.01,
+      "slot": "WR",
+      "over": 13.29
+    },
+    "bust": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 3.3,
+      "projected": 17.07,
+      "slot": "WR",
+      "under": 13.77
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 2,
+    "opponent_id": 4,
+    "points": 126.52,
+    "opponent_points": 74.68,
+    "optimal_points": 146.22,
+    "efficiency": 0.8653,
+    "bench_points": 61.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Panthers D/ST",
+        "position": "D/ST",
+        "points": 14,
+        "projected": 6.19,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ravens D/ST",
+        "position": "D/ST",
+        "points": 4,
+        "projected": 6.75,
+        "slot": "D/ST"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 22.9,
+      "projected": 16.47,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 22.9,
+      "projected": 16.47,
+      "slot": "WR",
+      "over": 6.43
+    },
+    "bust": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 10,
+      "projected": 14.9,
+      "slot": "TE",
+      "under": 4.9
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 3,
+    "opponent_id": 8,
+    "points": 107.12,
+    "opponent_points": 92.7,
+    "optimal_points": 122.62,
+    "efficiency": 0.8736,
+    "bench_points": 45.42,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVonta Smith",
+        "position": "WR",
+        "points": 22.6,
+        "projected": 11.68,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 7.1,
+        "projected": 12.08,
+        "slot": "WR"
+      },
+      "gain": 15.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 20.8,
+      "projected": 19.2,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Harrison Butker",
+      "position": "K",
+      "points": 9,
+      "projected": 5.89,
+      "slot": "K",
+      "over": 3.11
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 15.42,
+      "projected": 26.41,
+      "slot": "QB",
+      "under": 10.99
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 4,
+    "opponent_id": 2,
+    "points": 74.68,
+    "opponent_points": 126.52,
+    "optimal_points": 86.66,
+    "efficiency": 0.8618,
+    "bench_points": 32.26,
+    "missed_swap": {
+      "benched": {
+        "name": "Kirk Cousins",
+        "position": "QB",
+        "points": 19.46,
+        "projected": 18.12,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Rodgers",
+        "position": "QB",
+        "points": 10.48,
+        "projected": 19.77,
+        "slot": "QB"
+      },
+      "gain": 8.98
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 26.1,
+      "projected": 21.59,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 26.1,
+      "projected": 21.59,
+      "slot": "RB",
+      "over": 4.51
+    },
+    "bust": {
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "points": 0,
+      "projected": 11.81,
+      "slot": "TE",
+      "under": 11.81
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 5,
+    "opponent_id": 9,
+    "points": 152.34,
+    "opponent_points": 112.1,
+    "optimal_points": 178.74,
+    "efficiency": 0.8523,
+    "bench_points": 60.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Darrel Williams",
+        "position": "RB",
+        "points": 29.4,
+        "projected": 13.74,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Elijah Mitchell",
+        "position": "RB",
+        "points": 9.1,
+        "projected": 13.72,
+        "slot": "RB"
+      },
+      "gain": 20.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 36.24,
+      "projected": 21.23,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 36.24,
+      "projected": 21.23,
+      "slot": "QB",
+      "over": 15.01
+    },
+    "bust": {
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "points": 2.4,
+      "projected": 10.26,
+      "slot": "TE",
+      "under": 7.86
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 6,
+    "opponent_id": 7,
+    "points": 113.24,
+    "opponent_points": 107.6,
+    "optimal_points": 133.94,
+    "efficiency": 0.8455,
+    "bench_points": 41.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Tony Pollard",
+        "position": "RB",
+        "points": 15.8,
+        "projected": 7.87,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Russell Gage",
+        "position": "WR",
+        "points": 0,
+        "projected": 10.7,
+        "slot": "FLEX"
+      },
+      "gain": 15.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 26.34,
+      "projected": 22.05,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Mark Ingram II",
+      "position": "RB",
+      "points": 20.8,
+      "projected": 13.68,
+      "slot": "RB",
+      "over": 7.12
+    },
+    "bust": {
+      "name": "Russell Gage",
+      "position": "WR",
+      "points": 0,
+      "projected": 10.7,
+      "slot": "FLEX",
+      "under": 10.7
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 7,
+    "opponent_id": 6,
+    "points": 107.6,
+    "opponent_points": 113.24,
+    "optimal_points": 116.2,
+    "efficiency": 0.926,
+    "bench_points": 35.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 12.8,
+        "projected": 10.65,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 6.4,
+        "projected": 15.56,
+        "slot": "FLEX"
+      },
+      "gain": 6.4
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 22.76,
+      "projected": 17.21,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 22.76,
+      "projected": 17.21,
+      "slot": "RB",
+      "over": 5.55
+    },
+    "bust": {
+      "name": "Browns D/ST",
+      "position": "D/ST",
+      "points": -6,
+      "projected": 5.36,
+      "slot": "D/ST",
+      "under": 11.36
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 8,
+    "opponent_id": 3,
+    "points": 92.7,
+    "opponent_points": 107.12,
+    "optimal_points": 96,
+    "efficiency": 0.9656,
+    "bench_points": 25.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 5.1,
+        "projected": 8.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Davis",
+        "position": "RB",
+        "points": 1.8,
+        "projected": 10.78,
+        "slot": "RB"
+      },
+      "gain": 3.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 23.2,
+      "projected": 24.13,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "points": 14,
+      "projected": 10.23,
+      "slot": "FLEX",
+      "over": 3.77
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 13,
+      "projected": 25.62,
+      "slot": "QB",
+      "under": 12.62
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 9,
+    "opponent_id": 5,
+    "points": 112.1,
+    "opponent_points": 152.34,
+    "optimal_points": 112.6,
+    "efficiency": 0.9956,
+    "bench_points": 13.08,
+    "missed_swap": {
+      "benched": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 4.8,
+        "projected": 10.8,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 4.3,
+        "projected": 14.91,
+        "slot": "FLEX"
+      },
+      "gain": 0.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 21.8,
+      "projected": 10.49,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 21.8,
+      "projected": 10.49,
+      "slot": "RB",
+      "over": 11.31
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 4.3,
+      "projected": 14.91,
+      "slot": "FLEX",
+      "under": 10.61
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 10,
+    "player_id": 10,
+    "opponent_id": 1,
+    "points": 109.04,
+    "opponent_points": 120.64,
+    "optimal_points": 119.14,
+    "efficiency": 0.9152,
+    "bench_points": 37.68,
+    "missed_swap": {
+      "benched": {
+        "name": "Jakobi Meyers",
+        "position": "WR",
+        "points": 14.9,
+        "projected": 11.59,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "points": 10.1,
+        "projected": 14.68,
+        "slot": "WR"
+      },
+      "gain": 4.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 27.5,
+      "projected": 19.78,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 27.5,
+      "projected": 19.78,
+      "slot": "WR",
+      "over": 7.72
+    },
+    "bust": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 5.64,
+      "projected": 18.3,
+      "slot": "QB",
+      "under": 12.66
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 1,
+    "opponent_id": 5,
+    "points": 141.36,
+    "opponent_points": 93.82,
+    "optimal_points": 141.36,
+    "efficiency": 1,
+    "bench_points": 14,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 53.4,
+      "projected": 17.68,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 53.4,
+      "projected": 17.68,
+      "slot": "RB",
+      "over": 35.72
+    },
+    "bust": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 16.16,
+      "projected": 25.58,
+      "slot": "QB",
+      "under": 9.42
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 164.68,
+    "opponent_points": 148.88,
+    "optimal_points": 164.68,
+    "efficiency": 1,
+    "bench_points": 15.3,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 37.2,
+      "projected": 17.19,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 37.2,
+      "projected": 17.19,
+      "slot": "WR",
+      "over": 20.01
+    },
+    "bust": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "points": 16.9,
+      "projected": 20.73,
+      "slot": "RB",
+      "under": 3.83
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 3,
+    "opponent_id": 10,
+    "points": 127.22,
+    "opponent_points": 136.8,
+    "optimal_points": 150.12,
+    "efficiency": 0.8475,
+    "bench_points": 41.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 28.8,
+        "projected": 8.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kyle Pitts",
+        "position": "TE",
+        "points": 5.9,
+        "projected": 12.58,
+        "slot": "TE"
+      },
+      "gain": 22.9
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 23.1,
+      "projected": 16.2,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 23.1,
+      "projected": 16.2,
+      "slot": "WR",
+      "over": 6.9
+    },
+    "bust": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 5.9,
+      "projected": 12.58,
+      "slot": "TE",
+      "under": 6.68
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 4,
+    "opponent_id": 7,
+    "points": 141.1,
+    "opponent_points": 104.02,
+    "optimal_points": 144.5,
+    "efficiency": 0.9765,
+    "bench_points": 52.94,
+    "missed_swap": {
+      "benched": {
+        "name": "T.J. Hockenson",
+        "position": "TE",
+        "points": 11.1,
+        "projected": 10.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 10,
+        "projected": 12,
+        "slot": "TE"
+      },
+      "gain": 1.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 33.5,
+      "projected": 18.45,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 33.5,
+      "projected": 18.45,
+      "slot": "QB",
+      "over": 15.05
+    },
+    "bust": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 7.1,
+      "projected": 15.17,
+      "slot": "WR",
+      "under": 8.07
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 5,
+    "opponent_id": 1,
+    "points": 93.82,
+    "opponent_points": 141.36,
+    "optimal_points": 110.32,
+    "efficiency": 0.8504,
+    "bench_points": 40.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 14.2,
+        "projected": 12.13,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "points": 4.3,
+        "projected": 14.21,
+        "slot": "FLEX"
+      },
+      "gain": 9.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 20.9,
+      "projected": 17.03,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 20.9,
+      "projected": 17.03,
+      "slot": "RB",
+      "over": 3.87
+    },
+    "bust": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 4.4,
+      "projected": 17.26,
+      "slot": "WR",
+      "under": 12.86
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 6,
+    "opponent_id": 9,
+    "points": 92.94,
+    "opponent_points": 141.78,
+    "optimal_points": 117.24,
+    "efficiency": 0.7927,
+    "bench_points": 78.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "points": 23.1,
+        "projected": 11.14,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Gallup",
+        "position": "WR",
+        "points": 9.4,
+        "projected": 12.72,
+        "slot": "FLEX"
+      },
+      "gain": 13.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 20.7,
+      "projected": 12.75,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Williams",
+      "position": "WR",
+      "points": 20.7,
+      "projected": 12.75,
+      "slot": "WR",
+      "over": 7.95
+    },
+    "bust": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 4.64,
+      "projected": 22.34,
+      "slot": "QB",
+      "under": 17.7
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 7,
+    "opponent_id": 4,
+    "points": 104.02,
+    "opponent_points": 141.1,
+    "optimal_points": 117.72,
+    "efficiency": 0.8836,
+    "bench_points": 56.5,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 16,
+        "projected": 14.52,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 4.5,
+        "projected": 13.85,
+        "slot": "WR"
+      },
+      "gain": 11.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 20.3,
+      "projected": 15.2,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 20.3,
+      "projected": 15.2,
+      "slot": "WR",
+      "over": 5.1
+    },
+    "bust": {
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "points": 9.22,
+      "projected": 19.42,
+      "slot": "QB",
+      "under": 10.2
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 148.88,
+    "opponent_points": 164.68,
+    "optimal_points": 173.38,
+    "efficiency": 0.8587,
+    "bench_points": 47.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Elijah Moore",
+        "position": "WR",
+        "points": 29.6,
+        "projected": 10.46,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Davis",
+        "position": "RB",
+        "points": 5.1,
+        "projected": 11.13,
+        "slot": "FLEX"
+      },
+      "gain": 24.5
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 41.5,
+      "projected": 19,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 41.5,
+      "projected": 19,
+      "slot": "RB",
+      "over": 22.5
+    },
+    "bust": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 5.1,
+      "projected": 11.13,
+      "slot": "FLEX",
+      "under": 6.03
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 9,
+    "opponent_id": 6,
+    "points": 141.78,
+    "opponent_points": 92.94,
+    "optimal_points": 148.68,
+    "efficiency": 0.9536,
+    "bench_points": 38,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Claypool",
+        "position": "WR",
+        "points": 14.4,
+        "projected": 12.84,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Hunter Renfrow",
+        "position": "WR",
+        "points": 7.5,
+        "projected": 14.2,
+        "slot": "WR"
+      },
+      "gain": 6.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 34.28,
+      "projected": 19.69,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 34.28,
+      "projected": 19.69,
+      "slot": "QB",
+      "over": 14.59
+    },
+    "bust": {
+      "name": "Hunter Renfrow",
+      "position": "WR",
+      "points": 7.5,
+      "projected": 14.2,
+      "slot": "WR",
+      "under": 6.7
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 11,
+    "player_id": 10,
+    "opponent_id": 3,
+    "points": 136.8,
+    "opponent_points": 127.22,
+    "optimal_points": 139.5,
+    "efficiency": 0.9806,
+    "bench_points": 26.18,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Conklin",
+        "position": "TE",
+        "points": 6.5,
+        "projected": 9.51,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 3.8,
+        "projected": 15.59,
+        "slot": "FLEX"
+      },
+      "gain": 2.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 26,
+      "projected": 6.36,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 26,
+      "projected": 6.36,
+      "slot": "D/ST",
+      "over": 19.64
+    },
+    "bust": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 9.5,
+      "projected": 22.71,
+      "slot": "QB",
+      "under": 13.21
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 152.7,
+    "opponent_points": 131.42,
+    "optimal_points": 171.3,
+    "efficiency": 0.8914,
+    "bench_points": 72.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 27.5,
+        "projected": 16.83,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Saquon Barkley",
+        "position": "RB",
+        "points": 9.3,
+        "projected": 16.36,
+        "slot": "FLEX"
+      },
+      "gain": 18.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 44.1,
+      "projected": 15.91,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 44.1,
+      "projected": 15.91,
+      "slot": "RB",
+      "over": 28.19
+    },
+    "bust": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 5.3,
+      "projected": 15.89,
+      "slot": "TE",
+      "under": 10.59
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 2,
+    "opponent_id": 10,
+    "points": 59.72,
+    "opponent_points": 173.48,
+    "optimal_points": 89.24,
+    "efficiency": 0.6692,
+    "bench_points": 55.98,
+    "missed_swap": {
+      "benched": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 23.98,
+        "projected": 19.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jalen Hurts",
+        "position": "QB",
+        "points": 6.86,
+        "projected": 22.75,
+        "slot": "QB"
+      },
+      "gain": 17.12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 15.5,
+      "projected": 17.52,
+      "slot": "WR"
+    },
+    "boom": null,
+    "bust": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 6.86,
+      "projected": 22.75,
+      "slot": "QB",
+      "under": 15.89
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 3,
+    "opponent_id": 5,
+    "points": 87.2,
+    "opponent_points": 111.82,
+    "optimal_points": 98,
+    "efficiency": 0.8898,
+    "bench_points": 24.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Alexander Mattison",
+        "position": "RB",
+        "points": 10.8,
+        "projected": 4.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "D'Andre Swift",
+        "position": "RB",
+        "points": 3.9,
+        "projected": 19.3,
+        "slot": "RB"
+      },
+      "gain": 6.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 18.5,
+      "projected": 17.12,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Van Jefferson",
+      "position": "WR",
+      "points": 18.3,
+      "projected": 10.89,
+      "slot": "FLEX",
+      "over": 7.41
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 9.4,
+      "projected": 25.47,
+      "slot": "QB",
+      "under": 16.07
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 4,
+    "opponent_id": 6,
+    "points": 106.38,
+    "opponent_points": 127.8,
+    "optimal_points": 136.48,
+    "efficiency": 0.7795,
+    "bench_points": 68.02,
+    "missed_swap": {
+      "benched": {
+        "name": "J.D. McKissic",
+        "position": "RB",
+        "points": 22.6,
+        "projected": 9.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Christian McCaffrey",
+        "position": "RB",
+        "points": 3.5,
+        "projected": 22.3,
+        "slot": "RB"
+      },
+      "gain": 19.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 26.28,
+      "projected": 19.65,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "AJ Dillon",
+      "position": "RB",
+      "points": 20,
+      "projected": 11.47,
+      "slot": "FLEX",
+      "over": 8.53
+    },
+    "bust": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 3.5,
+      "projected": 22.3,
+      "slot": "RB",
+      "under": 18.8
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 5,
+    "opponent_id": 3,
+    "points": 111.82,
+    "opponent_points": 87.2,
+    "optimal_points": 126.22,
+    "efficiency": 0.8859,
+    "bench_points": 23.8,
+    "missed_swap": {
+      "benched": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 17.1,
+        "projected": 12.88,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "points": 9.3,
+        "projected": 14.2,
+        "slot": "WR"
+      },
+      "gain": 7.8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "points": 27.8,
+      "projected": 12.4,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "points": 27.8,
+      "projected": 12.4,
+      "slot": "FLEX",
+      "over": 15.4
+    },
+    "bust": {
+      "name": "Tony Jones Jr.",
+      "position": "RB",
+      "points": 2.7,
+      "projected": 14.34,
+      "slot": "RB",
+      "under": 11.64
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 6,
+    "opponent_id": 4,
+    "points": 127.8,
+    "opponent_points": 106.38,
+    "optimal_points": 141.9,
+    "efficiency": 0.9006,
+    "bench_points": 42.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Dontrell Hilliard",
+        "position": "RB",
+        "points": 20.3,
+        "projected": 11.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 7.4,
+        "projected": 13.68,
+        "slot": "RB"
+      },
+      "gain": 12.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 25.3,
+      "projected": 20.49,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tony Pollard",
+      "position": "RB",
+      "points": 16.8,
+      "projected": 10,
+      "slot": "RB",
+      "over": 6.8
+    },
+    "bust": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 6.7,
+      "projected": 17.75,
+      "slot": "WR",
+      "under": 11.05
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 7,
+    "opponent_id": 8,
+    "points": 116.78,
+    "opponent_points": 112.44,
+    "optimal_points": 131.38,
+    "efficiency": 0.8889,
+    "bench_points": 30,
+    "missed_swap": {
+      "benched": {
+        "name": "Myles Gaskin",
+        "position": "RB",
+        "points": 19.2,
+        "projected": 14.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 14.3,
+        "projected": 13.94,
+        "slot": "FLEX"
+      },
+      "gain": 4.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dolphins D/ST",
+      "position": "D/ST",
+      "points": 25,
+      "projected": 5.74,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Dolphins D/ST",
+      "position": "D/ST",
+      "points": 25,
+      "projected": 5.74,
+      "slot": "D/ST",
+      "over": 19.26
+    },
+    "bust": {
+      "name": "Cam Newton",
+      "position": "QB",
+      "points": 6.18,
+      "projected": 18.89,
+      "slot": "QB",
+      "under": 12.71
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 8,
+    "opponent_id": 7,
+    "points": 112.44,
+    "opponent_points": 116.78,
+    "optimal_points": 125.84,
+    "efficiency": 0.8935,
+    "bench_points": 54.9,
+    "missed_swap": {
+      "benched": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 19.1,
+        "projected": 12.76,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ja'Marr Chase",
+        "position": "WR",
+        "points": 6.9,
+        "projected": 17.58,
+        "slot": "WR"
+      },
+      "gain": 12.2
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 21.9,
+      "projected": 19.71,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Daniel Carlson",
+      "position": "K",
+      "points": 16,
+      "projected": 5.62,
+      "slot": "K",
+      "over": 10.38
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 11.24,
+      "projected": 23.13,
+      "slot": "QB",
+      "under": 11.89
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 131.42,
+    "opponent_points": 152.7,
+    "optimal_points": 133.12,
+    "efficiency": 0.9872,
+    "bench_points": 44.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Ryan Succop",
+        "position": "K",
+        "points": 7,
+        "projected": 6.02,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Matt Gay",
+        "position": "K",
+        "points": 6,
+        "projected": 6.27,
+        "slot": "K"
+      },
+      "gain": 1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 23.6,
+      "projected": 11.95,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 23.6,
+      "projected": 11.95,
+      "slot": "RB",
+      "over": 11.65
+    },
+    "bust": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 2.3,
+      "projected": 14.17,
+      "slot": "TE",
+      "under": 11.87
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 12,
+    "player_id": 10,
+    "opponent_id": 2,
+    "points": 173.48,
+    "opponent_points": 59.72,
+    "optimal_points": 173.48,
+    "efficiency": 1,
+    "bench_points": 22,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 32.3,
+      "projected": 16.97,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 32.3,
+      "projected": 16.97,
+      "slot": "RB",
+      "over": 15.33
+    },
+    "bust": {
+      "name": "Melvin Gordon III",
+      "position": "RB",
+      "points": 9.8,
+      "projected": 13.15,
+      "slot": "RB",
+      "under": 3.35
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 1,
+    "opponent_id": 3,
+    "points": 90.7,
+    "opponent_points": 118.72,
+    "optimal_points": 114,
+    "efficiency": 0.7956,
+    "bench_points": 57.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Javonte Williams",
+        "position": "RB",
+        "points": 29.8,
+        "projected": 15.14,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 12.6,
+        "projected": 17.61,
+        "slot": "FLEX"
+      },
+      "gain": 17.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 26.3,
+      "projected": 24.6,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 22.2,
+      "projected": 18.93,
+      "slot": "RB",
+      "over": 3.27
+    },
+    "bust": {
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "points": 0,
+      "projected": 10.96,
+      "slot": "WR",
+      "under": 10.96
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 2,
+    "opponent_id": 5,
+    "points": 147.2,
+    "opponent_points": 123.42,
+    "optimal_points": 147.2,
+    "efficiency": 1,
+    "bench_points": 6.7,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 35.6,
+      "projected": 17.99,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 35.6,
+      "projected": 17.99,
+      "slot": "WR",
+      "over": 17.61
+    },
+    "bust": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "points": 8.5,
+      "projected": 14.36,
+      "slot": "FLEX",
+      "under": 5.86
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 3,
+    "opponent_id": 1,
+    "points": 118.72,
+    "opponent_points": 90.7,
+    "optimal_points": 120.42,
+    "efficiency": 0.9859,
+    "bench_points": 10.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 5.2,
+        "projected": 9.7,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeVonta Smith",
+        "position": "WR",
+        "points": 3.5,
+        "projected": 13.24,
+        "slot": "FLEX"
+      },
+      "gain": 1.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 30.5,
+      "projected": 17.11,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 30.5,
+      "projected": 17.11,
+      "slot": "WR",
+      "over": 13.39
+    },
+    "bust": {
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "points": 3.5,
+      "projected": 13.24,
+      "slot": "FLEX",
+      "under": 9.74
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 4,
+    "opponent_id": 9,
+    "points": 95.5,
+    "opponent_points": 185.38,
+    "optimal_points": 125.1,
+    "efficiency": 0.7634,
+    "bench_points": 45.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Damien Harris",
+        "position": "RB",
+        "points": 17.1,
+        "projected": 9.05,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Rex Burkhead",
+        "position": "RB",
+        "points": 5.5,
+        "projected": 11.3,
+        "slot": "RB"
+      },
+      "gain": 11.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 28.1,
+      "projected": 14.11,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 28.1,
+      "projected": 14.11,
+      "slot": "RB",
+      "over": 13.99
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 1,
+      "projected": 15.31,
+      "slot": "WR",
+      "under": 14.31
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 5,
+    "opponent_id": 2,
+    "points": 123.42,
+    "opponent_points": 147.2,
+    "optimal_points": 131.32,
+    "efficiency": 0.9398,
+    "bench_points": 41.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "points": 17,
+        "projected": 13.09,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 9.1,
+        "projected": 17.35,
+        "slot": "WR"
+      },
+      "gain": 7.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Sony Michel",
+      "position": "RB",
+      "points": 21.9,
+      "projected": 10.82,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Sony Michel",
+      "position": "RB",
+      "points": 21.9,
+      "projected": 10.82,
+      "slot": "RB",
+      "over": 11.08
+    },
+    "bust": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 9.1,
+      "projected": 17.35,
+      "slot": "WR",
+      "under": 8.25
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 6,
+    "opponent_id": 8,
+    "points": 115.72,
+    "opponent_points": 117.62,
+    "optimal_points": 146.76,
+    "efficiency": 0.7885,
+    "bench_points": 83.56,
+    "missed_swap": {
+      "benched": {
+        "name": "Russell Gage",
+        "position": "WR",
+        "points": 24,
+        "projected": 10.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "points": 7.7,
+        "projected": 14.21,
+        "slot": "WR"
+      },
+      "gain": 16.3
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 30.2,
+      "projected": 15.63,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 30.2,
+      "projected": 15.63,
+      "slot": "WR",
+      "over": 14.57
+    },
+    "bust": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 11.22,
+      "projected": 20.39,
+      "slot": "QB",
+      "under": 9.17
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 7,
+    "opponent_id": 10,
+    "points": 99.02,
+    "opponent_points": 106.86,
+    "optimal_points": 108.72,
+    "efficiency": 0.9108,
+    "bench_points": 48.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 13.5,
+        "projected": 9.55,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Myles Gaskin",
+        "position": "RB",
+        "points": 6.9,
+        "projected": 15.1,
+        "slot": "FLEX"
+      },
+      "gain": 6.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 30.82,
+      "projected": 19.64,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 30.82,
+      "projected": 19.64,
+      "slot": "QB",
+      "over": 11.18
+    },
+    "bust": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 4.5,
+      "projected": 15.18,
+      "slot": "RB",
+      "under": 10.68
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 8,
+    "opponent_id": 6,
+    "points": 117.62,
+    "opponent_points": 115.72,
+    "optimal_points": 150.52,
+    "efficiency": 0.7814,
+    "bench_points": 64.2,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Davis",
+        "position": "RB",
+        "points": 16.9,
+        "projected": 5.5,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Boston Scott",
+        "position": "RB",
+        "points": 0,
+        "projected": 10.96,
+        "slot": "RB"
+      },
+      "gain": 16.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 28.62,
+      "projected": 21.29,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 28.62,
+      "projected": 21.29,
+      "slot": "QB",
+      "over": 7.33
+    },
+    "bust": {
+      "name": "Boston Scott",
+      "position": "RB",
+      "points": 0,
+      "projected": 10.96,
+      "slot": "RB",
+      "under": 10.96
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 9,
+    "opponent_id": 4,
+    "points": 185.38,
+    "opponent_points": 95.5,
+    "optimal_points": 206.48,
+    "efficiency": 0.8978,
+    "bench_points": 45.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 28.5,
+        "projected": 11.4,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 19.8,
+        "projected": 13.47,
+        "slot": "FLEX"
+      },
+      "gain": 8.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 39.6,
+      "projected": 13.35,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 39.6,
+      "projected": 13.35,
+      "slot": "TE",
+      "over": 26.25
+    },
+    "bust": {
+      "name": "Chase Claypool",
+      "position": "WR",
+      "points": 7.4,
+      "projected": 13.17,
+      "slot": "WR",
+      "under": 5.77
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 13,
+    "player_id": 10,
+    "opponent_id": 7,
+    "points": 106.86,
+    "opponent_points": 99.02,
+    "optimal_points": 137.04,
+    "efficiency": 0.7798,
+    "bench_points": 81.64,
+    "missed_swap": {
+      "benched": {
+        "name": "Tee Higgins",
+        "position": "WR",
+        "points": 28.8,
+        "projected": 13.77,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyreek Hill",
+        "position": "WR",
+        "points": 4.2,
+        "projected": 19.78,
+        "slot": "WR"
+      },
+      "gain": 24.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Rob Gronkowski",
+      "position": "TE",
+      "points": 21.8,
+      "projected": 13.02,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Rob Gronkowski",
+      "position": "TE",
+      "points": 21.8,
+      "projected": 13.02,
+      "slot": "TE",
+      "over": 8.78
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 4.2,
+      "projected": 19.78,
+      "slot": "WR",
+      "under": 15.58
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 144.12,
+    "opponent_points": 131.68,
+    "optimal_points": 148.72,
+    "efficiency": 0.9691,
+    "bench_points": 42.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Saquon Barkley",
+        "position": "RB",
+        "points": 18.5,
+        "projected": 14.24,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cordarrelle Patterson",
+        "position": "RB",
+        "points": 13.9,
+        "projected": 15.95,
+        "slot": "FLEX"
+      },
+      "gain": 4.6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 35.22,
+      "projected": 23.37,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 35.22,
+      "projected": 23.37,
+      "slot": "QB",
+      "over": 11.85
+    },
+    "bust": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 12.9,
+      "projected": 18.21,
+      "slot": "WR",
+      "under": 5.31
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 131.68,
+    "opponent_points": 144.12,
+    "optimal_points": 137.68,
+    "efficiency": 0.9564,
+    "bench_points": 19.8,
+    "missed_swap": {
+      "benched": {
+        "name": "49ers D/ST",
+        "position": "D/ST",
+        "points": 8,
+        "projected": 5.7,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Panthers D/ST",
+        "position": "D/ST",
+        "points": 2,
+        "projected": 6.34,
+        "slot": "D/ST"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "points": 25.4,
+      "projected": 18.59,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "points": 25.4,
+      "projected": 18.59,
+      "slot": "RB",
+      "over": 6.81
+    },
+    "bust": {
+      "name": "Chris Boswell",
+      "position": "K",
+      "points": 1,
+      "projected": 6.02,
+      "slot": "K",
+      "under": 5.02
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 3,
+    "opponent_id": 9,
+    "points": 116.58,
+    "opponent_points": 160.9,
+    "optimal_points": 121.08,
+    "efficiency": 0.9628,
+    "bench_points": 17.9,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 9.2,
+        "projected": 7.8,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 4.7,
+        "projected": 11.3,
+        "slot": "FLEX"
+      },
+      "gain": 4.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 35.2,
+      "projected": 18.6,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 35.2,
+      "projected": 18.6,
+      "slot": "RB",
+      "over": 16.6
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 1.18,
+      "projected": 22.86,
+      "slot": "QB",
+      "under": 21.68
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 4,
+    "opponent_id": 8,
+    "points": 104.84,
+    "opponent_points": 120.02,
+    "optimal_points": 110.54,
+    "efficiency": 0.9484,
+    "bench_points": 24.64,
+    "missed_swap": {
+      "benched": {
+        "name": "Rex Burkhead",
+        "position": "RB",
+        "points": 10.6,
+        "projected": 11.11,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "AJ Dillon",
+        "position": "RB",
+        "points": 7.1,
+        "projected": 10.14,
+        "slot": "RB"
+      },
+      "gain": 3.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 29.64,
+      "projected": 19.52,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 29.64,
+      "projected": 19.52,
+      "slot": "QB",
+      "over": 10.12
+    },
+    "bust": {
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "points": 4.9,
+      "projected": 11.53,
+      "slot": "WR",
+      "under": 6.63
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 5,
+    "opponent_id": 7,
+    "points": 113.02,
+    "opponent_points": 96.12,
+    "optimal_points": 127.52,
+    "efficiency": 0.8863,
+    "bench_points": 37.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Darrel Williams",
+        "position": "RB",
+        "points": 12.9,
+        "projected": 9.58,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jeff Wilson Jr.",
+        "position": "RB",
+        "points": 5.6,
+        "projected": 11.39,
+        "slot": "RB"
+      },
+      "gain": 7.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 33.5,
+      "projected": 12.51,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 33.5,
+      "projected": 12.51,
+      "slot": "FLEX",
+      "over": 20.99
+    },
+    "bust": {
+      "name": "Sony Michel",
+      "position": "RB",
+      "points": 7.9,
+      "projected": 15.61,
+      "slot": "RB",
+      "under": 7.71
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 6,
+    "opponent_id": 10,
+    "points": 142.64,
+    "opponent_points": 130.82,
+    "optimal_points": 167.1,
+    "efficiency": 0.8536,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Taysom Hill",
+        "position": "QB",
+        "points": 26.3,
+        "projected": 21.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Dak Prescott",
+        "position": "QB",
+        "points": 9.94,
+        "projected": 20.29,
+        "slot": "QB"
+      },
+      "gain": 16.36
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 28.5,
+      "projected": 14.61,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Cowboys D/ST",
+      "position": "D/ST",
+      "points": 24,
+      "projected": 5.89,
+      "slot": "D/ST",
+      "over": 18.11
+    },
+    "bust": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 9.94,
+      "projected": 20.29,
+      "slot": "QB",
+      "under": 10.35
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 7,
+    "opponent_id": 5,
+    "points": 96.12,
+    "opponent_points": 113.02,
+    "optimal_points": 111.92,
+    "efficiency": 0.8588,
+    "bench_points": 40.9,
+    "missed_swap": {
+      "benched": {
+        "name": "Dawson Knox",
+        "position": "TE",
+        "points": 19,
+        "projected": 10.52,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Travis Kelce",
+        "position": "TE",
+        "points": 5.7,
+        "projected": 16.48,
+        "slot": "TE"
+      },
+      "gain": 13.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 21.1,
+      "projected": 14.35,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 21.1,
+      "projected": 14.35,
+      "slot": "WR",
+      "over": 6.75
+    },
+    "bust": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 0.4,
+      "projected": 14.39,
+      "slot": "RB",
+      "under": 13.99
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 8,
+    "opponent_id": 4,
+    "points": 120.02,
+    "opponent_points": 104.84,
+    "optimal_points": 152.82,
+    "efficiency": 0.7854,
+    "bench_points": 74.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 19.7,
+        "projected": 13.14,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 0,
+        "projected": 14.26,
+        "slot": "FLEX"
+      },
+      "gain": 19.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 31.3,
+      "projected": 22.11,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 30.12,
+      "projected": 19.62,
+      "slot": "QB",
+      "over": 10.5
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 0,
+      "projected": 14.26,
+      "slot": "FLEX",
+      "under": 14.26
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 9,
+    "opponent_id": 3,
+    "points": 160.9,
+    "opponent_points": 116.58,
+    "optimal_points": 180.1,
+    "efficiency": 0.8934,
+    "bench_points": 53.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Hunter Renfrow",
+        "position": "WR",
+        "points": 30.7,
+        "projected": 14.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chase Claypool",
+        "position": "WR",
+        "points": 17.5,
+        "projected": 12.77,
+        "slot": "WR"
+      },
+      "gain": 13.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 34.1,
+      "projected": 19.08,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 34.1,
+      "projected": 14.13,
+      "slot": "TE",
+      "over": 19.97
+    },
+    "bust": {
+      "name": "Texans D/ST",
+      "position": "D/ST",
+      "points": -6,
+      "projected": 5.47,
+      "slot": "D/ST",
+      "under": 11.47
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 14,
+    "player_id": 10,
+    "opponent_id": 6,
+    "points": 130.82,
+    "opponent_points": 142.64,
+    "optimal_points": 139.4,
+    "efficiency": 0.9385,
+    "bench_points": 50.6,
+    "missed_swap": {
+      "benched": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 18.1,
+        "projected": 12.96,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeAndre Hopkins",
+        "position": "WR",
+        "points": 10.4,
+        "projected": 13.71,
+        "slot": "FLEX"
+      },
+      "gain": 7.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Melvin Gordon III",
+      "position": "RB",
+      "points": 23.1,
+      "projected": 13.47,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Titans D/ST",
+      "position": "D/ST",
+      "points": 19,
+      "projected": 6.32,
+      "slot": "D/ST",
+      "over": 12.68
+    },
+    "bust": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 8.8,
+      "projected": 19.88,
+      "slot": "RB",
+      "under": 11.08
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 130,
+    "opponent_points": 110.64,
+    "optimal_points": 140.5,
+    "efficiency": 0.9253,
+    "bench_points": 49.2,
+    "missed_swap": {
+      "benched": {
+        "name": "D'Onta Foreman",
+        "position": "RB",
+        "points": 15.5,
+        "projected": 10.86,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Rhamondre Stevenson",
+        "position": "RB",
+        "points": 5,
+        "projected": 13.94,
+        "slot": "RB"
+      },
+      "gain": 10.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "points": 23.5,
+      "projected": 10.99,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "points": 23.5,
+      "projected": 10.99,
+      "slot": "WR",
+      "over": 12.51
+    },
+    "bust": {
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "points": 5,
+      "projected": 13.94,
+      "slot": "RB",
+      "under": 8.94
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 110.64,
+    "opponent_points": 130,
+    "optimal_points": 140.84,
+    "efficiency": 0.7856,
+    "bench_points": 65.76,
+    "missed_swap": {
+      "benched": {
+        "name": "Duke Johnson",
+        "position": "RB",
+        "points": 25.7,
+        "projected": 2.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Najee Harris",
+        "position": "RB",
+        "points": 4.6,
+        "projected": 17.75,
+        "slot": "RB"
+      },
+      "gain": 21.1
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 29.64,
+      "projected": 22.01,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "points": 29.64,
+      "projected": 22.01,
+      "slot": "QB",
+      "over": 7.63
+    },
+    "bust": {
+      "name": "Najee Harris",
+      "position": "RB",
+      "points": 4.6,
+      "projected": 17.75,
+      "slot": "RB",
+      "under": 13.15
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 3,
+    "opponent_id": null,
+    "points": 59.5,
+    "opponent_points": null,
+    "optimal_points": 71.1,
+    "efficiency": 0.8368,
+    "bench_points": 22.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 13.4,
+        "projected": 8.97,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 3.5,
+        "projected": 10.8,
+        "slot": "FLEX"
+      },
+      "gain": 9.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 11.7,
+      "projected": 11.37,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "points": 11.7,
+      "projected": 11.37,
+      "slot": "TE",
+      "over": 0.33
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 11.1,
+      "projected": 21.73,
+      "slot": "RB",
+      "under": 10.63
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 4,
+    "opponent_id": 7,
+    "points": 93.82,
+    "opponent_points": 118.78,
+    "optimal_points": 101.52,
+    "efficiency": 0.9242,
+    "bench_points": 26.68,
+    "missed_swap": {
+      "benched": {
+        "name": "AJ Dillon",
+        "position": "RB",
+        "points": 10.5,
+        "projected": 9.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Rashaad Penny",
+        "position": "RB",
+        "points": 6.4,
+        "projected": 10.64,
+        "slot": "RB"
+      },
+      "gain": 4.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 23.82,
+      "projected": 19.96,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Vikings D/ST",
+      "position": "D/ST",
+      "points": 13,
+      "projected": 5.96,
+      "slot": "D/ST",
+      "over": 7.04
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 2.8,
+      "projected": 13.51,
+      "slot": "WR",
+      "under": 10.71
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 5,
+    "opponent_id": null,
+    "points": 76.24,
+    "opponent_points": null,
+    "optimal_points": 104.94,
+    "efficiency": 0.7265,
+    "bench_points": 36.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Jeff Wilson Jr.",
+        "position": "RB",
+        "points": 19.9,
+        "projected": 12.28,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Elijah Mitchell",
+        "position": "RB",
+        "points": 0,
+        "projected": 0,
+        "slot": "RB"
+      },
+      "gain": 19.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cam Newton",
+      "position": "QB",
+      "points": 23.34,
+      "projected": 12.45,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Cam Newton",
+      "position": "QB",
+      "points": 23.34,
+      "projected": 12.45,
+      "slot": "QB",
+      "over": 10.89
+    },
+    "bust": {
+      "name": "Darrell Henderson Jr.",
+      "position": "RB",
+      "points": 4.7,
+      "projected": 12.49,
+      "slot": "FLEX",
+      "under": 7.79
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 6,
+    "opponent_id": 8,
+    "points": 110.08,
+    "opponent_points": 118.66,
+    "optimal_points": 145.08,
+    "efficiency": 0.7588,
+    "bench_points": 85.96,
+    "missed_swap": {
+      "benched": {
+        "name": "Russell Gage",
+        "position": "WR",
+        "points": 23.1,
+        "projected": 12.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Williams",
+        "position": "WR",
+        "points": 7.9,
+        "projected": 13.36,
+        "slot": "WR"
+      },
+      "gain": 15.2
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 35.6,
+      "projected": 15.95,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 35.6,
+      "projected": 15.95,
+      "slot": "TE",
+      "over": 19.65
+    },
+    "bust": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 5.1,
+      "projected": 18.3,
+      "slot": "RB",
+      "under": 13.2
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 7,
+    "opponent_id": 4,
+    "points": 118.78,
+    "opponent_points": 93.82,
+    "optimal_points": 163.48,
+    "efficiency": 0.7266,
+    "bench_points": 101.5,
+    "missed_swap": {
+      "benched": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 24.4,
+        "projected": 11.84,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 2.4,
+        "projected": 14.11,
+        "slot": "WR"
+      },
+      "gain": 22
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 41.1,
+      "projected": 15.72,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 41.1,
+      "projected": 15.72,
+      "slot": "TE",
+      "over": 25.38
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 2.4,
+      "projected": 14.11,
+      "slot": "WR",
+      "under": 11.71
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 8,
+    "opponent_id": 6,
+    "points": 118.66,
+    "opponent_points": 110.08,
+    "optimal_points": 139.36,
+    "efficiency": 0.8515,
+    "bench_points": 56.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 16.6,
+        "projected": 12.1,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 1.7,
+        "projected": 12.69,
+        "slot": "FLEX"
+      },
+      "gain": 14.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 34.7,
+      "projected": 23.97,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "points": 20.7,
+      "projected": 9.12,
+      "slot": "TE",
+      "over": 11.58
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 6.76,
+      "projected": 21.88,
+      "slot": "QB",
+      "under": 15.12
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 9,
+    "opponent_id": null,
+    "points": 113.74,
+    "opponent_points": null,
+    "optimal_points": 134.64,
+    "efficiency": 0.8448,
+    "bench_points": 45.3,
+    "missed_swap": {
+      "benched": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 20.5,
+        "projected": 9.95,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Hunter Renfrow",
+        "position": "WR",
+        "points": 6.2,
+        "projected": 14.75,
+        "slot": "FLEX"
+      },
+      "gain": 14.3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 23.04,
+      "projected": 22.12,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Texans D/ST",
+      "position": "D/ST",
+      "points": 12,
+      "projected": 5.69,
+      "slot": "D/ST",
+      "over": 6.31
+    },
+    "bust": {
+      "name": "Chase Claypool",
+      "position": "WR",
+      "points": 1.9,
+      "projected": 12.61,
+      "slot": "WR",
+      "under": 10.71
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 15,
+    "player_id": 10,
+    "opponent_id": null,
+    "points": 126.9,
+    "opponent_points": null,
+    "optimal_points": 128.9,
+    "efficiency": 0.9845,
+    "bench_points": 29.24,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 32.8,
+      "projected": 18.88,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 29.2,
+      "projected": 12.98,
+      "slot": "FLEX",
+      "over": 16.22
+    },
+    "bust": {
+      "name": "Tee Higgins",
+      "position": "WR",
+      "points": 4.3,
+      "projected": 14.47,
+      "slot": "WR",
+      "under": 10.17
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 1,
+    "opponent_id": 8,
+    "points": 119.16,
+    "opponent_points": 163.68,
+    "optimal_points": 154.36,
+    "efficiency": 0.772,
+    "bench_points": 87.7,
+    "missed_swap": {
+      "benched": {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "points": 31.5,
+        "projected": 14.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Javonte Williams",
+        "position": "RB",
+        "points": 10,
+        "projected": 14.14,
+        "slot": "FLEX"
+      },
+      "gain": 21.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 30.96,
+      "projected": 20.96,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 30.96,
+      "projected": 20.96,
+      "slot": "QB",
+      "over": 10
+    },
+    "bust": {
+      "name": "Chargers D/ST",
+      "position": "D/ST",
+      "points": -5,
+      "projected": 7.2,
+      "slot": "D/ST",
+      "under": 12.2
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 2,
+    "opponent_id": 6,
+    "points": 117.66,
+    "opponent_points": 131.6,
+    "optimal_points": 131.86,
+    "efficiency": 0.8923,
+    "bench_points": 49.08,
+    "missed_swap": {
+      "benched": {
+        "name": "Gerald Everett",
+        "position": "TE",
+        "points": 16.8,
+        "projected": 7.01,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Higbee",
+        "position": "TE",
+        "points": 9.1,
+        "projected": 9.16,
+        "slot": "TE"
+      },
+      "gain": 7.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 19.6,
+      "projected": 18.59,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Eagles D/ST",
+      "position": "D/ST",
+      "points": 18,
+      "projected": 7.84,
+      "slot": "D/ST",
+      "over": 10.16
+    },
+    "bust": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 7.5,
+      "projected": 16.83,
+      "slot": "WR",
+      "under": 9.33
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 3,
+    "opponent_id": null,
+    "points": 72.2,
+    "opponent_points": null,
+    "optimal_points": 97.6,
+    "efficiency": 0.7398,
+    "bench_points": 41,
+    "missed_swap": {
+      "benched": {
+        "name": "Alexander Mattison",
+        "position": "RB",
+        "points": 16,
+        "projected": 17.85,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Dalvin Cook",
+        "position": "RB",
+        "points": 0,
+        "projected": 0,
+        "slot": "RB"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "points": 19,
+      "projected": 9.3,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "points": 19,
+      "projected": 9.3,
+      "slot": "FLEX",
+      "over": 9.7
+    },
+    "bust": {
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "points": 0.9,
+      "projected": 9.21,
+      "slot": "RB",
+      "under": 8.31
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 4,
+    "opponent_id": null,
+    "points": 115.88,
+    "opponent_points": null,
+    "optimal_points": 146.58,
+    "efficiency": 0.7906,
+    "bench_points": 82.1,
+    "missed_swap": {
+      "benched": {
+        "name": "Rex Burkhead",
+        "position": "RB",
+        "points": 28.9,
+        "projected": 10.03,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 7,
+        "projected": 15.32,
+        "slot": "FLEX"
+      },
+      "gain": 21.9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 23.6,
+      "projected": 16.74,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Rashaad Penny",
+      "position": "RB",
+      "points": 19.5,
+      "projected": 9.94,
+      "slot": "RB",
+      "over": 9.56
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 7,
+      "projected": 15.32,
+      "slot": "FLEX",
+      "under": 8.32
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 5,
+    "opponent_id": null,
+    "points": 49.24,
+    "opponent_points": null,
+    "optimal_points": 100.34,
+    "efficiency": 0.4907,
+    "bench_points": 81.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Sony Michel",
+        "position": "RB",
+        "points": 20.5,
+        "projected": 10.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Elijah Mitchell",
+        "position": "RB",
+        "points": 0,
+        "projected": 0,
+        "slot": "RB"
+      },
+      "gain": 20.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 21.5,
+      "projected": 15.47,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 21.5,
+      "projected": 15.47,
+      "slot": "WR",
+      "over": 6.03
+    },
+    "bust": {
+      "name": "Darrell Henderson Jr.",
+      "position": "RB",
+      "points": 1.7,
+      "projected": 9.84,
+      "slot": "FLEX",
+      "under": 8.14
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 6,
+    "opponent_id": 2,
+    "points": 131.6,
+    "opponent_points": 117.66,
+    "optimal_points": 135.8,
+    "efficiency": 0.9691,
+    "bench_points": 27.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Devonta Freeman",
+        "position": "RB",
+        "points": 10,
+        "projected": 9.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 5.8,
+        "projected": 14.57,
+        "slot": "RB"
+      },
+      "gain": 4.2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 31.3,
+      "projected": 19.8,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Cowboys D/ST",
+      "position": "D/ST",
+      "points": 26,
+      "projected": 6.96,
+      "slot": "D/ST",
+      "over": 19.04
+    },
+    "bust": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 7.9,
+      "projected": 18.22,
+      "slot": "RB",
+      "under": 10.32
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 7,
+    "opponent_id": null,
+    "points": 86,
+    "opponent_points": null,
+    "optimal_points": 115,
+    "efficiency": 0.7478,
+    "bench_points": 38.4,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 17.5,
+        "projected": 10.81,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeVante Parker",
+        "position": "WR",
+        "points": 0,
+        "projected": 12.69,
+        "slot": "FLEX"
+      },
+      "gain": 17.5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dolphins D/ST",
+      "position": "D/ST",
+      "points": 25,
+      "projected": 8,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Dolphins D/ST",
+      "position": "D/ST",
+      "points": 25,
+      "projected": 8,
+      "slot": "D/ST",
+      "over": 17
+    },
+    "bust": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 1,
+      "projected": 16.94,
+      "slot": "RB",
+      "under": 15.94
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 8,
+    "opponent_id": 1,
+    "points": 163.68,
+    "opponent_points": 119.16,
+    "optimal_points": 168.78,
+    "efficiency": 0.9698,
+    "bench_points": 51.7,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 18.8,
+        "projected": 14.06,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 13.7,
+        "projected": 11.52,
+        "slot": "FLEX"
+      },
+      "gain": 5.1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Jackson",
+      "position": "RB",
+      "points": 36.2,
+      "projected": 13.8,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Justin Jackson",
+      "position": "RB",
+      "points": 36.2,
+      "projected": 13.8,
+      "slot": "RB",
+      "over": 22.4
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 14.38,
+      "projected": 20.31,
+      "slot": "QB",
+      "under": 5.93
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 9,
+    "opponent_id": null,
+    "points": 120.74,
+    "opponent_points": null,
+    "optimal_points": 143.04,
+    "efficiency": 0.8441,
+    "bench_points": 59.2,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 26.7,
+        "projected": 15.02,
+        "slot": "IR"
+      },
+      "started": {
+        "name": "Hunter Renfrow",
+        "position": "WR",
+        "points": 13,
+        "projected": 14.59,
+        "slot": "FLEX"
+      },
+      "gain": 13.7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 33.4,
+      "projected": 20.85,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 33.4,
+      "projected": 20.85,
+      "slot": "WR",
+      "over": 12.55
+    },
+    "bust": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 4.1,
+      "projected": 15.33,
+      "slot": "TE",
+      "under": 11.23
+    }
+  },
+  {
+    "season_id": 2021,
+    "week": 16,
+    "player_id": 10,
+    "opponent_id": null,
+    "points": 143.02,
+    "opponent_points": null,
+    "optimal_points": 167.32,
+    "efficiency": 0.8548,
+    "bench_points": 50.64,
+    "missed_swap": {
+      "benched": {
+        "name": "Titans D/ST",
+        "position": "D/ST",
+        "points": 6,
+        "projected": 4.57,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Patriots D/ST",
+        "position": "D/ST",
+        "points": -4,
+        "projected": 4.37,
+        "slot": "D/ST"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tee Higgins",
+      "position": "WR",
+      "points": 43.4,
+      "projected": 12.71,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tee Higgins",
+      "position": "WR",
+      "points": 43.4,
+      "projected": 12.71,
+      "slot": "WR",
+      "over": 30.69
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 3.9,
+      "projected": 18.55,
+      "slot": "FLEX",
+      "under": 14.65
+    }
+  }
+]

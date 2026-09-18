@@ -1,0 +1,7817 @@
+[
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 104,
+    "opponent_points": 114,
+    "optimal_points": 125,
+    "efficiency": 0.832,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Bears D/ST",
+        "position": "D/ST",
+        "points": 10,
+        "projected": 7.45,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Broncos D/ST",
+        "position": "D/ST",
+        "points": -1,
+        "projected": 6.39,
+        "slot": "D/ST"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 27,
+      "projected": 19.76,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 27,
+      "projected": 19.76,
+      "slot": "QB",
+      "over": 7.24
+    },
+    "bust": {
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "points": -1,
+      "projected": 6.39,
+      "slot": "D/ST",
+      "under": 7.39
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 114,
+    "opponent_points": 104,
+    "optimal_points": 131,
+    "efficiency": 0.8702,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "Austin Hooper",
+        "position": "TE",
+        "points": 16,
+        "projected": 8.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Hunter Henry",
+        "position": "TE",
+        "points": 10,
+        "projected": 9.94,
+        "slot": "TE"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "points": 23,
+      "projected": 14.58,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "points": 21,
+      "projected": 11.98,
+      "slot": "WR",
+      "over": 9.02
+    },
+    "bust": {
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "points": 9,
+      "projected": 16.7,
+      "slot": "QB",
+      "under": 7.7
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 3,
+    "opponent_id": 4,
+    "points": 103,
+    "opponent_points": 148,
+    "optimal_points": 126,
+    "efficiency": 0.8175,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyrell Williams",
+        "position": "WR",
+        "points": 22,
+        "projected": 12.29,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 11,
+        "projected": 11.67,
+        "slot": "FLEX"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "points": 28,
+      "projected": 11.59,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "points": 28,
+      "projected": 11.59,
+      "slot": "TE",
+      "over": 16.41
+    },
+    "bust": {
+      "name": "Jaguars D/ST",
+      "position": "D/ST",
+      "points": -8,
+      "projected": 4.56,
+      "slot": "D/ST",
+      "under": 12.56
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 4,
+    "opponent_id": 3,
+    "points": 148,
+    "opponent_points": 103,
+    "optimal_points": 157,
+    "efficiency": 0.9427,
+    "bench_points": 62,
+    "missed_swap": {
+      "benched": {
+        "name": "Tarik Cohen",
+        "position": "RB",
+        "points": 12,
+        "projected": 9.98,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 9,
+        "projected": 11.56,
+        "slot": "FLEX"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 33,
+      "projected": 20.96,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Delanie Walker",
+      "position": "TE",
+      "points": 22,
+      "projected": 9.08,
+      "slot": "TE",
+      "over": 12.92
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 3,
+      "projected": 15.83,
+      "slot": "WR",
+      "under": 12.83
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 5,
+    "opponent_id": 6,
+    "points": 122,
+    "opponent_points": 156,
+    "optimal_points": 148,
+    "efficiency": 0.8243,
+    "bench_points": 74,
+    "missed_swap": {
+      "benched": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 19,
+        "projected": 11.19,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 5,
+        "projected": 13.21,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 26,
+      "projected": 15.54,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 26,
+      "projected": 15.54,
+      "slot": "WR",
+      "over": 10.46
+    },
+    "bust": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 3,
+      "projected": 14.83,
+      "slot": "RB",
+      "under": 11.83
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 6,
+    "opponent_id": 5,
+    "points": 156,
+    "opponent_points": 122,
+    "optimal_points": 168,
+    "efficiency": 0.9286,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Matt Ryan",
+        "position": "QB",
+        "points": 18,
+        "projected": 17.04,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jameis Winston",
+        "position": "QB",
+        "points": 6,
+        "projected": 18.27,
+        "slot": "QB"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 38,
+      "projected": 14.19,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 38,
+      "projected": 14.19,
+      "slot": "RB",
+      "over": 23.81
+    },
+    "bust": {
+      "name": "Jameis Winston",
+      "position": "QB",
+      "points": 6,
+      "projected": 18.27,
+      "slot": "QB",
+      "under": 12.27
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 7,
+    "opponent_id": 8,
+    "points": 147,
+    "opponent_points": 120,
+    "optimal_points": 151,
+    "efficiency": 0.9735,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "Carlos Hyde",
+        "position": "RB",
+        "points": 9,
+        "projected": 2.58,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kerryon Johnson",
+        "position": "RB",
+        "points": 7,
+        "projected": 14.26,
+        "slot": "RB"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "points": 46,
+      "projected": 10.55,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "points": 46,
+      "projected": 10.55,
+      "slot": "WR",
+      "over": 35.45
+    },
+    "bust": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 5,
+      "projected": 13.94,
+      "slot": "WR",
+      "under": 8.94
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 8,
+    "opponent_id": 7,
+    "points": 120,
+    "opponent_points": 147,
+    "optimal_points": 128,
+    "efficiency": 0.9375,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Gallup",
+        "position": "WR",
+        "points": 22,
+        "projected": 9.39,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julian Edelman",
+        "position": "WR",
+        "points": 15,
+        "projected": 15.78,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 28,
+      "projected": 13.34,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 28,
+      "projected": 13.34,
+      "slot": "RB",
+      "over": 14.66
+    },
+    "bust": {
+      "name": "Matt Bryant",
+      "position": "K",
+      "points": 0,
+      "projected": 8.14,
+      "slot": "K",
+      "under": 8.14
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 9,
+    "opponent_id": 10,
+    "points": 132,
+    "opponent_points": 123,
+    "optimal_points": 159,
+    "efficiency": 0.8302,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "Calvin Ridley",
+        "position": "WR",
+        "points": 16,
+        "projected": 11.26,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sony Michel",
+        "position": "RB",
+        "points": 1,
+        "projected": 10.9,
+        "slot": "FLEX"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 42,
+      "projected": 19.99,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 42,
+      "projected": 19.99,
+      "slot": "RB",
+      "over": 22.01
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 4,
+      "projected": 15.86,
+      "slot": "WR",
+      "under": 11.86
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 1,
+    "player_id": 10,
+    "opponent_id": 9,
+    "points": 123,
+    "opponent_points": 132,
+    "optimal_points": 187,
+    "efficiency": 0.6578,
+    "bench_points": 139,
+    "missed_swap": {
+      "benched": {
+        "name": "DeSean Jackson",
+        "position": "WR",
+        "points": 35,
+        "projected": 8.4,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Davante Adams",
+        "position": "WR",
+        "points": 7,
+        "projected": 16.48,
+        "slot": "WR"
+      },
+      "gain": 28
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 32,
+      "projected": 18.69,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 32,
+      "projected": 18.69,
+      "slot": "QB",
+      "over": 13.31
+    },
+    "bust": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 7,
+      "projected": 16.48,
+      "slot": "WR",
+      "under": 9.48
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 1,
+    "opponent_id": 3,
+    "points": 114,
+    "opponent_points": 112,
+    "optimal_points": 146,
+    "efficiency": 0.7808,
+    "bench_points": 75,
+    "missed_swap": {
+      "benched": {
+        "name": "Greg Olsen",
+        "position": "TE",
+        "points": 17,
+        "projected": 9.22,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Dede Westbrook",
+        "position": "WR",
+        "points": 1,
+        "projected": 9.82,
+        "slot": "FLEX"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 33,
+      "projected": 24.33,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "points": 22,
+      "projected": 12.74,
+      "slot": "WR",
+      "over": 9.26
+    },
+    "bust": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 6,
+      "projected": 20.03,
+      "slot": "RB",
+      "under": 14.03
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 2,
+    "opponent_id": 6,
+    "points": 115,
+    "opponent_points": 155,
+    "optimal_points": 122,
+    "efficiency": 0.9426,
+    "bench_points": 34,
+    "missed_swap": {
+      "benched": {
+        "name": "Ben Roethlisberger",
+        "position": "QB",
+        "points": 3,
+        "projected": 17.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Drew Brees",
+        "position": "QB",
+        "points": -1,
+        "projected": 16.67,
+        "slot": "QB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 25,
+      "projected": 9.19,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 25,
+      "projected": 9.19,
+      "slot": "TE",
+      "over": 15.81
+    },
+    "bust": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": -1,
+      "projected": 16.67,
+      "slot": "QB",
+      "under": 17.67
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 3,
+    "opponent_id": 1,
+    "points": 112,
+    "opponent_points": 114,
+    "optimal_points": 129,
+    "efficiency": 0.8682,
+    "bench_points": 57,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 17,
+        "projected": 10.95,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 5,
+        "projected": 13.15,
+        "slot": "WR"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 28,
+      "projected": 16.5,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 28,
+      "projected": 16.5,
+      "slot": "WR",
+      "over": 11.5
+    },
+    "bust": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 5,
+      "projected": 13.15,
+      "slot": "WR",
+      "under": 8.15
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 4,
+    "opponent_id": 9,
+    "points": 107,
+    "opponent_points": 121,
+    "optimal_points": 116,
+    "efficiency": 0.9224,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Dak Prescott",
+        "position": "QB",
+        "points": 26,
+        "projected": 19.24,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Carson Wentz",
+        "position": "QB",
+        "points": 17,
+        "projected": 19.4,
+        "slot": "QB"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 27,
+      "projected": 18.91,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 27,
+      "projected": 18.91,
+      "slot": "WR",
+      "over": 8.09
+    },
+    "bust": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 9,
+      "projected": 16.47,
+      "slot": "RB",
+      "under": 7.47
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 5,
+    "opponent_id": 8,
+    "points": 102,
+    "opponent_points": 106,
+    "optimal_points": 120,
+    "efficiency": 0.85,
+    "bench_points": 66,
+    "missed_swap": {
+      "benched": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 28,
+        "projected": 9.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 11,
+        "projected": 13.89,
+        "slot": "WR"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 24,
+      "projected": 19.36,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 24,
+      "projected": 19.36,
+      "slot": "QB",
+      "over": 4.64
+    },
+    "bust": {
+      "name": "David Johnson",
+      "position": "RB",
+      "points": 8,
+      "projected": 17.66,
+      "slot": "RB",
+      "under": 9.66
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 6,
+    "opponent_id": 2,
+    "points": 155,
+    "opponent_points": 115,
+    "optimal_points": 181,
+    "efficiency": 0.8564,
+    "bench_points": 100,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenny Golladay",
+        "position": "WR",
+        "points": 25,
+        "projected": 11.49,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeAndre Hopkins",
+        "position": "WR",
+        "points": 9,
+        "projected": 15.95,
+        "slot": "WR"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 27,
+      "projected": 14.72,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Vance McDonald",
+      "position": "TE",
+      "points": 22,
+      "projected": 9.03,
+      "slot": "TE",
+      "over": 12.97
+    },
+    "bust": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 9,
+      "projected": 15.95,
+      "slot": "WR",
+      "under": 6.95
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 7,
+    "opponent_id": 10,
+    "points": 99,
+    "opponent_points": 144,
+    "optimal_points": 114,
+    "efficiency": 0.8684,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 17,
+        "projected": 10,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Allen Robinson II",
+        "position": "WR",
+        "points": 8,
+        "projected": 11.87,
+        "slot": "FLEX"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 21,
+      "projected": 22.32,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Antonio Brown",
+      "position": "WR",
+      "points": 15,
+      "projected": 12.4,
+      "slot": "WR",
+      "over": 2.6
+    },
+    "bust": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 12,
+      "projected": 18.45,
+      "slot": "QB",
+      "under": 6.45
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 8,
+    "opponent_id": 5,
+    "points": 106,
+    "opponent_points": 102,
+    "optimal_points": 127,
+    "efficiency": 0.8346,
+    "bench_points": 77,
+    "missed_swap": {
+      "benched": {
+        "name": "John Ross III",
+        "position": "WR",
+        "points": 21,
+        "projected": 11.45,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 8,
+        "projected": 8.77,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 18,
+      "projected": 17.94,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Browns D/ST",
+      "position": "D/ST",
+      "points": 12,
+      "projected": 6.44,
+      "slot": "D/ST",
+      "over": 5.56
+    },
+    "bust": {
+      "name": "David Njoku",
+      "position": "TE",
+      "points": 0,
+      "projected": 8.68,
+      "slot": "TE",
+      "under": 8.68
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 9,
+    "opponent_id": 4,
+    "points": 121,
+    "opponent_points": 107,
+    "optimal_points": 151,
+    "efficiency": 0.8013,
+    "bench_points": 85,
+    "missed_swap": {
+      "benched": {
+        "name": "Calvin Ridley",
+        "position": "WR",
+        "points": 24,
+        "projected": 11.89,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 10,
+        "projected": 14.01,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 26,
+      "projected": 17.75,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 26,
+      "projected": 17.75,
+      "slot": "QB",
+      "over": 8.25
+    },
+    "bust": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 6,
+      "projected": 24.7,
+      "slot": "RB",
+      "under": 18.7
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 2,
+    "player_id": 10,
+    "opponent_id": 7,
+    "points": 144,
+    "opponent_points": 99,
+    "optimal_points": 151,
+    "efficiency": 0.9536,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "Phillip Lindsay",
+        "position": "RB",
+        "points": 10,
+        "projected": 12.9,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Damien Williams",
+        "position": "RB",
+        "points": 7,
+        "projected": 12.96,
+        "slot": "RB"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 35,
+      "projected": 6.35,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 35,
+      "projected": 6.35,
+      "slot": "D/ST",
+      "over": 28.65
+    },
+    "bust": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 8,
+      "projected": 15.06,
+      "slot": "TE",
+      "under": 7.06
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 170,
+    "opponent_points": 171,
+    "optimal_points": 201,
+    "efficiency": 0.8458,
+    "bench_points": 88,
+    "missed_swap": {
+      "benched": {
+        "name": "Greg Olsen",
+        "position": "TE",
+        "points": 25,
+        "projected": 9.3,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 10,
+        "projected": 13.51,
+        "slot": "TE"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 43,
+      "projected": 16.99,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 43,
+      "projected": 16.99,
+      "slot": "WR",
+      "over": 26.01
+    },
+    "bust": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 10,
+      "projected": 13.51,
+      "slot": "TE",
+      "under": 3.51
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 114,
+    "opponent_points": 103,
+    "optimal_points": 141,
+    "efficiency": 0.8085,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Austin Hooper",
+        "position": "TE",
+        "points": 24,
+        "projected": 8.55,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mark Andrews",
+        "position": "TE",
+        "points": 4,
+        "projected": 12.66,
+        "slot": "TE"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 20,
+      "projected": 13.54,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 19,
+      "projected": 12.18,
+      "slot": "WR",
+      "over": 6.82
+    },
+    "bust": {
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "points": 9,
+      "projected": 18.27,
+      "slot": "RB",
+      "under": 9.27
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 3,
+    "opponent_id": 6,
+    "points": 140,
+    "opponent_points": 108,
+    "optimal_points": 157,
+    "efficiency": 0.8917,
+    "bench_points": 49,
+    "missed_swap": {
+      "benched": {
+        "name": "Darren Waller",
+        "position": "TE",
+        "points": 26,
+        "projected": 10.06,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyrell Williams",
+        "position": "WR",
+        "points": 11,
+        "projected": 12.14,
+        "slot": "FLEX"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 32,
+      "projected": 12.73,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 32,
+      "projected": 12.73,
+      "slot": "WR",
+      "over": 19.27
+    },
+    "bust": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 15,
+      "projected": 23.21,
+      "slot": "RB",
+      "under": 8.21
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 4,
+    "opponent_id": 10,
+    "points": 104,
+    "opponent_points": 138,
+    "optimal_points": 121,
+    "efficiency": 0.8595,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Saints D/ST",
+        "position": "D/ST",
+        "points": 8,
+        "projected": 6.1,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Titans D/ST",
+        "position": "D/ST",
+        "points": 2,
+        "projected": 7.67,
+        "slot": "D/ST"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 26,
+      "projected": 16.67,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 22,
+      "projected": 10.58,
+      "slot": "WR",
+      "over": 11.42
+    },
+    "bust": {
+      "name": "Chris Carson",
+      "position": "RB",
+      "points": 6,
+      "projected": 15.82,
+      "slot": "RB",
+      "under": 9.82
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 5,
+    "opponent_id": 7,
+    "points": 106,
+    "opponent_points": 94,
+    "optimal_points": 155,
+    "efficiency": 0.6839,
+    "bench_points": 100,
+    "missed_swap": {
+      "benched": {
+        "name": "Mark Ingram II",
+        "position": "RB",
+        "points": 35,
+        "projected": 10.73,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 4,
+        "projected": 11.73,
+        "slot": "FLEX"
+      },
+      "gain": 31
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 33,
+      "projected": 13.4,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 33,
+      "projected": 13.4,
+      "slot": "WR",
+      "over": 19.6
+    },
+    "bust": {
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "points": 3,
+      "projected": 12.73,
+      "slot": "WR",
+      "under": 9.73
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 6,
+    "opponent_id": 3,
+    "points": 108,
+    "opponent_points": 140,
+    "optimal_points": 124,
+    "efficiency": 0.871,
+    "bench_points": 72,
+    "missed_swap": {
+      "benched": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 15,
+        "projected": 12.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kenny Golladay",
+        "position": "WR",
+        "points": 3,
+        "projected": 14.15,
+        "slot": "WR"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 24,
+      "projected": 17.75,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 24,
+      "projected": 17.75,
+      "slot": "RB",
+      "over": 6.25
+    },
+    "bust": {
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "points": 3,
+      "projected": 14.15,
+      "slot": "WR",
+      "under": 11.15
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 7,
+    "opponent_id": 5,
+    "points": 94,
+    "opponent_points": 106,
+    "optimal_points": 132,
+    "efficiency": 0.7121,
+    "bench_points": 104,
+    "missed_swap": {
+      "benched": {
+        "name": "Nelson Agholor",
+        "position": "WR",
+        "points": 25,
+        "projected": 11.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marquise Brown",
+        "position": "WR",
+        "points": 6,
+        "projected": 12.49,
+        "slot": "WR"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 27,
+      "projected": 18.67,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 27,
+      "projected": 18.67,
+      "slot": "QB",
+      "over": 8.33
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 7,
+      "projected": 19.93,
+      "slot": "RB",
+      "under": 12.93
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 103,
+    "opponent_points": 114,
+    "optimal_points": 109,
+    "efficiency": 0.945,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Browns D/ST",
+        "position": "D/ST",
+        "points": 8,
+        "projected": 5.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Eagles D/ST",
+        "position": "D/ST",
+        "points": 4,
+        "projected": 6.13,
+        "slot": "D/ST"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 26,
+      "projected": 13.44,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 26,
+      "projected": 13.44,
+      "slot": "WR",
+      "over": 12.56
+    },
+    "bust": {
+      "name": "Todd Gurley II",
+      "position": "RB",
+      "points": 4,
+      "projected": 13.94,
+      "slot": "RB",
+      "under": 9.94
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 171,
+    "opponent_points": 170,
+    "optimal_points": 198,
+    "efficiency": 0.8636,
+    "bench_points": 54,
+    "missed_swap": {
+      "benched": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 27,
+        "projected": 10.9,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sony Michel",
+        "position": "RB",
+        "points": 7,
+        "projected": 14.23,
+        "slot": "FLEX"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 45,
+      "projected": 13.1,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 45,
+      "projected": 13.1,
+      "slot": "WR",
+      "over": 31.9
+    },
+    "bust": {
+      "name": "Sony Michel",
+      "position": "RB",
+      "points": 7,
+      "projected": 14.23,
+      "slot": "FLEX",
+      "under": 7.23
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 3,
+    "player_id": 10,
+    "opponent_id": 4,
+    "points": 138,
+    "opponent_points": 104,
+    "optimal_points": 142,
+    "efficiency": 0.9718,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 13,
+        "projected": 11.38,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Davante Adams",
+        "position": "WR",
+        "points": 9,
+        "projected": 16.23,
+        "slot": "WR"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Phillip Lindsay",
+      "position": "RB",
+      "points": 28,
+      "projected": 11.61,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Phillip Lindsay",
+      "position": "RB",
+      "points": 28,
+      "projected": 11.61,
+      "slot": "RB",
+      "over": 16.39
+    },
+    "bust": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 9,
+      "projected": 16.23,
+      "slot": "WR",
+      "under": 7.23
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 1,
+    "opponent_id": 4,
+    "points": 112,
+    "opponent_points": 81,
+    "optimal_points": 134,
+    "efficiency": 0.8358,
+    "bench_points": 59,
+    "missed_swap": {
+      "benched": {
+        "name": "Bears D/ST",
+        "position": "D/ST",
+        "points": 16,
+        "projected": 6.66,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Colts D/ST",
+        "position": "D/ST",
+        "points": 2,
+        "projected": 6.37,
+        "slot": "D/ST"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "points": 29,
+      "projected": 11.31,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "points": 29,
+      "projected": 11.31,
+      "slot": "FLEX",
+      "over": 17.69
+    },
+    "bust": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 9,
+      "projected": 20.88,
+      "slot": "WR",
+      "under": 11.88
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 2,
+    "opponent_id": 7,
+    "points": 132,
+    "opponent_points": 77,
+    "optimal_points": 152,
+    "efficiency": 0.8684,
+    "bench_points": 40,
+    "missed_swap": {
+      "benched": {
+        "name": "Austin Hooper",
+        "position": "TE",
+        "points": 22,
+        "projected": 8.94,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Alshon Jeffery",
+        "position": "WR",
+        "points": 12,
+        "projected": 11.56,
+        "slot": "FLEX"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 26,
+      "projected": 16.44,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 26,
+      "projected": 15.98,
+      "slot": "RB",
+      "over": 10.02
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 2,
+      "projected": 12.82,
+      "slot": "WR",
+      "under": 10.82
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 3,
+    "opponent_id": 8,
+    "points": 106,
+    "opponent_points": 98,
+    "optimal_points": 134,
+    "efficiency": 0.791,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 29,
+        "projected": 11.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 4,
+        "projected": 17.07,
+        "slot": "WR"
+      },
+      "gain": 25
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 26,
+      "projected": 18.35,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 26,
+      "projected": 18.35,
+      "slot": "QB",
+      "over": 7.65
+    },
+    "bust": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 4,
+      "projected": 17.07,
+      "slot": "WR",
+      "under": 13.07
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 4,
+    "opponent_id": 1,
+    "points": 81,
+    "opponent_points": 112,
+    "optimal_points": 112,
+    "efficiency": 0.7232,
+    "bench_points": 63,
+    "missed_swap": {
+      "benched": {
+        "name": "Mohamed Sanu Sr.",
+        "position": "WR",
+        "points": 18,
+        "projected": 9.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Williams",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "FLEX"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Carson",
+      "position": "RB",
+      "points": 18,
+      "projected": 13,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Saints D/ST",
+      "position": "D/ST",
+      "points": 12,
+      "projected": 4.67,
+      "slot": "D/ST",
+      "over": 7.33
+    },
+    "bust": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 6,
+      "projected": 19.34,
+      "slot": "QB",
+      "under": 13.34
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 5,
+    "opponent_id": 10,
+    "points": 116,
+    "opponent_points": 127,
+    "optimal_points": 147,
+    "efficiency": 0.7891,
+    "bench_points": 93,
+    "missed_swap": {
+      "benched": {
+        "name": "Kyler Murray",
+        "position": "QB",
+        "points": 15,
+        "projected": 18.05,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tom Brady",
+        "position": "QB",
+        "points": 4,
+        "projected": 17.08,
+        "slot": "QB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 38,
+      "projected": 15.22,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 38,
+      "projected": 15.22,
+      "slot": "RB",
+      "over": 22.78
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 4,
+      "projected": 17.08,
+      "slot": "QB",
+      "under": 13.08
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 6,
+    "opponent_id": 9,
+    "points": 153,
+    "opponent_points": 114,
+    "optimal_points": 183,
+    "efficiency": 0.8361,
+    "bench_points": 77,
+    "missed_swap": {
+      "benched": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 24,
+        "projected": 10.52,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeAndre Hopkins",
+        "position": "WR",
+        "points": 7,
+        "projected": 17.04,
+        "slot": "WR"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 41,
+      "projected": 12.91,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 41,
+      "projected": 12.91,
+      "slot": "FLEX",
+      "over": 28.09
+    },
+    "bust": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 7,
+      "projected": 17.04,
+      "slot": "WR",
+      "under": 10.04
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 7,
+    "opponent_id": 2,
+    "points": 77,
+    "opponent_points": 132,
+    "optimal_points": 117,
+    "efficiency": 0.6581,
+    "bench_points": 65,
+    "missed_swap": {
+      "benched": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 24,
+        "projected": 11.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "WR"
+      },
+      "gain": 24
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kerryon Johnson",
+      "position": "RB",
+      "points": 17,
+      "projected": 13.61,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "points": 16,
+      "projected": 11.25,
+      "slot": "RB",
+      "over": 4.75
+    },
+    "bust": {
+      "name": "Greg Olsen",
+      "position": "TE",
+      "points": 2,
+      "projected": 11.66,
+      "slot": "TE",
+      "under": 9.66
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 8,
+    "opponent_id": 3,
+    "points": 98,
+    "opponent_points": 106,
+    "optimal_points": 107,
+    "efficiency": 0.9159,
+    "bench_points": 24,
+    "missed_swap": {
+      "benched": {
+        "name": "Browns D/ST",
+        "position": "D/ST",
+        "points": 9,
+        "projected": 6.4,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Eagles D/ST",
+        "position": "D/ST",
+        "points": 0,
+        "projected": 5.36,
+        "slot": "D/ST"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Todd Gurley II",
+      "position": "RB",
+      "points": 25,
+      "projected": 14.31,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Todd Gurley II",
+      "position": "RB",
+      "points": 25,
+      "projected": 14.31,
+      "slot": "RB",
+      "over": 10.69
+    },
+    "bust": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 7,
+      "projected": 15.33,
+      "slot": "FLEX",
+      "under": 8.33
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 9,
+    "opponent_id": 6,
+    "points": 114,
+    "opponent_points": 153,
+    "optimal_points": 149,
+    "efficiency": 0.7651,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Texans D/ST",
+        "position": "D/ST",
+        "points": 12,
+        "projected": 5.38,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ravens D/ST",
+        "position": "D/ST",
+        "points": -6,
+        "projected": 6.77,
+        "slot": "D/ST"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 33,
+      "projected": 21.33,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 33,
+      "projected": 21.33,
+      "slot": "RB",
+      "over": 11.67
+    },
+    "bust": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": -6,
+      "projected": 6.77,
+      "slot": "D/ST",
+      "under": 12.77
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 4,
+    "player_id": 10,
+    "opponent_id": 5,
+    "points": 127,
+    "opponent_points": 116,
+    "optimal_points": 136,
+    "efficiency": 0.9338,
+    "bench_points": 18,
+    "missed_swap": {
+      "benched": {
+        "name": "Duke Johnson",
+        "position": "RB",
+        "points": 9,
+        "projected": 7.81,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marlon Mack",
+        "position": "RB",
+        "points": 3,
+        "projected": 14.62,
+        "slot": "RB"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 28,
+      "projected": 16.55,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 23,
+      "projected": 6.96,
+      "slot": "D/ST",
+      "over": 16.04
+    },
+    "bust": {
+      "name": "Marlon Mack",
+      "position": "RB",
+      "points": 3,
+      "projected": 14.62,
+      "slot": "RB",
+      "under": 11.62
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 1,
+    "opponent_id": 10,
+    "points": 101,
+    "opponent_points": 135,
+    "optimal_points": 142,
+    "efficiency": 0.7113,
+    "bench_points": 79,
+    "missed_swap": {
+      "benched": {
+        "name": "Allen Robinson II",
+        "position": "WR",
+        "points": 28,
+        "projected": 13.12,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Wayne Gallman",
+        "position": "RB",
+        "points": 1,
+        "projected": 13.84,
+        "slot": "FLEX"
+      },
+      "gain": 27
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "points": 28,
+      "projected": 13.73,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "points": 28,
+      "projected": 13.73,
+      "slot": "WR",
+      "over": 14.27
+    },
+    "bust": {
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "points": 1,
+      "projected": 13.84,
+      "slot": "FLEX",
+      "under": 12.84
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 2,
+    "opponent_id": 5,
+    "points": 118,
+    "opponent_points": 95,
+    "optimal_points": 129,
+    "efficiency": 0.9147,
+    "bench_points": 49,
+    "missed_swap": {
+      "benched": {
+        "name": "Alshon Jeffery",
+        "position": "WR",
+        "points": 11,
+        "projected": 10.78,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 5,
+        "projected": 12.55,
+        "slot": "WR"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 32,
+      "projected": 12.89,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 32,
+      "projected": 12.89,
+      "slot": "WR",
+      "over": 19.11
+    },
+    "bust": {
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "points": 10,
+      "projected": 19.09,
+      "slot": "QB",
+      "under": 9.09
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 3,
+    "opponent_id": 7,
+    "points": 84,
+    "opponent_points": 100,
+    "optimal_points": 98,
+    "efficiency": 0.8571,
+    "bench_points": 49,
+    "missed_swap": {
+      "benched": {
+        "name": "Devonta Freeman",
+        "position": "RB",
+        "points": 18,
+        "projected": 11.79,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 9,
+        "projected": 13.16,
+        "slot": "FLEX"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 16,
+      "projected": 20.43,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 15,
+      "projected": 14.94,
+      "slot": "WR",
+      "over": 0.06
+    },
+    "bust": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 5,
+      "projected": 16.79,
+      "slot": "WR",
+      "under": 11.79
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 4,
+    "opponent_id": 6,
+    "points": 117,
+    "opponent_points": 195,
+    "optimal_points": 118,
+    "efficiency": 0.9915,
+    "bench_points": 21,
+    "missed_swap": {
+      "benched": {
+        "name": "Saints D/ST",
+        "position": "D/ST",
+        "points": 8,
+        "projected": 6.26,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Titans D/ST",
+        "position": "D/ST",
+        "points": 7,
+        "projected": 7.85,
+        "slot": "D/ST"
+      },
+      "gain": 1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 29,
+      "projected": 11.09,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 29,
+      "projected": 11.09,
+      "slot": "RB",
+      "over": 17.91
+    },
+    "bust": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 7,
+      "projected": 18.48,
+      "slot": "WR",
+      "under": 11.48
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 5,
+    "opponent_id": 2,
+    "points": 95,
+    "opponent_points": 118,
+    "optimal_points": 140,
+    "efficiency": 0.6786,
+    "bench_points": 97,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Chark Jr.",
+        "position": "WR",
+        "points": 36,
+        "projected": 11.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 1,
+        "projected": 12.5,
+        "slot": "FLEX"
+      },
+      "gain": 35
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 26,
+      "projected": 15.91,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 26,
+      "projected": 15.91,
+      "slot": "WR",
+      "over": 10.09
+    },
+    "bust": {
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "points": 1,
+      "projected": 12.5,
+      "slot": "FLEX",
+      "under": 11.5
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 6,
+    "opponent_id": 4,
+    "points": 195,
+    "opponent_points": 117,
+    "optimal_points": 206,
+    "efficiency": 0.9466,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "Matt Breida",
+        "position": "RB",
+        "points": 27,
+        "projected": 9.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Austin Ekeler",
+        "position": "RB",
+        "points": 23,
+        "projected": 13.75,
+        "slot": "RB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 48,
+      "projected": 14.07,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 48,
+      "projected": 14.07,
+      "slot": "FLEX",
+      "over": 33.93
+    },
+    "bust": {
+      "name": "Tyler Eifert",
+      "position": "TE",
+      "points": 3,
+      "projected": 7.71,
+      "slot": "TE",
+      "under": 4.71
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 7,
+    "opponent_id": 3,
+    "points": 100,
+    "opponent_points": 84,
+    "optimal_points": 114,
+    "efficiency": 0.8772,
+    "bench_points": 25,
+    "missed_swap": {
+      "benched": {
+        "name": "Josh Gordon",
+        "position": "WR",
+        "points": 10,
+        "projected": 12.43,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sammy Watkins",
+        "position": "WR",
+        "points": 0,
+        "projected": 14.84,
+        "slot": "WR"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 41,
+      "projected": 19.85,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 41,
+      "projected": 19.85,
+      "slot": "QB",
+      "over": 21.15
+    },
+    "bust": {
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "points": 0,
+      "projected": 14.84,
+      "slot": "WR",
+      "under": 14.84
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 8,
+    "opponent_id": 9,
+    "points": 184,
+    "opponent_points": 139,
+    "optimal_points": 238,
+    "efficiency": 0.7731,
+    "bench_points": 107,
+    "missed_swap": {
+      "benched": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 53,
+        "projected": 9.42,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julian Edelman",
+        "position": "WR",
+        "points": 25,
+        "projected": 14.02,
+        "slot": "FLEX"
+      },
+      "gain": 28
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 41,
+      "projected": 16.75,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 39,
+      "projected": 13.72,
+      "slot": "WR",
+      "over": 25.28
+    },
+    "bust": {
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "points": 0,
+      "projected": 14.88,
+      "slot": "QB",
+      "under": 14.88
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 9,
+    "opponent_id": 8,
+    "points": 139,
+    "opponent_points": 184,
+    "optimal_points": 183,
+    "efficiency": 0.7596,
+    "bench_points": 97,
+    "missed_swap": {
+      "benched": {
+        "name": "Calvin Ridley",
+        "position": "WR",
+        "points": 19,
+        "projected": 11.57,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 0,
+        "projected": 15.32,
+        "slot": "WR"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 47,
+      "projected": 22.5,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 47,
+      "projected": 22.5,
+      "slot": "RB",
+      "over": 24.5
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 0,
+      "projected": 15.32,
+      "slot": "WR",
+      "under": 15.32
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 5,
+    "player_id": 10,
+    "opponent_id": 1,
+    "points": 135,
+    "opponent_points": 101,
+    "optimal_points": 145,
+    "efficiency": 0.931,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 15,
+        "projected": 10.83,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Damien Williams",
+        "position": "RB",
+        "points": 6,
+        "projected": 11.72,
+        "slot": "FLEX"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Phillip Lindsay",
+      "position": "RB",
+      "points": 24,
+      "projected": 12.77,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Phillip Lindsay",
+      "position": "RB",
+      "points": 24,
+      "projected": 12.77,
+      "slot": "RB",
+      "over": 11.23
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 11,
+      "projected": 20.53,
+      "slot": "QB",
+      "under": 9.53
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 1,
+    "opponent_id": 6,
+    "points": 90,
+    "opponent_points": 122,
+    "optimal_points": 97,
+    "efficiency": 0.9278,
+    "bench_points": 25,
+    "missed_swap": {
+      "benched": {
+        "name": "Jared Cook",
+        "position": "TE",
+        "points": 12,
+        "projected": 7.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 9,
+        "projected": 13,
+        "slot": "TE"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 20,
+      "projected": 22.11,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Washington D/ST",
+      "position": "D/ST",
+      "points": 12,
+      "projected": 9.14,
+      "slot": "D/ST",
+      "over": 2.86
+    },
+    "bust": {
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "points": 4,
+      "projected": 14.91,
+      "slot": "WR",
+      "under": 10.91
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 2,
+    "opponent_id": 10,
+    "points": 152,
+    "opponent_points": 147,
+    "optimal_points": 173,
+    "efficiency": 0.8786,
+    "bench_points": 64,
+    "missed_swap": {
+      "benched": {
+        "name": "Alshon Jeffery",
+        "position": "WR",
+        "points": 23,
+        "projected": 12.09,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 5,
+        "projected": 11.9,
+        "slot": "WR"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 30,
+      "projected": 14.39,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 30,
+      "projected": 14.39,
+      "slot": "RB",
+      "over": 15.61
+    },
+    "bust": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 5,
+      "projected": 11.9,
+      "slot": "WR",
+      "under": 6.9
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 3,
+    "opponent_id": 5,
+    "points": 127,
+    "opponent_points": 154,
+    "optimal_points": 127,
+    "efficiency": 1,
+    "bench_points": 24,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "points": 26,
+      "projected": 15.05,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "points": 26,
+      "projected": 15.05,
+      "slot": "FLEX",
+      "over": 10.95
+    },
+    "bust": {
+      "name": "Gerald Everett",
+      "position": "TE",
+      "points": 2,
+      "projected": 7.57,
+      "slot": "TE",
+      "under": 5.57
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 4,
+    "opponent_id": 8,
+    "points": 127,
+    "opponent_points": 46,
+    "optimal_points": 131,
+    "efficiency": 0.9695,
+    "bench_points": 34,
+    "missed_swap": {
+      "benched": {
+        "name": "Carson Wentz",
+        "position": "QB",
+        "points": 20,
+        "projected": 15.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Dak Prescott",
+        "position": "QB",
+        "points": 18,
+        "projected": 17.17,
+        "slot": "QB"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 25,
+      "projected": 12.9,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 25,
+      "projected": 12.9,
+      "slot": "WR",
+      "over": 12.1
+    },
+    "bust": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 3,
+      "projected": 11.74,
+      "slot": "FLEX",
+      "under": 8.74
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 5,
+    "opponent_id": 3,
+    "points": 154,
+    "opponent_points": 127,
+    "optimal_points": 205,
+    "efficiency": 0.7512,
+    "bench_points": 89,
+    "missed_swap": {
+      "benched": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 42,
+        "projected": 9.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Thompson",
+        "position": "RB",
+        "points": 3,
+        "projected": 12.98,
+        "slot": "FLEX"
+      },
+      "gain": 39
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 30,
+      "projected": 19.32,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Hunter Henry",
+      "position": "TE",
+      "points": 30,
+      "projected": 5.87,
+      "slot": "TE",
+      "over": 24.13
+    },
+    "bust": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 5,
+      "projected": 17.59,
+      "slot": "WR",
+      "under": 12.59
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 6,
+    "opponent_id": 1,
+    "points": 122,
+    "opponent_points": 90,
+    "optimal_points": 122,
+    "efficiency": 1,
+    "bench_points": 39,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 30,
+      "projected": 18.79,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 30,
+      "projected": 18.79,
+      "slot": "QB",
+      "over": 11.21
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 13,
+      "projected": 20.87,
+      "slot": "RB",
+      "under": 7.87
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 7,
+    "opponent_id": 9,
+    "points": 105,
+    "opponent_points": 142,
+    "optimal_points": 111,
+    "efficiency": 0.9459,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Nelson Agholor",
+        "position": "WR",
+        "points": 8,
+        "projected": 7.63,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jordan Howard",
+        "position": "RB",
+        "points": 4,
+        "projected": 11.05,
+        "slot": "FLEX"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 29,
+      "projected": 21.88,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 26,
+      "projected": 13,
+      "slot": "WR",
+      "over": 13
+    },
+    "bust": {
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "points": 7,
+      "projected": 15.02,
+      "slot": "RB",
+      "under": 8.02
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 8,
+    "opponent_id": 4,
+    "points": 46,
+    "opponent_points": 127,
+    "optimal_points": 87,
+    "efficiency": 0.5287,
+    "bench_points": 52,
+    "missed_swap": {
+      "benched": {
+        "name": "Baker Mayfield",
+        "position": "QB",
+        "points": 18,
+        "projected": 14.11,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Gardner Minshew II",
+        "position": "QB",
+        "points": 4,
+        "projected": 16.47,
+        "slot": "QB"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 16,
+      "projected": 19.58,
+      "slot": "WR"
+    },
+    "boom": null,
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 1,
+      "projected": 15,
+      "slot": "WR",
+      "under": 14
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 9,
+    "opponent_id": 7,
+    "points": 142,
+    "opponent_points": 105,
+    "optimal_points": 142,
+    "efficiency": 1,
+    "bench_points": 22,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 28,
+      "projected": 20.08,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 28,
+      "projected": 20.08,
+      "slot": "QB",
+      "over": 7.92
+    },
+    "bust": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 9,
+      "projected": 17.06,
+      "slot": "TE",
+      "under": 8.06
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 6,
+    "player_id": 10,
+    "opponent_id": 2,
+    "points": 147,
+    "opponent_points": 152,
+    "optimal_points": 152,
+    "efficiency": 0.9671,
+    "bench_points": 24,
+    "missed_swap": {
+      "benched": {
+        "name": "Tevin Coleman",
+        "position": "RB",
+        "points": 13,
+        "projected": 11.46,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Damien Williams",
+        "position": "RB",
+        "points": 8,
+        "projected": 15.64,
+        "slot": "RB"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 30,
+      "projected": 23.74,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 28,
+      "projected": 10.73,
+      "slot": "D/ST",
+      "over": 17.27
+    },
+    "bust": {
+      "name": "Greg Zuerlein",
+      "position": "K",
+      "points": 1,
+      "projected": 10.93,
+      "slot": "K",
+      "under": 9.93
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 1,
+    "opponent_id": 8,
+    "points": 86,
+    "opponent_points": 97,
+    "optimal_points": 113,
+    "efficiency": 0.7611,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "Josh Allen",
+        "position": "QB",
+        "points": 21,
+        "projected": 21.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Patrick Mahomes",
+        "position": "QB",
+        "points": 7,
+        "projected": 20.7,
+        "slot": "QB"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 24,
+      "projected": 12.82,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 24,
+      "projected": 12.82,
+      "slot": "FLEX",
+      "over": 11.18
+    },
+    "bust": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 7,
+      "projected": 20.7,
+      "slot": "QB",
+      "under": 13.7
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 2,
+    "opponent_id": 3,
+    "points": 95,
+    "opponent_points": 139,
+    "optimal_points": 107,
+    "efficiency": 0.8879,
+    "bench_points": 38,
+    "missed_swap": {
+      "benched": {
+        "name": "Jamaal Williams",
+        "position": "RB",
+        "points": 12,
+        "projected": 9.42,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mark Andrews",
+        "position": "TE",
+        "points": 5,
+        "projected": 15.63,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "points": 29,
+      "projected": 16.18,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "points": 29,
+      "projected": 16.18,
+      "slot": "QB",
+      "over": 12.82
+    },
+    "bust": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 5,
+      "projected": 15.63,
+      "slot": "FLEX",
+      "under": 10.63
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 3,
+    "opponent_id": 2,
+    "points": 139,
+    "opponent_points": 95,
+    "optimal_points": 157,
+    "efficiency": 0.8854,
+    "bench_points": 54,
+    "missed_swap": {
+      "benched": {
+        "name": "Jimmy Graham",
+        "position": "TE",
+        "points": 16,
+        "projected": 8.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Evan Engram",
+        "position": "TE",
+        "points": 1,
+        "projected": 14.79,
+        "slot": "TE"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 43,
+      "projected": 18.03,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 43,
+      "projected": 18.03,
+      "slot": "QB",
+      "over": 24.97
+    },
+    "bust": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "points": 1,
+      "projected": 14.79,
+      "slot": "TE",
+      "under": 13.79
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 4,
+    "opponent_id": 7,
+    "points": 129,
+    "opponent_points": 85,
+    "optimal_points": 148,
+    "efficiency": 0.8716,
+    "bench_points": 59,
+    "missed_swap": {
+      "benched": {
+        "name": "Dak Prescott",
+        "position": "QB",
+        "points": 20,
+        "projected": 18.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Carson Wentz",
+        "position": "QB",
+        "points": 10,
+        "projected": 17.43,
+        "slot": "QB"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 43,
+      "projected": 10.49,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 43,
+      "projected": 10.49,
+      "slot": "FLEX",
+      "over": 32.51
+    },
+    "bust": {
+      "name": "Delanie Walker",
+      "position": "TE",
+      "points": 0,
+      "projected": 9.6,
+      "slot": "TE",
+      "under": 9.6
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 5,
+    "opponent_id": 9,
+    "points": 115,
+    "opponent_points": 109,
+    "optimal_points": 161,
+    "efficiency": 0.7143,
+    "bench_points": 84,
+    "missed_swap": {
+      "benched": {
+        "name": "Latavius Murray",
+        "position": "RB",
+        "points": 31,
+        "projected": 10.92,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "David Johnson",
+        "position": "RB",
+        "points": 0,
+        "projected": 17.63,
+        "slot": "RB"
+      },
+      "gain": 31
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 31,
+      "projected": 14.3,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Chiefs D/ST",
+      "position": "D/ST",
+      "points": 23,
+      "projected": 4.62,
+      "slot": "D/ST",
+      "over": 18.38
+    },
+    "bust": {
+      "name": "David Johnson",
+      "position": "RB",
+      "points": 0,
+      "projected": 17.63,
+      "slot": "RB",
+      "under": 17.63
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 6,
+    "opponent_id": 10,
+    "points": 104,
+    "opponent_points": 99,
+    "optimal_points": 125,
+    "efficiency": 0.832,
+    "bench_points": 30,
+    "missed_swap": {
+      "benched": {
+        "name": "Austin Ekeler",
+        "position": "RB",
+        "points": 24,
+        "projected": 12.3,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Jones",
+        "position": "RB",
+        "points": 18,
+        "projected": 17.06,
+        "slot": "RB"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 27,
+      "projected": 19.51,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 25,
+      "projected": 15.72,
+      "slot": "FLEX",
+      "over": 9.28
+    },
+    "bust": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 4,
+      "projected": 20.28,
+      "slot": "QB",
+      "under": 16.28
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 7,
+    "opponent_id": 4,
+    "points": 85,
+    "opponent_points": 129,
+    "optimal_points": 97,
+    "efficiency": 0.8763,
+    "bench_points": 22,
+    "missed_swap": {
+      "benched": {
+        "name": "LeSean McCoy",
+        "position": "RB",
+        "points": 9,
+        "projected": 11,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kerryon Johnson",
+        "position": "RB",
+        "points": 2,
+        "projected": 13.5,
+        "slot": "RB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 15,
+      "projected": 20.85,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Stephen Hauschka",
+      "position": "K",
+      "points": 13,
+      "projected": 7.11,
+      "slot": "K",
+      "over": 5.89
+    },
+    "bust": {
+      "name": "Kerryon Johnson",
+      "position": "RB",
+      "points": 2,
+      "projected": 13.5,
+      "slot": "RB",
+      "under": 11.5
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 8,
+    "opponent_id": 1,
+    "points": 97,
+    "opponent_points": 86,
+    "optimal_points": 139,
+    "efficiency": 0.6978,
+    "bench_points": 90,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 34,
+        "projected": 5.65,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 1,
+        "projected": 13.18,
+        "slot": "FLEX"
+      },
+      "gain": 33
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 22,
+      "projected": 20.75,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Josh Lambo",
+      "position": "K",
+      "points": 13,
+      "projected": 8.68,
+      "slot": "K",
+      "over": 4.32
+    },
+    "bust": {
+      "name": "Will Fuller V",
+      "position": "WR",
+      "points": 1,
+      "projected": 13.18,
+      "slot": "FLEX",
+      "under": 12.18
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 9,
+    "opponent_id": 5,
+    "points": 109,
+    "opponent_points": 115,
+    "optimal_points": 137,
+    "efficiency": 0.7956,
+    "bench_points": 53,
+    "missed_swap": {
+      "benched": {
+        "name": "Jared Goff",
+        "position": "QB",
+        "points": 24,
+        "projected": 16.68,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Russell Wilson",
+        "position": "QB",
+        "points": 13,
+        "projected": 21.06,
+        "slot": "QB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Sony Michel",
+      "position": "RB",
+      "points": 23,
+      "projected": 9.68,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Sony Michel",
+      "position": "RB",
+      "points": 23,
+      "projected": 9.68,
+      "slot": "RB",
+      "over": 13.32
+    },
+    "bust": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 13,
+      "projected": 21.06,
+      "slot": "QB",
+      "under": 8.06
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 7,
+    "player_id": 10,
+    "opponent_id": 6,
+    "points": 99,
+    "opponent_points": 104,
+    "optimal_points": 106,
+    "efficiency": 0.934,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Kirk Cousins",
+        "position": "QB",
+        "points": 29,
+        "projected": 13.49,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "points": 22,
+        "projected": 21.64,
+        "slot": "QB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 23,
+      "projected": 9.46,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "points": 23,
+      "projected": 9.46,
+      "slot": "D/ST",
+      "over": 13.54
+    },
+    "bust": {
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "points": 2,
+      "projected": 13.63,
+      "slot": "WR",
+      "under": 11.63
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 1,
+    "opponent_id": 7,
+    "points": 126,
+    "opponent_points": 91,
+    "optimal_points": 140,
+    "efficiency": 0.9,
+    "bench_points": 51,
+    "missed_swap": {
+      "benched": {
+        "name": "David Montgomery",
+        "position": "RB",
+        "points": 24,
+        "projected": 10.45,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Royce Freeman",
+        "position": "RB",
+        "points": 11,
+        "projected": 11.09,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 27,
+      "projected": 18.68,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 27,
+      "projected": 18.68,
+      "slot": "RB",
+      "over": 8.32
+    },
+    "bust": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 4,
+      "projected": 12.01,
+      "slot": "TE",
+      "under": 8.01
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 2,
+    "opponent_id": 9,
+    "points": 98,
+    "opponent_points": 142,
+    "optimal_points": 134,
+    "efficiency": 0.7313,
+    "bench_points": 56,
+    "missed_swap": {
+      "benched": {
+        "name": "Drew Brees",
+        "position": "QB",
+        "points": 24,
+        "projected": 18.34,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kirk Cousins",
+        "position": "QB",
+        "points": 11,
+        "projected": 15.23,
+        "slot": "QB"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 23,
+      "projected": 17.59,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Austin Hooper",
+      "position": "TE",
+      "points": 18,
+      "projected": 12.3,
+      "slot": "TE",
+      "over": 5.7
+    },
+    "bust": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 0,
+      "projected": 10.44,
+      "slot": "WR",
+      "under": 10.44
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 3,
+    "opponent_id": 10,
+    "points": 103,
+    "opponent_points": 140,
+    "optimal_points": 133,
+    "efficiency": 0.7744,
+    "bench_points": 71,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyrell Williams",
+        "position": "WR",
+        "points": 18,
+        "projected": 13.86,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Dede Westbrook",
+        "position": "WR",
+        "points": 0,
+        "projected": 10.63,
+        "slot": "FLEX"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 26,
+      "projected": 18.38,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 26,
+      "projected": 18.38,
+      "slot": "QB",
+      "over": 7.62
+    },
+    "bust": {
+      "name": "Dede Westbrook",
+      "position": "WR",
+      "points": 0,
+      "projected": 10.63,
+      "slot": "FLEX",
+      "under": 10.63
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 4,
+    "opponent_id": 5,
+    "points": 99,
+    "opponent_points": 144,
+    "optimal_points": 107,
+    "efficiency": 0.9252,
+    "bench_points": 33,
+    "missed_swap": {
+      "benched": {
+        "name": "Cole Beasley",
+        "position": "WR",
+        "points": 13,
+        "projected": 9.88,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 6,
+        "projected": 12.07,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 25,
+      "projected": 15.75,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 25,
+      "projected": 15.75,
+      "slot": "WR",
+      "over": 9.25
+    },
+    "bust": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 6,
+      "projected": 12.07,
+      "slot": "FLEX",
+      "under": 6.07
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 5,
+    "opponent_id": 4,
+    "points": 144,
+    "opponent_points": 99,
+    "optimal_points": 178,
+    "efficiency": 0.809,
+    "bench_points": 97,
+    "missed_swap": {
+      "benched": {
+        "name": "Latavius Murray",
+        "position": "RB",
+        "points": 36,
+        "projected": 18.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "John Brown",
+        "position": "WR",
+        "points": 10,
+        "projected": 12.7,
+        "slot": "FLEX"
+      },
+      "gain": 26
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "points": 37,
+      "projected": 13.71,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "points": 37,
+      "projected": 13.71,
+      "slot": "RB",
+      "over": 23.29
+    },
+    "bust": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 9,
+      "projected": 18.9,
+      "slot": "QB",
+      "under": 9.9
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 6,
+    "opponent_id": 8,
+    "points": 172,
+    "opponent_points": 94,
+    "optimal_points": 178,
+    "efficiency": 0.9663,
+    "bench_points": 54,
+    "missed_swap": {
+      "benched": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 16,
+        "projected": 10.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Godwin",
+        "position": "WR",
+        "points": 10,
+        "projected": 16.95,
+        "slot": "WR"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 40,
+      "projected": 16.32,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 40,
+      "projected": 16.32,
+      "slot": "RB",
+      "over": 23.68
+    },
+    "bust": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 10,
+      "projected": 16.95,
+      "slot": "WR",
+      "under": 6.95
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 7,
+    "opponent_id": 1,
+    "points": 91,
+    "opponent_points": 126,
+    "optimal_points": 108,
+    "efficiency": 0.8426,
+    "bench_points": 57,
+    "missed_swap": {
+      "benched": {
+        "name": "Jordan Howard",
+        "position": "RB",
+        "points": 17,
+        "projected": 9.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ty Johnson",
+        "position": "RB",
+        "points": 4,
+        "projected": 11.69,
+        "slot": "RB"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 27,
+      "projected": 22.46,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Vikings D/ST",
+      "position": "D/ST",
+      "points": 13,
+      "projected": 6.05,
+      "slot": "D/ST",
+      "over": 6.95
+    },
+    "bust": {
+      "name": "Stephen Hauschka",
+      "position": "K",
+      "points": 0,
+      "projected": 7.7,
+      "slot": "K",
+      "under": 7.7
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 8,
+    "opponent_id": 6,
+    "points": 94,
+    "opponent_points": 172,
+    "optimal_points": 121,
+    "efficiency": 0.7769,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Duke Johnson",
+        "position": "RB",
+        "points": 13,
+        "projected": 8.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 2,
+        "projected": 14.31,
+        "slot": "RB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 28,
+      "projected": 22.26,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Gardner Minshew II",
+      "position": "QB",
+      "points": 25,
+      "projected": 15.92,
+      "slot": "QB",
+      "over": 9.08
+    },
+    "bust": {
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "points": 2,
+      "projected": 14.31,
+      "slot": "RB",
+      "under": 12.31
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 9,
+    "opponent_id": 2,
+    "points": 142,
+    "opponent_points": 98,
+    "optimal_points": 162,
+    "efficiency": 0.8765,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Calvin Ridley",
+        "position": "WR",
+        "points": 13,
+        "projected": 10.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 42,
+      "projected": 14.98,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 42,
+      "projected": 14.98,
+      "slot": "WR",
+      "over": 27.02
+    },
+    "bust": {
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "points": 7,
+      "projected": 13.48,
+      "slot": "WR",
+      "under": 6.48
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 8,
+    "player_id": 10,
+    "opponent_id": 3,
+    "points": 140,
+    "opponent_points": 103,
+    "optimal_points": 140,
+    "efficiency": 1,
+    "bench_points": 7,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 27,
+      "projected": 15.05,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 27,
+      "projected": 15.05,
+      "slot": "WR",
+      "over": 11.95
+    },
+    "bust": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "points": 8,
+      "projected": 12.07,
+      "slot": "WR",
+      "under": 4.07
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 1,
+    "opponent_id": 5,
+    "points": 112,
+    "opponent_points": 89,
+    "optimal_points": 112,
+    "efficiency": 1,
+    "bench_points": 3,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 25,
+      "projected": 10.36,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 25,
+      "projected": 10.36,
+      "slot": "TE",
+      "over": 14.64
+    },
+    "bust": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 1,
+      "projected": 15.5,
+      "slot": "WR",
+      "under": 14.5
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 2,
+    "opponent_id": 4,
+    "points": 79,
+    "opponent_points": 160,
+    "optimal_points": 107,
+    "efficiency": 0.7383,
+    "bench_points": 41,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Pascal",
+        "position": "WR",
+        "points": 18,
+        "projected": 7.66,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 0,
+        "projected": 13.62,
+        "slot": "WR"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "points": 19,
+      "projected": 17.86,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Chris Boswell",
+      "position": "K",
+      "points": 16,
+      "projected": 8.7,
+      "slot": "K",
+      "over": 7.3
+    },
+    "bust": {
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "points": 2,
+      "projected": 15.81,
+      "slot": "QB",
+      "under": 13.81
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 3,
+    "opponent_id": 9,
+    "points": 128,
+    "opponent_points": 174,
+    "optimal_points": 145,
+    "efficiency": 0.8828,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 26,
+        "projected": 19.72,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Rodgers",
+        "position": "QB",
+        "points": 12,
+        "projected": 18.25,
+        "slot": "QB"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 40,
+      "projected": 14.48,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 40,
+      "projected": 14.48,
+      "slot": "WR",
+      "over": 25.52
+    },
+    "bust": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 13,
+      "projected": 21.15,
+      "slot": "RB",
+      "under": 8.15
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 4,
+    "opponent_id": 2,
+    "points": 160,
+    "opponent_points": 79,
+    "optimal_points": 174,
+    "efficiency": 0.9195,
+    "bench_points": 53,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 28,
+        "projected": 12.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Carson",
+        "position": "RB",
+        "points": 14,
+        "projected": 17.05,
+        "slot": "RB"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 26,
+      "projected": 13,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 26,
+      "projected": 11.83,
+      "slot": "FLEX",
+      "over": 14.17
+    },
+    "bust": {
+      "name": "Joey Slye",
+      "position": "K",
+      "points": 5,
+      "projected": 8.22,
+      "slot": "K",
+      "under": 3.22
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 5,
+    "opponent_id": 1,
+    "points": 89,
+    "opponent_points": 112,
+    "optimal_points": 128,
+    "efficiency": 0.6953,
+    "bench_points": 60,
+    "missed_swap": {
+      "benched": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 24,
+        "projected": 11.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 2,
+        "projected": 12.7,
+        "slot": "WR"
+      },
+      "gain": 22
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 22,
+      "projected": 15.46,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 22,
+      "projected": 15.46,
+      "slot": "QB",
+      "over": 6.54
+    },
+    "bust": {
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "points": 5,
+      "projected": 15.76,
+      "slot": "RB",
+      "under": 10.76
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 6,
+    "opponent_id": 7,
+    "points": 114,
+    "opponent_points": 108,
+    "optimal_points": 142,
+    "efficiency": 0.8028,
+    "bench_points": 77,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 22,
+        "projected": 8.65,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Jones",
+        "position": "RB",
+        "points": 4,
+        "projected": 17.38,
+        "slot": "RB"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "points": 23,
+      "projected": 16.85,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "points": 23,
+      "projected": 16.85,
+      "slot": "FLEX",
+      "over": 6.15
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 4,
+      "projected": 17.38,
+      "slot": "RB",
+      "under": 13.38
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 7,
+    "opponent_id": 6,
+    "points": 108,
+    "opponent_points": 114,
+    "optimal_points": 132,
+    "efficiency": 0.8182,
+    "bench_points": 72,
+    "missed_swap": {
+      "benched": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 17,
+        "projected": 10.41,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 7,
+        "projected": 10.38,
+        "slot": "WR"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "points": 25,
+      "projected": 11.06,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "points": 25,
+      "projected": 11.06,
+      "slot": "RB",
+      "over": 13.94
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 7,
+      "projected": 10.38,
+      "slot": "WR",
+      "under": 3.38
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 8,
+    "opponent_id": 10,
+    "points": 112,
+    "opponent_points": 123,
+    "optimal_points": 114,
+    "efficiency": 0.9825,
+    "bench_points": 31,
+    "missed_swap": {
+      "benched": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 7,
+        "projected": 7.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jimmy Graham",
+        "position": "TE",
+        "points": 5,
+        "projected": 7.61,
+        "slot": "TE"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 24,
+      "projected": 14.99,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Duke Johnson",
+      "position": "RB",
+      "points": 18,
+      "projected": 8.75,
+      "slot": "FLEX",
+      "over": 9.25
+    },
+    "bust": {
+      "name": "Josh Lambo",
+      "position": "K",
+      "points": 3,
+      "projected": 9.05,
+      "slot": "K",
+      "under": 6.05
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 9,
+    "opponent_id": 3,
+    "points": 174,
+    "opponent_points": 128,
+    "optimal_points": 178,
+    "efficiency": 0.9775,
+    "bench_points": 9,
+    "missed_swap": {
+      "benched": {
+        "name": "Larry Fitzgerald",
+        "position": "WR",
+        "points": 7,
+        "projected": 9.72,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Eric Ebron",
+        "position": "TE",
+        "points": 3,
+        "projected": 7.87,
+        "slot": "FLEX"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 39,
+      "projected": 22.57,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 36,
+      "projected": 16.86,
+      "slot": "WR",
+      "over": 19.14
+    },
+    "bust": {
+      "name": "49ers D/ST",
+      "position": "D/ST",
+      "points": 2,
+      "projected": 8.08,
+      "slot": "D/ST",
+      "under": 6.08
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 9,
+    "player_id": 10,
+    "opponent_id": 8,
+    "points": 123,
+    "opponent_points": 112,
+    "optimal_points": 123,
+    "efficiency": 1,
+    "bench_points": 17,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 28,
+      "projected": 17.7,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 28,
+      "projected": 17.7,
+      "slot": "QB",
+      "over": 10.3
+    },
+    "bust": {
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "points": 4,
+      "projected": 11.36,
+      "slot": "WR",
+      "under": 7.36
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 129,
+    "opponent_points": 97,
+    "optimal_points": 143,
+    "efficiency": 0.9021,
+    "bench_points": 58,
+    "missed_swap": {
+      "benched": {
+        "name": "Joe Mixon",
+        "position": "RB",
+        "points": 16,
+        "projected": 10.9,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "David Montgomery",
+        "position": "RB",
+        "points": 6,
+        "projected": 16.21,
+        "slot": "FLEX"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 29,
+      "projected": 22.26,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": 23,
+      "projected": 8.44,
+      "slot": "D/ST",
+      "over": 14.56
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 8,
+      "projected": 21.13,
+      "slot": "RB",
+      "under": 13.13
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 97,
+    "opponent_points": 129,
+    "optimal_points": 103,
+    "efficiency": 0.9417,
+    "bench_points": 27,
+    "missed_swap": {
+      "benched": {
+        "name": "Auden Tate",
+        "position": "WR",
+        "points": 6,
+        "projected": 10.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zach Pascal",
+        "position": "WR",
+        "points": 4,
+        "projected": 10.06,
+        "slot": "WR"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 23,
+      "projected": 11.91,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 23,
+      "projected": 11.91,
+      "slot": "FLEX",
+      "over": 11.09
+    },
+    "bust": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 11,
+      "projected": 20.13,
+      "slot": "QB",
+      "under": 9.13
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 3,
+    "opponent_id": 4,
+    "points": 81,
+    "opponent_points": 152,
+    "optimal_points": 92,
+    "efficiency": 0.8804,
+    "bench_points": 21,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 16,
+        "projected": 11.03,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 5,
+        "projected": 15.47,
+        "slot": "WR"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Rams D/ST",
+      "position": "D/ST",
+      "points": 20,
+      "projected": 5.23,
+      "slot": "D/ST"
+    },
+    "boom": {
+      "name": "Rams D/ST",
+      "position": "D/ST",
+      "points": 20,
+      "projected": 5.23,
+      "slot": "D/ST",
+      "over": 14.77
+    },
+    "bust": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 7,
+      "projected": 19,
+      "slot": "RB",
+      "under": 12
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 4,
+    "opponent_id": 3,
+    "points": 152,
+    "opponent_points": 81,
+    "optimal_points": 155,
+    "efficiency": 0.9806,
+    "bench_points": 59,
+    "missed_swap": {
+      "benched": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 12,
+        "projected": 10.55,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 10,
+        "projected": 18.54,
+        "slot": "WR"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 32,
+      "projected": 17.15,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Steelers D/ST",
+      "position": "D/ST",
+      "points": 22,
+      "projected": 6.01,
+      "slot": "D/ST",
+      "over": 15.99
+    },
+    "bust": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 10,
+      "projected": 18.54,
+      "slot": "WR",
+      "under": 8.54
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 5,
+    "opponent_id": 6,
+    "points": 84,
+    "opponent_points": 156,
+    "optimal_points": 107,
+    "efficiency": 0.785,
+    "bench_points": 37,
+    "missed_swap": {
+      "benched": {
+        "name": "John Brown",
+        "position": "WR",
+        "points": 12,
+        "projected": 12.35,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "points": 0,
+        "projected": 16.78,
+        "slot": "WR"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 25,
+      "projected": 18.72,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 25,
+      "projected": 18.72,
+      "slot": "QB",
+      "over": 6.28
+    },
+    "bust": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 0,
+      "projected": 16.78,
+      "slot": "WR",
+      "under": 16.78
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 6,
+    "opponent_id": 5,
+    "points": 156,
+    "opponent_points": 84,
+    "optimal_points": 163,
+    "efficiency": 0.9571,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenny Golladay",
+        "position": "WR",
+        "points": 14,
+        "projected": 13.23,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 7,
+        "projected": 11.92,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "points": 37,
+      "projected": 12.87,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Christian Kirk",
+      "position": "WR",
+      "points": 37,
+      "projected": 12.87,
+      "slot": "WR",
+      "over": 24.13
+    },
+    "bust": {
+      "name": "Devin Singletary",
+      "position": "RB",
+      "points": 7,
+      "projected": 11.92,
+      "slot": "FLEX",
+      "under": 4.92
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 7,
+    "opponent_id": 8,
+    "points": 149,
+    "opponent_points": 158,
+    "optimal_points": 149,
+    "efficiency": 1,
+    "bench_points": 25,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Daniel Jones",
+      "position": "QB",
+      "points": 32,
+      "projected": 16.41,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Daniel Jones",
+      "position": "QB",
+      "points": 32,
+      "projected": 16.41,
+      "slot": "QB",
+      "over": 15.59
+    },
+    "bust": {
+      "name": "Stephen Hauschka",
+      "position": "K",
+      "points": 0,
+      "projected": 5.42,
+      "slot": "K",
+      "under": 5.42
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 8,
+    "opponent_id": 7,
+    "points": 158,
+    "opponent_points": 149,
+    "optimal_points": 175,
+    "efficiency": 0.9029,
+    "bench_points": 30,
+    "missed_swap": {
+      "benched": {
+        "name": "Seahawks D/ST",
+        "position": "D/ST",
+        "points": 17,
+        "projected": 4.97,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cardinals D/ST",
+        "position": "D/ST",
+        "points": 4,
+        "projected": 6.64,
+        "slot": "D/ST"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 32,
+      "projected": 14.44,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 32,
+      "projected": 14.44,
+      "slot": "RB",
+      "over": 17.56
+    },
+    "bust": {
+      "name": "Philip Rivers",
+      "position": "QB",
+      "points": 10,
+      "projected": 17.66,
+      "slot": "QB",
+      "under": 7.66
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 9,
+    "opponent_id": 10,
+    "points": 128,
+    "opponent_points": 102,
+    "optimal_points": 144,
+    "efficiency": 0.8889,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Peyton Barber",
+        "position": "RB",
+        "points": 11,
+        "projected": 5.55,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "James White",
+        "position": "RB",
+        "points": 0,
+        "projected": 0,
+        "slot": "RB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 25,
+      "projected": 24.24,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "49ers D/ST",
+      "position": "D/ST",
+      "points": 19,
+      "projected": 5.15,
+      "slot": "D/ST",
+      "over": 13.85
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 12,
+      "projected": 19.18,
+      "slot": "WR",
+      "under": 7.18
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 10,
+    "player_id": 10,
+    "opponent_id": 9,
+    "points": 102,
+    "opponent_points": 128,
+    "optimal_points": 102,
+    "efficiency": 1,
+    "bench_points": 0,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 32,
+      "projected": 22.62,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 32,
+      "projected": 22.62,
+      "slot": "QB",
+      "over": 9.38
+    },
+    "bust": {
+      "name": "Marlon Mack",
+      "position": "RB",
+      "points": 8,
+      "projected": 15.01,
+      "slot": "RB",
+      "under": 7.01
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 1,
+    "opponent_id": 3,
+    "points": 116,
+    "opponent_points": 95,
+    "optimal_points": 150,
+    "efficiency": 0.7733,
+    "bench_points": 75,
+    "missed_swap": {
+      "benched": {
+        "name": "Josh Allen",
+        "position": "QB",
+        "points": 33,
+        "projected": 19.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Patrick Mahomes",
+        "position": "QB",
+        "points": 14,
+        "projected": 21.04,
+        "slot": "QB"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 21,
+      "projected": 19.05,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 21,
+      "projected": 13.39,
+      "slot": "WR",
+      "over": 7.61
+    },
+    "bust": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 14,
+      "projected": 21.04,
+      "slot": "QB",
+      "under": 7.04
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 2,
+    "opponent_id": 6,
+    "points": 103,
+    "opponent_points": 105,
+    "optimal_points": 110,
+    "efficiency": 0.9364,
+    "bench_points": 11,
+    "missed_swap": {
+      "benched": {
+        "name": "Kalen Ballage",
+        "position": "RB",
+        "points": 11,
+        "projected": 9.26,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brian Hill",
+        "position": "RB",
+        "points": 4,
+        "projected": 11.19,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 21,
+      "projected": 18.46,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "points": 21,
+      "projected": 9.75,
+      "slot": "WR",
+      "over": 11.25
+    },
+    "bust": {
+      "name": "Brian Hill",
+      "position": "RB",
+      "points": 4,
+      "projected": 11.19,
+      "slot": "FLEX",
+      "under": 7.19
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 3,
+    "opponent_id": 1,
+    "points": 95,
+    "opponent_points": 116,
+    "optimal_points": 107,
+    "efficiency": 0.8879,
+    "bench_points": 17,
+    "missed_swap": {
+      "benched": {
+        "name": "Carlos Hyde",
+        "position": "RB",
+        "points": 12,
+        "projected": 9.37,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mohamed Sanu Sr.",
+        "position": "WR",
+        "points": 2,
+        "projected": 11.96,
+        "slot": "FLEX"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Todd Gurley II",
+      "position": "RB",
+      "points": 21,
+      "projected": 12.26,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Kyle Rudolph",
+      "position": "TE",
+      "points": 17,
+      "projected": 6.66,
+      "slot": "TE",
+      "over": 10.34
+    },
+    "bust": {
+      "name": "Mohamed Sanu Sr.",
+      "position": "WR",
+      "points": 2,
+      "projected": 11.96,
+      "slot": "FLEX",
+      "under": 9.96
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 4,
+    "opponent_id": 9,
+    "points": 119,
+    "opponent_points": 148,
+    "optimal_points": 153,
+    "efficiency": 0.7778,
+    "bench_points": 70,
+    "missed_swap": {
+      "benched": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 20,
+        "projected": 10.12,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyreek Hill",
+        "position": "WR",
+        "points": 0,
+        "projected": 18.51,
+        "slot": "WR"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 30,
+      "projected": 18.98,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 30,
+      "projected": 18.98,
+      "slot": "QB",
+      "over": 11.02
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 0,
+      "projected": 18.51,
+      "slot": "WR",
+      "under": 18.51
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 5,
+    "opponent_id": 8,
+    "points": 143,
+    "opponent_points": 95,
+    "optimal_points": 164,
+    "efficiency": 0.872,
+    "bench_points": 64,
+    "missed_swap": {
+      "benched": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 23,
+        "projected": 11.05,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "points": 8,
+        "projected": 14.56,
+        "slot": "WR"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "John Brown",
+      "position": "WR",
+      "points": 34,
+      "projected": 12.5,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "John Brown",
+      "position": "WR",
+      "points": 34,
+      "projected": 12.5,
+      "slot": "WR",
+      "over": 21.5
+    },
+    "bust": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 8,
+      "projected": 14.56,
+      "slot": "WR",
+      "under": 6.56
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 6,
+    "opponent_id": 2,
+    "points": 105,
+    "opponent_points": 103,
+    "optimal_points": 117,
+    "efficiency": 0.8974,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 18,
+        "projected": 13.26,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Godwin",
+        "position": "WR",
+        "points": 13,
+        "projected": 16.94,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 20,
+      "projected": 12.72,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Raiders D/ST",
+      "position": "D/ST",
+      "points": 14,
+      "projected": 6.6,
+      "slot": "D/ST",
+      "over": 7.4
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 16,
+      "projected": 22.83,
+      "slot": "RB",
+      "under": 6.83
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 7,
+    "opponent_id": 10,
+    "points": 109,
+    "opponent_points": 106,
+    "optimal_points": 127,
+    "efficiency": 0.8583,
+    "bench_points": 32,
+    "missed_swap": {
+      "benched": {
+        "name": "LeSean McCoy",
+        "position": "RB",
+        "points": 14,
+        "projected": 4.75,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Damien Williams",
+        "position": "RB",
+        "points": 1,
+        "projected": 12.92,
+        "slot": "RB"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jimmy Garoppolo",
+      "position": "QB",
+      "points": 28,
+      "projected": 14.68,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jimmy Garoppolo",
+      "position": "QB",
+      "points": 28,
+      "projected": 14.68,
+      "slot": "QB",
+      "over": 13.32
+    },
+    "bust": {
+      "name": "Damien Williams",
+      "position": "RB",
+      "points": 1,
+      "projected": 12.92,
+      "slot": "RB",
+      "under": 11.92
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 8,
+    "opponent_id": 5,
+    "points": 95,
+    "opponent_points": 143,
+    "optimal_points": 103,
+    "efficiency": 0.9223,
+    "bench_points": 27,
+    "missed_swap": {
+      "benched": {
+        "name": "Nick Foles",
+        "position": "QB",
+        "points": 17,
+        "projected": 13.98,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Philip Rivers",
+        "position": "QB",
+        "points": 12,
+        "projected": 14.67,
+        "slot": "QB"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 25,
+      "projected": 24.65,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mark Ingram II",
+      "position": "RB",
+      "points": 22,
+      "projected": 14.24,
+      "slot": "RB",
+      "over": 7.76
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 6,
+      "projected": 15.1,
+      "slot": "WR",
+      "under": 9.1
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 9,
+    "opponent_id": 4,
+    "points": 148,
+    "opponent_points": 119,
+    "optimal_points": 152,
+    "efficiency": 0.9737,
+    "bench_points": 33,
+    "missed_swap": {
+      "benched": {
+        "name": "Larry Fitzgerald",
+        "position": "WR",
+        "points": 14,
+        "projected": 9.31,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 10,
+        "projected": 16.29,
+        "slot": "WR"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 30,
+      "projected": 26.46,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 28,
+      "projected": 12.12,
+      "slot": "FLEX",
+      "over": 15.88
+    },
+    "bust": {
+      "name": "Jared Goff",
+      "position": "QB",
+      "points": 4,
+      "projected": 13.34,
+      "slot": "QB",
+      "under": 9.34
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 11,
+    "player_id": 10,
+    "opponent_id": 7,
+    "points": 106,
+    "opponent_points": 109,
+    "optimal_points": 115,
+    "efficiency": 0.9217,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 11,
+        "projected": 9.06,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "James Conner",
+        "position": "RB",
+        "points": 2,
+        "projected": 15.44,
+        "slot": "RB"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 31,
+      "projected": 24.04,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 31,
+      "projected": 24.04,
+      "slot": "QB",
+      "over": 6.96
+    },
+    "bust": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 2,
+      "projected": 15.44,
+      "slot": "RB",
+      "under": 13.44
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 119,
+    "opponent_points": 108,
+    "optimal_points": 161,
+    "efficiency": 0.7391,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 21,
+        "projected": 10.59,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyrell Williams",
+        "position": "WR",
+        "points": 3,
+        "projected": 10.6,
+        "slot": "WR"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 27,
+      "projected": 14.07,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 27,
+      "projected": 14.07,
+      "slot": "TE",
+      "over": 12.93
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 7,
+      "projected": 17.78,
+      "slot": "FLEX",
+      "under": 10.78
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 139,
+    "opponent_points": 139,
+    "optimal_points": 142,
+    "efficiency": 0.9789,
+    "bench_points": 11,
+    "missed_swap": {
+      "benched": {
+        "name": "Nyheim Hines",
+        "position": "RB",
+        "points": 8,
+        "projected": 9,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brian Hill",
+        "position": "RB",
+        "points": 5,
+        "projected": 10.36,
+        "slot": "FLEX"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 36,
+      "projected": 17.74,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 36,
+      "projected": 17.74,
+      "slot": "RB",
+      "over": 18.26
+    },
+    "bust": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 6,
+      "projected": 12.59,
+      "slot": "TE",
+      "under": 6.59
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 3,
+    "opponent_id": 6,
+    "points": 70,
+    "opponent_points": 127,
+    "optimal_points": 88,
+    "efficiency": 0.7955,
+    "bench_points": 22,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 15,
+        "projected": 10.3,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 4,
+        "projected": 15.82,
+        "slot": "WR"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 20,
+      "projected": 12.96,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 20,
+      "projected": 12.96,
+      "slot": "WR",
+      "over": 7.04
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 4,
+      "projected": 15.82,
+      "slot": "WR",
+      "under": 11.82
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 4,
+    "opponent_id": 10,
+    "points": 79,
+    "opponent_points": 146,
+    "optimal_points": 95,
+    "efficiency": 0.8316,
+    "bench_points": 37,
+    "missed_swap": {
+      "benched": {
+        "name": "Tarik Cohen",
+        "position": "RB",
+        "points": 11,
+        "projected": 9.95,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Josh Jacobs",
+        "position": "RB",
+        "points": 4,
+        "projected": 15.26,
+        "slot": "RB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DeVante Parker",
+      "position": "WR",
+      "points": 15,
+      "projected": 12.46,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Steelers D/ST",
+      "position": "D/ST",
+      "points": 13,
+      "projected": 8.57,
+      "slot": "D/ST",
+      "over": 4.43
+    },
+    "bust": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 4,
+      "projected": 15.26,
+      "slot": "RB",
+      "under": 11.26
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 5,
+    "opponent_id": 7,
+    "points": 106,
+    "opponent_points": 111,
+    "optimal_points": 108,
+    "efficiency": 0.9815,
+    "bench_points": 18,
+    "missed_swap": {
+      "benched": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 11,
+        "projected": 11.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "points": 9,
+        "projected": 12.67,
+        "slot": "FLEX"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 24,
+      "projected": 18.32,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 24,
+      "projected": 18.32,
+      "slot": "RB",
+      "over": 5.68
+    },
+    "bust": {
+      "name": "DJ Chark Jr.",
+      "position": "WR",
+      "points": 10,
+      "projected": 16.33,
+      "slot": "WR",
+      "under": 6.33
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 6,
+    "opponent_id": 3,
+    "points": 127,
+    "opponent_points": 70,
+    "optimal_points": 148,
+    "efficiency": 0.8581,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Jameis Winston",
+        "position": "QB",
+        "points": 23,
+        "projected": 19.52,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Matt Ryan",
+        "position": "QB",
+        "points": 8,
+        "projected": 20.6,
+        "slot": "QB"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 37,
+      "projected": 15.78,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 37,
+      "projected": 15.78,
+      "slot": "WR",
+      "over": 21.22
+    },
+    "bust": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 8,
+      "projected": 20.6,
+      "slot": "QB",
+      "under": 12.6
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 7,
+    "opponent_id": 5,
+    "points": 111,
+    "opponent_points": 106,
+    "optimal_points": 115,
+    "efficiency": 0.9652,
+    "bench_points": 46,
+    "missed_swap": {
+      "benched": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 12,
+        "projected": 12.28,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Gallup",
+        "position": "WR",
+        "points": 9,
+        "projected": 10.64,
+        "slot": "FLEX"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jarvis Landry",
+      "position": "WR",
+      "points": 36,
+      "projected": 12.02,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Jarvis Landry",
+      "position": "WR",
+      "points": 36,
+      "projected": 12.02,
+      "slot": "WR",
+      "over": 23.98
+    },
+    "bust": {
+      "name": "Rex Burkhead",
+      "position": "RB",
+      "points": 3,
+      "projected": 8.83,
+      "slot": "RB",
+      "under": 5.83
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 139,
+    "opponent_points": 139,
+    "optimal_points": 164,
+    "efficiency": 0.8476,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 21,
+        "projected": 11.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 0,
+        "projected": 12.63,
+        "slot": "WR"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 29,
+      "projected": 18.5,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Mark Ingram II",
+      "position": "RB",
+      "points": 24,
+      "projected": 12.27,
+      "slot": "RB",
+      "over": 11.73
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 0,
+      "projected": 12.63,
+      "slot": "WR",
+      "under": 12.63
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 108,
+    "opponent_points": 119,
+    "optimal_points": 118,
+    "efficiency": 0.9153,
+    "bench_points": 25,
+    "missed_swap": {
+      "benched": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 8,
+        "projected": 10.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jamison Crowder",
+        "position": "WR",
+        "points": 3,
+        "projected": 12.07,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 33,
+      "projected": 22.96,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 33,
+      "projected": 22.96,
+      "slot": "RB",
+      "over": 10.04
+    },
+    "bust": {
+      "name": "James White",
+      "position": "RB",
+      "points": 1,
+      "projected": 13.12,
+      "slot": "RB",
+      "under": 12.12
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 12,
+    "player_id": 10,
+    "opponent_id": 4,
+    "points": 146,
+    "opponent_points": 79,
+    "optimal_points": 161,
+    "efficiency": 0.9068,
+    "bench_points": 36,
+    "missed_swap": {
+      "benched": {
+        "name": "Jonathan Williams",
+        "position": "RB",
+        "points": 20,
+        "projected": 10.99,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Phillip Lindsay",
+        "position": "RB",
+        "points": 7,
+        "projected": 11.67,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 35,
+      "projected": 21.99,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "points": 30,
+      "projected": 15.12,
+      "slot": "WR",
+      "over": 14.88
+    },
+    "bust": {
+      "name": "Phillip Lindsay",
+      "position": "RB",
+      "points": 7,
+      "projected": 11.67,
+      "slot": "FLEX",
+      "under": 4.67
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 1,
+    "opponent_id": 4,
+    "points": 112,
+    "opponent_points": 136,
+    "optimal_points": 132,
+    "efficiency": 0.8485,
+    "bench_points": 76,
+    "missed_swap": {
+      "benched": {
+        "name": "Jared Cook",
+        "position": "TE",
+        "points": 11,
+        "projected": 10.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 5,
+        "projected": 12.69,
+        "slot": "TE"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 22,
+      "projected": 13.82,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 22,
+      "projected": 13.82,
+      "slot": "WR",
+      "over": 8.18
+    },
+    "bust": {
+      "name": "Eagles D/ST",
+      "position": "D/ST",
+      "points": -1,
+      "projected": 7.58,
+      "slot": "D/ST",
+      "under": 8.58
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 2,
+    "opponent_id": 7,
+    "points": 123,
+    "opponent_points": 85,
+    "optimal_points": 141,
+    "efficiency": 0.8723,
+    "bench_points": 50,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Pascal",
+        "position": "WR",
+        "points": 17,
+        "projected": 9.03,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "WR"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "points": 28,
+      "projected": 12.33,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "points": 28,
+      "projected": 12.33,
+      "slot": "FLEX",
+      "over": 15.67
+    },
+    "bust": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 11,
+      "projected": 18.26,
+      "slot": "QB",
+      "under": 7.26
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 3,
+    "opponent_id": 8,
+    "points": 125,
+    "opponent_points": 106,
+    "optimal_points": 161,
+    "efficiency": 0.7764,
+    "bench_points": 59,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 30,
+        "projected": 12.25,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 0,
+        "projected": 14.33,
+        "slot": "WR"
+      },
+      "gain": 30
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 27,
+      "projected": 17.48,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Rams D/ST",
+      "position": "D/ST",
+      "points": 20,
+      "projected": 6.18,
+      "slot": "D/ST",
+      "over": 13.82
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 0,
+      "projected": 14.33,
+      "slot": "WR",
+      "under": 14.33
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 4,
+    "opponent_id": 1,
+    "points": 136,
+    "opponent_points": 112,
+    "optimal_points": 161,
+    "efficiency": 0.8447,
+    "bench_points": 96,
+    "missed_swap": {
+      "benched": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 13,
+        "projected": 11.21,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "WR"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DeVante Parker",
+      "position": "WR",
+      "points": 34,
+      "projected": 12.64,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "DeVante Parker",
+      "position": "WR",
+      "points": 34,
+      "projected": 12.64,
+      "slot": "FLEX",
+      "over": 21.36
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 10,
+      "projected": 18.8,
+      "slot": "WR",
+      "under": 8.8
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 5,
+    "opponent_id": 10,
+    "points": 89,
+    "opponent_points": 99,
+    "optimal_points": 105,
+    "efficiency": 0.8476,
+    "bench_points": 56,
+    "missed_swap": {
+      "benched": {
+        "name": "Darren Waller",
+        "position": "TE",
+        "points": 17,
+        "projected": 12.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Hunter Henry",
+        "position": "TE",
+        "points": 3,
+        "projected": 13.2,
+        "slot": "TE"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 21,
+      "projected": 15.69,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 21,
+      "projected": 15.69,
+      "slot": "RB",
+      "over": 5.31
+    },
+    "bust": {
+      "name": "Hunter Henry",
+      "position": "TE",
+      "points": 3,
+      "projected": 13.2,
+      "slot": "TE",
+      "under": 10.2
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 6,
+    "opponent_id": 9,
+    "points": 94,
+    "opponent_points": 124,
+    "optimal_points": 135,
+    "efficiency": 0.6963,
+    "bench_points": 96,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenny Golladay",
+        "position": "WR",
+        "points": 25,
+        "projected": 12.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Godwin",
+        "position": "WR",
+        "points": 9,
+        "projected": 17.01,
+        "slot": "WR"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Devin Singletary",
+      "position": "RB",
+      "points": 18,
+      "projected": 11.26,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Devin Singletary",
+      "position": "RB",
+      "points": 18,
+      "projected": 11.26,
+      "slot": "FLEX",
+      "over": 6.74
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 6,
+      "projected": 14.95,
+      "slot": "RB",
+      "under": 8.95
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 7,
+    "opponent_id": 2,
+    "points": 85,
+    "opponent_points": 123,
+    "optimal_points": 103,
+    "efficiency": 0.8252,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Dede Westbrook",
+        "position": "WR",
+        "points": 19,
+        "projected": 12.04,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 2,
+        "projected": 10.92,
+        "slot": "WR"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 28,
+      "projected": 16.75,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 28,
+      "projected": 16.75,
+      "slot": "QB",
+      "over": 11.25
+    },
+    "bust": {
+      "name": "Brett Maher",
+      "position": "K",
+      "points": -1,
+      "projected": 9.08,
+      "slot": "K",
+      "under": 10.08
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 8,
+    "opponent_id": 3,
+    "points": 106,
+    "opponent_points": 125,
+    "optimal_points": 147,
+    "efficiency": 0.7211,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Duke Johnson",
+        "position": "RB",
+        "points": 19,
+        "projected": 7.62,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 0,
+        "projected": 12.68,
+        "slot": "FLEX"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 24,
+      "projected": 15.6,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 24,
+      "projected": 15.6,
+      "slot": "RB",
+      "over": 8.4
+    },
+    "bust": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 10,
+      "projected": 24.36,
+      "slot": "WR",
+      "under": 14.36
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 9,
+    "opponent_id": 6,
+    "points": 124,
+    "opponent_points": 94,
+    "optimal_points": 150,
+    "efficiency": 0.8267,
+    "bench_points": 81,
+    "missed_swap": {
+      "benched": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 13,
+        "projected": 12.22,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jamison Crowder",
+        "position": "WR",
+        "points": 2,
+        "projected": 11.73,
+        "slot": "WR"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James White",
+      "position": "RB",
+      "points": 36,
+      "projected": 11.97,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "James White",
+      "position": "RB",
+      "points": 36,
+      "projected": 11.97,
+      "slot": "RB",
+      "over": 24.03
+    },
+    "bust": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 16,
+      "projected": 27.31,
+      "slot": "RB",
+      "under": 11.31
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 13,
+    "player_id": 10,
+    "opponent_id": 5,
+    "points": 99,
+    "opponent_points": 89,
+    "optimal_points": 107,
+    "efficiency": 0.9252,
+    "bench_points": 22,
+    "missed_swap": {
+      "benched": {
+        "name": "Darius Slayton",
+        "position": "WR",
+        "points": 10,
+        "projected": 12.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jonathan Williams",
+        "position": "RB",
+        "points": 3,
+        "projected": 12.66,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 24,
+      "projected": 21.99,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "points": 16,
+      "projected": 11.06,
+      "slot": "RB",
+      "over": 4.94
+    },
+    "bust": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 3,
+      "projected": 17.1,
+      "slot": "TE",
+      "under": 14.1
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 1,
+    "opponent_id": 6,
+    "points": 137,
+    "opponent_points": 145,
+    "optimal_points": 171,
+    "efficiency": 0.8012,
+    "bench_points": 93,
+    "missed_swap": {
+      "benched": {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "points": 33,
+        "projected": 11.85,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Keenan Allen",
+        "position": "WR",
+        "points": 13,
+        "projected": 13.34,
+        "slot": "WR"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 30,
+      "projected": 14.4,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 30,
+      "projected": 14.4,
+      "slot": "TE",
+      "over": 15.6
+    },
+    "bust": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 7,
+      "projected": 18.25,
+      "slot": "RB",
+      "under": 11.25
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 2,
+    "opponent_id": null,
+    "points": 90,
+    "opponent_points": null,
+    "optimal_points": 119,
+    "efficiency": 0.7563,
+    "bench_points": 36,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Pascal",
+        "position": "WR",
+        "points": 20,
+        "projected": 11.27,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Alshon Jeffery",
+        "position": "WR",
+        "points": 0,
+        "projected": 12.88,
+        "slot": "FLEX"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 39,
+      "projected": 16.31,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 39,
+      "projected": 16.31,
+      "slot": "QB",
+      "over": 22.69
+    },
+    "bust": {
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "points": 0,
+      "projected": 12.88,
+      "slot": "FLEX",
+      "under": 12.88
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 3,
+    "opponent_id": 7,
+    "points": 108,
+    "opponent_points": 78,
+    "optimal_points": 134,
+    "efficiency": 0.806,
+    "bench_points": 51,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 24,
+        "projected": 12.56,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 5,
+        "projected": 12.86,
+        "slot": "WR"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 23,
+      "projected": 17.86,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 23,
+      "projected": 17.86,
+      "slot": "RB",
+      "over": 5.14
+    },
+    "bust": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 5,
+      "projected": 12.86,
+      "slot": "WR",
+      "under": 7.86
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 4,
+    "opponent_id": null,
+    "points": 108,
+    "opponent_points": null,
+    "optimal_points": 118,
+    "efficiency": 0.9153,
+    "bench_points": 46,
+    "missed_swap": {
+      "benched": {
+        "name": "DK Metcalf",
+        "position": "WR",
+        "points": 13,
+        "projected": 12.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeVante Parker",
+        "position": "WR",
+        "points": 4,
+        "projected": 14.29,
+        "slot": "FLEX"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Carson Wentz",
+      "position": "QB",
+      "points": 21,
+      "projected": 18.88,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Steelers D/ST",
+      "position": "D/ST",
+      "points": 20,
+      "projected": 7.4,
+      "slot": "D/ST",
+      "over": 12.6
+    },
+    "bust": {
+      "name": "DeVante Parker",
+      "position": "WR",
+      "points": 4,
+      "projected": 14.29,
+      "slot": "FLEX",
+      "under": 10.29
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 5,
+    "opponent_id": null,
+    "points": 81,
+    "opponent_points": null,
+    "optimal_points": 127,
+    "efficiency": 0.6378,
+    "bench_points": 99,
+    "missed_swap": {
+      "benched": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 33,
+        "projected": 11.68,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "John Brown",
+        "position": "WR",
+        "points": 5,
+        "projected": 12.8,
+        "slot": "FLEX"
+      },
+      "gain": 28
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DJ Chark Jr.",
+      "position": "WR",
+      "points": 16,
+      "projected": 12.85,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DJ Chark Jr.",
+      "position": "WR",
+      "points": 16,
+      "projected": 12.85,
+      "slot": "WR",
+      "over": 3.15
+    },
+    "bust": {
+      "name": "John Brown",
+      "position": "WR",
+      "points": 5,
+      "projected": 12.8,
+      "slot": "FLEX",
+      "under": 7.8
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 6,
+    "opponent_id": 1,
+    "points": 145,
+    "opponent_points": 137,
+    "optimal_points": 170,
+    "efficiency": 0.8529,
+    "bench_points": 108,
+    "missed_swap": {
+      "benched": {
+        "name": "Austin Ekeler",
+        "position": "RB",
+        "points": 31,
+        "projected": 14.19,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "points": 8,
+        "projected": 15.76,
+        "slot": "FLEX"
+      },
+      "gain": 23
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jameis Winston",
+      "position": "QB",
+      "points": 34,
+      "projected": 17.72,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jameis Winston",
+      "position": "QB",
+      "points": 34,
+      "projected": 17.72,
+      "slot": "QB",
+      "over": 16.28
+    },
+    "bust": {
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "points": 1,
+      "projected": 9.25,
+      "slot": "TE",
+      "under": 8.25
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 7,
+    "opponent_id": 3,
+    "points": 78,
+    "opponent_points": 108,
+    "optimal_points": 91,
+    "efficiency": 0.8571,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 15,
+        "projected": 10.39,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Golden Tate",
+        "position": "WR",
+        "points": 2,
+        "projected": 9.82,
+        "slot": "WR"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 27,
+      "projected": 19.77,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 27,
+      "projected": 19.77,
+      "slot": "QB",
+      "over": 7.23
+    },
+    "bust": {
+      "name": "Panthers D/ST",
+      "position": "D/ST",
+      "points": -7,
+      "projected": 7.31,
+      "slot": "D/ST",
+      "under": 14.31
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 8,
+    "opponent_id": null,
+    "points": 124,
+    "opponent_points": null,
+    "optimal_points": 128,
+    "efficiency": 0.9688,
+    "bench_points": 41,
+    "missed_swap": {
+      "benched": {
+        "name": "Adrian Peterson",
+        "position": "RB",
+        "points": 13,
+        "projected": 5.76,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 9,
+        "projected": 8.12,
+        "slot": "FLEX"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 30,
+      "projected": 21.16,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 30,
+      "projected": 21.16,
+      "slot": "WR",
+      "over": 8.84
+    },
+    "bust": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 10,
+      "projected": 16.62,
+      "slot": "QB",
+      "under": 6.62
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 9,
+    "opponent_id": 10,
+    "points": 98,
+    "opponent_points": 116,
+    "optimal_points": 102,
+    "efficiency": 0.9608,
+    "bench_points": 33,
+    "missed_swap": {
+      "benched": {
+        "name": "Kirk Cousins",
+        "position": "QB",
+        "points": 13,
+        "projected": 17.73,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Russell Wilson",
+        "position": "QB",
+        "points": 9,
+        "projected": 19.61,
+        "slot": "QB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 24,
+      "projected": 27.49,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 18,
+      "projected": 12.11,
+      "slot": "FLEX",
+      "over": 5.89
+    },
+    "bust": {
+      "name": "49ers D/ST",
+      "position": "D/ST",
+      "points": -8,
+      "projected": 5.82,
+      "slot": "D/ST",
+      "under": 13.82
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 14,
+    "player_id": 10,
+    "opponent_id": 9,
+    "points": 116,
+    "opponent_points": 98,
+    "optimal_points": 145,
+    "efficiency": 0.8,
+    "bench_points": 56,
+    "missed_swap": {
+      "benched": {
+        "name": "Darius Slayton",
+        "position": "WR",
+        "points": 32,
+        "projected": 13.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marlon Mack",
+        "position": "RB",
+        "points": 9,
+        "projected": 11.48,
+        "slot": "FLEX"
+      },
+      "gain": 23
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 23,
+      "projected": 16.37,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 23,
+      "projected": 16.37,
+      "slot": "WR",
+      "over": 6.63
+    },
+    "bust": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "points": 12,
+      "projected": 16.69,
+      "slot": "WR",
+      "under": 4.69
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 164,
+    "opponent_points": 123,
+    "optimal_points": 176,
+    "efficiency": 0.9318,
+    "bench_points": 62,
+    "missed_swap": {
+      "benched": {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "points": 25,
+        "projected": 12.02,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Joe Mixon",
+        "position": "RB",
+        "points": 18,
+        "projected": 12.63,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 30,
+      "projected": 19.49,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Vikings D/ST",
+      "position": "D/ST",
+      "points": 26,
+      "projected": 5.01,
+      "slot": "D/ST",
+      "over": 20.99
+    },
+    "bust": {
+      "name": "Greg Zuerlein",
+      "position": "K",
+      "points": 1,
+      "projected": 8.26,
+      "slot": "K",
+      "under": 7.26
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 2,
+    "opponent_id": null,
+    "points": 92,
+    "opponent_points": null,
+    "optimal_points": 125,
+    "efficiency": 0.736,
+    "bench_points": 40,
+    "missed_swap": {
+      "benched": {
+        "name": "Bills D/ST",
+        "position": "D/ST",
+        "points": 19,
+        "projected": 8.46,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Colts D/ST",
+        "position": "D/ST",
+        "points": -4,
+        "projected": 2.79,
+        "slot": "D/ST"
+      },
+      "gain": 23
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 28,
+      "projected": 19.59,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Drew Brees",
+      "position": "QB",
+      "points": 28,
+      "projected": 19.59,
+      "slot": "QB",
+      "over": 8.41
+    },
+    "bust": {
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "points": 12,
+      "projected": 21.59,
+      "slot": "RB",
+      "under": 9.59
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 3,
+    "opponent_id": null,
+    "points": 109,
+    "opponent_points": null,
+    "optimal_points": 139,
+    "efficiency": 0.7842,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 26,
+        "projected": 13.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 5,
+        "projected": 14.31,
+        "slot": "WR"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 30,
+      "projected": 17.75,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 30,
+      "projected": 17.75,
+      "slot": "RB",
+      "over": 12.25
+    },
+    "bust": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 5,
+      "projected": 14.31,
+      "slot": "WR",
+      "under": 9.31
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 4,
+    "opponent_id": null,
+    "points": 162,
+    "opponent_points": null,
+    "optimal_points": 201,
+    "efficiency": 0.806,
+    "bench_points": 104,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 38,
+        "projected": 13.39,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Josh Jacobs",
+        "position": "RB",
+        "points": 12,
+        "projected": 17.4,
+        "slot": "RB"
+      },
+      "gain": 26
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 38,
+      "projected": 15.86,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 38,
+      "projected": 15.86,
+      "slot": "WR",
+      "over": 22.14
+    },
+    "bust": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 12,
+      "projected": 17.4,
+      "slot": "RB",
+      "under": 5.4
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 5,
+    "opponent_id": null,
+    "points": 121,
+    "opponent_points": null,
+    "optimal_points": 148,
+    "efficiency": 0.8176,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "Darren Waller",
+        "position": "TE",
+        "points": 20,
+        "projected": 12.53,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Hunter Henry",
+        "position": "TE",
+        "points": 4,
+        "projected": 11.57,
+        "slot": "TE"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 35,
+      "projected": 13.03,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 35,
+      "projected": 13.03,
+      "slot": "RB",
+      "over": 21.97
+    },
+    "bust": {
+      "name": "Hunter Henry",
+      "position": "TE",
+      "points": 4,
+      "projected": 11.57,
+      "slot": "TE",
+      "under": 7.57
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 6,
+    "opponent_id": 10,
+    "points": 121,
+    "opponent_points": 144,
+    "optimal_points": 127,
+    "efficiency": 0.9528,
+    "bench_points": 63,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 10,
+        "projected": 12.88,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Dalvin Cook",
+        "position": "RB",
+        "points": 6,
+        "projected": 18.94,
+        "slot": "RB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jameis Winston",
+      "position": "QB",
+      "points": 32,
+      "projected": 21.03,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jameis Winston",
+      "position": "QB",
+      "points": 32,
+      "projected": 21.03,
+      "slot": "QB",
+      "over": 10.97
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 6,
+      "projected": 18.94,
+      "slot": "RB",
+      "under": 12.94
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 7,
+    "opponent_id": null,
+    "points": 83,
+    "opponent_points": null,
+    "optimal_points": 91,
+    "efficiency": 0.9121,
+    "bench_points": 32,
+    "missed_swap": {
+      "benched": {
+        "name": "Golden Tate",
+        "position": "WR",
+        "points": 12,
+        "projected": 11,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 7,
+        "projected": 15.04,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 24,
+      "projected": 11.77,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 24,
+      "projected": 11.77,
+      "slot": "FLEX",
+      "over": 12.23
+    },
+    "bust": {
+      "name": "Jarvis Landry",
+      "position": "WR",
+      "points": 7,
+      "projected": 15.04,
+      "slot": "WR",
+      "under": 8.04
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 8,
+    "opponent_id": null,
+    "points": 114,
+    "opponent_points": null,
+    "optimal_points": 143,
+    "efficiency": 0.7972,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "Curtis Samuel",
+        "position": "WR",
+        "points": 16,
+        "projected": 10.01,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 2,
+        "projected": 14.98,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 30,
+      "projected": 23.56,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mark Ingram II",
+      "position": "RB",
+      "points": 23,
+      "projected": 14.97,
+      "slot": "RB",
+      "over": 8.03
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 2,
+      "projected": 14.98,
+      "slot": "WR",
+      "under": 12.98
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 123,
+    "opponent_points": 164,
+    "optimal_points": 157,
+    "efficiency": 0.7834,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "Jamison Crowder",
+        "position": "WR",
+        "points": 27,
+        "projected": 11.03,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "WR"
+      },
+      "gain": 27
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 36,
+      "projected": 26.64,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 25,
+      "projected": 15.13,
+      "slot": "TE",
+      "over": 9.87
+    },
+    "bust": {
+      "name": "Justin Tucker",
+      "position": "K",
+      "points": 4,
+      "projected": 9.6,
+      "slot": "K",
+      "under": 5.6
+    }
+  },
+  {
+    "season_id": 2019,
+    "week": 15,
+    "player_id": 10,
+    "opponent_id": 6,
+    "points": 144,
+    "opponent_points": 121,
+    "optimal_points": 165,
+    "efficiency": 0.8727,
+    "bench_points": 51,
+    "missed_swap": {
+      "benched": {
+        "name": "James Conner",
+        "position": "RB",
+        "points": 14,
+        "projected": 7.13,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Phillip Lindsay",
+        "position": "RB",
+        "points": 3,
+        "projected": 13.26,
+        "slot": "RB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 36,
+      "projected": 24.22,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 36,
+      "projected": 24.22,
+      "slot": "QB",
+      "over": 11.78
+    },
+    "bust": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 2,
+      "projected": 17.31,
+      "slot": "WR",
+      "under": 15.31
+    }
+  }
+]

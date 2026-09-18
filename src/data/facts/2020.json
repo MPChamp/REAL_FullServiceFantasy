@@ -1,0 +1,7808 @@
+[
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 114,
+    "opponent_points": 116,
+    "optimal_points": 131,
+    "efficiency": 0.8702,
+    "bench_points": 84,
+    "missed_swap": {
+      "benched": {
+        "name": "Jonathan Taylor",
+        "position": "RB",
+        "points": 14,
+        "projected": 10.47,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Joe Mixon",
+        "position": "RB",
+        "points": 7,
+        "projected": 14.5,
+        "slot": "RB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "points": 24,
+      "projected": 10.61,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "points": 24,
+      "projected": 10.61,
+      "slot": "FLEX",
+      "over": 13.39
+    },
+    "bust": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 7,
+      "projected": 14.5,
+      "slot": "RB",
+      "under": 7.5
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 116,
+    "opponent_points": 114,
+    "optimal_points": 122,
+    "efficiency": 0.9508,
+    "bench_points": 62,
+    "missed_swap": {
+      "benched": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 19,
+        "projected": 13.14,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Godwin",
+        "position": "WR",
+        "points": 13,
+        "projected": 16.87,
+        "slot": "WR"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 24,
+      "projected": 17.24,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 24,
+      "projected": 17.24,
+      "slot": "QB",
+      "over": 6.76
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 12,
+      "projected": 18.22,
+      "slot": "RB",
+      "under": 6.22
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 3,
+    "opponent_id": 4,
+    "points": 115,
+    "opponent_points": 127,
+    "optimal_points": 126,
+    "efficiency": 0.9127,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "A.J. Green",
+        "position": "WR",
+        "points": 10,
+        "projected": 11.23,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 5,
+        "projected": 13.34,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 27,
+      "projected": 23.08,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 19,
+      "projected": 13.63,
+      "slot": "RB",
+      "over": 5.37
+    },
+    "bust": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 5,
+      "projected": 13.34,
+      "slot": "WR",
+      "under": 8.34
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 4,
+    "opponent_id": 3,
+    "points": 127,
+    "opponent_points": 115,
+    "optimal_points": 146,
+    "efficiency": 0.8699,
+    "bench_points": 75,
+    "missed_swap": {
+      "benched": {
+        "name": "Melvin Gordon III",
+        "position": "RB",
+        "points": 16,
+        "projected": 11.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Boston Scott",
+        "position": "RB",
+        "points": 6,
+        "projected": 13.56,
+        "slot": "RB"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 41,
+      "projected": 17.94,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 41,
+      "projected": 17.94,
+      "slot": "WR",
+      "over": 23.06
+    },
+    "bust": {
+      "name": "Boston Scott",
+      "position": "RB",
+      "points": 6,
+      "projected": 13.56,
+      "slot": "RB",
+      "under": 7.56
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 5,
+    "opponent_id": 6,
+    "points": 114,
+    "opponent_points": 133,
+    "optimal_points": 121,
+    "efficiency": 0.9421,
+    "bench_points": 26,
+    "missed_swap": {
+      "benched": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 9,
+        "projected": 9.43,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "James Conner",
+        "position": "RB",
+        "points": 2,
+        "projected": 15.22,
+        "slot": "RB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Carson",
+      "position": "RB",
+      "points": 24,
+      "projected": 15.34,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Chris Carson",
+      "position": "RB",
+      "points": 24,
+      "projected": 15.34,
+      "slot": "FLEX",
+      "over": 8.66
+    },
+    "bust": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 4,
+      "projected": 20.3,
+      "slot": "WR",
+      "under": 16.3
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 6,
+    "opponent_id": 5,
+    "points": 133,
+    "opponent_points": 114,
+    "optimal_points": 171,
+    "efficiency": 0.7778,
+    "bench_points": 110,
+    "missed_swap": {
+      "benched": {
+        "name": "Nyheim Hines",
+        "position": "RB",
+        "points": 26,
+        "projected": 7.95,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Austin Ekeler",
+        "position": "RB",
+        "points": 9,
+        "projected": 14.89,
+        "slot": "RB"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 35,
+      "projected": 17.54,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 35,
+      "projected": 17.54,
+      "slot": "RB",
+      "over": 17.46
+    },
+    "bust": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 9,
+      "projected": 14.89,
+      "slot": "RB",
+      "under": 5.89
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 7,
+    "opponent_id": 8,
+    "points": 107,
+    "opponent_points": 134,
+    "optimal_points": 121,
+    "efficiency": 0.8843,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "Adrian Peterson",
+        "position": "RB",
+        "points": 14,
+        "projected": 4.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Nick Chubb",
+        "position": "RB",
+        "points": 7,
+        "projected": 13.48,
+        "slot": "RB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 31,
+      "projected": 15.07,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 31,
+      "projected": 15.07,
+      "slot": "WR",
+      "over": 15.93
+    },
+    "bust": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "points": 2,
+      "projected": 10.72,
+      "slot": "TE",
+      "under": 8.72
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 8,
+    "opponent_id": 7,
+    "points": 134,
+    "opponent_points": 107,
+    "optimal_points": 141,
+    "efficiency": 0.9504,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Jonnu Smith",
+        "position": "TE",
+        "points": 13,
+        "projected": 6.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "George Kittle",
+        "position": "TE",
+        "points": 8,
+        "projected": 15.74,
+        "slot": "TE"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 31,
+      "projected": 18.72,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 31,
+      "projected": 18.72,
+      "slot": "QB",
+      "over": 12.28
+    },
+    "bust": {
+      "name": "Vikings D/ST",
+      "position": "D/ST",
+      "points": -9,
+      "projected": 6.33,
+      "slot": "D/ST",
+      "under": 15.33
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 9,
+    "opponent_id": 10,
+    "points": 148,
+    "opponent_points": 144,
+    "optimal_points": 167,
+    "efficiency": 0.8862,
+    "bench_points": 58,
+    "missed_swap": {
+      "benched": {
+        "name": "Noah Fant",
+        "position": "TE",
+        "points": 19,
+        "projected": 9.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mark Ingram II",
+        "position": "RB",
+        "points": 2,
+        "projected": 9.77,
+        "slot": "FLEX"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 34,
+      "projected": 13.28,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 34,
+      "projected": 13.28,
+      "slot": "WR",
+      "over": 20.72
+    },
+    "bust": {
+      "name": "Mark Ingram II",
+      "position": "RB",
+      "points": 2,
+      "projected": 9.77,
+      "slot": "FLEX",
+      "under": 7.77
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 1,
+    "player_id": 10,
+    "opponent_id": 9,
+    "points": 144,
+    "opponent_points": 148,
+    "optimal_points": 145,
+    "efficiency": 0.9931,
+    "bench_points": 47,
+    "missed_swap": {
+      "benched": {
+        "name": "Julian Edelman",
+        "position": "WR",
+        "points": 12,
+        "projected": 12.01,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 11,
+        "projected": 13.29,
+        "slot": "FLEX"
+      },
+      "gain": 1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 30,
+      "projected": 19.63,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 29,
+      "projected": 15.56,
+      "slot": "WR",
+      "over": 13.44
+    },
+    "bust": {
+      "name": "Tyler Higbee",
+      "position": "TE",
+      "points": 7,
+      "projected": 9.82,
+      "slot": "TE",
+      "under": 2.82
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 1,
+    "opponent_id": 3,
+    "points": 113,
+    "opponent_points": 130,
+    "optimal_points": 132,
+    "efficiency": 0.8561,
+    "bench_points": 79,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Chark Jr.",
+        "position": "WR",
+        "points": 12,
+        "projected": 12.74,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Allen Robinson II",
+        "position": "WR",
+        "points": 6,
+        "projected": 15.45,
+        "slot": "WR"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 27,
+      "projected": 19.4,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 25,
+      "projected": 12.9,
+      "slot": "WR",
+      "over": 12.1
+    },
+    "bust": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 6,
+      "projected": 15.45,
+      "slot": "WR",
+      "under": 9.45
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 2,
+    "opponent_id": 6,
+    "points": 109,
+    "opponent_points": 119,
+    "optimal_points": 129,
+    "efficiency": 0.845,
+    "bench_points": 30,
+    "missed_swap": {
+      "benched": {
+        "name": "Hayden Hurst",
+        "position": "TE",
+        "points": 18,
+        "projected": 8.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 0,
+        "projected": 13.04,
+        "slot": "FLEX"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 28,
+      "projected": 13.24,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 28,
+      "projected": 13.24,
+      "slot": "TE",
+      "over": 14.76
+    },
+    "bust": {
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "points": 2,
+      "projected": 19.68,
+      "slot": "RB",
+      "under": 17.68
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 3,
+    "opponent_id": 1,
+    "points": 130,
+    "opponent_points": 113,
+    "optimal_points": 177,
+    "efficiency": 0.7345,
+    "bench_points": 102,
+    "missed_swap": {
+      "benched": {
+        "name": "Stefon Diggs",
+        "position": "WR",
+        "points": 29,
+        "projected": 12.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "T.Y. Hilton",
+        "position": "WR",
+        "points": 5,
+        "projected": 12.68,
+        "slot": "FLEX"
+      },
+      "gain": 24
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 44,
+      "projected": 16.58,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 44,
+      "projected": 16.58,
+      "slot": "RB",
+      "over": 27.42
+    },
+    "bust": {
+      "name": "A.J. Green",
+      "position": "WR",
+      "points": 5,
+      "projected": 13.18,
+      "slot": "WR",
+      "under": 8.18
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 4,
+    "opponent_id": 9,
+    "points": 84,
+    "opponent_points": 140,
+    "optimal_points": 131,
+    "efficiency": 0.6412,
+    "bench_points": 95,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 27,
+        "projected": 7.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Gallup",
+        "position": "WR",
+        "points": 7,
+        "projected": 12.68,
+        "slot": "FLEX"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "points": 20,
+      "projected": 12.78,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DJ Moore",
+      "position": "WR",
+      "points": 20,
+      "projected": 12.78,
+      "slot": "WR",
+      "over": 7.22
+    },
+    "bust": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 6,
+      "projected": 18.5,
+      "slot": "WR",
+      "under": 12.5
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 5,
+    "opponent_id": 8,
+    "points": 142,
+    "opponent_points": 141,
+    "optimal_points": 153,
+    "efficiency": 0.9281,
+    "bench_points": 40,
+    "missed_swap": {
+      "benched": {
+        "name": "James Conner",
+        "position": "RB",
+        "points": 19,
+        "projected": 13.22,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 10,
+        "projected": 16.17,
+        "slot": "RB"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 41,
+      "projected": 19.76,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 41,
+      "projected": 19.76,
+      "slot": "QB",
+      "over": 21.24
+    },
+    "bust": {
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "points": 10,
+      "projected": 16.17,
+      "slot": "RB",
+      "under": 6.17
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 6,
+    "opponent_id": 2,
+    "points": 119,
+    "opponent_points": 109,
+    "optimal_points": 137,
+    "efficiency": 0.8686,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 14,
+        "projected": 9.13,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Parris Campbell",
+        "position": "WR",
+        "points": 0,
+        "projected": 9.94,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 31,
+      "projected": 19.59,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 31,
+      "projected": 19.59,
+      "slot": "QB",
+      "over": 11.41
+    },
+    "bust": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 3,
+      "projected": 13.95,
+      "slot": "TE",
+      "under": 10.95
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 7,
+    "opponent_id": 10,
+    "points": 124,
+    "opponent_points": 146,
+    "optimal_points": 143,
+    "efficiency": 0.8671,
+    "bench_points": 60,
+    "missed_swap": {
+      "benched": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 20,
+        "projected": 11.25,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 6,
+        "projected": 14.93,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 25,
+      "projected": 13.31,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 25,
+      "projected": 13.31,
+      "slot": "RB",
+      "over": 11.69
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 6,
+      "projected": 14.93,
+      "slot": "WR",
+      "under": 8.93
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 8,
+    "opponent_id": 5,
+    "points": 141,
+    "opponent_points": 142,
+    "optimal_points": 156,
+    "efficiency": 0.9038,
+    "bench_points": 33,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVante Parker",
+        "position": "WR",
+        "points": 16,
+        "projected": 11.99,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 4,
+        "projected": 17.09,
+        "slot": "WR"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 37,
+      "projected": 19.34,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 37,
+      "projected": 19.34,
+      "slot": "RB",
+      "over": 17.66
+    },
+    "bust": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 4,
+      "projected": 17.09,
+      "slot": "WR",
+      "under": 13.09
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 9,
+    "opponent_id": 4,
+    "points": 140,
+    "opponent_points": 84,
+    "optimal_points": 168,
+    "efficiency": 0.8333,
+    "bench_points": 71,
+    "missed_swap": {
+      "benched": {
+        "name": "Noah Fant",
+        "position": "TE",
+        "points": 17,
+        "projected": 7.95,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Frank Gore",
+        "position": "RB",
+        "points": 6,
+        "projected": 6.86,
+        "slot": "FLEX"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 29,
+      "projected": 13.7,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 29,
+      "projected": 13.7,
+      "slot": "WR",
+      "over": 15.3
+    },
+    "bust": {
+      "name": "David Johnson",
+      "position": "RB",
+      "points": 6,
+      "projected": 16.23,
+      "slot": "RB",
+      "under": 10.23
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 2,
+    "player_id": 10,
+    "opponent_id": 7,
+    "points": 146,
+    "opponent_points": 124,
+    "optimal_points": 187,
+    "efficiency": 0.7807,
+    "bench_points": 90,
+    "missed_swap": {
+      "benched": {
+        "name": "Leonard Fournette",
+        "position": "RB",
+        "points": 27,
+        "projected": 7.42,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Emmanuel Sanders",
+        "position": "WR",
+        "points": 2,
+        "projected": 11.94,
+        "slot": "FLEX"
+      },
+      "gain": 25
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 32,
+      "projected": 17.49,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tyler Higbee",
+      "position": "TE",
+      "points": 28,
+      "projected": 9.51,
+      "slot": "TE",
+      "over": 18.49
+    },
+    "bust": {
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "points": 2,
+      "projected": 11.94,
+      "slot": "FLEX",
+      "under": 9.94
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 141,
+    "opponent_points": 113,
+    "optimal_points": 153,
+    "efficiency": 0.9216,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Patriots D/ST",
+        "position": "D/ST",
+        "points": 13,
+        "projected": 6.2,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chargers D/ST",
+        "position": "D/ST",
+        "points": 4,
+        "projected": 7.01,
+        "slot": "D/ST"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 39,
+      "projected": 18.95,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 39,
+      "projected": 18.95,
+      "slot": "QB",
+      "over": 20.05
+    },
+    "bust": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 7,
+      "projected": 13.47,
+      "slot": "RB",
+      "under": 6.47
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 133,
+    "opponent_points": 154,
+    "optimal_points": 138,
+    "efficiency": 0.9638,
+    "bench_points": 44,
+    "missed_swap": {
+      "benched": {
+        "name": "Hayden Hurst",
+        "position": "TE",
+        "points": 7,
+        "projected": 10.21,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darren Waller",
+        "position": "TE",
+        "points": 2,
+        "projected": 13.21,
+        "slot": "TE"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 22,
+      "projected": 12.11,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Buccaneers D/ST",
+      "position": "D/ST",
+      "points": 19,
+      "projected": 8.31,
+      "slot": "D/ST",
+      "over": 10.69
+    },
+    "bust": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 2,
+      "projected": 13.21,
+      "slot": "TE",
+      "under": 11.21
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 3,
+    "opponent_id": 6,
+    "points": 127,
+    "opponent_points": 135,
+    "optimal_points": 132,
+    "efficiency": 0.9621,
+    "bench_points": 52,
+    "missed_swap": {
+      "benched": {
+        "name": "Joe Burrow",
+        "position": "QB",
+        "points": 20,
+        "projected": 16.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "points": 15,
+        "projected": 24.26,
+        "slot": "QB"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 30,
+      "projected": 13.23,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 30,
+      "projected": 13.23,
+      "slot": "FLEX",
+      "over": 16.77
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 15,
+      "projected": 24.26,
+      "slot": "QB",
+      "under": 9.26
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 4,
+    "opponent_id": 10,
+    "points": 79,
+    "opponent_points": 173,
+    "optimal_points": 120,
+    "efficiency": 0.6583,
+    "bench_points": 81,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Gallup",
+        "position": "WR",
+        "points": 25,
+        "projected": 12.14,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Diontae Johnson",
+        "position": "WR",
+        "points": 0,
+        "projected": 14.04,
+        "slot": "WR"
+      },
+      "gain": 25
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 26,
+      "projected": 16.62,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 26,
+      "projected": 16.62,
+      "slot": "RB",
+      "over": 9.38
+    },
+    "bust": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 0,
+      "projected": 14.04,
+      "slot": "WR",
+      "under": 14.04
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 5,
+    "opponent_id": 7,
+    "points": 112,
+    "opponent_points": 131,
+    "optimal_points": 131,
+    "efficiency": 0.855,
+    "bench_points": 49,
+    "missed_swap": {
+      "benched": {
+        "name": "Tre'Quan Smith",
+        "position": "WR",
+        "points": 8,
+        "projected": 11.18,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "John Brown",
+        "position": "WR",
+        "points": 0,
+        "projected": 10.75,
+        "slot": "WR"
+      },
+      "gain": 8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 28,
+      "projected": 19.22,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 28,
+      "projected": 19.22,
+      "slot": "QB",
+      "over": 8.78
+    },
+    "bust": {
+      "name": "John Brown",
+      "position": "WR",
+      "points": 0,
+      "projected": 10.75,
+      "slot": "WR",
+      "under": 10.75
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 6,
+    "opponent_id": 3,
+    "points": 135,
+    "opponent_points": 127,
+    "optimal_points": 144,
+    "efficiency": 0.9375,
+    "bench_points": 57,
+    "missed_swap": {
+      "benched": {
+        "name": "Jerry Jeudy",
+        "position": "WR",
+        "points": 10,
+        "projected": 10.38,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 5,
+        "projected": 10.23,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 30,
+      "projected": 16.62,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 30,
+      "projected": 16.62,
+      "slot": "RB",
+      "over": 13.38
+    },
+    "bust": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 5,
+      "projected": 13.82,
+      "slot": "TE",
+      "under": 8.82
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 7,
+    "opponent_id": 5,
+    "points": 131,
+    "opponent_points": 112,
+    "optimal_points": 153,
+    "efficiency": 0.8562,
+    "bench_points": 79,
+    "missed_swap": {
+      "benched": {
+        "name": "Keenan Allen",
+        "position": "WR",
+        "points": 32,
+        "projected": 13.29,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 11,
+        "projected": 15.15,
+        "slot": "WR"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 23,
+      "projected": 15.2,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "points": 22,
+      "projected": 11.42,
+      "slot": "FLEX",
+      "over": 10.58
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 14,
+      "projected": 18.16,
+      "slot": "RB",
+      "under": 4.16
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 154,
+    "opponent_points": 133,
+    "optimal_points": 165,
+    "efficiency": 0.9333,
+    "bench_points": 26,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVante Parker",
+        "position": "WR",
+        "points": 11,
+        "projected": 12.67,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "WR"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 43,
+      "projected": 21.98,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 43,
+      "projected": 21.98,
+      "slot": "RB",
+      "over": 21.02
+    },
+    "bust": {
+      "name": "Vikings D/ST",
+      "position": "D/ST",
+      "points": 0,
+      "projected": 6.47,
+      "slot": "D/ST",
+      "under": 6.47
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 113,
+    "opponent_points": 141,
+    "optimal_points": 113,
+    "efficiency": 1,
+    "bench_points": 34,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 23,
+      "projected": 15.62,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 23,
+      "projected": 15.62,
+      "slot": "QB",
+      "over": 7.38
+    },
+    "bust": {
+      "name": "Bears D/ST",
+      "position": "D/ST",
+      "points": 3,
+      "projected": 5.43,
+      "slot": "D/ST",
+      "under": 2.43
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 3,
+    "player_id": 10,
+    "opponent_id": 4,
+    "points": 173,
+    "opponent_points": 79,
+    "optimal_points": 187,
+    "efficiency": 0.9251,
+    "bench_points": 59,
+    "missed_swap": {
+      "benched": {
+        "name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "points": 18,
+        "projected": 9.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julian Edelman",
+        "position": "WR",
+        "points": 4,
+        "projected": 13.47,
+        "slot": "FLEX"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 37,
+      "projected": 15.35,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 37,
+      "projected": 15.35,
+      "slot": "WR",
+      "over": 21.65
+    },
+    "bust": {
+      "name": "Julian Edelman",
+      "position": "WR",
+      "points": 4,
+      "projected": 13.47,
+      "slot": "FLEX",
+      "under": 9.47
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 1,
+    "opponent_id": 4,
+    "points": 148,
+    "opponent_points": 86,
+    "optimal_points": 170,
+    "efficiency": 0.8706,
+    "bench_points": 56,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Chark Jr.",
+        "position": "WR",
+        "points": 29,
+        "projected": 10.61,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jonathan Taylor",
+        "position": "RB",
+        "points": 8,
+        "projected": 13.91,
+        "slot": "FLEX"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 42,
+      "projected": 15.16,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Joe Mixon",
+      "position": "RB",
+      "points": 42,
+      "projected": 15.16,
+      "slot": "RB",
+      "over": 26.84
+    },
+    "bust": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 8,
+      "projected": 13.91,
+      "slot": "FLEX",
+      "under": 5.91
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 2,
+    "opponent_id": 7,
+    "points": 124,
+    "opponent_points": 109,
+    "optimal_points": 135,
+    "efficiency": 0.9185,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Latavius Murray",
+        "position": "RB",
+        "points": 20,
+        "projected": 9.09,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Todd Gurley II",
+        "position": "RB",
+        "points": 18,
+        "projected": 12.01,
+        "slot": "RB"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Will Fuller V",
+      "position": "WR",
+      "points": 22,
+      "projected": 13.03,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Will Fuller V",
+      "position": "WR",
+      "points": 22,
+      "projected": 13.03,
+      "slot": "FLEX",
+      "over": 8.97
+    },
+    "bust": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 12,
+      "projected": 21.12,
+      "slot": "QB",
+      "under": 9.12
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 3,
+    "opponent_id": 8,
+    "points": 149,
+    "opponent_points": 134,
+    "optimal_points": 153,
+    "efficiency": 0.9739,
+    "bench_points": 52,
+    "missed_swap": {
+      "benched": {
+        "name": "D'Andre Swift",
+        "position": "RB",
+        "points": 15,
+        "projected": 7.25,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Clyde Edwards-Helaire",
+        "position": "RB",
+        "points": 11,
+        "projected": 17.83,
+        "slot": "RB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 38,
+      "projected": 12.97,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 38,
+      "projected": 12.97,
+      "slot": "WR",
+      "over": 25.03
+    },
+    "bust": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 11,
+      "projected": 17.83,
+      "slot": "RB",
+      "under": 6.83
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 4,
+    "opponent_id": 1,
+    "points": 86,
+    "opponent_points": 148,
+    "optimal_points": 98,
+    "efficiency": 0.8776,
+    "bench_points": 38,
+    "missed_swap": {
+      "benched": {
+        "name": "Marquise Brown",
+        "position": "WR",
+        "points": 12,
+        "projected": 12.1,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Davante Adams",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "FLEX"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Melvin Gordon III",
+      "position": "RB",
+      "points": 25,
+      "projected": 15.19,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Melvin Gordon III",
+      "position": "RB",
+      "points": 25,
+      "projected": 15.19,
+      "slot": "RB",
+      "over": 9.81
+    },
+    "bust": {
+      "name": "Chris Thompson",
+      "position": "RB",
+      "points": 0,
+      "projected": 6.97,
+      "slot": "RB",
+      "under": 6.97
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 5,
+    "opponent_id": 10,
+    "points": 138,
+    "opponent_points": 84,
+    "optimal_points": 157,
+    "efficiency": 0.879,
+    "bench_points": 53,
+    "missed_swap": {
+      "benched": {
+        "name": "Antonio Gibson",
+        "position": "RB",
+        "points": 22,
+        "projected": 9.57,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 3,
+        "projected": 14.56,
+        "slot": "RB"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 39,
+      "projected": 20.33,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 39,
+      "projected": 20.33,
+      "slot": "QB",
+      "over": 18.67
+    },
+    "bust": {
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "points": 3,
+      "projected": 14.56,
+      "slot": "RB",
+      "under": 11.56
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 6,
+    "opponent_id": 9,
+    "points": 109,
+    "opponent_points": 103,
+    "optimal_points": 119,
+    "efficiency": 0.916,
+    "bench_points": 50,
+    "missed_swap": {
+      "benched": {
+        "name": "Aaron Rodgers",
+        "position": "QB",
+        "points": 29,
+        "projected": 20.59,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kyler Murray",
+        "position": "QB",
+        "points": 24,
+        "projected": 21.44,
+        "slot": "QB"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 24,
+      "projected": 21.44,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 20,
+      "projected": 12.91,
+      "slot": "TE",
+      "over": 7.09
+    },
+    "bust": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 2,
+      "projected": 17.12,
+      "slot": "RB",
+      "under": 15.12
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 7,
+    "opponent_id": 2,
+    "points": 109,
+    "opponent_points": 124,
+    "optimal_points": 126,
+    "efficiency": 0.8651,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 25,
+        "projected": 13.76,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Keenan Allen",
+        "position": "WR",
+        "points": 14,
+        "projected": 15.25,
+        "slot": "WR"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 33,
+      "projected": 13.54,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 33,
+      "projected": 13.54,
+      "slot": "WR",
+      "over": 19.46
+    },
+    "bust": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 4,
+      "projected": 12.97,
+      "slot": "RB",
+      "under": 8.97
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 8,
+    "opponent_id": 3,
+    "points": 134,
+    "opponent_points": 149,
+    "optimal_points": 148,
+    "efficiency": 0.9054,
+    "bench_points": 24,
+    "missed_swap": {
+      "benched": {
+        "name": "James White",
+        "position": "RB",
+        "points": 12,
+        "projected": 9.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jeff Wilson Jr.",
+        "position": "RB",
+        "points": 2,
+        "projected": 10.07,
+        "slot": "RB"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 39,
+      "projected": 14.78,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 39,
+      "projected": 14.78,
+      "slot": "TE",
+      "over": 24.22
+    },
+    "bust": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 7,
+      "projected": 16.77,
+      "slot": "WR",
+      "under": 9.77
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 9,
+    "opponent_id": 6,
+    "points": 103,
+    "opponent_points": 109,
+    "optimal_points": 129,
+    "efficiency": 0.7984,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Tom Brady",
+        "position": "QB",
+        "points": 32,
+        "projected": 15.76,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Matthew Stafford",
+        "position": "QB",
+        "points": 22,
+        "projected": 17.33,
+        "slot": "QB"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 25,
+      "projected": 14.73,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 25,
+      "projected": 14.73,
+      "slot": "WR",
+      "over": 10.27
+    },
+    "bust": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 0,
+      "projected": 17.3,
+      "slot": "WR",
+      "under": 17.3
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 4,
+    "player_id": 10,
+    "opponent_id": 5,
+    "points": 84,
+    "opponent_points": 138,
+    "optimal_points": 117,
+    "efficiency": 0.7179,
+    "bench_points": 53,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 18,
+        "projected": 12.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Russell Gage",
+        "position": "WR",
+        "points": 4,
+        "projected": 12.27,
+        "slot": "FLEX"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 22,
+      "projected": 23.84,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Colts D/ST",
+      "position": "D/ST",
+      "points": 8,
+      "projected": 6.25,
+      "slot": "D/ST",
+      "over": 1.75
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 5,
+      "projected": 16.86,
+      "slot": "WR",
+      "under": 11.86
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 1,
+    "opponent_id": 10,
+    "points": 118,
+    "opponent_points": 108,
+    "optimal_points": 136,
+    "efficiency": 0.8676,
+    "bench_points": 57,
+    "missed_swap": {
+      "benched": {
+        "name": "Darius Slayton",
+        "position": "WR",
+        "points": 20,
+        "projected": 11.86,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 5,
+        "projected": 14.26,
+        "slot": "WR"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 29,
+      "projected": 23.45,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 29,
+      "projected": 23.45,
+      "slot": "QB",
+      "over": 5.55
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 5,
+      "projected": 14.26,
+      "slot": "WR",
+      "under": 9.26
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 2,
+    "opponent_id": 5,
+    "points": 139,
+    "opponent_points": 94,
+    "optimal_points": 143,
+    "efficiency": 0.972,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 19,
+        "projected": 9.56,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Will Fuller V",
+        "position": "WR",
+        "points": 15,
+        "projected": 13.78,
+        "slot": "FLEX"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 29,
+      "projected": 17.94,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 29,
+      "projected": 17.94,
+      "slot": "RB",
+      "over": 11.06
+    },
+    "bust": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 7,
+      "projected": 18.06,
+      "slot": "QB",
+      "under": 11.06
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 3,
+    "opponent_id": 7,
+    "points": 104,
+    "opponent_points": 129,
+    "optimal_points": 112,
+    "efficiency": 0.9286,
+    "bench_points": 34,
+    "missed_swap": {
+      "benched": {
+        "name": "T.Y. Hilton",
+        "position": "WR",
+        "points": 12,
+        "projected": 10.23,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 8,
+        "projected": 12.9,
+        "slot": "WR"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 20,
+      "projected": 15.75,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Rams D/ST",
+      "position": "D/ST",
+      "points": 14,
+      "projected": 7.2,
+      "slot": "D/ST",
+      "over": 6.8
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 13,
+      "projected": 23.24,
+      "slot": "QB",
+      "under": 10.24
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 4,
+    "opponent_id": 6,
+    "points": 102,
+    "opponent_points": 140,
+    "optimal_points": 120,
+    "efficiency": 0.85,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 14,
+        "projected": 8.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 1,
+        "projected": 12.38,
+        "slot": "TE"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 24,
+      "projected": 20.91,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Marquise Brown",
+      "position": "WR",
+      "points": 19,
+      "projected": 13.55,
+      "slot": "WR",
+      "over": 5.45
+    },
+    "bust": {
+      "name": "Zach Ertz",
+      "position": "TE",
+      "points": 1,
+      "projected": 12.38,
+      "slot": "TE",
+      "under": 11.38
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 5,
+    "opponent_id": 2,
+    "points": 94,
+    "opponent_points": 139,
+    "optimal_points": 99,
+    "efficiency": 0.9495,
+    "bench_points": 28,
+    "missed_swap": {
+      "benched": {
+        "name": "Hunter Renfrow",
+        "position": "WR",
+        "points": 5,
+        "projected": 9.53,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "John Brown",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Carson",
+      "position": "RB",
+      "points": 19,
+      "projected": 16.68,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Jimmy Graham",
+      "position": "TE",
+      "points": 12,
+      "projected": 8.74,
+      "slot": "TE",
+      "over": 3.26
+    },
+    "bust": {
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 12,
+      "projected": 21.03,
+      "slot": "QB",
+      "under": 9.03
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 6,
+    "opponent_id": 4,
+    "points": 140,
+    "opponent_points": 102,
+    "optimal_points": 140,
+    "efficiency": 1,
+    "bench_points": 14,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 26,
+      "projected": 21.68,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 21,
+      "projected": 12.38,
+      "slot": "FLEX",
+      "over": 8.62
+    },
+    "bust": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 11,
+      "projected": 13.76,
+      "slot": "WR",
+      "under": 2.76
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 7,
+    "opponent_id": 3,
+    "points": 129,
+    "opponent_points": 104,
+    "optimal_points": 160,
+    "efficiency": 0.8063,
+    "bench_points": 58,
+    "missed_swap": {
+      "benched": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 20,
+        "projected": 10.01,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 4,
+        "projected": 15,
+        "slot": "WR"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 29,
+      "projected": 16.93,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": 25,
+      "projected": 6.59,
+      "slot": "D/ST",
+      "over": 18.41
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 4,
+      "projected": 15,
+      "slot": "WR",
+      "under": 11
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 8,
+    "opponent_id": 9,
+    "points": 102,
+    "opponent_points": 149,
+    "optimal_points": 125,
+    "efficiency": 0.816,
+    "bench_points": 53,
+    "missed_swap": {
+      "benched": {
+        "name": "Jonnu Smith",
+        "position": "TE",
+        "points": 21,
+        "projected": 11.2,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "George Kittle",
+        "position": "TE",
+        "points": 8,
+        "projected": 16.3,
+        "slot": "TE"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 27,
+      "projected": 15.21,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 27,
+      "projected": 15.21,
+      "slot": "WR",
+      "over": 11.79
+    },
+    "bust": {
+      "name": "Chiefs D/ST",
+      "position": "D/ST",
+      "points": -5,
+      "projected": 5.8,
+      "slot": "D/ST",
+      "under": 10.8
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 9,
+    "opponent_id": 8,
+    "points": 149,
+    "opponent_points": 102,
+    "optimal_points": 154,
+    "efficiency": 0.9675,
+    "bench_points": 29,
+    "missed_swap": {
+      "benched": {
+        "name": "Bears D/ST",
+        "position": "D/ST",
+        "points": 5,
+        "projected": 5.39,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Broncos D/ST",
+        "position": "D/ST",
+        "points": 0,
+        "projected": 0,
+        "slot": "D/ST"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 26,
+      "projected": 16.06,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "points": 25,
+      "projected": 12.98,
+      "slot": "FLEX",
+      "over": 12.02
+    },
+    "bust": {
+      "name": "David Johnson",
+      "position": "RB",
+      "points": 11,
+      "projected": 13.57,
+      "slot": "RB",
+      "under": 2.57
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 5,
+    "player_id": 10,
+    "opponent_id": 1,
+    "points": 108,
+    "opponent_points": 118,
+    "optimal_points": 135,
+    "efficiency": 0.8,
+    "bench_points": 60,
+    "missed_swap": {
+      "benched": {
+        "name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "points": 21,
+        "projected": 9.72,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 3,
+        "projected": 11.71,
+        "slot": "RB"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 25,
+      "projected": 18.62,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 25,
+      "projected": 18.62,
+      "slot": "WR",
+      "over": 6.38
+    },
+    "bust": {
+      "name": "Devin Singletary",
+      "position": "RB",
+      "points": 3,
+      "projected": 11.71,
+      "slot": "RB",
+      "under": 8.71
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 1,
+    "opponent_id": 6,
+    "points": 110,
+    "opponent_points": 92,
+    "optimal_points": 128,
+    "efficiency": 0.8594,
+    "bench_points": 84,
+    "missed_swap": {
+      "benched": {
+        "name": "Travis Fulgham",
+        "position": "WR",
+        "points": 19,
+        "projected": 10.97,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Allen Robinson II",
+        "position": "WR",
+        "points": 10,
+        "projected": 14.97,
+        "slot": "WR"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 20,
+      "projected": 23.46,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Rob Gronkowski",
+      "position": "TE",
+      "points": 18,
+      "projected": 8.05,
+      "slot": "TE",
+      "over": 9.95
+    },
+    "bust": {
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "points": 9,
+      "projected": 14.03,
+      "slot": "RB",
+      "under": 5.03
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 2,
+    "opponent_id": 10,
+    "points": 124,
+    "opponent_points": 96,
+    "optimal_points": 143,
+    "efficiency": 0.8671,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Woods",
+        "position": "WR",
+        "points": 13,
+        "projected": 12.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyreek Hill",
+        "position": "WR",
+        "points": 5,
+        "projected": 15.3,
+        "slot": "WR"
+      },
+      "gain": 8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 30,
+      "projected": 17.88,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 30,
+      "projected": 17.88,
+      "slot": "QB",
+      "over": 12.12
+    },
+    "bust": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 5,
+      "projected": 15.3,
+      "slot": "WR",
+      "under": 10.3
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 3,
+    "opponent_id": 5,
+    "points": 100,
+    "opponent_points": 123,
+    "optimal_points": 140,
+    "efficiency": 0.7143,
+    "bench_points": 96,
+    "missed_swap": {
+      "benched": {
+        "name": "Brandin Cooks",
+        "position": "WR",
+        "points": 21,
+        "projected": 12.29,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Odell Beckham Jr.",
+        "position": "WR",
+        "points": 4,
+        "projected": 14.32,
+        "slot": "WR"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 27,
+      "projected": 21.85,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 27,
+      "projected": 21.85,
+      "slot": "QB",
+      "over": 5.15
+    },
+    "bust": {
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "points": 4,
+      "projected": 14.32,
+      "slot": "WR",
+      "under": 10.32
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 4,
+    "opponent_id": 8,
+    "points": 117,
+    "opponent_points": 88,
+    "optimal_points": 130,
+    "efficiency": 0.9,
+    "bench_points": 49,
+    "missed_swap": {
+      "benched": {
+        "name": "Zach Ertz",
+        "position": "TE",
+        "points": 7,
+        "projected": 10.06,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 0,
+        "projected": 9.47,
+        "slot": "TE"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 40,
+      "projected": 19.48,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 40,
+      "projected": 19.48,
+      "slot": "RB",
+      "over": 20.52
+    },
+    "bust": {
+      "name": "Alexander Mattison",
+      "position": "RB",
+      "points": 3,
+      "projected": 16.26,
+      "slot": "RB",
+      "under": 13.26
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 5,
+    "opponent_id": 3,
+    "points": 123,
+    "opponent_points": 100,
+    "optimal_points": 139,
+    "efficiency": 0.8849,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 25,
+        "projected": 14.43,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Antonio Gibson",
+        "position": "RB",
+        "points": 9,
+        "projected": 15,
+        "slot": "RB"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "points": 28,
+      "projected": 12.13,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "points": 28,
+      "projected": 12.13,
+      "slot": "FLEX",
+      "over": 15.87
+    },
+    "bust": {
+      "name": "John Brown",
+      "position": "WR",
+      "points": 0,
+      "projected": 11.73,
+      "slot": "WR",
+      "under": 11.73
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 6,
+    "opponent_id": 1,
+    "points": 92,
+    "opponent_points": 110,
+    "optimal_points": 107,
+    "efficiency": 0.8598,
+    "bench_points": 32,
+    "missed_swap": {
+      "benched": {
+        "name": "Tee Higgins",
+        "position": "WR",
+        "points": 18,
+        "projected": 10.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "points": 4,
+        "projected": 13.54,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 28,
+      "projected": 22.66,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 22,
+      "projected": 13.14,
+      "slot": "WR",
+      "over": 8.86
+    },
+    "bust": {
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "points": 7,
+      "projected": 18.03,
+      "slot": "RB",
+      "under": 11.03
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 7,
+    "opponent_id": 9,
+    "points": 119,
+    "opponent_points": 119,
+    "optimal_points": 121,
+    "efficiency": 0.9835,
+    "bench_points": 35,
+    "missed_swap": {
+      "benched": {
+        "name": "James White",
+        "position": "RB",
+        "points": 14,
+        "projected": 8.47,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 12,
+        "projected": 16.59,
+        "slot": "RB"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "points": 30,
+      "projected": 16.74,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "points": 30,
+      "projected": 16.74,
+      "slot": "QB",
+      "over": 13.26
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 12,
+      "projected": 16.59,
+      "slot": "RB",
+      "under": 4.59
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 8,
+    "opponent_id": 4,
+    "points": 88,
+    "opponent_points": 117,
+    "optimal_points": 109,
+    "efficiency": 0.8073,
+    "bench_points": 33,
+    "missed_swap": {
+      "benched": {
+        "name": "George Kittle",
+        "position": "TE",
+        "points": 23,
+        "projected": 14.07,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jonnu Smith",
+        "position": "TE",
+        "points": 2,
+        "projected": 11.15,
+        "slot": "TE"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 33,
+      "projected": 15.94,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 33,
+      "projected": 15.94,
+      "slot": "WR",
+      "over": 17.06
+    },
+    "bust": {
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "points": 2,
+      "projected": 14.5,
+      "slot": "WR",
+      "under": 12.5
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 9,
+    "opponent_id": 7,
+    "points": 119,
+    "opponent_points": 119,
+    "optimal_points": 119,
+    "efficiency": 1,
+    "bench_points": 28,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 23,
+      "projected": 17.16,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "points": 15,
+      "projected": 5.18,
+      "slot": "D/ST",
+      "over": 9.82
+    },
+    "bust": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 2,
+      "projected": 13.9,
+      "slot": "WR",
+      "under": 11.9
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 6,
+    "player_id": 10,
+    "opponent_id": 2,
+    "points": 96,
+    "opponent_points": 124,
+    "optimal_points": 131,
+    "efficiency": 0.7328,
+    "bench_points": 59,
+    "missed_swap": {
+      "benched": {
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "points": 39,
+        "projected": 11.16,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 7,
+        "projected": 11.86,
+        "slot": "WR"
+      },
+      "gain": 32
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Chase Claypool",
+      "position": "WR",
+      "points": 17,
+      "projected": 13.68,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "points": 16,
+      "projected": 6.69,
+      "slot": "K",
+      "over": 9.31
+    },
+    "bust": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 9,
+      "projected": 19.75,
+      "slot": "WR",
+      "under": 10.75
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 1,
+    "opponent_id": 8,
+    "points": 98,
+    "opponent_points": 118,
+    "optimal_points": 98,
+    "efficiency": 1,
+    "bench_points": 5,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 22,
+      "projected": 14.52,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 22,
+      "projected": 14.52,
+      "slot": "WR",
+      "over": 7.48
+    },
+    "bust": {
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "points": 0,
+      "projected": 12.73,
+      "slot": "RB",
+      "under": 12.73
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 2,
+    "opponent_id": 3,
+    "points": 129,
+    "opponent_points": 178,
+    "optimal_points": 141,
+    "efficiency": 0.9149,
+    "bench_points": 57,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 20,
+        "projected": 8.88,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Davis",
+        "position": "RB",
+        "points": 8,
+        "projected": 18.95,
+        "slot": "RB"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 23,
+      "projected": 15.34,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 23,
+      "projected": 15.34,
+      "slot": "WR",
+      "over": 7.66
+    },
+    "bust": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 8,
+      "projected": 18.95,
+      "slot": "RB",
+      "under": 10.95
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 3,
+    "opponent_id": 2,
+    "points": 178,
+    "opponent_points": 129,
+    "optimal_points": 186,
+    "efficiency": 0.957,
+    "bench_points": 52,
+    "missed_swap": {
+      "benched": {
+        "name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "points": 9,
+        "projected": 11.94,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ezekiel Elliott",
+        "position": "RB",
+        "points": 5,
+        "projected": 21.56,
+        "slot": "RB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 53,
+      "projected": 16.26,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 53,
+      "projected": 16.26,
+      "slot": "WR",
+      "over": 36.74
+    },
+    "bust": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 5,
+      "projected": 21.56,
+      "slot": "RB",
+      "under": 16.56
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 4,
+    "opponent_id": 7,
+    "points": 159,
+    "opponent_points": 107,
+    "optimal_points": 161,
+    "efficiency": 0.9876,
+    "bench_points": 42,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 44,
+      "projected": 21.52,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 44,
+      "projected": 21.52,
+      "slot": "WR",
+      "over": 22.48
+    },
+    "bust": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 15,
+      "projected": 19.6,
+      "slot": "RB",
+      "under": 4.6
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 5,
+    "opponent_id": 9,
+    "points": 105,
+    "opponent_points": 98,
+    "optimal_points": 135,
+    "efficiency": 0.7778,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Diontae Johnson",
+        "position": "WR",
+        "points": 29,
+        "projected": 12.17,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Carson",
+        "position": "RB",
+        "points": 4,
+        "projected": 14.74,
+        "slot": "FLEX"
+      },
+      "gain": 25
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 26,
+      "projected": 21.01,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 26,
+      "projected": 21.01,
+      "slot": "WR",
+      "over": 4.99
+    },
+    "bust": {
+      "name": "Chris Carson",
+      "position": "RB",
+      "points": 4,
+      "projected": 14.74,
+      "slot": "FLEX",
+      "under": 10.74
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 6,
+    "opponent_id": 10,
+    "points": 134,
+    "opponent_points": 108,
+    "optimal_points": 134,
+    "efficiency": 1,
+    "bench_points": 29,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 36,
+      "projected": 22.93,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 36,
+      "projected": 22.93,
+      "slot": "QB",
+      "over": 13.07
+    },
+    "bust": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 5,
+      "projected": 15.51,
+      "slot": "RB",
+      "under": 10.51
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 7,
+    "opponent_id": 4,
+    "points": 107,
+    "opponent_points": 159,
+    "optimal_points": 128,
+    "efficiency": 0.8359,
+    "bench_points": 38,
+    "missed_swap": {
+      "benched": {
+        "name": "A.J. Green",
+        "position": "WR",
+        "points": 15,
+        "projected": 11.19,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 0,
+        "projected": 11.18,
+        "slot": "WR"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "points": 35,
+      "projected": 17.14,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Joe Burrow",
+      "position": "QB",
+      "points": 35,
+      "projected": 17.14,
+      "slot": "QB",
+      "over": 17.86
+    },
+    "bust": {
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 0,
+      "projected": 11.18,
+      "slot": "WR",
+      "under": 11.18
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 8,
+    "opponent_id": 1,
+    "points": 118,
+    "opponent_points": 98,
+    "optimal_points": 131,
+    "efficiency": 0.9008,
+    "bench_points": 43,
+    "missed_swap": {
+      "benched": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 13,
+        "projected": 10.34,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DK Metcalf",
+        "position": "WR",
+        "points": 4,
+        "projected": 15.92,
+        "slot": "WR"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 22,
+      "projected": 22.05,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Chiefs D/ST",
+      "position": "D/ST",
+      "points": 21,
+      "projected": 6.32,
+      "slot": "D/ST",
+      "over": 14.68
+    },
+    "bust": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 4,
+      "projected": 15.92,
+      "slot": "WR",
+      "under": 11.92
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 9,
+    "opponent_id": 5,
+    "points": 98,
+    "opponent_points": 105,
+    "optimal_points": 115,
+    "efficiency": 0.8522,
+    "bench_points": 74,
+    "missed_swap": {
+      "benched": {
+        "name": "T.J. Hockenson",
+        "position": "TE",
+        "points": 16,
+        "projected": 9.91,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jamison Crowder",
+        "position": "WR",
+        "points": 0,
+        "projected": 0,
+        "slot": "FLEX"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 37,
+      "projected": 18.22,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 37,
+      "projected": 18.22,
+      "slot": "QB",
+      "over": 18.78
+    },
+    "bust": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 6,
+      "projected": 16.38,
+      "slot": "TE",
+      "under": 10.38
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 7,
+    "player_id": 10,
+    "opponent_id": 6,
+    "points": 108,
+    "opponent_points": 134,
+    "optimal_points": 113,
+    "efficiency": 0.9558,
+    "bench_points": 17,
+    "missed_swap": {
+      "benched": {
+        "name": "Leonard Fournette",
+        "position": "RB",
+        "points": 15,
+        "projected": 8.4,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 10,
+        "projected": 14.74,
+        "slot": "RB"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 30,
+      "projected": 13.27,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 30,
+      "projected": 13.27,
+      "slot": "FLEX",
+      "over": 16.73
+    },
+    "bust": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 10,
+      "projected": 18.09,
+      "slot": "WR",
+      "under": 8.09
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 1,
+    "opponent_id": 7,
+    "points": 176,
+    "opponent_points": 83,
+    "optimal_points": 195,
+    "efficiency": 0.9026,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Brandon Aiyuk",
+        "position": "WR",
+        "points": 23,
+        "projected": 11.65,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jonathan Taylor",
+        "position": "RB",
+        "points": 4,
+        "projected": 14.01,
+        "slot": "FLEX"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 48,
+      "projected": 18.58,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 48,
+      "projected": 18.58,
+      "slot": "RB",
+      "over": 29.42
+    },
+    "bust": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 4,
+      "projected": 14.01,
+      "slot": "FLEX",
+      "under": 10.01
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 2,
+    "opponent_id": 9,
+    "points": 122,
+    "opponent_points": 101,
+    "optimal_points": 125,
+    "efficiency": 0.976,
+    "bench_points": 16,
+    "missed_swap": {
+      "benched": {
+        "name": "Hayden Hurst",
+        "position": "TE",
+        "points": 10,
+        "projected": 9.44,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darren Waller",
+        "position": "TE",
+        "points": 7,
+        "projected": 13.32,
+        "slot": "TE"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 27,
+      "projected": 13,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 27,
+      "projected": 13,
+      "slot": "WR",
+      "over": 14
+    },
+    "bust": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 8,
+      "projected": 18.12,
+      "slot": "RB",
+      "under": 10.12
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 3,
+    "opponent_id": 10,
+    "points": 94,
+    "opponent_points": 106,
+    "optimal_points": 102,
+    "efficiency": 0.9216,
+    "bench_points": 28,
+    "missed_swap": {
+      "benched": {
+        "name": "Eric Ebron",
+        "position": "TE",
+        "points": 14,
+        "projected": 9.84,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darrell Henderson Jr.",
+        "position": "RB",
+        "points": 6,
+        "projected": 12.7,
+        "slot": "FLEX"
+      },
+      "gain": 8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 18,
+      "projected": 20.56,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "points": 18,
+      "projected": 14.03,
+      "slot": "WR",
+      "over": 3.97
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 7,
+      "projected": 18.87,
+      "slot": "WR",
+      "under": 11.87
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 4,
+    "opponent_id": 5,
+    "points": 112,
+    "opponent_points": 48,
+    "optimal_points": 131,
+    "efficiency": 0.855,
+    "bench_points": 47,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Tonyan",
+        "position": "TE",
+        "points": 12,
+        "projected": 7.08,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Gesicki",
+        "position": "TE",
+        "points": 1,
+        "projected": 9.01,
+        "slot": "TE"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 30,
+      "projected": 21.03,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Eagles D/ST",
+      "position": "D/ST",
+      "points": 21,
+      "projected": 7.72,
+      "slot": "D/ST",
+      "over": 13.28
+    },
+    "bust": {
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "points": 1,
+      "projected": 9.01,
+      "slot": "TE",
+      "under": 8.01
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 5,
+    "opponent_id": 4,
+    "points": 48,
+    "opponent_points": 112,
+    "optimal_points": 75,
+    "efficiency": 0.64,
+    "bench_points": 41,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Claypool",
+        "position": "WR",
+        "points": 15,
+        "projected": 9.39,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kenny Golladay",
+        "position": "WR",
+        "points": 0,
+        "projected": 12.98,
+        "slot": "WR"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 14,
+      "projected": 15.72,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Steelers D/ST",
+      "position": "D/ST",
+      "points": 13,
+      "projected": 5.58,
+      "slot": "D/ST",
+      "over": 7.42
+    },
+    "bust": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 1,
+      "projected": 14.03,
+      "slot": "WR",
+      "under": 13.03
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 6,
+    "opponent_id": 8,
+    "points": 100,
+    "opponent_points": 127,
+    "optimal_points": 105,
+    "efficiency": 0.9524,
+    "bench_points": 25,
+    "missed_swap": {
+      "benched": {
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "points": 17,
+        "projected": 7.57,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "points": 12,
+        "projected": 13.55,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 23,
+      "projected": 18.96,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 22,
+      "projected": 13.53,
+      "slot": "WR",
+      "over": 8.47
+    },
+    "bust": {
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "points": 8,
+      "projected": 20.08,
+      "slot": "RB",
+      "under": 12.08
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 7,
+    "opponent_id": 1,
+    "points": 83,
+    "opponent_points": 176,
+    "optimal_points": 94,
+    "efficiency": 0.883,
+    "bench_points": 40,
+    "missed_swap": {
+      "benched": {
+        "name": "Darius Slayton",
+        "position": "WR",
+        "points": 10,
+        "projected": 10.62,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Amari Cooper",
+        "position": "WR",
+        "points": 1,
+        "projected": 12.78,
+        "slot": "WR"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 21,
+      "projected": 17.71,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 21,
+      "projected": 17.71,
+      "slot": "FLEX",
+      "over": 3.29
+    },
+    "bust": {
+      "name": "Amari Cooper",
+      "position": "WR",
+      "points": 1,
+      "projected": 12.78,
+      "slot": "WR",
+      "under": 11.78
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 8,
+    "opponent_id": 6,
+    "points": 127,
+    "opponent_points": 100,
+    "optimal_points": 134,
+    "efficiency": 0.9478,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "JuJu Smith-Schuster",
+        "position": "WR",
+        "points": 13,
+        "projected": 11.77,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Le'Veon Bell",
+        "position": "RB",
+        "points": 6,
+        "projected": 8.83,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 40,
+      "projected": 15.81,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 40,
+      "projected": 15.81,
+      "slot": "WR",
+      "over": 24.19
+    },
+    "bust": {
+      "name": "George Kittle",
+      "position": "TE",
+      "points": 5,
+      "projected": 19.88,
+      "slot": "TE",
+      "under": 14.88
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 9,
+    "opponent_id": 2,
+    "points": 101,
+    "opponent_points": 122,
+    "optimal_points": 126,
+    "efficiency": 0.8016,
+    "bench_points": 58,
+    "missed_swap": {
+      "benched": {
+        "name": "Corey Davis",
+        "position": "WR",
+        "points": 26,
+        "projected": 9.81,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Calvin Ridley",
+        "position": "WR",
+        "points": 7,
+        "projected": 15.27,
+        "slot": "WR"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 24,
+      "projected": 15.07,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 24,
+      "projected": 15.07,
+      "slot": "TE",
+      "over": 8.93
+    },
+    "bust": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 7,
+      "projected": 15.27,
+      "slot": "WR",
+      "under": 8.27
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 8,
+    "player_id": 10,
+    "opponent_id": 3,
+    "points": 106,
+    "opponent_points": 94,
+    "optimal_points": 119,
+    "efficiency": 0.8908,
+    "bench_points": 24,
+    "missed_swap": {
+      "benched": {
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "points": 15,
+        "projected": 11.41,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "points": 5,
+        "projected": 12.57,
+        "slot": "WR"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 28,
+      "projected": 22.9,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Colts D/ST",
+      "position": "D/ST",
+      "points": 15,
+      "projected": 6.44,
+      "slot": "D/ST",
+      "over": 8.56
+    },
+    "bust": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 6,
+      "projected": 14.32,
+      "slot": "RB",
+      "under": 8.32
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 1,
+    "opponent_id": 5,
+    "points": 135,
+    "opponent_points": 109,
+    "optimal_points": 171,
+    "efficiency": 0.7895,
+    "bench_points": 84,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Chark Jr.",
+        "position": "WR",
+        "points": 27,
+        "projected": 11.29,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Damien Harris",
+        "position": "RB",
+        "points": 7,
+        "projected": 10.03,
+        "slot": "FLEX"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 38,
+      "projected": 22.15,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 38,
+      "projected": 22.15,
+      "slot": "RB",
+      "over": 15.85
+    },
+    "bust": {
+      "name": "Rob Gronkowski",
+      "position": "TE",
+      "points": 1,
+      "projected": 10.49,
+      "slot": "TE",
+      "under": 9.49
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 2,
+    "opponent_id": 4,
+    "points": 127,
+    "opponent_points": 93,
+    "optimal_points": 140,
+    "efficiency": 0.9071,
+    "bench_points": 32,
+    "missed_swap": {
+      "benched": {
+        "name": "Hayden Hurst",
+        "position": "TE",
+        "points": 13,
+        "projected": 9.51,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Justin Jackson",
+        "position": "RB",
+        "points": 0,
+        "projected": 13.76,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 32,
+      "projected": 15.54,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 32,
+      "projected": 15.54,
+      "slot": "WR",
+      "over": 16.46
+    },
+    "bust": {
+      "name": "Justin Jackson",
+      "position": "RB",
+      "points": 0,
+      "projected": 13.76,
+      "slot": "FLEX",
+      "under": 13.76
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 3,
+    "opponent_id": 9,
+    "points": 94,
+    "opponent_points": 117,
+    "optimal_points": 98,
+    "efficiency": 0.9592,
+    "bench_points": 15,
+    "missed_swap": {
+      "benched": {
+        "name": "D'Andre Swift",
+        "position": "RB",
+        "points": 12,
+        "projected": 12.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ezekiel Elliott",
+        "position": "RB",
+        "points": 8,
+        "projected": 12.97,
+        "slot": "RB"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 17,
+      "projected": 18.57,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 17,
+      "projected": 12.75,
+      "slot": "FLEX",
+      "over": 4.25
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 8,
+      "projected": 19.41,
+      "slot": "WR",
+      "under": 11.41
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 4,
+    "opponent_id": 2,
+    "points": 93,
+    "opponent_points": 127,
+    "optimal_points": 115,
+    "efficiency": 0.8087,
+    "bench_points": 40,
+    "missed_swap": {
+      "benched": {
+        "name": "Jerick McKinnon",
+        "position": "RB",
+        "points": 15,
+        "projected": 11.21,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Melvin Gordon III",
+        "position": "RB",
+        "points": 2,
+        "projected": 13.44,
+        "slot": "RB"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 33,
+      "projected": 23.1,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 33,
+      "projected": 23.1,
+      "slot": "WR",
+      "over": 9.9
+    },
+    "bust": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 6,
+      "projected": 18.48,
+      "slot": "RB",
+      "under": 12.48
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 5,
+    "opponent_id": 1,
+    "points": 109,
+    "opponent_points": 135,
+    "optimal_points": 122,
+    "efficiency": 0.8934,
+    "bench_points": 69,
+    "missed_swap": {
+      "benched": {
+        "name": "Diontae Johnson",
+        "position": "WR",
+        "points": 13,
+        "projected": 12.32,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeAndre Hopkins",
+        "position": "WR",
+        "points": 6,
+        "projected": 17.76,
+        "slot": "WR"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 25,
+      "projected": 19.1,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "points": 24,
+      "projected": 17.56,
+      "slot": "QB",
+      "over": 6.44
+    },
+    "bust": {
+      "name": "James Conner",
+      "position": "RB",
+      "points": 4,
+      "projected": 18.51,
+      "slot": "RB",
+      "under": 14.51
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 6,
+    "opponent_id": 7,
+    "points": 117,
+    "opponent_points": 77,
+    "optimal_points": 117,
+    "efficiency": 1,
+    "bench_points": 28,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 39,
+      "projected": 22.65,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 39,
+      "projected": 22.65,
+      "slot": "QB",
+      "over": 16.35
+    },
+    "bust": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 5,
+      "projected": 11.61,
+      "slot": "TE",
+      "under": 6.61
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 7,
+    "opponent_id": 6,
+    "points": 77,
+    "opponent_points": 117,
+    "optimal_points": 106,
+    "efficiency": 0.7264,
+    "bench_points": 32,
+    "missed_swap": {
+      "benched": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 17,
+        "projected": 8.93,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Darius Slayton",
+        "position": "WR",
+        "points": 1,
+        "projected": 10.86,
+        "slot": "FLEX"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "points": 15,
+      "projected": 10.29,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": 13,
+      "projected": 6.39,
+      "slot": "D/ST",
+      "over": 6.61
+    },
+    "bust": {
+      "name": "Darius Slayton",
+      "position": "WR",
+      "points": 1,
+      "projected": 10.86,
+      "slot": "FLEX",
+      "under": 9.86
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 8,
+    "opponent_id": 10,
+    "points": 128,
+    "opponent_points": 114,
+    "optimal_points": 141,
+    "efficiency": 0.9078,
+    "bench_points": 62,
+    "missed_swap": {
+      "benched": {
+        "name": "J.D. McKissic",
+        "position": "RB",
+        "points": 16,
+        "projected": 9.41,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "JaMycal Hasty",
+        "position": "RB",
+        "points": 3,
+        "projected": 12.83,
+        "slot": "RB"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 35,
+      "projected": 24.16,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 35,
+      "projected": 24.16,
+      "slot": "QB",
+      "over": 10.84
+    },
+    "bust": {
+      "name": "JaMycal Hasty",
+      "position": "RB",
+      "points": 3,
+      "projected": 12.83,
+      "slot": "RB",
+      "under": 9.83
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 9,
+    "opponent_id": 3,
+    "points": 117,
+    "opponent_points": 94,
+    "optimal_points": 130,
+    "efficiency": 0.9,
+    "bench_points": 16,
+    "missed_swap": {
+      "benched": {
+        "name": "T.J. Hockenson",
+        "position": "TE",
+        "points": 14,
+        "projected": 11.9,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "David Johnson",
+        "position": "RB",
+        "points": 1,
+        "projected": 15.86,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 36,
+      "projected": 19.67,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "points": 36,
+      "projected": 19.67,
+      "slot": "RB",
+      "over": 16.33
+    },
+    "bust": {
+      "name": "David Johnson",
+      "position": "RB",
+      "points": 1,
+      "projected": 15.86,
+      "slot": "FLEX",
+      "under": 14.86
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 9,
+    "player_id": 10,
+    "opponent_id": 8,
+    "points": 114,
+    "opponent_points": 128,
+    "optimal_points": 128,
+    "efficiency": 0.8906,
+    "bench_points": 52,
+    "missed_swap": {
+      "benched": {
+        "name": "Christian Kirk",
+        "position": "WR",
+        "points": 23,
+        "projected": 9.09,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "points": 9,
+        "projected": 13.24,
+        "slot": "FLEX"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 25,
+      "projected": 24.82,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "points": 10,
+      "projected": 7.1,
+      "slot": "K",
+      "over": 2.9
+    },
+    "bust": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 10,
+      "projected": 17.61,
+      "slot": "WR",
+      "under": 7.61
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 110,
+    "opponent_points": 77,
+    "optimal_points": 119,
+    "efficiency": 0.9244,
+    "bench_points": 25,
+    "missed_swap": {
+      "benched": {
+        "name": "Jerry Jeudy",
+        "position": "WR",
+        "points": 10,
+        "projected": 12.6,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Travis Fulgham",
+        "position": "WR",
+        "points": 1,
+        "projected": 13.8,
+        "slot": "WR"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "points": 23,
+      "projected": 16.07,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Saints D/ST",
+      "position": "D/ST",
+      "points": 15,
+      "projected": 6.39,
+      "slot": "D/ST",
+      "over": 8.61
+    },
+    "bust": {
+      "name": "Travis Fulgham",
+      "position": "WR",
+      "points": 1,
+      "projected": 13.8,
+      "slot": "WR",
+      "under": 12.8
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 77,
+    "opponent_points": 110,
+    "optimal_points": 107,
+    "efficiency": 0.7196,
+    "bench_points": 36,
+    "missed_swap": {
+      "benched": {
+        "name": "Nyheim Hines",
+        "position": "RB",
+        "points": 28,
+        "projected": 8.94,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Joshua Kelley",
+        "position": "RB",
+        "points": 2,
+        "projected": 9.46,
+        "slot": "RB"
+      },
+      "gain": 26
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Chris Godwin",
+      "position": "WR",
+      "points": 15,
+      "projected": 13.4,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Daniel Carlson",
+      "position": "K",
+      "points": 12,
+      "projected": 7.19,
+      "slot": "K",
+      "over": 4.81
+    },
+    "bust": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 6,
+      "projected": 15.77,
+      "slot": "TE",
+      "under": 9.77
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 3,
+    "opponent_id": 4,
+    "points": 117,
+    "opponent_points": 87,
+    "optimal_points": 127,
+    "efficiency": 0.9213,
+    "bench_points": 47,
+    "missed_swap": {
+      "benched": {
+        "name": "Rams D/ST",
+        "position": "D/ST",
+        "points": 13,
+        "projected": 4.8,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chargers D/ST",
+        "position": "D/ST",
+        "points": 3,
+        "projected": 5.68,
+        "slot": "D/ST"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 25,
+      "projected": 13.84,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "points": 25,
+      "projected": 13.84,
+      "slot": "RB",
+      "over": 11.16
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 13,
+      "projected": 19.9,
+      "slot": "RB",
+      "under": 6.9
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 4,
+    "opponent_id": 3,
+    "points": 87,
+    "opponent_points": 117,
+    "optimal_points": 100,
+    "efficiency": 0.87,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 19,
+        "projected": 13.31,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robby Anderson",
+        "position": "WR",
+        "points": 6,
+        "projected": 14.68,
+        "slot": "WR"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 20,
+      "projected": 20.59,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "points": 20,
+      "projected": 13.02,
+      "slot": "FLEX",
+      "over": 6.98
+    },
+    "bust": {
+      "name": "Robby Anderson",
+      "position": "WR",
+      "points": 6,
+      "projected": 14.68,
+      "slot": "WR",
+      "under": 8.68
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 5,
+    "opponent_id": 6,
+    "points": 109,
+    "opponent_points": 135,
+    "optimal_points": 141,
+    "efficiency": 0.773,
+    "bench_points": 88,
+    "missed_swap": {
+      "benched": {
+        "name": "Ben Roethlisberger",
+        "position": "QB",
+        "points": 29,
+        "projected": 16.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Russell Wilson",
+        "position": "QB",
+        "points": 11,
+        "projected": 22.76,
+        "slot": "QB"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 22,
+      "projected": 15.87,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Chase Claypool",
+      "position": "WR",
+      "points": 21,
+      "projected": 12.29,
+      "slot": "WR",
+      "over": 8.71
+    },
+    "bust": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 11,
+      "projected": 22.76,
+      "slot": "QB",
+      "under": 11.76
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 6,
+    "opponent_id": 5,
+    "points": 135,
+    "opponent_points": 109,
+    "optimal_points": 139,
+    "efficiency": 0.9712,
+    "bench_points": 42,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Williams",
+        "position": "WR",
+        "points": 5,
+        "projected": 11.52,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "points": 3,
+        "projected": 14.57,
+        "slot": "WR"
+      },
+      "gain": 2
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 29,
+      "projected": 15.1,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 29,
+      "projected": 15.1,
+      "slot": "RB",
+      "over": 13.9
+    },
+    "bust": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 3,
+      "projected": 14.57,
+      "slot": "WR",
+      "under": 11.57
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 7,
+    "opponent_id": 8,
+    "points": 109,
+    "opponent_points": 106,
+    "optimal_points": 110,
+    "efficiency": 0.9909,
+    "bench_points": 23,
+    "missed_swap": {
+      "benched": {
+        "name": "Darius Slayton",
+        "position": "WR",
+        "points": 14,
+        "projected": 11.06,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "John Brown",
+        "position": "WR",
+        "points": 13,
+        "projected": 12,
+        "slot": "WR"
+      },
+      "gain": 1
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 23,
+      "projected": 12.04,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Marvin Jones Jr.",
+      "position": "WR",
+      "points": 23,
+      "projected": 12.04,
+      "slot": "FLEX",
+      "over": 10.96
+    },
+    "bust": {
+      "name": "Evan Engram",
+      "position": "TE",
+      "points": 3,
+      "projected": 10.48,
+      "slot": "TE",
+      "under": 7.48
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 8,
+    "opponent_id": 7,
+    "points": 106,
+    "opponent_points": 109,
+    "optimal_points": 128,
+    "efficiency": 0.8281,
+    "bench_points": 37,
+    "missed_swap": {
+      "benched": {
+        "name": "J.D. McKissic",
+        "position": "RB",
+        "points": 17,
+        "projected": 11.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeeJay Dallas",
+        "position": "RB",
+        "points": 4,
+        "projected": 7.62,
+        "slot": "RB"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 34,
+      "projected": 21.84,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 34,
+      "projected": 21.84,
+      "slot": "RB",
+      "over": 12.16
+    },
+    "bust": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 4,
+      "projected": 17.75,
+      "slot": "WR",
+      "under": 13.75
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 9,
+    "opponent_id": 10,
+    "points": 92,
+    "opponent_points": 120,
+    "optimal_points": 92,
+    "efficiency": 1,
+    "bench_points": 0,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 20,
+      "projected": 20.69,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "points": 18,
+      "projected": 8.37,
+      "slot": "RB",
+      "over": 9.63
+    },
+    "bust": {
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "points": -4,
+      "projected": 4.43,
+      "slot": "D/ST",
+      "under": 8.43
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 10,
+    "player_id": 10,
+    "opponent_id": 9,
+    "points": 120,
+    "opponent_points": 92,
+    "optimal_points": 165,
+    "efficiency": 0.7273,
+    "bench_points": 94,
+    "missed_swap": {
+      "benched": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 26,
+        "projected": 9.97,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Duke Johnson",
+        "position": "RB",
+        "points": 5,
+        "projected": 14.43,
+        "slot": "RB"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 31,
+      "projected": 18.57,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Tom Brady",
+      "position": "QB",
+      "points": 31,
+      "projected": 18.57,
+      "slot": "QB",
+      "over": 12.43
+    },
+    "bust": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 4,
+      "projected": 15.58,
+      "slot": "WR",
+      "under": 11.58
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 1,
+    "opponent_id": 3,
+    "points": 108,
+    "opponent_points": 153,
+    "optimal_points": 116,
+    "efficiency": 0.931,
+    "bench_points": 35,
+    "missed_swap": {
+      "benched": {
+        "name": "Jerry Jeudy",
+        "position": "WR",
+        "points": 6,
+        "projected": 10.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Travis Fulgham",
+        "position": "WR",
+        "points": 1,
+        "projected": 11.81,
+        "slot": "WR"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 26,
+      "projected": 24.18,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Saints D/ST",
+      "position": "D/ST",
+      "points": 17,
+      "projected": 4.83,
+      "slot": "D/ST",
+      "over": 12.17
+    },
+    "bust": {
+      "name": "Travis Fulgham",
+      "position": "WR",
+      "points": 1,
+      "projected": 11.81,
+      "slot": "WR",
+      "under": 10.81
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 2,
+    "opponent_id": 6,
+    "points": 120,
+    "opponent_points": 135,
+    "optimal_points": 133,
+    "efficiency": 0.9023,
+    "bench_points": 37,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 14,
+        "projected": 11.51,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Todd Gurley II",
+        "position": "RB",
+        "points": 3,
+        "projected": 12.53,
+        "slot": "RB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 31,
+      "projected": 13.02,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Robert Woods",
+      "position": "WR",
+      "points": 31,
+      "projected": 13.02,
+      "slot": "FLEX",
+      "over": 17.98
+    },
+    "bust": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 5,
+      "projected": 17.77,
+      "slot": "QB",
+      "under": 12.77
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 3,
+    "opponent_id": 1,
+    "points": 153,
+    "opponent_points": 108,
+    "optimal_points": 153,
+    "efficiency": 1,
+    "bench_points": 37,
+    "missed_swap": null,
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 26,
+      "projected": 18.97,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Taysom Hill",
+      "position": "QB",
+      "points": 25,
+      "projected": 17.78,
+      "slot": "FLEX",
+      "over": 7.22
+    },
+    "bust": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 16,
+      "projected": 21.39,
+      "slot": "QB",
+      "under": 5.39
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 4,
+    "opponent_id": 9,
+    "points": 135,
+    "opponent_points": 103,
+    "optimal_points": 150,
+    "efficiency": 0.9,
+    "bench_points": 49,
+    "missed_swap": {
+      "benched": {
+        "name": "Curtis Samuel",
+        "position": "WR",
+        "points": 21,
+        "projected": 11.22,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robby Anderson",
+        "position": "WR",
+        "points": 11,
+        "projected": 13.67,
+        "slot": "WR"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 30,
+      "projected": 20.29,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 30,
+      "projected": 20.29,
+      "slot": "QB",
+      "over": 9.71
+    },
+    "bust": {
+      "name": "Dolphins D/ST",
+      "position": "D/ST",
+      "points": -1,
+      "projected": 7.05,
+      "slot": "D/ST",
+      "under": 8.05
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 5,
+    "opponent_id": 8,
+    "points": 147,
+    "opponent_points": 96,
+    "optimal_points": 161,
+    "efficiency": 0.913,
+    "bench_points": 62,
+    "missed_swap": {
+      "benched": {
+        "name": "Diontae Johnson",
+        "position": "WR",
+        "points": 23,
+        "projected": 14.16,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kalen Ballage",
+        "position": "RB",
+        "points": 13,
+        "projected": 13.24,
+        "slot": "FLEX"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 36,
+      "projected": 17.11,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 36,
+      "projected": 17.11,
+      "slot": "WR",
+      "over": 18.89
+    },
+    "bust": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 11,
+      "projected": 16.57,
+      "slot": "RB",
+      "under": 5.57
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 6,
+    "opponent_id": 2,
+    "points": 135,
+    "opponent_points": 120,
+    "optimal_points": 153,
+    "efficiency": 0.8824,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "Dallas Goedert",
+        "position": "TE",
+        "points": 18,
+        "projected": 10.22,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tee Higgins",
+        "position": "WR",
+        "points": 5,
+        "projected": 13.18,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "points": 25,
+      "projected": 15.65,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Browns D/ST",
+      "position": "D/ST",
+      "points": 20,
+      "projected": 7.21,
+      "slot": "D/ST",
+      "over": 12.79
+    },
+    "bust": {
+      "name": "Tee Higgins",
+      "position": "WR",
+      "points": 5,
+      "projected": 13.18,
+      "slot": "FLEX",
+      "under": 8.18
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 7,
+    "opponent_id": 10,
+    "points": 101,
+    "opponent_points": 99,
+    "optimal_points": 108,
+    "efficiency": 0.9352,
+    "bench_points": 30,
+    "missed_swap": {
+      "benched": {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "points": 16,
+        "projected": 10.41,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 9,
+        "projected": 13.94,
+        "slot": "WR"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 32,
+      "projected": 13.56,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 32,
+      "projected": 13.56,
+      "slot": "WR",
+      "over": 18.44
+    },
+    "bust": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": 0,
+      "projected": 5.91,
+      "slot": "D/ST",
+      "under": 5.91
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 8,
+    "opponent_id": 5,
+    "points": 96,
+    "opponent_points": 147,
+    "optimal_points": 117,
+    "efficiency": 0.8205,
+    "bench_points": 54,
+    "missed_swap": {
+      "benched": {
+        "name": "DeVante Parker",
+        "position": "WR",
+        "points": 18,
+        "projected": 13.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Julio Jones",
+        "position": "WR",
+        "points": 5,
+        "projected": 18.16,
+        "slot": "WR"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 19,
+      "projected": 13.22,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 19,
+      "projected": 13.22,
+      "slot": "RB",
+      "over": 5.78
+    },
+    "bust": {
+      "name": "Julio Jones",
+      "position": "WR",
+      "points": 5,
+      "projected": 18.16,
+      "slot": "WR",
+      "under": 13.16
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 9,
+    "opponent_id": 4,
+    "points": 103,
+    "opponent_points": 135,
+    "optimal_points": 130,
+    "efficiency": 0.7923,
+    "bench_points": 41,
+    "missed_swap": {
+      "benched": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 15,
+        "projected": 12.09,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jamison Crowder",
+        "position": "WR",
+        "points": 2,
+        "projected": 14.09,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 27,
+      "projected": 21.52,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "points": 13,
+      "projected": 5.37,
+      "slot": "D/ST",
+      "over": 7.63
+    },
+    "bust": {
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "points": 2,
+      "projected": 14.09,
+      "slot": "FLEX",
+      "under": 12.09
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 11,
+    "player_id": 10,
+    "opponent_id": 7,
+    "points": 99,
+    "opponent_points": 101,
+    "optimal_points": 107,
+    "efficiency": 0.9252,
+    "bench_points": 29,
+    "missed_swap": {
+      "benched": {
+        "name": "Leonard Fournette",
+        "position": "RB",
+        "points": 8,
+        "projected": 11.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ronald Jones II",
+        "position": "RB",
+        "points": 2,
+        "projected": 11.24,
+        "slot": "RB"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 19,
+      "projected": 12.14,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Michael Thomas",
+      "position": "WR",
+      "points": 19,
+      "projected": 12.14,
+      "slot": "WR",
+      "over": 6.86
+    },
+    "bust": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 10,
+      "projected": 19.64,
+      "slot": "WR",
+      "under": 9.64
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 1,
+    "opponent_id": 9,
+    "points": 139,
+    "opponent_points": 104,
+    "optimal_points": 163,
+    "efficiency": 0.8528,
+    "bench_points": 79,
+    "missed_swap": {
+      "benched": {
+        "name": "Deebo Samuel",
+        "position": "WR",
+        "points": 24,
+        "projected": 11.45,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Travis Fulgham",
+        "position": "WR",
+        "points": 3,
+        "projected": 13.12,
+        "slot": "FLEX"
+      },
+      "gain": 21
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 32,
+      "projected": 23.11,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Allen Robinson II",
+      "position": "WR",
+      "points": 27,
+      "projected": 14.7,
+      "slot": "WR",
+      "over": 12.3
+    },
+    "bust": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 12,
+      "projected": 23.51,
+      "slot": "RB",
+      "under": 11.51
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 2,
+    "opponent_id": 8,
+    "points": 163,
+    "opponent_points": 99,
+    "optimal_points": 174,
+    "efficiency": 0.9368,
+    "bench_points": 48,
+    "missed_swap": {
+      "benched": {
+        "name": "James White",
+        "position": "RB",
+        "points": 14,
+        "projected": 9.72,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Miles Sanders",
+        "position": "RB",
+        "points": 5,
+        "projected": 16.62,
+        "slot": "RB"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 57,
+      "projected": 18.21,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "points": 57,
+      "projected": 18.21,
+      "slot": "WR",
+      "over": 38.79
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 5,
+      "projected": 16.62,
+      "slot": "RB",
+      "under": 11.62
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 3,
+    "opponent_id": 6,
+    "points": 114,
+    "opponent_points": 101,
+    "optimal_points": 128,
+    "efficiency": 0.8906,
+    "bench_points": 32,
+    "missed_swap": {
+      "benched": {
+        "name": "Corey Davis",
+        "position": "WR",
+        "points": 10,
+        "projected": 11.14,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Boyd",
+        "position": "WR",
+        "points": 4,
+        "projected": 12.84,
+        "slot": "WR"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 25,
+      "projected": 11.86,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 25,
+      "projected": 11.86,
+      "slot": "RB",
+      "over": 13.14
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 5,
+      "projected": 15.64,
+      "slot": "WR",
+      "under": 10.64
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 4,
+    "opponent_id": 10,
+    "points": 160,
+    "opponent_points": 89,
+    "optimal_points": 178,
+    "efficiency": 0.8989,
+    "bench_points": 56,
+    "missed_swap": {
+      "benched": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 28,
+        "projected": 11.4,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 10,
+        "projected": 13.57,
+        "slot": "FLEX"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 37,
+      "projected": 16.92,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 37,
+      "projected": 16.92,
+      "slot": "RB",
+      "over": 20.08
+    },
+    "bust": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 10,
+      "projected": 13.87,
+      "slot": "RB",
+      "under": 3.87
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 5,
+    "opponent_id": 7,
+    "points": 160,
+    "opponent_points": 134,
+    "optimal_points": 166,
+    "efficiency": 0.9639,
+    "bench_points": 62,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Tonyan",
+        "position": "TE",
+        "points": 17,
+        "projected": 7.52,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Eric Ebron",
+        "position": "TE",
+        "points": 12,
+        "projected": 8.77,
+        "slot": "TE"
+      },
+      "gain": 5
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 36,
+      "projected": 14.26,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 36,
+      "projected": 14.26,
+      "slot": "RB",
+      "over": 21.74
+    },
+    "bust": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 14,
+      "projected": 23.54,
+      "slot": "QB",
+      "under": 9.54
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 6,
+    "opponent_id": 3,
+    "points": 101,
+    "opponent_points": 114,
+    "optimal_points": 136,
+    "efficiency": 0.7426,
+    "bench_points": 76,
+    "missed_swap": {
+      "benched": {
+        "name": "Aaron Rodgers",
+        "position": "QB",
+        "points": 25,
+        "projected": 18.71,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kyler Murray",
+        "position": "QB",
+        "points": 7,
+        "projected": 22.47,
+        "slot": "QB"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 25,
+      "projected": 12.99,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "A.J. Brown",
+      "position": "WR",
+      "points": 25,
+      "projected": 12.99,
+      "slot": "WR",
+      "over": 12.01
+    },
+    "bust": {
+      "name": "Kyler Murray",
+      "position": "QB",
+      "points": 7,
+      "projected": 22.47,
+      "slot": "QB",
+      "under": 15.47
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 7,
+    "opponent_id": 5,
+    "points": 134,
+    "opponent_points": 160,
+    "optimal_points": 140,
+    "efficiency": 0.9571,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Logan Thomas",
+        "position": "TE",
+        "points": 13,
+        "projected": 7.79,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Gus Edwards",
+        "position": "RB",
+        "points": 7,
+        "projected": 12.25,
+        "slot": "FLEX"
+      },
+      "gain": 6
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 26,
+      "projected": 12.42,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 26,
+      "projected": 12.42,
+      "slot": "RB",
+      "over": 13.58
+    },
+    "bust": {
+      "name": "Gus Edwards",
+      "position": "RB",
+      "points": 7,
+      "projected": 12.25,
+      "slot": "FLEX",
+      "under": 5.25
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 8,
+    "opponent_id": 2,
+    "points": 99,
+    "opponent_points": 163,
+    "optimal_points": 114,
+    "efficiency": 0.8684,
+    "bench_points": 36,
+    "missed_swap": {
+      "benched": {
+        "name": "JuJu Smith-Schuster",
+        "position": "WR",
+        "points": 17,
+        "projected": 13.3,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Antonio Brown",
+        "position": "WR",
+        "points": 3,
+        "projected": 12.12,
+        "slot": "FLEX"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 27,
+      "projected": 16.2,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DK Metcalf",
+      "position": "WR",
+      "points": 27,
+      "projected": 16.2,
+      "slot": "WR",
+      "over": 10.8
+    },
+    "bust": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 6,
+      "projected": 17.65,
+      "slot": "RB",
+      "under": 11.65
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 9,
+    "opponent_id": 1,
+    "points": 104,
+    "opponent_points": 139,
+    "optimal_points": 113,
+    "efficiency": 0.9204,
+    "bench_points": 28,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 13,
+        "projected": 9.5,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ezekiel Elliott",
+        "position": "RB",
+        "points": 4,
+        "projected": 14.78,
+        "slot": "RB"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 20,
+      "projected": 14.09,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 20,
+      "projected": 14.09,
+      "slot": "FLEX",
+      "over": 5.91
+    },
+    "bust": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 4,
+      "projected": 14.78,
+      "slot": "RB",
+      "under": 10.78
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 12,
+    "player_id": 10,
+    "opponent_id": 4,
+    "points": 89,
+    "opponent_points": 160,
+    "optimal_points": 127,
+    "efficiency": 0.7008,
+    "bench_points": 80,
+    "missed_swap": {
+      "benched": {
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "points": 26,
+        "projected": 14.95,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Thomas",
+        "position": "WR",
+        "points": 9,
+        "projected": 13.73,
+        "slot": "FLEX"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "points": 18,
+      "projected": 11.71,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Younghoe Koo",
+      "position": "K",
+      "points": 16,
+      "projected": 7.46,
+      "slot": "K",
+      "over": 8.54
+    },
+    "bust": {
+      "name": "Derek Carr",
+      "position": "QB",
+      "points": 6,
+      "projected": 17.26,
+      "slot": "QB",
+      "under": 11.26
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 1,
+    "opponent_id": 4,
+    "points": 100,
+    "opponent_points": 166,
+    "optimal_points": 126,
+    "efficiency": 0.7937,
+    "bench_points": 55,
+    "missed_swap": {
+      "benched": {
+        "name": "Deebo Samuel",
+        "position": "WR",
+        "points": 13,
+        "projected": 12.96,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "points": 3,
+        "projected": 15.79,
+        "slot": "WR"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "points": 23,
+      "projected": 24.61,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 22,
+      "projected": 11.97,
+      "slot": "FLEX",
+      "over": 10.03
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 3,
+      "projected": 15.79,
+      "slot": "WR",
+      "under": 12.79
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 2,
+    "opponent_id": 7,
+    "points": 132,
+    "opponent_points": 116,
+    "optimal_points": 164,
+    "efficiency": 0.8049,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Keke Coutee",
+        "position": "WR",
+        "points": 22,
+        "projected": 9.94,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Todd Gurley II",
+        "position": "RB",
+        "points": 2,
+        "projected": 11.01,
+        "slot": "FLEX"
+      },
+      "gain": 20
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 45,
+      "projected": 15.22,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "Darren Waller",
+      "position": "TE",
+      "points": 45,
+      "projected": 15.22,
+      "slot": "TE",
+      "over": 29.78
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 3,
+      "projected": 12.71,
+      "slot": "RB",
+      "under": 9.71
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 3,
+    "opponent_id": 8,
+    "points": 151,
+    "opponent_points": 108,
+    "optimal_points": 187,
+    "efficiency": 0.8075,
+    "bench_points": 70,
+    "missed_swap": {
+      "benched": {
+        "name": "Corey Davis",
+        "position": "WR",
+        "points": 35,
+        "projected": 10.39,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "David Johnson",
+        "position": "RB",
+        "points": 10,
+        "projected": 12.63,
+        "slot": "FLEX"
+      },
+      "gain": 25
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Travis Kelce",
+      "position": "TE",
+      "points": 27,
+      "projected": 17.5,
+      "slot": "TE"
+    },
+    "boom": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 26,
+      "projected": 15.44,
+      "slot": "RB",
+      "over": 10.56
+    },
+    "bust": {
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "points": 11,
+      "projected": 14.49,
+      "slot": "WR",
+      "under": 3.49
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 4,
+    "opponent_id": 1,
+    "points": 166,
+    "opponent_points": 100,
+    "optimal_points": 174,
+    "efficiency": 0.954,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Melvin Gordon III",
+        "position": "RB",
+        "points": 15,
+        "projected": 9.38,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Derrick Henry",
+        "position": "RB",
+        "points": 7,
+        "projected": 19.6,
+        "slot": "RB"
+      },
+      "gain": 8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 34,
+      "projected": 20.48,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "points": 23,
+      "projected": 8.1,
+      "slot": "TE",
+      "over": 14.9
+    },
+    "bust": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 7,
+      "projected": 19.6,
+      "slot": "RB",
+      "under": 12.6
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 5,
+    "opponent_id": 10,
+    "points": 98,
+    "opponent_points": 129,
+    "optimal_points": 125,
+    "efficiency": 0.784,
+    "bench_points": 52,
+    "missed_swap": {
+      "benched": {
+        "name": "Kenyan Drake",
+        "position": "RB",
+        "points": 12,
+        "projected": 13.66,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Antonio Gibson",
+        "position": "RB",
+        "points": 1,
+        "projected": 13.73,
+        "slot": "RB"
+      },
+      "gain": 11
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "James Robinson",
+      "position": "RB",
+      "points": 22,
+      "projected": 17.23,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 21,
+      "projected": 14.35,
+      "slot": "WR",
+      "over": 6.65
+    },
+    "bust": {
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "points": 1,
+      "projected": 13.73,
+      "slot": "RB",
+      "under": 12.73
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 6,
+    "opponent_id": 9,
+    "points": 90,
+    "opponent_points": 71,
+    "optimal_points": 105,
+    "efficiency": 0.8571,
+    "bench_points": 74,
+    "missed_swap": {
+      "benched": {
+        "name": "Adrian Peterson",
+        "position": "RB",
+        "points": 17,
+        "projected": 7.13,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 8,
+        "projected": 11.98,
+        "slot": "RB"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 23,
+      "projected": 19.27,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 23,
+      "projected": 19.27,
+      "slot": "QB",
+      "over": 3.73
+    },
+    "bust": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 10,
+      "projected": 21.24,
+      "slot": "RB",
+      "under": 11.24
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 7,
+    "opponent_id": 2,
+    "points": 116,
+    "opponent_points": 132,
+    "optimal_points": 148,
+    "efficiency": 0.7838,
+    "bench_points": 67,
+    "missed_swap": {
+      "benched": {
+        "name": "Logan Thomas",
+        "position": "TE",
+        "points": 24,
+        "projected": 7.46,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Evan Engram",
+        "position": "TE",
+        "points": 7,
+        "projected": 10.65,
+        "slot": "TE"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Taysom Hill",
+      "position": "QB",
+      "points": 25,
+      "projected": 18.65,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Taysom Hill",
+      "position": "QB",
+      "points": 25,
+      "projected": 18.65,
+      "slot": "QB",
+      "over": 6.35
+    },
+    "bust": {
+      "name": "Michael Badgley",
+      "position": "K",
+      "points": -2,
+      "projected": 6.58,
+      "slot": "K",
+      "under": 8.58
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 8,
+    "opponent_id": 3,
+    "points": 108,
+    "opponent_points": 151,
+    "optimal_points": 128,
+    "efficiency": 0.8438,
+    "bench_points": 65,
+    "missed_swap": {
+      "benched": {
+        "name": "J.D. McKissic",
+        "position": "RB",
+        "points": 17,
+        "projected": 8.24,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Clyde Edwards-Helaire",
+        "position": "RB",
+        "points": 0,
+        "projected": 13.41,
+        "slot": "RB"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 32,
+      "projected": 21.32,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 32,
+      "projected": 21.32,
+      "slot": "QB",
+      "over": 10.68
+    },
+    "bust": {
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "points": 0,
+      "projected": 13.41,
+      "slot": "RB",
+      "under": 13.41
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 9,
+    "opponent_id": 6,
+    "points": 71,
+    "opponent_points": 90,
+    "optimal_points": 79,
+    "efficiency": 0.8987,
+    "bench_points": 12,
+    "missed_swap": {
+      "benched": {
+        "name": "Austin Hooper",
+        "position": "TE",
+        "points": 4,
+        "projected": 8.46,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Hunter Henry",
+        "position": "TE",
+        "points": 1,
+        "projected": 10.57,
+        "slot": "TE"
+      },
+      "gain": 3
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "points": 21,
+      "projected": 9.75,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "points": 21,
+      "projected": 9.75,
+      "slot": "FLEX",
+      "over": 11.25
+    },
+    "bust": {
+      "name": "Justin Herbert",
+      "position": "QB",
+      "points": 4,
+      "projected": 20.06,
+      "slot": "QB",
+      "under": 16.06
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 13,
+    "player_id": 10,
+    "opponent_id": 5,
+    "points": 129,
+    "opponent_points": 98,
+    "optimal_points": 146,
+    "efficiency": 0.8836,
+    "bench_points": 56,
+    "missed_swap": {
+      "benched": {
+        "name": "Cole Beasley",
+        "position": "WR",
+        "points": 28,
+        "projected": 11.85,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Michael Thomas",
+        "position": "WR",
+        "points": 19,
+        "projected": 15.45,
+        "slot": "FLEX"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "points": 23,
+      "projected": 16.44,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "points": 23,
+      "projected": 16.44,
+      "slot": "QB",
+      "over": 6.56
+    },
+    "bust": {
+      "name": "Benny Snell Jr.",
+      "position": "RB",
+      "points": 2,
+      "projected": 11.78,
+      "slot": "RB",
+      "under": 9.78
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 1,
+    "opponent_id": 2,
+    "points": 111,
+    "opponent_points": 129,
+    "optimal_points": 161,
+    "efficiency": 0.6894,
+    "bench_points": 86,
+    "missed_swap": {
+      "benched": {
+        "name": "Washington D/ST",
+        "position": "D/ST",
+        "points": 23,
+        "projected": 6.58,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Saints D/ST",
+        "position": "D/ST",
+        "points": -1,
+        "projected": 8.55,
+        "slot": "D/ST"
+      },
+      "gain": 24
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 30,
+      "projected": 12.38,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "points": 30,
+      "projected": 12.38,
+      "slot": "RB",
+      "over": 17.62
+    },
+    "bust": {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "points": 4,
+      "projected": 15.64,
+      "slot": "WR",
+      "under": 11.64
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 2,
+    "opponent_id": 1,
+    "points": 129,
+    "opponent_points": 111,
+    "optimal_points": 138,
+    "efficiency": 0.9348,
+    "bench_points": 39,
+    "missed_swap": {
+      "benched": {
+        "name": "Jared Goff",
+        "position": "QB",
+        "points": 14,
+        "projected": 15.86,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Matt Ryan",
+        "position": "QB",
+        "points": 6,
+        "projected": 17.44,
+        "slot": "QB"
+      },
+      "gain": 8
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 29,
+      "projected": 11.73,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 29,
+      "projected": 11.73,
+      "slot": "RB",
+      "over": 17.27
+    },
+    "bust": {
+      "name": "Matt Ryan",
+      "position": "QB",
+      "points": 6,
+      "projected": 17.44,
+      "slot": "QB",
+      "under": 11.44
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 3,
+    "opponent_id": 6,
+    "points": 150,
+    "opponent_points": 142,
+    "optimal_points": 163,
+    "efficiency": 0.9202,
+    "bench_points": 47,
+    "missed_swap": {
+      "benched": {
+        "name": "Russell Gage",
+        "position": "WR",
+        "points": 18,
+        "projected": 10.37,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Corey Davis",
+        "position": "WR",
+        "points": 6,
+        "projected": 13.6,
+        "slot": "WR"
+      },
+      "gain": 12
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 34,
+      "projected": 18.92,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 34,
+      "projected": 18.92,
+      "slot": "QB",
+      "over": 15.08
+    },
+    "bust": {
+      "name": "Aaron Jones",
+      "position": "RB",
+      "points": 8,
+      "projected": 17.99,
+      "slot": "RB",
+      "under": 9.99
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 4,
+    "opponent_id": null,
+    "points": 153,
+    "opponent_points": null,
+    "optimal_points": 163,
+    "efficiency": 0.9387,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "Brandon Aiyuk",
+        "position": "WR",
+        "points": 21,
+        "projected": 11.94,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Jarvis Landry",
+        "position": "WR",
+        "points": 11,
+        "projected": 13.65,
+        "slot": "WR"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 35,
+      "projected": 20.68,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 35,
+      "projected": 20.68,
+      "slot": "RB",
+      "over": 14.32
+    },
+    "bust": {
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "points": 15,
+      "projected": 20.55,
+      "slot": "QB",
+      "under": 5.55
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 5,
+    "opponent_id": null,
+    "points": 85,
+    "opponent_points": null,
+    "optimal_points": 127,
+    "efficiency": 0.6693,
+    "bench_points": 74,
+    "missed_swap": {
+      "benched": {
+        "name": "KJ Hamler",
+        "position": "WR",
+        "points": 22,
+        "projected": 7.48,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Devontae Booker",
+        "position": "RB",
+        "points": 4,
+        "projected": 4.33,
+        "slot": "FLEX"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Russell Wilson",
+      "position": "QB",
+      "points": 22,
+      "projected": 21.25,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Justin Tucker",
+      "position": "K",
+      "points": 8,
+      "projected": 6.12,
+      "slot": "K",
+      "over": 1.88
+    },
+    "bust": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 8,
+      "projected": 15.9,
+      "slot": "WR",
+      "under": 7.9
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 6,
+    "opponent_id": 3,
+    "points": 142,
+    "opponent_points": 150,
+    "optimal_points": 161,
+    "efficiency": 0.882,
+    "bench_points": 81,
+    "missed_swap": {
+      "benched": {
+        "name": "Kareem Hunt",
+        "position": "RB",
+        "points": 28,
+        "projected": 9.82,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Josh Jacobs",
+        "position": "RB",
+        "points": 9,
+        "projected": 13.6,
+        "slot": "FLEX"
+      },
+      "gain": 19
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "points": 30,
+      "projected": 23.86,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Cam Akers",
+      "position": "RB",
+      "points": 21,
+      "projected": 9.18,
+      "slot": "RB",
+      "over": 11.82
+    },
+    "bust": {
+      "name": "Panthers D/ST",
+      "position": "D/ST",
+      "points": 1,
+      "projected": 6.43,
+      "slot": "D/ST",
+      "under": 5.43
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 7,
+    "opponent_id": 9,
+    "points": 86,
+    "opponent_points": 121,
+    "optimal_points": 115,
+    "efficiency": 0.7478,
+    "bench_points": 58,
+    "missed_swap": {
+      "benched": {
+        "name": "Gus Edwards",
+        "position": "RB",
+        "points": 17,
+        "projected": 3.66,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Chris Godwin",
+        "position": "WR",
+        "points": 4,
+        "projected": 15.13,
+        "slot": "FLEX"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 24,
+      "projected": 13.41,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 24,
+      "projected": 13.41,
+      "slot": "RB",
+      "over": 10.59
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 6,
+      "projected": 18.06,
+      "slot": "WR",
+      "under": 12.06
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 8,
+    "opponent_id": null,
+    "points": 110,
+    "opponent_points": null,
+    "optimal_points": 119,
+    "efficiency": 0.9244,
+    "bench_points": 43,
+    "missed_swap": {
+      "benched": {
+        "name": "Antonio Brown",
+        "position": "WR",
+        "points": 9,
+        "projected": 11.68,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "DeVante Parker",
+        "position": "WR",
+        "points": 0,
+        "projected": 15.16,
+        "slot": "WR"
+      },
+      "gain": 9
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 22,
+      "projected": 15.99,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "points": 22,
+      "projected": 15.99,
+      "slot": "RB",
+      "over": 6.01
+    },
+    "bust": {
+      "name": "DeVante Parker",
+      "position": "WR",
+      "points": 0,
+      "projected": 15.16,
+      "slot": "WR",
+      "under": 15.16
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 9,
+    "opponent_id": 7,
+    "points": 121,
+    "opponent_points": 86,
+    "optimal_points": 135,
+    "efficiency": 0.8963,
+    "bench_points": 35,
+    "missed_swap": {
+      "benched": {
+        "name": "Nelson Agholor",
+        "position": "WR",
+        "points": 21,
+        "projected": 11.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Mike Evans",
+        "position": "WR",
+        "points": 8,
+        "projected": 14.25,
+        "slot": "WR"
+      },
+      "gain": 13
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 26,
+      "projected": 17.12,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Mike Davis",
+      "position": "RB",
+      "points": 26,
+      "projected": 14.48,
+      "slot": "RB",
+      "over": 11.52
+    },
+    "bust": {
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "points": 7,
+      "projected": 14.4,
+      "slot": "RB",
+      "under": 7.4
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 14,
+    "player_id": 10,
+    "opponent_id": null,
+    "points": 129,
+    "opponent_points": null,
+    "optimal_points": 136,
+    "efficiency": 0.9485,
+    "bench_points": 35,
+    "missed_swap": {
+      "benched": {
+        "name": "Michael Thomas",
+        "position": "WR",
+        "points": 16,
+        "projected": 15.54,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "points": 9,
+        "projected": 16.18,
+        "slot": "FLEX"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 29,
+      "projected": 18.58,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 29,
+      "projected": 18.58,
+      "slot": "WR",
+      "over": 10.42
+    },
+    "bust": {
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 9,
+      "projected": 16.18,
+      "slot": "FLEX",
+      "under": 7.18
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 1,
+    "opponent_id": 6,
+    "points": 122,
+    "opponent_points": 115,
+    "optimal_points": 128,
+    "efficiency": 0.9531,
+    "bench_points": 45,
+    "missed_swap": {
+      "benched": {
+        "name": "Dalton Schultz",
+        "position": "TE",
+        "points": 9,
+        "projected": 7.45,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Rob Gronkowski",
+        "position": "TE",
+        "points": 5,
+        "projected": 9.89,
+        "slot": "TE"
+      },
+      "gain": 4
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 27,
+      "projected": 22.47,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 27,
+      "projected": 22.47,
+      "slot": "QB",
+      "over": 4.53
+    },
+    "bust": {
+      "name": "Rob Gronkowski",
+      "position": "TE",
+      "points": 5,
+      "projected": 9.89,
+      "slot": "TE",
+      "under": 4.89
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 2,
+    "opponent_id": 3,
+    "points": 148,
+    "opponent_points": 152,
+    "optimal_points": 160,
+    "efficiency": 0.925,
+    "bench_points": 61,
+    "missed_swap": {
+      "benched": {
+        "name": "Chase Edmonds",
+        "position": "RB",
+        "points": 14,
+        "projected": 10.12,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Nyheim Hines",
+        "position": "RB",
+        "points": 7,
+        "projected": 10.95,
+        "slot": "RB"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "points": 36,
+      "projected": 18.65,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "points": 36,
+      "projected": 18.65,
+      "slot": "QB",
+      "over": 17.35
+    },
+    "bust": {
+      "name": "Miles Sanders",
+      "position": "RB",
+      "points": 9,
+      "projected": 14.89,
+      "slot": "RB",
+      "under": 5.89
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 3,
+    "opponent_id": 2,
+    "points": 152,
+    "opponent_points": 148,
+    "optimal_points": 172,
+    "efficiency": 0.8837,
+    "bench_points": 80,
+    "missed_swap": {
+      "benched": {
+        "name": "Corey Davis",
+        "position": "WR",
+        "points": 21,
+        "projected": 12.15,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Tyler Lockett",
+        "position": "WR",
+        "points": 7,
+        "projected": 12.22,
+        "slot": "WR"
+      },
+      "gain": 14
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "points": 28,
+      "projected": 21.89,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 28,
+      "projected": 13.29,
+      "slot": "RB",
+      "over": 14.71
+    },
+    "bust": {
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "points": 7,
+      "projected": 12.22,
+      "slot": "WR",
+      "under": 5.22
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 4,
+    "opponent_id": null,
+    "points": 114,
+    "opponent_points": null,
+    "optimal_points": 151,
+    "efficiency": 0.755,
+    "bench_points": 83,
+    "missed_swap": {
+      "benched": {
+        "name": "DJ Moore",
+        "position": "WR",
+        "points": 19,
+        "projected": 14.05,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Robby Anderson",
+        "position": "WR",
+        "points": 4,
+        "projected": 14.87,
+        "slot": "WR"
+      },
+      "gain": 15
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Derrick Henry",
+      "position": "RB",
+      "points": 24,
+      "projected": 22.85,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Melvin Gordon III",
+      "position": "RB",
+      "points": 24,
+      "projected": 10.76,
+      "slot": "RB",
+      "over": 13.24
+    },
+    "bust": {
+      "name": "Davante Adams",
+      "position": "WR",
+      "points": 11,
+      "projected": 23.12,
+      "slot": "WR",
+      "under": 12.12
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 5,
+    "opponent_id": null,
+    "points": 70,
+    "opponent_points": null,
+    "optimal_points": 87,
+    "efficiency": 0.8046,
+    "bench_points": 27,
+    "missed_swap": {
+      "benched": {
+        "name": "Robert Tonyan",
+        "position": "TE",
+        "points": 10,
+        "projected": 10.85,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Eric Ebron",
+        "position": "TE",
+        "points": 0,
+        "projected": 10.26,
+        "slot": "TE"
+      },
+      "gain": 10
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 19,
+      "projected": 13.73,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "points": 19,
+      "projected": 13.73,
+      "slot": "WR",
+      "over": 5.27
+    },
+    "bust": {
+      "name": "Keenan Allen",
+      "position": "WR",
+      "points": 2,
+      "projected": 12.43,
+      "slot": "WR",
+      "under": 10.43
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 6,
+    "opponent_id": 1,
+    "points": 115,
+    "opponent_points": 122,
+    "optimal_points": 140,
+    "efficiency": 0.8214,
+    "bench_points": 74,
+    "missed_swap": {
+      "benched": {
+        "name": "Kyler Murray",
+        "position": "QB",
+        "points": 34,
+        "projected": 21.03,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Aaron Rodgers",
+        "position": "QB",
+        "points": 17,
+        "projected": 21.99,
+        "slot": "QB"
+      },
+      "gain": 17
+    },
+    "swap_would_have_won": true,
+    "optimal_would_have_won": true,
+    "top_starter": {
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "points": 19,
+      "projected": 15.38,
+      "slot": "FLEX"
+    },
+    "boom": {
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 17,
+      "projected": 10.24,
+      "slot": "TE",
+      "over": 6.76
+    },
+    "bust": {
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "points": 11,
+      "projected": 20.35,
+      "slot": "RB",
+      "under": 9.35
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 7,
+    "opponent_id": null,
+    "points": 73,
+    "opponent_points": null,
+    "optimal_points": 113,
+    "efficiency": 0.646,
+    "bench_points": 101,
+    "missed_swap": {
+      "benched": {
+        "name": "Marvin Jones Jr.",
+        "position": "WR",
+        "points": 27,
+        "projected": 12.56,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Adam Thielen",
+        "position": "WR",
+        "points": 9,
+        "projected": 16.05,
+        "slot": "WR"
+      },
+      "gain": 18
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Nick Chubb",
+      "position": "RB",
+      "points": 14,
+      "projected": 15.71,
+      "slot": "RB"
+    },
+    "boom": {
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "points": 12,
+      "projected": 7.49,
+      "slot": "D/ST",
+      "over": 4.51
+    },
+    "bust": {
+      "name": "Adam Thielen",
+      "position": "WR",
+      "points": 9,
+      "projected": 16.05,
+      "slot": "WR",
+      "under": 7.05
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 8,
+    "opponent_id": null,
+    "points": 136,
+    "opponent_points": null,
+    "optimal_points": 158,
+    "efficiency": 0.8608,
+    "bench_points": 86,
+    "missed_swap": {
+      "benched": {
+        "name": "Antonio Brown",
+        "position": "WR",
+        "points": 20,
+        "projected": 11.64,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "JuJu Smith-Schuster",
+        "position": "WR",
+        "points": 4,
+        "projected": 13,
+        "slot": "WR"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 37,
+      "projected": 23.5,
+      "slot": "QB"
+    },
+    "boom": {
+      "name": "Josh Allen",
+      "position": "QB",
+      "points": 37,
+      "projected": 23.5,
+      "slot": "QB",
+      "over": 13.5
+    },
+    "bust": {
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "points": 4,
+      "projected": 13,
+      "slot": "WR",
+      "under": 9
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 9,
+    "opponent_id": null,
+    "points": 115,
+    "opponent_points": null,
+    "optimal_points": 142,
+    "efficiency": 0.8099,
+    "bench_points": 54,
+    "missed_swap": {
+      "benched": {
+        "name": "Devin Singletary",
+        "position": "RB",
+        "points": 16,
+        "projected": 9.36,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "Ezekiel Elliott",
+        "position": "RB",
+        "points": 0,
+        "projected": 0,
+        "slot": "RB"
+      },
+      "gain": 16
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 32,
+      "projected": 19.02,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "points": 32,
+      "projected": 19.02,
+      "slot": "WR",
+      "over": 12.98
+    },
+    "bust": {
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "points": -6,
+      "projected": 4.87,
+      "slot": "D/ST",
+      "under": 10.87
+    }
+  },
+  {
+    "season_id": 2020,
+    "week": 15,
+    "player_id": 10,
+    "opponent_id": null,
+    "points": 138,
+    "opponent_points": null,
+    "optimal_points": 146,
+    "efficiency": 0.9452,
+    "bench_points": 37,
+    "missed_swap": {
+      "benched": {
+        "name": "Jonnu Smith",
+        "position": "TE",
+        "points": 10,
+        "projected": 6.5,
+        "slot": "BE"
+      },
+      "started": {
+        "name": "T.J. Hockenson",
+        "position": "TE",
+        "points": 3,
+        "projected": 12.49,
+        "slot": "TE"
+      },
+      "gain": 7
+    },
+    "swap_would_have_won": false,
+    "optimal_would_have_won": false,
+    "top_starter": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 31,
+      "projected": 17.2,
+      "slot": "WR"
+    },
+    "boom": {
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 31,
+      "projected": 17.2,
+      "slot": "WR",
+      "over": 13.8
+    },
+    "bust": {
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "points": 2,
+      "projected": 14.37,
+      "slot": "RB",
+      "under": 12.37
+    }
+  }
+]

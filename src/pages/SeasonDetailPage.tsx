@@ -9,6 +9,7 @@ import { getPlayerColor, getChartTooltipStyle } from '@/styles/theme';
 import { useTheme } from '@/hooks/useTheme';
 import ScrollableTable from '@/components/common/ScrollableTable';
 import MatchupDetail from '@/components/MatchupDetail';
+import SeasonFacts from '@/components/SeasonFacts';
 import { hasLineups } from '@/hooks/useSeasonLineups';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
@@ -509,6 +510,9 @@ export default function SeasonDetailPage() {
           </div>
         </motion.section>
       )}
+
+      {/* Lineup-derived fun facts — only for seasons with boxscore data */}
+      <SeasonFacts year={yearNum} />
 
       {/* Standings Table */}
       <motion.section
